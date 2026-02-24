@@ -12,6 +12,9 @@ export const metadata: Metadata = {
         locale: "fr_FR",
         url: "https://voyance-pendule.fr",
     },
+    verification: {
+        google: "lI35foz6lGbGxl_FL28T3AVoEX-gj2deFpvSpVpLsVo",
+    },
 };
 
 export default function RootLayout({
