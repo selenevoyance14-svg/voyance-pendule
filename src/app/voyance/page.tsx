@@ -112,8 +112,8 @@ export default function VoyancePage() {
                                     <span>Réponse sous 24h par email</span>
                                 </li>
                             </ul>
-                            <a href="#commander" className="btn-mystic w-full justify-center text-base">
-                                Poser ma question — 5€
+                            <a href="https://buy.stripe.com/5kQfZh6dG81a96seiWeEo01" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base">
+                                🔒 Poser ma question — 5€
                             </a>
                         </div>
 
@@ -151,8 +151,8 @@ export default function VoyancePage() {
                                     <span className="font-semibold">Conseil spirituel bonus</span>
                                 </li>
                             </ul>
-                            <a href="#commander" className="btn-gold w-full justify-center text-base">
-                                Poser mes 3 questions — 10€
+                            <a href="https://buy.stripe.com/dRm6oHcC4epy5Ug6QueEo02" target="_blank" rel="noopener noreferrer" className="btn-gold w-full justify-center text-base">
+                                🔒 Poser mes 3 questions — 10€
                             </a>
                         </div>
 
@@ -190,120 +190,66 @@ export default function VoyancePage() {
                                     <span className="font-semibold">Guidance spirituelle complète</span>
                                 </li>
                             </ul>
-                            <a href="#commander" className="btn-mystic w-full justify-center text-base">
-                                Poser mes 5 questions — 15€
+                            <a href="https://buy.stripe.com/5kQfZhdG881a6Yk1waeEo03" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base">
+                                🔒 Poser mes 5 questions — 15€
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* ORDER FORM */}
+            {/* COMMANDER */}
             <section className="py-20 sm:py-28" id="commander">
                 <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="font-heading text-2xl sm:text-3xl font-bold text-white mb-4">
-                            Posez votre <span className="text-gold-400">question</span>
+                            Prêt(e) à poser votre <span className="text-gold-400">question</span> ?
                         </h2>
                         <p className="text-mystic-400 text-sm">
-                            Remplissez le formulaire ci-dessous. Après paiement, je consulterai mon pendule
-                            et vous recevrez votre réponse sous 24h par email.
+                            Cliquez sur la formule de votre choix. Après le paiement sécurisé par Stripe,
+                            envoyez vos questions par email et recevez votre réponse sous 24h.
                         </p>
                     </div>
 
-                    <form className="glass-card p-8 space-y-6">
-                        <div>
-                            <label htmlFor="prenom" className="block font-heading text-sm font-semibold text-mystic-200 mb-2">
-                                Votre prénom
-                            </label>
-                            <input
-                                type="text"
-                                id="prenom"
-                                name="prenom"
-                                placeholder="Ex: Marie"
-                                required
-                                className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-100 placeholder:text-mystic-600 focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
-                            />
+                    <div className="glass-card p-8 space-y-4">
+                        <a href="https://buy.stripe.com/5kQfZh6dG81a96seiWeEo01" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base py-4 block text-center">
+                            🔮 1 Question — 5€
+                        </a>
+                        <a href="https://buy.stripe.com/dRm6oHcC4epy5Ug6QueEo02" target="_blank" rel="noopener noreferrer" className="btn-gold w-full justify-center text-lg py-4 block text-center">
+                            ⭐ 3 Questions — 10€ (Populaire)
+                        </a>
+                        <a href="https://buy.stripe.com/5kQfZhdG881a6Yk1waeEo03" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base py-4 block text-center">
+                            🔮 5 Questions — 15€
+                        </a>
+                        <div className="flex items-center justify-center gap-4 text-mystic-500 text-xs pt-2">
+                            <span>🔒 Paiement sécurisé Stripe</span>
+                            <span>⚡ Réponse sous 24h</span>
                         </div>
-
-                        <div>
-                            <label htmlFor="email" className="block font-heading text-sm font-semibold text-mystic-200 mb-2">
-                                Votre email (pour recevoir la réponse)
-                            </label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="Ex: marie@email.com"
-                                required
-                                className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-100 placeholder:text-mystic-600 focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
-                            />
-                        </div>
-
-                        <div>
-                            <label htmlFor="naissance" className="block font-heading text-sm font-semibold text-mystic-200 mb-2">
-                                Date de naissance (optionnel)
-                            </label>
-                            <input
-                                type="date"
-                                id="naissance"
-                                name="naissance"
-                                className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-100 focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
-                            />
-                        </div>
-
-                        <div>
-                            <label htmlFor="formule" className="block font-heading text-sm font-bold text-gold-400 mb-2">
-                                Formule choisie
-                            </label>
-                            <select
-                                id="formule"
-                                name="formule"
-                                required
-                                className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-100 focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition"
-                            >
-                                <option value="1q">🔮 1 Question — 5€</option>
-                                <option value="3q" selected>⭐ 3 Questions — 10€ (Populaire)</option>
-                                <option value="5q">🔮 5 Questions — 15€</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label htmlFor="questions" className="block font-heading text-sm font-semibold text-mystic-200 mb-2">
-                                Vos questions (formulez des questions Oui/Non)
-                            </label>
-                            <textarea
-                                id="questions"
-                                name="questions"
-                                rows={5}
-                                placeholder={"Question 1 : Est-ce que je vais trouver l'amour bientôt ?\nQuestion 2 : Est-ce que je devrais accepter cette offre d'emploi ?\nQuestion 3 : Est-ce que mon projet va aboutir ?"}
-                                required
-                                className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-100 placeholder:text-mystic-600 focus:outline-none focus:border-gold-500/50 focus:ring-1 focus:ring-gold-500/20 transition resize-none"
-                            />
-                            <p className="text-mystic-600 text-xs mt-1">
-                                Formulez vos questions de manière à ce qu'on puisse y répondre par Oui ou Non.
-                            </p>
-                        </div>
-
-                        {/* Payment buttons — will be replaced by real Stripe links */}
-                        <div className="pt-4 space-y-3">
-                            <button type="submit" className="btn-gold w-full justify-center text-lg py-4">
-                                🔒 Payer et envoyer mes questions
-                            </button>
-                            <div className="flex items-center justify-center gap-4 text-mystic-500 text-xs">
-                                <span>🔒 Paiement sécurisé Stripe</span>
-                                <span>⚡ Réponse sous 24h</span>
-                            </div>
-                        </div>
-                    </form>
+                    </div>
 
                     <div className="mt-8 glass-card p-6">
+                        <div className="flex items-center gap-3 mb-3">
+                            <span className="text-2xl">📧</span>
+                            <h3 className="font-heading text-sm font-bold text-gold-400">Après le paiement</h3>
+                        </div>
+                        <p className="text-mystic-400 text-sm leading-relaxed mb-4">
+                            Une fois le paiement effectué, envoyez vos questions par email à :
+                        </p>
+                        <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 font-semibold text-lg hover:text-gold-300 transition">
+                            📩 contact@voyance-pendule.fr
+                        </a>
+                        <p className="text-mystic-500 text-xs mt-3">
+                            Incluez votre prénom, vos questions (Oui/Non) et la confirmation de paiement.
+                        </p>
+                    </div>
+
+                    <div className="mt-4 glass-card p-6">
                         <div className="flex items-center gap-3 mb-3">
                             <span className="text-2xl">🛡️</span>
                             <h3 className="font-heading text-sm font-bold text-mystic-200">Garantie sérénité</h3>
                         </div>
                         <p className="text-mystic-400 text-sm leading-relaxed">
-                            Si vous n'êtes pas satisfait(e) de votre consultation, je vous rembourse intégralement
+                            Si vous n&apos;êtes pas satisfait(e) de votre consultation, je vous rembourse intégralement
                             sous 7 jours, sans question. Votre confiance est ma priorité.
                         </p>
                     </div>
