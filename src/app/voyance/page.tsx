@@ -236,7 +236,7 @@ export default function VoyancePage() {
                             Une fois le paiement effectué, envoyez vos questions par email à :
                         </p>
                         <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 font-semibold text-lg hover:text-gold-300 transition">
-                            📩 selenevoyance14@gmail.com
+                            📩 contact@voyance-pendule.fr
                         </a>
                         <p className="text-mystic-500 text-xs mt-3">
                             Incluez votre prénom, vos questions (Oui/Non) et la confirmation de paiement.
