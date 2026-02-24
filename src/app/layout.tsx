@@ -43,6 +43,9 @@ export default function RootLayout({
                                 <a href="/horoscope" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     ♈ Horoscope
                                 </a>
+                                <a href="/blog" className="text-mystic-200 hover:text-gold-400 transition font-medium">
+                                    📝 Blog
+                                </a>
                                 <a href="/anges" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     👼 Anges
                                 </a>
@@ -51,9 +54,9 @@ export default function RootLayout({
                                 </a>
                             </div>
                             {/* Mobile menu */}
-                            <div className="md:hidden flex items-center gap-4">
-                                <a href="/horoscope" className="text-mystic-300 text-sm">♈</a>
-                                <a href="/anges" className="text-mystic-300 text-sm">👼</a>
+                            <div className="md:hidden flex items-center gap-3">
+                                <a href="/horoscope" className="text-mystic-300 text-sm">Horoscope</a>
+                                <a href="/blog" className="text-mystic-300 text-sm">Blog</a>
                                 <a href="/voyance" className="btn-gold text-xs py-1.5 px-3">🔮 Consulter</a>
                             </div>
                         </div>
