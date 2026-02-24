@@ -90,9 +90,9 @@ export default function RootLayout({
                             <div>
                                 <h4 className="font-heading text-gold-500 font-semibold mb-4">Légal</h4>
                                 <ul className="space-y-2 text-sm text-mystic-400">
-                                    <li><a href="#" className="hover:text-gold-400 transition">Mentions Légales</a></li>
-                                    <li><a href="#" className="hover:text-gold-400 transition">CGV</a></li>
-                                    <li><a href="#" className="hover:text-gold-400 transition">Politique de confidentialité</a></li>
+                                    <li><a href="/mentions-legales" className="hover:text-gold-400 transition">Mentions Légales</a></li>
+                                    <li><a href="/cgv" className="hover:text-gold-400 transition">CGV</a></li>
+                                    <li><a href="/confidentialite" className="hover:text-gold-400 transition">Politique de confidentialité</a></li>
                                 </ul>
                                 <p className="mt-4 text-xs text-mystic-600">
                                     La voyance ne se substitue pas à un avis médical ou professionnel.
