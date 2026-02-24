@@ -97,9 +97,9 @@ export default function RootLayout({
                                 <p className="mt-4 text-xs text-mystic-600">
                                     La voyance ne se substitue pas à un avis médical ou professionnel.
                                 </p>
-                                <a href="mailto:selenevoyance14@gmail.com" className="mt-3 inline-block text-xs text-mystic-500 hover:text-gold-400 transition">
-                                    📩 contact@voyance-pendule.fr
-                                </a>
+                                <p className="mt-3 text-xs text-mystic-600">
+                                    🛡️ Garantie sérénité : remboursement intégral sous 7 jours si vous n&apos;êtes pas satisfait(e).
+                                </p>
                             </div>
                         </div>
                         <div className="mystic-divider mt-10 mb-6" />
