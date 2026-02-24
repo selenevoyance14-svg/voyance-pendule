@@ -243,16 +243,6 @@ export default function VoyancePage() {
                         </p>
                     </div>
 
-                    <div className="mt-4 glass-card p-6">
-                        <div className="flex items-center gap-3 mb-3">
-                            <span className="text-2xl">🛡️</span>
-                            <h3 className="font-heading text-sm font-bold text-mystic-200">Garantie sérénité</h3>
-                        </div>
-                        <p className="text-mystic-400 text-sm leading-relaxed">
-                            Si vous n&apos;êtes pas satisfait(e) de votre consultation, je vous rembourse intégralement
-                            sous 7 jours, sans question. Votre confiance est ma priorité.
-                        </p>
-                    </div>
                 </div>
             </section>
 
