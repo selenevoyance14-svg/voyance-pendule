@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VoyanceForm from "@/app/components/VoyanceForm";
 
 export const metadata: Metadata = {
     title: "Voyance par Pendule — Réponse Oui/Non Précise | Sélène Voyance",
@@ -198,51 +199,18 @@ export default function VoyancePage() {
                 </div>
             </section>
 
-            {/* COMMANDER */}
+            {/* FORMULAIRE */}
             <section className="py-20 sm:py-28" id="commander">
                 <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="font-heading text-2xl sm:text-3xl font-bold text-white mb-4">
-                            Prêt(e) à poser votre <span className="text-gold-400">question</span> ?
+                            Posez votre <span className="text-gold-400">question</span> au pendule
                         </h2>
                         <p className="text-mystic-400 text-sm">
-                            Cliquez sur la formule de votre choix. Après le paiement sécurisé par Stripe,
-                            envoyez vos questions par email et recevez votre réponse sous 24h.
+                            Entrez vos questions ci-dessous, payez en toute sécurité et recevez votre réponse par email sous 24h.
                         </p>
                     </div>
-
-                    <div className="glass-card p-8 space-y-4">
-                        <a href="https://buy.stripe.com/5kQfZh6dG81a96seiWeEo01" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base py-4 block text-center">
-                            🔮 1 Question — 5€
-                        </a>
-                        <a href="https://buy.stripe.com/dRm6oHcC4epy5Ug6QueEo02" target="_blank" rel="noopener noreferrer" className="btn-gold w-full justify-center text-lg py-4 block text-center">
-                            ⭐ 3 Questions — 10€ (Populaire)
-                        </a>
-                        <a href="https://buy.stripe.com/5kQfZhdG881a6Yk1waeEo03" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base py-4 block text-center">
-                            🔮 5 Questions — 15€
-                        </a>
-                        <div className="flex items-center justify-center gap-4 text-mystic-500 text-xs pt-2">
-                            <span>🔒 Paiement sécurisé Stripe</span>
-                            <span>⚡ Réponse sous 24h</span>
-                        </div>
-                    </div>
-
-                    <div className="mt-8 glass-card p-6">
-                        <div className="flex items-center gap-3 mb-3">
-                            <span className="text-2xl">📧</span>
-                            <h3 className="font-heading text-sm font-bold text-gold-400">Après le paiement</h3>
-                        </div>
-                        <p className="text-mystic-400 text-sm leading-relaxed mb-4">
-                            Une fois le paiement effectué, envoyez vos questions par email à :
-                        </p>
-                        <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 font-semibold text-lg hover:text-gold-300 transition">
-                            📩 contact@voyance-pendule.fr
-                        </a>
-                        <p className="text-mystic-500 text-xs mt-3">
-                            Incluez votre prénom, vos questions (Oui/Non) et la confirmation de paiement.
-                        </p>
-                    </div>
-
+                    <VoyanceForm />
                 </div>
             </section>
 
