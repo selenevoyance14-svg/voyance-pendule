@@ -95,8 +95,25 @@ export async function POST(req: NextRequest) {
     const questions: string[] = JSON.parse(session.metadata?.questions || '[]');
 
     if (email && questions.length > 0) {
+      console.log(`[WEBHOOK] Paiement reçu pour ${email}, ${questions.length} question(s)`);
+
+      // Étape 1 : test Resend seul
+      try {
+        const resendResult = await resend.emails.send({
+          from: 'Sélène Voyance <contact@voyance-pendule.fr>',
+          to: email,
+          subject: '🔮 Test — Votre consultation par pendule',
+          html: '<p>Test de réception. Si vous voyez cet email, le système fonctionne !</p>',
+        });
+        console.log(`[RESEND] Résultat :`, JSON.stringify(resendResult));
+      } catch (err) {
+        console.error('[RESEND] Erreur :', err);
+      }
+
+      // Étape 2 : test Claude
       try {
         const response = await generatePenduleResponse(questions);
+        console.log(`[CLAUDE] Réponse générée OK`);
 
         await resend.emails.send({
           from: 'Sélène Voyance <contact@voyance-pendule.fr>',
@@ -104,11 +121,12 @@ export async function POST(req: NextRequest) {
           subject: '🔮 Votre consultation par pendule — Sélène Voyance',
           html: buildEmailHtml(response, questions),
         });
-
-        console.log(`Email envoyé à ${email}`);
+        console.log(`[RESEND] Email final envoyé à ${email}`);
       } catch (err) {
-        console.error('Erreur génération/envoi:', err);
+        console.error('[CLAUDE/RESEND FINAL] Erreur :', err);
       }
+    } else {
+      console.log(`[WEBHOOK] Metadata manquante — email: ${email}, questions: ${JSON.stringify(questions)}`);
     }
   }
 
