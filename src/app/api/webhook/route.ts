@@ -76,8 +76,10 @@ function buildEmailHtml(response: string, questions: string[]): string {
 }
 
 export async function POST(req: NextRequest) {
+  console.log('[WEBHOOK] *** Route appelée ***');
   const body = await req.text();
   const sig = req.headers.get('stripe-signature');
+  console.log('[WEBHOOK] Signature présente :', !!sig);
 
   if (!sig) return NextResponse.json({ error: 'No signature' }, { status: 400 });
 
@@ -89,10 +91,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Webhook error' }, { status: 400 });
   }
 
+  console.log('[WEBHOOK] Event type:', event.type);
+
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session;
     const email = session.metadata?.email;
     const questions: string[] = JSON.parse(session.metadata?.questions || '[]');
+    console.log('[WEBHOOK] Metadata — email:', email, '| questions count:', questions.length);
 
     if (email && questions.length > 0) {
       console.log(`[WEBHOOK] Paiement reçu pour ${email}, ${questions.length} question(s)`);
