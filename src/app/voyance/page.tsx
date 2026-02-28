@@ -113,7 +113,7 @@ export default function VoyancePage() {
                                     <span>Réponse sous 24h par email</span>
                                 </li>
                             </ul>
-                            <a href="https://buy.stripe.com/5kQfZh6dG81a96seiWeEo01" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base">
+                            <a href="#commander" className="btn-mystic w-full justify-center text-base">
                                 🔒 Poser ma question — 5€
                             </a>
                         </div>
@@ -152,7 +152,7 @@ export default function VoyancePage() {
                                     <span className="font-semibold">Conseil spirituel bonus</span>
                                 </li>
                             </ul>
-                            <a href="https://buy.stripe.com/dRm6oHcC4epy5Ug6QueEo02" target="_blank" rel="noopener noreferrer" className="btn-gold w-full justify-center text-base">
+                            <a href="#commander" className="btn-gold w-full justify-center text-base">
                                 🔒 Poser mes 3 questions — 10€
                             </a>
                         </div>
@@ -191,7 +191,7 @@ export default function VoyancePage() {
                                     <span className="font-semibold">Guidance spirituelle complète</span>
                                 </li>
                             </ul>
-                            <a href="https://buy.stripe.com/5kQfZhdG881a6Yk1waeEo03" target="_blank" rel="noopener noreferrer" className="btn-mystic w-full justify-center text-base">
+                            <a href="#commander" className="btn-mystic w-full justify-center text-base">
                                 🔒 Poser mes 5 questions — 15€
                             </a>
                         </div>
