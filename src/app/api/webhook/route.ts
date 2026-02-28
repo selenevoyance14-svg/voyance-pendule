@@ -76,10 +76,8 @@ function buildEmailHtml(response: string, questions: string[]): string {
 }
 
 export async function POST(req: NextRequest) {
-  console.log('[WEBHOOK] *** Route appelée ***');
   const body = await req.text();
   const sig = req.headers.get('stripe-signature');
-  console.log('[WEBHOOK] Signature présente :', !!sig);
 
   if (!sig) return NextResponse.json({ error: 'No signature' }, { status: 400 });
 
@@ -91,47 +89,39 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Webhook error' }, { status: 400 });
   }
 
-  console.log('[WEBHOOK] Event type:', event.type);
-
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session;
     const email = session.metadata?.email;
     const questions: string[] = JSON.parse(session.metadata?.questions || '[]');
-    console.log('[WEBHOOK] Metadata — email:', email, '| questions count:', questions.length);
 
     if (email && questions.length > 0) {
-      console.log(`[WEBHOOK] Paiement reçu pour ${email}, ${questions.length} question(s)`);
-
-      // Étape 1 : test Resend seul
-      try {
-        const resendResult = await resend.emails.send({
-          from: 'Sélène Voyance <contact@voyance-pendule.fr>',
-          to: email,
-          subject: '🔮 Test — Votre consultation par pendule',
-          html: '<p>Test de réception. Si vous voyez cet email, le système fonctionne !</p>',
-        });
-        console.log(`[RESEND] Résultat :`, JSON.stringify(resendResult));
-      } catch (err) {
-        console.error('[RESEND] Erreur :', err);
-      }
-
-      // Étape 2 : test Claude
       try {
         const response = await generatePenduleResponse(questions);
-        console.log(`[CLAUDE] Réponse générée OK`);
-
         await resend.emails.send({
           from: 'Sélène Voyance <contact@voyance-pendule.fr>',
           to: email,
           subject: '🔮 Votre consultation par pendule — Sélène Voyance',
           html: buildEmailHtml(response, questions),
         });
-        console.log(`[RESEND] Email final envoyé à ${email}`);
+        console.log(`Email envoyé à ${email}`);
       } catch (err) {
-        console.error('[CLAUDE/RESEND FINAL] Erreur :', err);
+        console.error('Erreur génération/envoi:', err);
+        // Email de secours si Claude échoue
+        await resend.emails.send({
+          from: 'Sélène Voyance <contact@voyance-pendule.fr>',
+          to: email,
+          subject: '🔮 Votre consultation — confirmation de réception',
+          html: `
+            <div style="background:#0a0518;color:#e2d9f3;font-family:Georgia,serif;padding:40px 20px;max-width:600px;margin:0 auto;">
+              <h1 style="color:#d4af37;text-align:center;">Votre consultation a bien été reçue ✨</h1>
+              <p>Bonjour,</p>
+              <p>Votre paiement a bien été validé et vos questions ont été transmises à Sélène.</p>
+              <p>Sélène consultera son pendule pour vous et vous enverra votre réponse personnalisée <strong style="color:#d4af37;">dans les prochaines 24h</strong>.</p>
+              <p style="color:#9d8ec0;font-style:italic;">— Sélène ✨</p>
+            </div>`,
+        });
+        console.log(`Email de secours envoyé à ${email}`);
       }
-    } else {
-      console.log(`[WEBHOOK] Metadata manquante — email: ${email}, questions: ${JSON.stringify(questions)}`);
     }
   }
 
