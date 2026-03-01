@@ -95,6 +95,8 @@ export async function POST(req: NextRequest) {
     const questions: string[] = JSON.parse(session.metadata?.questions || '[]');
 
     if (email && questions.length > 0) {
+      const sendAt = new Date(Date.now() + 30 * 60 * 1000); // 30 minutes plus tard
+
       try {
         const response = await generatePenduleResponse(questions);
         await resend.emails.send({
@@ -102,8 +104,9 @@ export async function POST(req: NextRequest) {
           to: email,
           subject: '🔮 Votre consultation par pendule — Sélène Voyance',
           html: buildEmailHtml(response, questions),
+          scheduledAt: sendAt.toISOString(),
         });
-        console.log(`Email envoyé à ${email}`);
+        console.log(`Email programmé dans 30 min pour ${email}`);
       } catch (err) {
         console.error('Erreur génération/envoi:', err);
         // Email de secours si Claude échoue
