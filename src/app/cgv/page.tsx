@@ -82,7 +82,7 @@ export default function CGV() {
                         </p>
                         <p className="mt-2">
                             La demande de remboursement doit être adressée par email à
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>.
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>.
                             Le remboursement sera effectué sous 14 jours sur le moyen de paiement utilisé lors de la commande.
                         </p>
                     </section>
@@ -140,7 +140,7 @@ export default function CGV() {
                         <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">Article 11 — Contact</h2>
                         <p>
                             Pour toute question relative aux présentes CGV :<br />
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
                         </p>
                     </section>
 

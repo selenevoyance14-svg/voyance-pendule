@@ -29,7 +29,7 @@ export default function Confidentialite() {
                         <p>
                             Le responsable du traitement des données personnelles est :<br />
                             <strong className="text-mystic-300">Sélène Voyance — Nathalie</strong><br />
-                            Email : <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
+                            Email : <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
                         </p>
                     </section>
 
@@ -108,7 +108,7 @@ export default function Confidentialite() {
                         </ul>
                         <p className="mt-3">
                             Pour exercer ces droits, contactez-nous à :
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>
                         </p>
                         <p className="mt-2">
                             Vous avez également le droit de déposer une réclamation auprès de la
@@ -137,7 +137,7 @@ export default function Confidentialite() {
                         <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">12. Contact</h2>
                         <p>
                             Pour toute question relative à cette politique de confidentialité :<br />
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
                         </p>
                     </section>
 

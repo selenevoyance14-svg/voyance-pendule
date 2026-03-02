@@ -20,7 +20,8 @@ export default function MentionsLegales() {
                             Le site <strong className="text-mystic-300">voyance-pendule.fr</strong> est édité par :<br />
                             <strong className="text-mystic-300">Sélène Voyance</strong><br />
                             Entrepreneur individuel<br />
-                            Email : <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a><br />
+                            Email : <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a><br />
+                            SIRET : 10133158500014<br />
                             Directrice de la publication : Nathalie
                         </p>
                     </section>
@@ -55,7 +56,7 @@ export default function MentionsLegales() {
                         </p>
                         <p className="mt-2">
                             Pour exercer ces droits, contactez-nous à :
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition ml-1">contact@voyance-pendule.fr</a>
                         </p>
                         <p className="mt-2">
                             Pour plus de détails, consultez notre <a href="/confidentialite" className="text-gold-400 hover:text-gold-300 transition">Politique de confidentialité</a>.
@@ -85,7 +86,7 @@ export default function MentionsLegales() {
                         <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">7. Contact</h2>
                         <p>
                             Pour toute question concernant le site ou ces mentions légales, vous pouvez nous contacter à :<br />
-                            <a href="mailto:selenevoyance14@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
+                            <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>
                         </p>
                     </section>
 
