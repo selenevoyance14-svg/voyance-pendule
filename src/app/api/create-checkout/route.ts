@@ -11,7 +11,7 @@ const FORMULAS = {
 
 export async function POST(req: NextRequest) {
   try {
-    const { email, questions, formula } = await req.json();
+    const { email, prenom, dateNaissance, questions, formula } = await req.json();
 
     const f = FORMULAS[formula as keyof typeof FORMULAS];
     if (!f) return NextResponse.json({ error: 'Formule invalide' }, { status: 400 });
@@ -39,6 +39,8 @@ export async function POST(req: NextRequest) {
       cancel_url: `${baseUrl}/voyance`,
       metadata: {
         email,
+        prenom: prenom || '',
+        dateNaissance: dateNaissance || '',
         questions: JSON.stringify(questions),
         formula,
       },

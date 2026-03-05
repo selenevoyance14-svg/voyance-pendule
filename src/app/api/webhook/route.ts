@@ -7,8 +7,14 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-async function generatePenduleResponse(questions: string[]): Promise<string> {
-  const prompt = `Tu es Sélène, une voyante mystique et bienveillante qui utilise un pendule cristal pour répondre aux questions de l'âme. Réponds à chacune des questions suivantes avec :
+async function generatePenduleResponse(questions: string[], prenom: string, dateNaissance: string): Promise<string> {
+  const prenomText = prenom ? `Le consultant s'appelle ${prenom}.` : '';
+  const dateText = dateNaissance ? `Sa date de naissance est le ${dateNaissance}.` : '';
+  const contextConsultant = (prenomText || dateText) ? `\n\n${prenomText} ${dateText} Utilise son prénom pour personnaliser ta réponse et sa date de naissance pour enrichir tes interprétations avec des références astrologiques adaptées à son signe.\n` : '';
+
+  const prompt = `Tu es Sélène, une voyante mystique et bienveillante qui utilise un pendule cristal pour répondre aux questions de l'âme.${contextConsultant}
+
+Réponds à chacune des questions suivantes avec :
 - La réponse du pendule : OUI ou NON
 - Une explication mystique et enveloppante de 2-3 phrases, avec des références aux énergies, aux astres ou aux guides spirituels
 
@@ -31,7 +37,7 @@ Sois chaleureuse, mystique et rassurante. Utilise un langage poétique.`;
   return (message.content[0] as { text: string }).text;
 }
 
-function buildEmailHtml(response: string, questions: string[]): string {
+function buildEmailHtml(response: string, questions: string[], prenom: string): string {
   const responseHtml = response
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br>');
@@ -46,7 +52,7 @@ function buildEmailHtml(response: string, questions: string[]): string {
     <div style="text-align:center;margin-bottom:32px;">
       <div style="font-size:48px;margin-bottom:16px;">🔮</div>
       <h1 style="color:#d4af37;font-size:28px;margin:0 0 8px;">Votre consultation par pendule</h1>
-      <p style="color:#9d8ec0;margin:0;font-style:italic;">Sélène a consulté son pendule pour vous...</p>
+      <p style="color:#9d8ec0;margin:0;font-style:italic;">Sélène a consulté son pendule pour vous${prenom ? `, ${prenom}` : ''}...</p>
     </div>
 
     <div style="border:1px solid #2a1f4a;border-radius:12px;padding:32px;background:#110a2a;margin-bottom:24px;">
@@ -92,18 +98,20 @@ export async function POST(req: NextRequest) {
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session;
     const email = session.metadata?.email;
+    const prenom = session.metadata?.prenom || '';
+    const dateNaissance = session.metadata?.dateNaissance || '';
     const questions: string[] = JSON.parse(session.metadata?.questions || '[]');
 
     if (email && questions.length > 0) {
       const sendAt = new Date(Date.now() + 30 * 60 * 1000); // 30 minutes plus tard
 
       try {
-        const response = await generatePenduleResponse(questions);
+        const response = await generatePenduleResponse(questions, prenom, dateNaissance);
         await resend.emails.send({
           from: 'Sélène Voyance <contact@voyance-pendule.fr>',
           to: email,
           subject: '🔮 Votre consultation par pendule — Sélène Voyance',
-          html: buildEmailHtml(response, questions),
+          html: buildEmailHtml(response, questions, prenom),
           scheduledAt: sendAt.toISOString(),
         });
         console.log(`Email programmé dans 30 min pour ${email}`);
@@ -117,7 +125,7 @@ export async function POST(req: NextRequest) {
           html: `
             <div style="background:#0a0518;color:#e2d9f3;font-family:Georgia,serif;padding:40px 20px;max-width:600px;margin:0 auto;">
               <h1 style="color:#d4af37;text-align:center;">Votre consultation a bien été reçue ✨</h1>
-              <p>Bonjour,</p>
+              <p>Bonjour${prenom ? ` ${prenom}` : ''},</p>
               <p>Votre paiement a bien été validé et vos questions ont été transmises à Sélène.</p>
               <p>Sélène consultera son pendule pour vous et vous enverra votre réponse personnalisée <strong style="color:#d4af37;">dans les prochaines 24h</strong>.</p>
               <p style="color:#9d8ec0;font-style:italic;">— Sélène ✨</p>

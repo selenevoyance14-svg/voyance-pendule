@@ -10,6 +10,8 @@ const FORMULAS = [
 
 export default function VoyanceForm() {
   const [formula, setFormula] = useState('3');
+  const [prenom, setPrenom] = useState('');
+  const [dateNaissance, setDateNaissance] = useState('');
   const [email, setEmail] = useState('');
   const [questions, setQuestions] = useState(['', '', '']);
   const [loading, setLoading] = useState(false);
@@ -44,7 +46,7 @@ export default function VoyanceForm() {
       const res = await fetch('/api/create-checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, questions: filled, formula }),
+        body: JSON.stringify({ email, prenom, dateNaissance, questions: filled, formula }),
       });
       const data = await res.json();
       if (data.url) {
@@ -89,6 +91,35 @@ export default function VoyanceForm() {
                 </div>
               </button>
             ))}
+          </div>
+        </div>
+
+        {/* Prénom & Date de naissance */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label className="block text-mystic-300 text-sm font-semibold mb-2">
+              Votre prénom <span className="text-gold-400">*</span>
+            </label>
+            <input
+              type="text"
+              required
+              value={prenom}
+              onChange={e => setPrenom(e.target.value)}
+              placeholder="Ex : Marie"
+              className="w-full bg-white/5 border border-mystic-700 rounded-xl px-4 py-3 text-white placeholder-mystic-600 focus:outline-none focus:border-gold-400 transition"
+            />
+          </div>
+          <div>
+            <label className="block text-mystic-300 text-sm font-semibold mb-2">
+              Date de naissance <span className="text-gold-400">*</span>
+            </label>
+            <input
+              type="date"
+              required
+              value={dateNaissance}
+              onChange={e => setDateNaissance(e.target.value)}
+              className="w-full bg-white/5 border border-mystic-700 rounded-xl px-4 py-3 text-white placeholder-mystic-600 focus:outline-none focus:border-gold-400 transition"
+            />
           </div>
         </div>
 
