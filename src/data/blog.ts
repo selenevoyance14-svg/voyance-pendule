@@ -477,5 +477,216 @@ export const blogPosts: BlogPost[] = [
 
             <p class="mt-6">Pour des réponses claires et directes à vos questions, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a> — un outil de guidance complémentaire au tarot.</p>
         `
+    },
+    {
+        title: "Numérologie : ce que votre date de naissance révèle sur vous",
+        slug: "numerologie-date-naissance-signification",
+        excerpt: "Découvrez comment votre date de naissance influence votre personnalité, vos talents cachés et votre chemin de vie grâce à la numérologie.",
+        date: "10 Mars 2026",
+        category: "Voyance",
+        image: "🔢",
+        content: `
+            <p>La numérologie est l'un des arts divinatoires les plus anciens. Bien avant l'astrologie ou le tarot, les civilisations babyloniennes, égyptiennes et grecques avaient compris que les nombres portent une vibration unique. Pythagore lui-même affirmait que "tout est nombre" — et que derrière chaque date de naissance se cache un code énergétique qui révèle votre mission d'âme.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le chemin de vie : votre nombre clé</h2>
+            <p>Le chemin de vie est le nombre le plus important en numérologie. Il se calcule en additionnant tous les chiffres de votre date de naissance jusqu'à obtenir un nombre entre 1 et 9 (ou 11, 22, 33 — les "maîtres nombres"). Par exemple, si vous êtes né(e) le 15/07/1990 : 1+5+0+7+1+9+9+0 = 32 → 3+2 = 5. Votre chemin de vie est le 5.</p>
+            <p class="mt-4">Ce nombre ne change jamais. Il représente la grande leçon que votre âme est venue apprendre dans cette incarnation, vos forces innées et les défis qui se présenteront sur votre route.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">La signification des 9 chemins de vie</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Chemin 1 — Le Leader :</strong> Indépendance, ambition, créativité. Vous êtes né(e) pour innover et tracer votre propre voie.</li>
+                <li><strong>Chemin 2 — Le Diplomate :</strong> Sensibilité, coopération, intuition. Votre force réside dans l'écoute et la médiation.</li>
+                <li><strong>Chemin 3 — L'Artiste :</strong> Expression, joie de vivre, communication. Vous êtes fait(e) pour créer et inspirer les autres.</li>
+                <li><strong>Chemin 4 — Le Bâtisseur :</strong> Stabilité, travail, persévérance. Vous construisez des fondations solides pour vous et vos proches.</li>
+                <li><strong>Chemin 5 — L'Aventurier :</strong> Liberté, changement, curiosité. Votre vie est faite de mouvement et de découvertes.</li>
+                <li><strong>Chemin 6 — Le Protecteur :</strong> Amour, famille, responsabilité. Vous êtes le pilier sur lequel les autres s'appuient.</li>
+                <li><strong>Chemin 7 — Le Chercheur :</strong> Spiritualité, analyse, solitude choisie. Vous êtes en quête de vérité et de sens profond.</li>
+                <li><strong>Chemin 8 — Le Puissant :</strong> Réussite matérielle, pouvoir, karma. Vous apprenez à maîtriser l'énergie de l'abondance.</li>
+                <li><strong>Chemin 9 — Le Sage :</strong> Humanisme, compassion, achèvement. Vous portez une sagesse ancienne et un désir d'aider l'humanité.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Numérologie et pendule : une alliance puissante</h2>
+            <p>La numérologie dresse votre portrait énergétique, mais elle ne répond pas aux questions concrètes du quotidien. C'est là que le pendule entre en jeu. Une fois que vous connaissez votre chemin de vie, vous pouvez poser des questions ciblées au pendule : "Suis-je aligné(e) avec mon chemin de vie ?", "Cette décision sert-elle ma mission d'âme ?".</p>
+            <p class="mt-4">Pour obtenir des réponses précises sur votre destinée, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a>. Vous pouvez aussi découvrir ce que les astres prévoient pour vous dans votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a>.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Les nombres sont le langage universel offert par la divinité aux humains comme confirmation de la vérité." — Pythagore</p>
+            </div>
+        `
+    },
+    {
+        title: "Les cristaux et leur pouvoir : guide pour débutants",
+        slug: "cristaux-pouvoir-guide-debutants",
+        excerpt: "Améthyste, quartz rose, tourmaline noire… Découvrez les cristaux essentiels pour protéger votre énergie, apaiser votre esprit et renforcer votre intuition.",
+        date: "8 Mars 2026",
+        category: "Bien-être",
+        image: "💎",
+        content: `
+            <p>Depuis la nuit des temps, les cristaux fascinent l'humanité. Les Égyptiens portaient du lapis-lazuli pour se connecter au divin, les Grecs utilisaient l'améthyste pour se protéger de l'ivresse, et les chamanes amérindiens se servaient du quartz clair comme outil de guérison. Aujourd'hui, la lithothérapie connaît un véritable renouveau : de plus en plus de personnes utilisent les pierres pour rééquilibrer leurs énergies et accompagner leur développement spirituel.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les 7 cristaux indispensables pour débuter</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Améthyste :</strong> Pierre de l'intuition et du troisième œil. Elle apaise le mental, favorise la méditation et stimule les rêves lucides. Idéale sur la table de nuit.</li>
+                <li><strong>Quartz rose :</strong> Pierre de l'amour inconditionnel. Elle ouvre le chakra du cœur, guérit les blessures émotionnelles et attire les relations harmonieuses.</li>
+                <li><strong>Tourmaline noire :</strong> Pierre de protection par excellence. Elle absorbe les énergies négatives et forme un bouclier autour de votre aura.</li>
+                <li><strong>Citrine :</strong> Pierre de l'abondance et de la joie. Elle attire la prospérité et booste la confiance en soi. Ne l'exposez jamais au soleil direct.</li>
+                <li><strong>Lapis-lazuli :</strong> Pierre de la sagesse et de la communication. Elle renforce l'expression de soi et la connexion spirituelle.</li>
+                <li><strong>Œil de tigre :</strong> Pierre de la volonté et du courage. Elle protège contre le mauvais œil et donne la force d'agir.</li>
+                <li><strong>Quartz clair :</strong> Pierre universelle. Elle amplifie l'énergie de toutes les autres pierres et clarifie l'esprit.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment purifier et recharger vos cristaux</h2>
+            <p>Un cristal absorbe les énergies de son environnement. Sans purification régulière, il se "sature" et perd son efficacité. Voici les méthodes les plus courantes :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Eau courante :</strong> Passez votre pierre sous l'eau froide pendant 1 minute en visualisant les énergies négatives qui s'écoulent. Attention : certaines pierres (sélénite, malachite) ne supportent pas l'eau.</li>
+                <li><strong>Fumigation :</strong> Passez votre cristal dans la fumée de sauge blanche ou de palo santo pendant quelques secondes.</li>
+                <li><strong>Pleine Lune :</strong> Déposez vos pierres sur le rebord de la fenêtre une nuit de Pleine Lune. La lumière lunaire les recharge en profondeur.</li>
+                <li><strong>Terre :</strong> Enterrez votre cristal dans la terre pendant 24h pour un nettoyage en profondeur.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Cristaux et voyance : amplifier votre guidance</h2>
+            <p>Les cristaux sont de merveilleux compagnons pour les séances de voyance. L'améthyste posée près de vous lors d'une consultation au pendule renforce la clarté des réponses. Le quartz clair amplifie la connexion entre votre question et l'énergie du pendule. Si vous souhaitez des réponses guidées par les énergies cosmiques, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a> et découvrez les messages que les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">anges gardiens</a> ont pour vous.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Les cristaux sont les os de la Terre Mère. Ils portent la mémoire de millions d'années de sagesse."</p>
+            </div>
+        `
+    },
+    {
+        title: "Tarot vs Pendule : quelle méthode de voyance choisir ?",
+        slug: "tarot-vs-pendule-methode-voyance",
+        excerpt: "Tarot ou pendule ? Chaque outil divinatoire a ses forces. Découvrez lequel est le mieux adapté à vos questions et à votre sensibilité.",
+        date: "6 Mars 2026",
+        category: "Voyance",
+        image: "🃏",
+        content: `
+            <p>Dans l'univers de la voyance, deux outils se distinguent par leur popularité et leur efficacité : le tarot et le pendule. L'un raconte des histoires à travers des images symboliques, l'autre tranche avec la précision d'un "oui" ou d'un "non". Mais lequel choisir ? La réponse dépend de la nature de votre question et de ce que vous attendez de la consultation.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le tarot : l'art de la narration divinatoire</h2>
+            <p>Le tarot est un outil d'exploration. Il ne donne pas une réponse unique mais ouvre un champ de possibilités. Les cartes tirées forment une histoire — passé, présent, futur — et invitent à une réflexion profonde. Le tarot est idéal quand vous avez besoin de comprendre une situation dans sa globalité, d'identifier les influences cachées ou de voir les différentes issues possibles.</p>
+            <p class="mt-4">Ses points forts :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Richesse d'interprétation :</strong> Les arcanes offrent des couches de signification multiples</li>
+                <li><strong>Vision d'ensemble :</strong> Le tirage montre le contexte global d'une situation</li>
+                <li><strong>Conseil et orientation :</strong> Le tarot suggère des actions ou des attitudes à adopter</li>
+                <li><strong>Questions ouvertes :</strong> "Que dois-je savoir sur…", "Comment évolue ma situation…"</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le pendule : la précision du oui/non</h2>
+            <p>Le pendule est un outil de décision. Là où le tarot explore, le pendule tranche. Sa force réside dans sa clarté : pas d'ambiguïté, pas de métaphore, juste une réponse directe. Le pendule est parfait quand vous avez une question précise qui appelle une réponse binaire.</p>
+            <p class="mt-4">Ses points forts :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Clarté absolue :</strong> Oui ou non, sans zone grise</li>
+                <li><strong>Rapidité :</strong> La réponse vient en quelques secondes</li>
+                <li><strong>Accessibilité :</strong> Pas besoin de mémoriser 78 cartes</li>
+                <li><strong>Questions fermées :</strong> "Est-ce que cette personne est sincère ?", "Dois-je accepter ce poste ?"</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quel outil pour quelle question ?</h2>
+            <p>En réalité, le choix entre tarot et pendule n'est pas un dilemme — c'est une complémentarité. Utilisez le tarot pour explorer une situation complexe, puis le pendule pour confirmer la direction à prendre. Le tarot ouvre la porte, le pendule vous dit si vous devez la franchir.</p>
+            <p class="mt-4">Si vous avez des questions précises qui nécessitent une réponse claire, le pendule de Sélène est l'outil idéal. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez vos questions dès maintenant</a> et recevez vos réponses par email. Pour une guidance quotidienne plus large, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope du jour</a>.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le tarot murmure les possibilités. Le pendule confirme le chemin. Ensemble, ils éclairent votre destinée tout entière."</p>
+            </div>
+        `
+    },
+    {
+        title: "Méditation et intuition : développez votre sixième sens",
+        slug: "meditation-intuition-sixieme-sens",
+        excerpt: "La méditation est la clé pour éveiller votre intuition. Découvrez des techniques simples pour développer votre sixième sens et mieux écouter votre voix intérieure.",
+        date: "4 Mars 2026",
+        category: "Spiritualité",
+        image: "🧘",
+        content: `
+            <p>Nous possédons tous un sixième sens — cette petite voix intérieure, ce pressentiment inexplicable, cette certitude qui surgit sans raison logique. Mais dans le bruit constant de la vie moderne, cette voix est souvent étouffée par le mental, les doutes et les distractions. La méditation est l'outil le plus puissant pour faire taire ce bruit et laisser votre intuition s'exprimer librement.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi la méditation développe l'intuition</h2>
+            <p>L'intuition fonctionne comme un signal radio : elle émet en permanence, mais si votre "récepteur" est brouillé par le stress, l'anxiété ou la sur-stimulation mentale, vous ne captez rien. La méditation nettoie ce brouillage. En apaisant le mental conscient, elle ouvre un canal direct vers votre subconscient — là où réside votre sagesse intuitive.</p>
+            <p class="mt-4">Des études en neurosciences ont montré que la méditation régulière renforce l'activité du cortex insulaire, la zone du cerveau liée à la conscience intéroceptive — c'est-à-dire la capacité à percevoir les signaux subtils de votre corps. Or, l'intuition se manifeste souvent par des sensations physiques : un nœud à l'estomac, des frissons, une chaleur au cœur.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3 méditations pour éveiller votre intuition</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Méditation du troisième œil :</strong> Asseyez-vous confortablement, fermez les yeux et concentrez votre attention sur le point entre vos deux sourcils. Visualisez une lumière indigo qui pulse doucement. Respirez profondément pendant 10 minutes. Cette pratique active le chakra Ajna, centre de l'intuition.</li>
+                <li><strong>Méditation de l'écoute silencieuse :</strong> Dans un endroit calme, fermez les yeux et écoutez le silence. Pas les bruits extérieurs — le silence entre les bruits. Restez dans cet espace de vide pendant 15 minutes. C'est dans ce silence que votre intuition parle le plus clairement.</li>
+                <li><strong>Méditation de la question :</strong> Avant de méditer, posez mentalement une question simple. Puis méditez 20 minutes sans chercher la réponse. Laissez-la venir d'elle-même — souvent après la séance, sous la douche ou juste avant de dormir.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Combiner méditation et guidance spirituelle</h2>
+            <p>La méditation aiguise votre intuition au quotidien, mais pour les grandes questions de vie, il est parfois nécessaire de faire appel à un outil plus structuré. Le pendule de Sélène offre des réponses claires quand votre esprit est encore trop agité pour entendre sa propre voix intérieure. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule</a> pour vos questions les plus pressantes, et laissez les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">messages de vos anges gardiens</a> vous accompagner dans votre éveil spirituel.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"L'intuition est l'âme qui parle au corps. La méditation est le silence qui permet d'entendre."</p>
+            </div>
+        `
+    },
+    {
+        title: "Rêves prémonitoires : comment les reconnaître et les interpréter",
+        slug: "reves-premonitoires-interpreter",
+        excerpt: "Certains rêves sont bien plus que des images nocturnes : ils portent des messages du futur. Apprenez à distinguer un rêve ordinaire d'un rêve prémonitoire.",
+        date: "12 Mars 2026",
+        category: "Spiritualité",
+        image: "🌙",
+        content: `
+            <p>Avez-vous déjà rêvé d'un événement qui s'est ensuite produit dans la réalité ? Ce n'est pas une coïncidence. Les rêves prémonitoires existent depuis l'aube de l'humanité : les Égyptiens construisaient des temples du sommeil pour recevoir des visions divines, et dans la Bible, Joseph interprétait les rêves du pharaon pour prévoir les famines. Aujourd'hui encore, des milliers de personnes rapportent des rêves qui se réalisent — parfois dans les moindres détails.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment reconnaître un rêve prémonitoire</h2>
+            <p>Tous les rêves ne sont pas prémonitoires. La grande majorité sont des traitements émotionnels — votre cerveau digère les événements de la journée. Mais certains rêves ont une qualité différente, presque tangible. Voici les signes qui distinguent un rêve prémonitoire d'un rêve ordinaire :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Intensité émotionnelle :</strong> Le rêve vous marque profondément. Au réveil, vous le ressentez encore dans votre corps — pas juste dans votre tête.</li>
+                <li><strong>Clarté exceptionnelle :</strong> Les détails sont nets, précis, presque photographiques. Les couleurs sont vives, les sons audibles.</li>
+                <li><strong>Persistance :</strong> Le rêve reste gravé dans votre mémoire des jours, voire des semaines. Il ne s'efface pas comme un rêve ordinaire.</li>
+                <li><strong>Sensation de réalité :</strong> Pendant le rêve, vous avez l'impression que c'est réel — pas "comme un rêve" mais comme un événement vécu.</li>
+                <li><strong>Récurrence :</strong> Le même rêve ou le même thème revient plusieurs nuits d'affilée.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Tenir un journal de rêves</h2>
+            <p>La clé pour développer vos capacités prémonitoires est de tenir un journal de rêves. Gardez un carnet et un stylo sur votre table de nuit. Dès le réveil — avant même de regarder votre téléphone — notez tout ce dont vous vous souvenez : images, émotions, couleurs, personnes, lieux. Plus vous pratiquez, plus vos souvenirs seront détaillés et plus vous repérerez les motifs prémonitoires.</p>
+            <p class="mt-4">Relisez votre journal chaque semaine. Comparez vos rêves avec les événements réels. Avec le temps, vous développerez un véritable "langage" onirique personnel — des symboles récurrents qui ont une signification spécifique pour vous.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quand le rêve a besoin d'une confirmation</h2>
+            <p>Un rêve puissant vous a secoué(e) et vous ne savez pas s'il est prémonitoire ou simplement anxiogène ? C'est le moment de demander une confirmation au pendule. Posez des questions précises : "Ce rêve annonce-t-il un événement réel ?", "Dois-je me préparer à un changement ?", "Ce message vient-il de mes guides ?". <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour décrypter les messages cachés de vos nuits.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le rêve est le courrier de l'âme. Certaines nuits, il vous envoie une lettre du futur."</p>
+            </div>
+        `
+    },
+    {
+        title: "Compatibilité amoureuse : ce que les astres disent de votre couple",
+        slug: "compatibilite-amoureuse-astres-couple",
+        excerpt: "Votre signe astrologique influence votre vie amoureuse. Découvrez quelles combinaisons zodiacales forment les couples les plus harmonieux — et les plus passionnés.",
+        date: "14 Mars 2026",
+        category: "Astrologie",
+        image: "💕",
+        content: `
+            <p>L'astrologie amoureuse fascine depuis des millénaires. Les Romains consultaient les astrologues avant de se marier, et aujourd'hui encore, des millions de personnes vérifient la compatibilité zodiacale avant de s'engager. Si votre thème astral complet (avec Lune, Vénus et Mars) offre la lecture la plus précise, votre signe solaire donne déjà des indices puissants sur votre façon d'aimer et les énergies qui vous attirent.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les éléments : la base de la compatibilité</h2>
+            <p>Les 12 signes sont répartis en 4 éléments, et c'est la compatibilité entre ces éléments qui détermine la dynamique du couple :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Feu (Bélier, Lion, Sagittaire) + Air (Gémeaux, Balance, Verseau) :</strong> Combinaison explosive ! L'Air attise le Feu — passion, stimulation intellectuelle, aventure. Ces couples ne s'ennuient jamais.</li>
+                <li><strong>Terre (Taureau, Vierge, Capricorne) + Eau (Cancer, Scorpion, Poissons) :</strong> Alliance profonde et nourrissante. La Terre stabilise l'Eau, l'Eau enrichit la Terre. Ces couples construisent des fondations solides.</li>
+                <li><strong>Feu + Eau :</strong> Tension créatrice ou destructrice. L'Eau éteint le Feu, le Feu fait bouillir l'Eau. Passionné mais intense — nécessite de la maturité émotionnelle.</li>
+                <li><strong>Terre + Air :</strong> Complémentarité délicate. L'Air peut trouver la Terre trop lente, la Terre peut trouver l'Air trop instable. Mais ensemble, ils créent des projets concrets à partir d'idées brillantes.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les 5 couples les plus compatibles du zodiaque</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Bélier & Sagittaire :</strong> Deux Feux qui partagent l'amour de l'aventure. Ils se comprennent instinctivement et respectent le besoin de liberté de l'autre.</li>
+                <li><strong>Taureau & Cancer :</strong> Le couple cocon. Ils créent ensemble un foyer chaleureux rempli de tendresse, de bonne cuisine et de sécurité émotionnelle.</li>
+                <li><strong>Gémeaux & Balance :</strong> Deux Airs qui communiquent sans effort. Leur relation est un dialogue permanent, léger et stimulant.</li>
+                <li><strong>Scorpion & Poissons :</strong> L'union mystique. Ces deux signes d'Eau plongent ensemble dans les profondeurs émotionnelles et spirituelles. Connexion presque télépathique.</li>
+                <li><strong>Lion & Verseau :</strong> Les opposés qui s'attirent. Le Lion brille, le Verseau fascine. Ensemble, ils forment un couple magnétique et original.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Au-delà des signes : poser la bonne question</h2>
+            <p>L'astrologie donne des tendances, mais chaque relation est unique. Les astres ne condamnent ni ne garantissent rien — ils éclairent les dynamiques en jeu. Si vous vous interrogez sur votre compatibilité ou l'avenir de votre couple, le pendule peut vous apporter une réponse directe et personnalisée.</p>
+            <p class="mt-4">Consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a> pour connaître les influences astrales du moment, puis <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">posez vos questions au pendule de Sélène</a> pour obtenir des réponses claires sur votre vie amoureuse.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Les étoiles inclinent, mais ne contraignent pas. C'est votre cœur qui choisit — les astres éclairent simplement le chemin."</p>
+            </div>
+        `
     }
 ];
