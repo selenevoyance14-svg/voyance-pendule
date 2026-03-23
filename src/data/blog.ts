@@ -688,5 +688,190 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les étoiles inclinent, mais ne contraignent pas. C'est votre cœur qui choisit — les astres éclairent simplement le chemin."</p>
             </div>
         `
+    },
+    {
+        title: "Les 5 meilleurs pendules pour débuter en radiesthésie",
+        slug: "meilleurs-pendules-debutant-radiesthesie",
+        excerpt: "Quel pendule choisir quand on débute ? Cristal, laiton, améthyste... Notre guide complet pour trouver le pendule qui vous correspond.",
+        date: "18 Mars 2026",
+        category: "Guide d'achat",
+        image: "🔮",
+        content: `
+            <p>Choisir son premier pendule est un moment important dans un parcours spirituel. C'est l'outil qui va amplifier votre intuition et vous permettre de recevoir des réponses claires. Mais face à la variété de pendules disponibles, comment s'y retrouver ? On vous guide.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le pendule en cristal de roche — Le classique incontournable</h2>
+            <p>Le cristal de roche (quartz clair) est le pendule le plus recommandé pour les débutants. Neutre énergétiquement, il amplifie votre propre énergie sans la colorer. Sa transparence symbolise la clarté des réponses.</p>
+            <p class="mt-2"><strong class="text-gold-400">Idéal pour :</strong> les débutants, les questions du quotidien, la radiesthésie générale.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+cristal+roche+radiesthesie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le pendule en améthyste — L'intuitif</h2>
+            <p>L'améthyste est la pierre de l'intuition par excellence. Si vous êtes naturellement sensible ou si vous souhaitez développer vos capacités psychiques, ce pendule est fait pour vous. Sa vibration violette ouvre le troisième œil.</p>
+            <p class="mt-2"><strong class="text-gold-400">Idéal pour :</strong> le développement de l'intuition, la méditation, les questions spirituelles.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+amethyste+voyance+radiesthesie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le pendule en laiton — Le précis</h2>
+            <p>Le pendule métallique en laiton est apprécié des radiesthésistes expérimentés pour sa précision et sa réactivité. Plus lourd qu'un pendule en pierre, il offre des mouvements nets et rapides.</p>
+            <p class="mt-2"><strong class="text-gold-400">Idéal pour :</strong> la radiesthésie avancée, les questions précises, le travail sur plan/carte.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+laiton+radiesthesie+professionnel&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">4. Le pendule en obsidienne — Le protecteur</h2>
+            <p>L'obsidienne noire est une pierre de protection puissante. Ce pendule est recommandé si vous travaillez sur des questions délicates ou si vous ressentez le besoin de vous protéger des énergies négatives pendant vos séances.</p>
+            <p class="mt-2"><strong class="text-gold-400">Idéal pour :</strong> la protection, les questions sur les énergies, les nettoyages énergétiques.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+obsidienne+noire+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">5. Le coffret complet pendule + planche</h2>
+            <p>Si vous débutez complètement, un coffret avec pendule, planche de radiesthésie et guide est le choix le plus malin. Vous avez tout ce qu'il faut pour commencer immédiatement.</p>
+            <p class="mt-2"><strong class="text-gold-400">Idéal pour :</strong> les débutants absolus, les cadeaux, une initiation complète.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+pendule+planche+radiesthesie+guide&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment choisir ?</h2>
+            <p>Le meilleur conseil : fiez-vous à votre instinct. Le pendule qui vous attire visuellement est souvent celui qui résonne avec votre énergie. Si vous hésitez, commencez par le cristal de roche — c'est la valeur sûre universelle.</p>
+
+            <p class="mt-6">Envie de tester tout de suite ? Essayez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> en attendant de recevoir le vôtre.</p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Quel tarot choisir ? Guide complet pour débutants",
+        slug: "quel-tarot-choisir-guide-debutant",
+        excerpt: "Tarot de Marseille, Rider-Waite, Oracle de Belline... Découvrez les différences et trouvez le jeu qui vous correspond.",
+        date: "16 Mars 2026",
+        category: "Guide d'achat",
+        image: "🃏",
+        content: `
+            <p>Vous souhaitez vous initier au tarot mais vous ne savez pas quel jeu choisir ? C'est normal : l'offre est vaste et chaque tarot a sa personnalité. On vous aide à y voir clair.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le Tarot de Marseille — La tradition française</h2>
+            <p>C'est le tarot historique par excellence. 78 cartes (22 arcanes majeurs + 56 arcanes mineurs) avec un symbolisme riche et profond. Le Tarot de Marseille demande un apprentissage plus long mais offre une lecture d'une grande profondeur.</p>
+            <p class="mt-2"><strong class="text-gold-400">Pour qui :</strong> ceux qui veulent apprendre la vraie tradition du tarot, les esprits analytiques.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tarot+de+marseille+jeu+cartes+original&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le Tarot Rider-Waite — Le plus accessible</h2>
+            <p>Créé en 1909, c'est le tarot le plus utilisé dans le monde. Ses illustrations sont intuitives : même sans connaître la signification traditionnelle, les images parlent d'elles-mêmes. Idéal pour débuter.</p>
+            <p class="mt-2"><strong class="text-gold-400">Pour qui :</strong> les débutants, ceux qui fonctionnent à l'intuition visuelle.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tarot+rider+waite+original+francais&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">L'Oracle de Belline — Le préféré des voyants français</h2>
+            <p>52 cartes aux messages directs et précis. L'Oracle de Belline est moins symbolique que le tarot, mais ses réponses sont souvent d'une clarté remarquable. Très populaire chez les professionnels de la voyance en France.</p>
+            <p class="mt-2"><strong class="text-gold-400">Pour qui :</strong> ceux qui veulent des réponses directes, les esprits pragmatiques.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+belline+cartes+voyance+coffret&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">L'Oracle des Anges — La douceur angélique</h2>
+            <p>Si vous êtes sensible aux énergies angéliques, cet oracle vous parlera. Les messages sont bienveillants, réconfortants et orientés vers la guidance positive. Parfait pour une utilisation quotidienne.</p>
+            <p class="mt-2"><strong class="text-gold-400">Pour qui :</strong> les âmes sensibles, ceux qui cherchent du réconfort et de la guidance douce.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+anges+gardiens+cartes+guidance&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">L'Oracle Lenormand — Le petit jeu aux grandes réponses</h2>
+            <p>36 cartes seulement, mais une précision redoutable. Le Lenormand est très populaire en Europe et offre des lectures concrètes sur les situations de la vie quotidienne.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+lenormand+petit+jeu+36+cartes&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les accessoires indispensables</h2>
+            <p>Pour compléter votre jeu, pensez à :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Un tapis de tirage</strong> en velours pour protéger vos cartes — <a href="https://www.amazon.fr/s?k=tapis+tirage+tarot+velours+noir&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>Une boîte de rangement</strong> en bois pour conserver l'énergie de vos cartes — <a href="https://www.amazon.fr/s?k=coffret+bois+rangement+tarot+oracle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>Un livre d'apprentissage</strong> pour comprendre chaque carte — <a href="https://www.amazon.fr/s?k=livre+apprendre+tarot+marseille+debutant&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+            </ul>
+
+            <p class="mt-6">En attendant votre jeu, essayez notre <a href="/tirage" class="text-gold-400 border-b border-gold-400/30">tirage de cartes gratuit en ligne</a>.</p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Les 7 pierres indispensables pour la protection spirituelle",
+        slug: "pierres-protection-spirituelle-guide",
+        excerpt: "Labradorite, tourmaline noire, œil de tigre... Découvrez les pierres qui protègent votre énergie et comment les utiliser.",
+        date: "14 Mars 2026",
+        category: "Lithothérapie",
+        image: "💎",
+        content: `
+            <p>La lithothérapie utilise l'énergie des pierres et des cristaux pour harmoniser le corps et l'esprit. En matière de protection spirituelle, certaines pierres sont particulièrement puissantes. Voici les 7 incontournables.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La Labradorite — Le bouclier énergétique</h2>
+            <p>La labradorite est LA pierre de protection par excellence. Elle absorbe les énergies négatives des autres et vous protège comme un bouclier invisible. Indispensable si vous êtes en contact avec beaucoup de monde.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=labradorite+pierre+protection+naturelle+roulee&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. La Tourmaline Noire — L'ancrage</h2>
+            <p>Pierre d'ancrage et de purification, la tourmaline noire repousse toutes les énergies négatives. Placez-la à l'entrée de votre maison ou portez-la sur vous dans les lieux à forte affluence.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tourmaline+noire+pierre+protection+brute&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. L'Œil de Tigre — Le repoussoir</h2>
+            <p>L'œil de tigre est connu pour repousser le mauvais œil et les intentions malveillantes. C'est aussi une pierre de courage et de confiance en soi.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oeil+de+tigre+pierre+naturelle+bracelet&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">4. L'Améthyste — La sagesse protectrice</h2>
+            <p>Pierre de sagesse et d'intuition, l'améthyste purifie l'esprit et protège des influences psychiques négatives. Elle favorise aussi un sommeil réparateur.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=amethyste+pierre+naturelle+lithotherapie+geode&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">5. L'Obsidienne Noire — Le miroir de vérité</h2>
+            <p>L'obsidienne est une pierre volcanique d'une puissance rare. Elle révèle les vérités cachées et protège des attaques psychiques. À utiliser avec précaution — son énergie est intense.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=obsidienne+noire+pierre+protection+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">6. La Shungite — Le purificateur</h2>
+            <p>Pierre rare originaire de Russie, la shungite est réputée pour neutraliser les ondes électromagnétiques et purifier les énergies. Parfaite pour votre espace de travail.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=shungite+pierre+protection+ondes+electromagnetiques&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">7. Le Quartz Rose — La protection par l'amour</h2>
+            <p>Le quartz rose ne protège pas par la force mais par l'amour. Il enveloppe votre cœur d'une énergie douce et bienveillante qui repousse naturellement la négativité.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=quartz+rose+pierre+naturelle+amour+lithotherapie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le coffret idéal pour débuter</h2>
+            <p>Si vous ne savez pas par où commencer, un coffret de pierres des 7 chakras est un excellent point de départ. Il contient les pierres essentielles pour l'équilibre et la protection.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+pierres+7+chakras+lithotherapie+naturelles&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Découvrez aussi nos outils gratuits : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule Oui/Non</a> et <a href="/message-ange" class="text-gold-400 border-b border-gold-400/30">messages angéliques</a>.</p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Comment purifier sa maison avec la sauge blanche",
+        slug: "purifier-maison-sauge-blanche-guide",
+        excerpt: "La fumigation à la sauge blanche est un rituel ancestral de purification. Apprenez à nettoyer les énergies de votre lieu de vie.",
+        date: "12 Mars 2026",
+        category: "Rituels",
+        image: "🌿",
+        content: `
+            <p>La fumigation à la sauge blanche est l'un des rituels de purification les plus anciens et les plus pratiqués dans le monde. Originaire des traditions amérindiennes, cette pratique permet de nettoyer les énergies stagnantes d'un lieu et d'y inviter la paix et la positivité.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi purifier sa maison ?</h2>
+            <p>Les lieux absorbent les énergies des personnes qui y vivent et y passent. Après une dispute, une maladie, un déménagement ou simplement une période difficile, l'atmosphère peut devenir lourde. La fumigation permet de "réinitialiser" l'énergie du lieu.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Ce qu'il vous faut</h2>
+            <ul class="list-disc list-inside space-y-3 mt-4">
+                <li><strong>Un bâton de sauge blanche</strong> — choisissez de la sauge de qualité, récoltée de manière éthique. <a href="https://www.amazon.fr/s?k=sauge+blanche+fumigation+purification+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>Un coquillage ou un bol</strong> pour recueillir les cendres. <a href="https://www.amazon.fr/s?k=coquille+ormeau+sauge+fumigation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>Une plume</strong> pour diriger la fumée (facultatif mais traditionnel). <a href="https://www.amazon.fr/s?k=plume+fumigation+sauge+rituel&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le rituel pas à pas</h2>
+            <p><strong>1. Préparez l'espace :</strong> ouvrez les fenêtres pour que les énergies négatives puissent sortir. Rangez et aérez la pièce.</p>
+            <p class="mt-2"><strong>2. Allumez la sauge :</strong> tenez le bâton au-dessus d'une flamme pendant 20-30 secondes, puis soufflez pour ne garder que la braise fumante.</p>
+            <p class="mt-2"><strong>3. Parcourez chaque pièce :</strong> commencez par l'entrée et faites le tour de chaque pièce dans le sens des aiguilles d'une montre. Insistez dans les coins, derrière les portes et les endroits où l'énergie stagne.</p>
+            <p class="mt-2"><strong>4. Posez une intention :</strong> pendant la fumigation, formulez mentalement ou à voix haute une intention positive : "Je purifie cet espace de toute énergie négative et j'y invite la paix et la lumière."</p>
+            <p class="mt-2"><strong>5. Terminez :</strong> éteignez la sauge dans le coquillage. Laissez les fenêtres ouvertes encore 15-20 minutes.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Alternatives à la sauge blanche</h2>
+            <ul class="list-disc list-inside space-y-3 mt-4">
+                <li><strong>Le Palo Santo :</strong> bois sacré d'Amérique du Sud, il purifie et invite les bonnes énergies. <a href="https://www.amazon.fr/s?k=palo+santo+bois+sacre+purification&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>L'encens d'oliban :</strong> l'encens des temples, il élève la vibration spirituelle. <a href="https://www.amazon.fr/s?k=encens+oliban+frankincense+resine+purification&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+                <li><strong>Le sel gemme :</strong> placé dans les coins des pièces, il absorbe les énergies négatives. <a href="https://www.amazon.fr/s?k=sel+gemme+himalaya+purification+energetique&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir sur Amazon</a></li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quand purifier ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Après un déménagement</li>
+                <li>Après une dispute ou un conflit</li>
+                <li>Après une maladie</li>
+                <li>Quand vous sentez une lourdeur dans l'atmosphère</li>
+                <li>À chaque nouvelle lune (idéal pour les rituels réguliers)</li>
+            </ul>
+
+            <p class="mt-6">Complétez votre purification avec un <a href="/message-ange" class="text-gold-400 border-b border-gold-400/30">message de votre ange gardien</a> pour inviter la lumière dans votre espace.</p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
     }
 ];

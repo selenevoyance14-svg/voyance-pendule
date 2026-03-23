@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     title: "Voyance Pendule — Horoscope Gratuit, Anges Gardiens & Consultation | voyance-pendule.fr",
     description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope du jour et messages de vos anges gardiens. Tous nos outils de guidance spirituelle sont gratuits.",
     keywords: "voyance, horoscope gratuit, anges gardiens, pendule, voyance en ligne, horoscope du jour, voyance pendule, spiritualité",
+    icons: {
+        icon: "/favicon.svg",
+    },
     openGraph: {
         title: "Voyance Pendule — Horoscope Gratuit & Consultation par Pendule",
         description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope et messages angeliques. Outils de guidance spirituelle gratuits.",
