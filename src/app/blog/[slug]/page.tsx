@@ -6,6 +6,10 @@ type Props = {
     params: { slug: string };
 };
 
+export function generateStaticParams() {
+    return blogPosts.map((p) => ({ slug: p.slug }));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = blogPosts.find((p) => p.slug === params.slug);
     if (!post) return { title: "Article non trouvé" };
