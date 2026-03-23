@@ -4,11 +4,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
     title: "Voyance Pendule — Horoscope Gratuit, Anges Gardiens & Consultation | voyance-pendule.fr",
-    description: "Découvrez votre horoscope gratuit, les messages de vos anges gardiens, et consultez Sélène pour une voyance par pendule. Réponses précises par Oui ou Non.",
+    description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope du jour et messages de vos anges gardiens. Tous nos outils de guidance spirituelle sont gratuits.",
     keywords: "voyance, horoscope gratuit, anges gardiens, pendule, voyance en ligne, horoscope du jour, voyance pendule, spiritualité",
     openGraph: {
         title: "Voyance Pendule — Horoscope Gratuit & Consultation par Pendule",
-        description: "Horoscope gratuit, messages angéliques et voyance par pendule. Réponses précises par Oui ou Non à partir de 5€.",
+        description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope et messages angeliques. Outils de guidance spirituelle gratuits.",
         type: "website",
         locale: "fr_FR",
         url: "https://voyance-pendule.fr",
@@ -55,24 +55,29 @@ export default function RootLayout({
                                 </div>
                             </a>
                             <div className="hidden md:flex items-center gap-8">
+                                <a href="/tirage" className="text-mystic-200 hover:text-gold-400 transition font-medium">
+                                    🃏 Cartes
+                                </a>
+                                <a href="/pendule-gratuit" className="text-mystic-200 hover:text-gold-400 transition font-medium">
+                                    🔮 Pendule
+                                </a>
                                 <a href="/horoscope" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     ♈ Horoscope
+                                </a>
+                                <a href="/message-ange" className="text-mystic-200 hover:text-gold-400 transition font-medium">
+                                    👼 Anges
                                 </a>
                                 <a href="/blog" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     📝 Blog
                                 </a>
-                                <a href="/anges" className="text-mystic-200 hover:text-gold-400 transition font-medium">
-                                    👼 Anges
-                                </a>
-                                <a href="/voyance" className="btn-gold text-sm py-2 px-5">
-                                    🔮 Consultation
-                                </a>
                             </div>
                             {/* Mobile menu */}
                             <div className="md:hidden flex items-center gap-3">
-                                <a href="/horoscope" className="text-mystic-300 text-sm">Horoscope</a>
-                                <a href="/blog" className="text-mystic-300 text-sm">Blog</a>
-                                <a href="/voyance" className="btn-gold text-xs py-1.5 px-3">🔮 Consulter</a>
+                                <a href="/tirage" className="text-mystic-300 text-sm">🃏</a>
+                                <a href="/pendule-gratuit" className="text-mystic-300 text-sm">🔮</a>
+                                <a href="/horoscope" className="text-mystic-300 text-sm">♈</a>
+                                <a href="/message-ange" className="text-mystic-300 text-sm">👼</a>
+                                <a href="/blog" className="text-mystic-300 text-sm">📝</a>
                             </div>
                         </div>
                     </div>
@@ -100,9 +105,10 @@ export default function RootLayout({
                                 <h4 className="font-heading text-gold-500 font-semibold mb-4">Navigation</h4>
                                 <ul className="space-y-2 text-sm text-mystic-400">
                                     <li><a href="/" className="hover:text-gold-400 transition">✨ Accueil</a></li>
-                                    <li><a href="/horoscope" className="hover:text-gold-400 transition">♈ Horoscope Gratuit</a></li>
-                                    <li><a href="/anges" className="hover:text-gold-400 transition">👼 Anges Gardiens</a></li>
-                                    <li><a href="/voyance" className="hover:text-gold-400 transition">🔮 Voyance Pendule</a></li>
+                                    <li><a href="/tirage" className="hover:text-gold-400 transition">🃏 Tirage de Cartes</a></li>
+                                    <li><a href="/pendule-gratuit" className="hover:text-gold-400 transition">🔮 Pendule Gratuit</a></li>
+                                    <li><a href="/horoscope" className="hover:text-gold-400 transition">♈ Horoscope</a></li>
+                                    <li><a href="/message-ange" className="hover:text-gold-400 transition">👼 Message Angélique</a></li>
                                 </ul>
                             </div>
                             <div>
@@ -113,16 +119,14 @@ export default function RootLayout({
                                     <li><a href="/confidentialite" className="hover:text-gold-400 transition">Politique de confidentialité</a></li>
                                 </ul>
                                 <p className="mt-4 text-xs text-mystic-600">
-                                    La voyance ne se substitue pas à un avis médical ou professionnel.
-                                </p>
-                                <p className="mt-3 text-xs text-mystic-600">
-                                    🛡️ Garantie sérénité : remboursement intégral sous 7 jours si vous n&apos;êtes pas satisfait(e).
+                                    Nos outils de guidance sont gratuits et à usage de divertissement.
+                                    Ils ne remplacent pas un avis médical ou professionnel.
                                 </p>
                             </div>
                         </div>
                         <div className="mystic-divider mt-10 mb-6" />
                         <p className="text-center text-xs text-mystic-600">
-                            © 2026 Sélène Voyance. Tous droits réservés. | Paiement sécurisé par Stripe 🔒
+                            © 2026 Sélène Voyance. Tous droits réservés. | Tous nos outils sont gratuits ✨
                         </p>
                     </div>
                 </footer>

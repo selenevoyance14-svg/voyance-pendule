@@ -14,9 +14,9 @@ const zodiacSigns = [
 ];
 
 const testimonials = [
-    { name: "Sophie M.", text: "Le pendule de Sélène m'a donné une réponse claire à une question que je me posais depuis des mois. Impressionnant !", rating: 5 },
-    { name: "Laurent D.", text: "Réponse rapide et précise. Je recommande vivement pour les moments de doute.", rating: 5 },
-    { name: "Marie C.", text: "L'horoscope est très juste et la consultation par pendule m'a beaucoup aidée dans ma prise de décision.", rating: 5 },
+    { name: "Sophie M.", text: "Le tirage de cartes m'a donné une réponse claire à une question que je me posais depuis des mois. Impressionnant !", rating: 5 },
+    { name: "Laurent D.", text: "Le pendule gratuit est étonnamment juste. Je reviens chaque semaine pour me guider.", rating: 5 },
+    { name: "Marie C.", text: "L'horoscope est très juste et les messages des anges sont toujours réconfortants. Merci Sélène !", rating: 5 },
 ];
 
 export default function Home() {
@@ -24,14 +24,13 @@ export default function Home() {
         <>
             {/* HERO */}
             <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-                {/* Background glow */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-mystic-600/10 blur-[120px]" />
                 <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] rounded-full bg-gold-600/5 blur-[100px]" />
 
                 <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
                     <div className="inline-flex items-center gap-2 bg-mystic-950/50 border border-mystic-700/30 rounded-full px-5 py-2 mb-8 backdrop-blur-sm">
                         <span className="animate-twinkle">✨</span>
-                        <span className="text-mystic-300 text-sm font-medium">Voyance &amp; Guidance Spirituelle</span>
+                        <span className="text-mystic-300 text-sm font-medium">Voyance &amp; Guidance Spirituelle — 100% Gratuit</span>
                     </div>
 
                     <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -43,16 +42,16 @@ export default function Home() {
                     </h1>
 
                     <p className="text-lg sm:text-xl text-mystic-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Horoscope gratuit, messages de vos anges gardiens, et consultations
-                        de voyance par pendule. Laissez les astres guider votre chemin.
+                        Tirage de cartes, pendule Oui/Non, horoscope, messages angéliques —
+                        tous nos outils de guidance sont gratuits. Laissez les astres éclairer votre chemin.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <a href="/horoscope" className="btn-mystic text-lg">
-                            ♈ Horoscope Gratuit
+                        <a href="/tirage" className="btn-gold text-lg">
+                            🃏 Tirage de Cartes
                         </a>
-                        <a href="/voyance" className="btn-gold text-lg">
-                            🔮 Consultation Pendule
+                        <a href="/pendule-gratuit" className="btn-mystic text-lg">
+                            🔮 Pendule Gratuit
                         </a>
                     </div>
 
@@ -68,53 +67,61 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* SERVICES */}
+            {/* SERVICES — 4 outils gratuits */}
             <section className="section-purple py-20 sm:py-28">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
-                            Nos Services <span className="text-gold-500">Spirituels</span>
+                            Nos Outils <span className="text-gold-500">Gratuits</span>
                         </h2>
+                        <p className="text-mystic-400 max-w-lg mx-auto">
+                            Quatre outils de guidance spirituelle à votre disposition, sans inscription ni paiement.
+                        </p>
                         <div className="mystic-divider max-w-xs mx-auto mt-4" />
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
-                        {/* Horoscope */}
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <a href="/tirage" className="gold-card p-8 text-center block">
+                            <div className="text-5xl mb-6">🃏</div>
+                            <h3 className="font-heading text-xl font-bold text-gold-400 mb-3">Tirage de Cartes</h3>
+                            <p className="text-mystic-400 text-sm leading-relaxed mb-4">
+                                Tirez 1, 3 ou 5 cartes et découvrez les messages que l&apos;univers vous envoie.
+                            </p>
+                            <span className="inline-block bg-green-500/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full">
+                                ✨ GRATUIT
+                            </span>
+                        </a>
+
+                        <a href="/pendule-gratuit" className="glass-card p-8 text-center block">
+                            <div className="text-5xl mb-6 animate-float">🔮</div>
+                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-3">Pendule Oui/Non</h3>
+                            <p className="text-mystic-400 text-sm leading-relaxed mb-4">
+                                Posez votre question et laissez le pendule vous répondre par Oui ou Non instantanément.
+                            </p>
+                            <span className="inline-block bg-green-500/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full">
+                                ✨ GRATUIT
+                            </span>
+                        </a>
+
                         <a href="/horoscope" className="glass-card p-8 text-center block">
                             <div className="text-5xl mb-6">♈</div>
-                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-3">Horoscope Gratuit</h3>
+                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-3">Horoscope du Jour</h3>
                             <p className="text-mystic-400 text-sm leading-relaxed mb-4">
-                                Découvrez votre horoscope du jour pour les 12 signes du zodiaque.
-                                Amour, travail, santé — les astres vous guident.
+                                Découvrez votre horoscope quotidien pour les 12 signes du zodiaque.
                             </p>
                             <span className="inline-block bg-green-500/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full">
                                 ✨ GRATUIT
                             </span>
                         </a>
 
-                        {/* Anges */}
-                        <a href="/anges" className="glass-card p-8 text-center block">
+                        <a href="/message-ange" className="glass-card p-8 text-center block">
                             <div className="text-5xl mb-6">👼</div>
-                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-3">Anges Gardiens</h3>
+                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-3">Message Angélique</h3>
                             <p className="text-mystic-400 text-sm leading-relaxed mb-4">
-                                Découvrez votre ange gardien, ses messages et ses heures
-                                de guidance. Connectez-vous à votre protecteur céleste.
+                                Recevez un message personnalisé de votre ange gardien pour éclairer votre journée.
                             </p>
                             <span className="inline-block bg-green-500/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full">
                                 ✨ GRATUIT
-                            </span>
-                        </a>
-
-                        {/* Pendule */}
-                        <a href="/voyance" className="gold-card p-8 text-center block">
-                            <div className="text-5xl mb-6 animate-float">🔮</div>
-                            <h3 className="font-heading text-xl font-bold text-gold-400 mb-3">Voyance Pendule</h3>
-                            <p className="text-mystic-300 text-sm leading-relaxed mb-4">
-                                Grâce à mon pendule, je réponds de façon précise à vos questions
-                                par un Oui ou un Non. Réponse sous 24h.
-                            </p>
-                            <span className="inline-block bg-gold-500/20 text-gold-400 text-xs font-bold px-3 py-1 rounded-full">
-                                À partir de 5€
                             </span>
                         </a>
                     </div>
@@ -152,71 +159,12 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* PRICING PENDULE */}
-            <section className="section-purple py-20 sm:py-28" id="tarifs">
-                <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
-                        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
-                            Consultations <span className="text-gold-500">Pendule</span>
-                        </h2>
-                        <p className="text-mystic-400 max-w-lg mx-auto">
-                            Grâce à mon pendule, je réponds de façon précise à vos questions par un Oui ou un Non.
-                        </p>
-                        <div className="mystic-divider max-w-xs mx-auto mt-4" />
-                    </div>
-
-                    <div className="grid md:grid-cols-3 gap-8 items-start">
-                        {/* 1 Question */}
-                        <div className="glass-card p-8 text-center">
-                            <div className="text-4xl mb-4">🔮</div>
-                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-2">1 Question</h3>
-                            <p className="text-mystic-400 text-sm mb-6">Réponse Oui / Non par pendule</p>
-                            <div className="text-4xl font-bold text-white mb-1">5€</div>
-                            <div className="text-mystic-500 text-sm mb-8">Paiement unique</div>
-                            <a href="/voyance" className="btn-mystic w-full justify-center">
-                                Poser ma question
-                            </a>
-                        </div>
-
-                        {/* 3 Questions - Populaire */}
-                        <div className="glass-card p-8 text-center pricing-popular relative">
-                            <div className="text-4xl mb-4 animate-float">🔮</div>
-                            <h3 className="font-heading text-xl font-bold text-gold-400 mb-2">3 Questions</h3>
-                            <p className="text-mystic-400 text-sm mb-6">3 réponses Oui / Non par pendule</p>
-                            <div className="flex items-center justify-center gap-2 mb-1">
-                                <span className="text-mystic-500 line-through text-lg">15€</span>
-                                <span className="text-4xl font-bold text-gold-400">10€</span>
-                            </div>
-                            <div className="text-gold-600 text-sm mb-8 font-medium">Économisez 5€</div>
-                            <a href="/voyance" className="btn-gold w-full justify-center">
-                                Poser mes 3 questions
-                            </a>
-                        </div>
-
-                        {/* 5 Questions */}
-                        <div className="glass-card p-8 text-center">
-                            <div className="text-4xl mb-4">🔮</div>
-                            <h3 className="font-heading text-xl font-bold text-mystic-200 mb-2">5 Questions</h3>
-                            <p className="text-mystic-400 text-sm mb-6">5 réponses Oui / Non par pendule</p>
-                            <div className="flex items-center justify-center gap-2 mb-1">
-                                <span className="text-mystic-500 line-through text-lg">25€</span>
-                                <span className="text-4xl font-bold text-white">15€</span>
-                            </div>
-                            <div className="text-green-400 text-sm mb-8 font-medium">Économisez 10€</div>
-                            <a href="/voyance" className="btn-mystic w-full justify-center">
-                                Poser mes 5 questions
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             {/* TESTIMONIALS */}
-            <section className="section-dark py-20 sm:py-28">
+            <section className="section-purple py-20 sm:py-28">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
-                            Ce que disent <span className="text-mystic-400">nos consultants</span>
+                            Ce que disent <span className="text-mystic-400">nos visiteurs</span>
                         </h2>
                         <div className="mystic-divider max-w-xs mx-auto mt-4" />
                     </div>
@@ -249,15 +197,18 @@ export default function Home() {
                         Prêt(e) à découvrir ce que les astres vous réservent ?
                     </h2>
                     <p className="text-mystic-300 text-lg mb-10">
-                        Commencez par votre horoscope gratuit ou posez directement
-                        votre question au pendule.
+                        Tous nos outils sont gratuits et accessibles instantanément.
+                        Choisissez celui qui vous attire le plus.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <a href="/horoscope" className="btn-mystic text-lg">
-                            ♈ Horoscope du Jour
+                        <a href="/tirage" className="btn-gold text-lg">
+                            🃏 Tirage de Cartes
                         </a>
-                        <a href="/voyance" className="btn-gold text-lg">
-                            🔮 Consulter le Pendule
+                        <a href="/pendule-gratuit" className="btn-mystic text-lg">
+                            🔮 Pendule Gratuit
+                        </a>
+                        <a href="/message-ange" className="btn-mystic text-lg">
+                            👼 Message Angélique
                         </a>
                     </div>
                 </div>
