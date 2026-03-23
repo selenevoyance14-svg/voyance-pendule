@@ -70,6 +70,9 @@ export default function RootLayout({
                                 <a href="/blog" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     📝 Blog
                                 </a>
+                                <a href="/boutique" className="btn-gold text-sm py-2 px-5">
+                                    🛍️ Boutique
+                                </a>
                             </div>
                             {/* Mobile menu */}
                             <div className="md:hidden flex items-center gap-3">
@@ -77,7 +80,7 @@ export default function RootLayout({
                                 <a href="/pendule-gratuit" className="text-mystic-300 text-sm">🔮</a>
                                 <a href="/horoscope" className="text-mystic-300 text-sm">♈</a>
                                 <a href="/message-ange" className="text-mystic-300 text-sm">👼</a>
-                                <a href="/blog" className="text-mystic-300 text-sm">📝</a>
+                                <a href="/boutique" className="text-mystic-300 text-sm">🛍️</a>
                             </div>
                         </div>
                     </div>
@@ -109,6 +112,7 @@ export default function RootLayout({
                                     <li><a href="/pendule-gratuit" className="hover:text-gold-400 transition">🔮 Pendule Gratuit</a></li>
                                     <li><a href="/horoscope" className="hover:text-gold-400 transition">♈ Horoscope</a></li>
                                     <li><a href="/message-ange" className="hover:text-gold-400 transition">👼 Message Angélique</a></li>
+                                    <li><a href="/boutique" className="hover:text-gold-400 transition">🛍️ Boutique</a></li>
                                 </ul>
                             </div>
                             <div>
