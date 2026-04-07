@@ -6,6 +6,10 @@ export const metadata: Metadata = {
     title: "Voyance Pendule — Horoscope Gratuit, Anges Gardiens & Consultation | voyance-pendule.fr",
     description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope du jour et messages de vos anges gardiens. Tous nos outils de guidance spirituelle sont gratuits.",
     keywords: "voyance, horoscope gratuit, anges gardiens, pendule, voyance en ligne, horoscope du jour, voyance pendule, spiritualité",
+    metadataBase: new URL("https://voyance-pendule.fr"),
+    alternates: {
+        canonical: "https://voyance-pendule.fr",
+    },
     icons: {
         icon: "/favicon.svg",
     },
@@ -15,6 +19,12 @@ export const metadata: Metadata = {
         type: "website",
         locale: "fr_FR",
         url: "https://voyance-pendule.fr",
+        siteName: "Sélène Voyance",
+    },
+    twitter: {
+        card: "summary",
+        title: "Voyance Pendule — Horoscope Gratuit & Consultation par Pendule",
+        description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope et messages angeliques. Outils de guidance spirituelle gratuits.",
     },
     verification: {
         google: "lI35foz6lGbGxl_FL28T3AVoEX-gj2deFpvSpVpLsVo",
@@ -37,6 +47,23 @@ export default function RootLayout({
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5064203547863113"
                     crossOrigin="anonymous"
                     strategy="afterInteractive"
+                />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "WebSite",
+                            name: "Sélène Voyance",
+                            url: "https://voyance-pendule.fr",
+                            description: "Voyance par pendule, horoscope gratuit, tirage de cartes et messages angéliques.",
+                            publisher: {
+                                "@type": "Organization",
+                                name: "Sélène Voyance",
+                                url: "https://voyance-pendule.fr",
+                            },
+                        }),
+                    }}
                 />
             </head>
             <body className="antialiased">
@@ -116,6 +143,8 @@ export default function RootLayout({
                                     <li><a href="/horoscope" className="hover:text-gold-400 transition">♈ Horoscope</a></li>
                                     <li><a href="/message-ange" className="hover:text-gold-400 transition">👼 Message Angélique</a></li>
                                     <li><a href="/boutique" className="hover:text-gold-400 transition">🛍️ Boutique</a></li>
+                                    <li><a href="/qui-suis-je" className="hover:text-gold-400 transition">🌙 Qui suis-je ?</a></li>
+                                    <li><a href="/faq" className="hover:text-gold-400 transition">❓ FAQ</a></li>
                                 </ul>
                             </div>
                             <div>
