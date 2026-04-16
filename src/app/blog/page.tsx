@@ -30,9 +30,9 @@ export default function BlogPage() {
                             href={`/blog/${post.slug}`}
                             className="glass-card flex flex-col group hover:border-mystic-500/50 transition-all duration-300"
                         >
-                            {/* Card Image/Icon placeholder */}
-                            <div className="h-48 bg-mystic-900/50 flex items-center justify-center text-6xl group-hover:scale-110 transition-transform duration-500">
-                                {post.image}
+                            {/* Card Image */}
+                            <div className="h-48 bg-mystic-900/50 flex items-center justify-center overflow-hidden">
+                                <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                             </div>
 
                             <div className="p-6 flex flex-col flex-grow">

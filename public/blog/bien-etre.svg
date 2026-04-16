@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="zen-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8ec5fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a0518" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chakra" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9b59b6"/>
+      <stop offset="25%" stop-color="#3498db"/>
+      <stop offset="50%" stop-color="#2ecc71"/>
+      <stop offset="75%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#e74c3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#0a0518"/>
+  <circle cx="200" cy="150" r="130" fill="url(#zen-glow)"/>
+  <!-- Meditation silhouette -->
+  <!-- Head -->
+  <circle cx="200" cy="105" r="18" fill="#c4a2ff" opacity="0.4"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="160" rx="25" ry="35" fill="#c4a2ff" opacity="0.3"/>
+  <!-- Crossed legs -->
+  <ellipse cx="200" cy="205" rx="45" ry="12" fill="#c4a2ff" opacity="0.25"/>
+  <!-- Chakra points -->
+  <circle cx="200" cy="90" r="4" fill="#9b59b6" opacity="0.9"/>
+  <circle cx="200" cy="105" r="4" fill="#3f51b5" opacity="0.8"/>
+  <circle cx="200" cy="120" r="4" fill="#3498db" opacity="0.8"/>
+  <circle cx="200" cy="140" r="4" fill="#2ecc71" opacity="0.8"/>
+  <circle cx="200" cy="155" r="4" fill="#f1c40f" opacity="0.8"/>
+  <circle cx="200" cy="170" r="4" fill="#e67e22" opacity="0.8"/>
+  <circle cx="200" cy="185" r="4" fill="#e74c3c" opacity="0.8"/>
+  <!-- Aura rings -->
+  <ellipse cx="200" cy="150" rx="70" ry="85" fill="none" stroke="#c4a2ff" stroke-width="0.8" opacity="0.2"/>
+  <ellipse cx="200" cy="150" rx="85" ry="100" fill="none" stroke="#8ec5fc" stroke-width="0.5" opacity="0.15"/>
+  <!-- Stars -->
+  <circle cx="80" cy="50" r="1.5" fill="#8ec5fc" opacity="0.6"/>
+  <circle cx="320" cy="60" r="2" fill="#c4a2ff" opacity="0.5"/>
+  <circle cx="70" cy="240" r="1" fill="#f0d060" opacity="0.4"/>
+  <circle cx="330" cy="230" r="1.5" fill="#8ec5fc" opacity="0.4"/>
+</svg>

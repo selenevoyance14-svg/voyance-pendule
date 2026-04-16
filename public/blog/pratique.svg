@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="book-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a0518" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="#0a0518"/>
+  <circle cx="200" cy="150" r="120" fill="url(#book-glow)"/>
+  <!-- Open book -->
+  <!-- Left page -->
+  <path d="M200 120 Q170 115 130 125 L130 210 Q170 200 200 205 Z" fill="#1a1035" stroke="#d4af37" stroke-width="1" opacity="0.8"/>
+  <!-- Right page -->
+  <path d="M200 120 Q230 115 270 125 L270 210 Q230 200 200 205 Z" fill="#1a1035" stroke="#d4af37" stroke-width="1" opacity="0.8"/>
+  <!-- Page lines left -->
+  <line x1="150" y1="140" x2="190" y2="138" stroke="#c4a2ff" stroke-width="0.5" opacity="0.4"/>
+  <line x1="148" y1="152" x2="192" y2="149" stroke="#c4a2ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="146" y1="164" x2="193" y2="161" stroke="#c4a2ff" stroke-width="0.5" opacity="0.4"/>
+  <line x1="145" y1="176" x2="194" y2="173" stroke="#c4a2ff" stroke-width="0.5" opacity="0.3"/>
+  <!-- Page lines right -->
+  <line x1="210" y1="138" x2="255" y2="140" stroke="#c4a2ff" stroke-width="0.5" opacity="0.4"/>
+  <line x1="209" y1="149" x2="256" y2="152" stroke="#c4a2ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="208" y1="161" x2="257" y2="164" stroke="#c4a2ff" stroke-width="0.5" opacity="0.4"/>
+  <line x1="207" y1="173" x2="258" y2="176" stroke="#c4a2ff" stroke-width="0.5" opacity="0.3"/>
+  <!-- Magic sparkle above book -->
+  <circle cx="200" cy="95" r="6" fill="#d4af37" opacity="0.5"/>
+  <line x1="200" y1="82" x2="200" y2="75" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+  <line x1="210" y1="86" x2="216" y2="80" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+  <line x1="190" y1="86" x2="184" y2="80" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+  <!-- Stars -->
+  <circle cx="80" cy="55" r="1.5" fill="#d4af37" opacity="0.6"/>
+  <circle cx="320" cy="70" r="2" fill="#c4a2ff" opacity="0.5"/>
+  <circle cx="90" cy="240" r="1" fill="#d4af37" opacity="0.4"/>
+  <circle cx="310" cy="230" r="1.5" fill="#c4a2ff" opacity="0.4"/>
+</svg>

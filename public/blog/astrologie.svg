@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <radialGradient id="cosmos" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a237e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0518" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="zodiac-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f0d060"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#0a0518"/>
+  <circle cx="200" cy="150" r="130" fill="url(#cosmos)"/>
+  <!-- Zodiac circle -->
+  <circle cx="200" cy="150" r="90" fill="none" stroke="url(#zodiac-ring)" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="200" cy="150" r="70" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
+  <!-- Cross lines -->
+  <line x1="200" y1="60" x2="200" y2="240" stroke="#d4af37" stroke-width="0.5" opacity="0.2"/>
+  <line x1="110" y1="150" x2="290" y2="150" stroke="#d4af37" stroke-width="0.5" opacity="0.2"/>
+  <!-- Sun at center -->
+  <circle cx="200" cy="150" r="18" fill="#d4af37" opacity="0.3"/>
+  <circle cx="200" cy="150" r="10" fill="#f0d060" opacity="0.7"/>
+  <!-- Moon -->
+  <circle cx="250" cy="100" r="12" fill="#c4a2ff" opacity="0.5"/>
+  <circle cx="255" cy="96" r="10" fill="#0a0518"/>
+  <!-- Zodiac markers on the ring -->
+  <circle cx="200" cy="60" r="3" fill="#d4af37" opacity="0.8"/>
+  <circle cx="268" cy="78" r="3" fill="#d4af37" opacity="0.7"/>
+  <circle cx="290" cy="150" r="3" fill="#d4af37" opacity="0.6"/>
+  <circle cx="268" cy="222" r="3" fill="#d4af37" opacity="0.7"/>
+  <circle cx="200" cy="240" r="3" fill="#d4af37" opacity="0.8"/>
+  <circle cx="132" cy="222" r="3" fill="#d4af37" opacity="0.7"/>
+  <circle cx="110" cy="150" r="3" fill="#d4af37" opacity="0.6"/>
+  <circle cx="132" cy="78" r="3" fill="#d4af37" opacity="0.7"/>
+  <!-- Stars -->
+  <circle cx="55" cy="40" r="2" fill="#f0d060" opacity="0.7"/>
+  <circle cx="340" cy="55" r="1.5" fill="#c4a2ff" opacity="0.6"/>
+  <circle cx="60" cy="250" r="1.5" fill="#f0d060" opacity="0.5"/>
+  <circle cx="350" cy="240" r="1" fill="#c4a2ff" opacity="0.5"/>
+  <circle cx="40" cy="130" r="1" fill="#ffffff" opacity="0.4"/>
+  <circle cx="360" cy="170" r="1.5" fill="#ffffff" opacity="0.3"/>
+</svg>

@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le pendule divinatoire est un outil millénaire de radiesthésie. Découvrez comment il permet d'obtenir des réponses claires par oui ou non.",
         date: "24 Février 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le pendule divinatoire est l'un des outils les plus fascinants et les plus accessibles de la voyance moderne. Utilisé depuis des millénaires par les sourciers, les guérisseurs et les médiums, il sert de pont entre notre esprit conscient et notre intuition profonde (ou subconscient).</p>
             
@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Chaque être humain possède un protecteur céleste. Apprenez à reconnaître les signes et les synchronicités qu'ils nous envoient quotidiennement.",
         date: "22 Février 2026",
         category: "Spiritualité",
-        image: "👼",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Depuis la nuit des temps, les traditions spirituelles nous enseignent que nous ne sommes jamais seuls. Les Anges Gardiens sont des êtres de lumière dont la mission est de nous guider, de nous protéger et de nous inspirer sur notre chemin de vie.</p>
 
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'astrologie n'est pas une fatalité, mais une boussole énergétique. Comprenez comment les transits planétaires influencent votre humeur et vos chances.",
         date: "20 Février 2026",
         category: "Astrologie",
-        image: "♈",
+        image: "/blog/astrologie.svg",
         content: `
             <p>Beaucoup voient l'horoscope comme un simple divertissement. Pourtant, pour ceux qui savent lire entre les lignes, l'astrologie quotidienne offre une lecture des énergies du moment, un peu comme une météo de l'âme.</p>
 
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "11h11, 22h22, 14h14... Vous voyez souvent ces chiffres ? Ce n'est pas un hasard. Découvrez la signification des heures miroir et les messages qu'elles portent.",
         date: "2 Mars 2026",
         category: "Spiritualité",
-        image: "🕐",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Vous regardez votre téléphone et il affiche 11h11. Quelques heures plus tard, vous jetez un œil à l'horloge : 22h22. Ce phénomène se répète depuis des jours, parfois des semaines. Si cela vous arrive, sachez que ce n'est pas anodin. Les heures miroir sont considérées comme des messages de l'univers, de vos anges gardiens ou de votre subconscient profond.</p>
 
@@ -129,7 +129,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La Pleine Lune amplifie nos émotions et nos intentions. Apprenez à canaliser cette énergie puissante pour transformer votre quotidien.",
         date: "28 Février 2026",
         category: "Astrologie",
-        image: "🌕",
+        image: "/blog/astrologie.svg",
         content: `
             <p>Depuis l'Antiquité, la Pleine Lune fascine et intrigue. Les anciens la vénéraient comme une divinité, les agriculteurs calaient leurs semis sur ses cycles, et les guérisseurs récoltaient leurs herbes à sa lumière. Aujourd'hui encore, beaucoup ressentent son influence sans toujours comprendre pourquoi.</p>
 
@@ -158,7 +158,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les 7 chakras sont des centres d'énergie vitale. Quand ils sont équilibrés, tout coule : santé, relations, intuition. Découvrez comment les harmoniser.",
         date: "26 Février 2026",
         category: "Bien-être",
-        image: "🧘",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Dans les traditions hindoues et bouddhistes, le corps humain possède 7 centres d'énergie principaux appelés chakras. Du sanskrit "roue", chaque chakra tourne et vibre à une fréquence spécifique, influençant notre santé physique, émotionnelle et spirituelle.</p>
 
@@ -198,7 +198,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'amour est le domaine qui suscite le plus de consultations. Découvrez les 5 questions que les consultants posent le plus souvent à Sélène.",
         date: "18 Février 2026",
         category: "Voyance",
-        image: "💜",
+        image: "/blog/voyance.svg",
         content: `
             <p>Parmi toutes les consultations que Sélène réalise avec son pendule, l'amour est de loin le thème le plus fréquent. Qu'il s'agisse d'une relation naissante, d'un couple en crise ou d'un ex qui revient, les questions du cœur nous touchent tous au plus profond.</p>
 
@@ -229,7 +229,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Œil de tigre, tourmaline noire, améthyste... Certaines pierres possèdent des propriétés protectrices puissantes. Découvrez lesquelles choisir selon vos besoins.",
         date: "4 Mars 2026",
         category: "Bien-être",
-        image: "💎",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Depuis des millénaires, les civilisations du monde entier utilisent les pierres et les cristaux pour se protéger des énergies négatives, renforcer leur aura et attirer les vibrations positives. Ce n'est ni de la magie ni de la superstition : c'est de la lithothérapie, une pratique fondée sur les propriétés vibratoires naturelles des minéraux.</p>
 
@@ -265,7 +265,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La flamme jumelle est une connexion d'âme qui dépasse l'amour ordinaire. Apprenez à reconnaître les signes de cette rencontre karmique et à comprendre ses étapes.",
         date: "5 Mars 2026",
         category: "Spiritualité",
-        image: "🔥",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Parmi tous les types de connexions d'âme, la flamme jumelle est la plus intense, la plus transformatrice et souvent la plus douloureuse. Contrairement à l'âme sœur qui nous complète harmonieusement, la flamme jumelle est notre miroir parfait — et voir son propre reflet n'est pas toujours confortable.</p>
 
@@ -305,7 +305,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Votre date de naissance contient un code secret : votre chemin de vie. Découvrez comment le calculer et ce qu'il révèle sur votre destinée.",
         date: "6 Mars 2026",
         category: "Spiritualité",
-        image: "🔢",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>La numérologie est l'art ancestral d'interpréter les nombres pour comprendre notre personnalité, notre mission de vie et les grands cycles de notre existence. Parmi tous les calculs numériques, le chemin de vie est le plus révélateur : il est la carte d'identité de votre âme.</p>
 
@@ -341,7 +341,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La loi de l'attraction affirme que nos pensées créent notre réalité. Découvrez comment l'utiliser concrètement pour attirer l'amour, l'argent et le bonheur.",
         date: "3 Mars 2026",
         category: "Bien-être",
-        image: "✨",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>La loi de l'attraction est l'un des principes universels les plus connus du développement spirituel. Son principe est simple : ce sur quoi vous concentrez votre attention et votre énergie tend à se manifester dans votre vie. Pensées positives = résultats positifs. Pensées négatives = résultats négatifs.</p>
 
@@ -378,7 +378,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Avez-vous déjà rêvé d'un événement avant qu'il ne se produise ? Les rêves prémonitoires sont plus fréquents qu'on ne le croit. Apprenez à les reconnaître.",
         date: "1 Mars 2026",
         category: "Voyance",
-        image: "🌙",
+        image: "/blog/voyance.svg",
         content: `
             <p>Vous avez rêvé d'un accident, et deux jours plus tard, il s'est produit. Vous avez vu le visage d'un inconnu en rêve, et la semaine suivante, vous l'avez croisé dans la rue. Ce ne sont pas des coïncidences : ce sont des rêves prémonitoires, et ils sont bien plus courants qu'on ne le pense.</p>
 
@@ -417,7 +417,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Si la Pleine Lune libère, la Nouvelle Lune plante les graines. Apprenez à utiliser cette énergie de renouveau pour manifester vos souhaits les plus chers.",
         date: "25 Février 2026",
         category: "Astrologie",
-        image: "🌑",
+        image: "/blog/astrologie.svg",
         content: `
             <p>Dans le cycle lunaire, la Nouvelle Lune est le point zéro : la Lune est invisible dans le ciel, plongée dans l'obscurité. C'est un moment de silence cosmique, de retour à soi et de renouveau. Si la Pleine Lune est le moment de libérer et de lâcher prise, la Nouvelle Lune est le moment de semer — de poser vos intentions pour le cycle à venir.</p>
 
@@ -454,7 +454,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le tarot de Marseille est l'un des plus anciens outils divinatoires. Découvrez la signification des 22 arcanes majeurs et comment ils éclairent votre chemin.",
         date: "23 Février 2026",
         category: "Voyance",
-        image: "🃏",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le tarot de Marseille est bien plus qu'un jeu de cartes : c'est un livre d'images symboliques créé au XVe siècle qui raconte le voyage de l'âme humaine, de la naissance (Le Mat) à l'accomplissement (Le Monde). Ses 22 arcanes majeurs sont des archétypes universels qui résonnent avec les grandes étapes de notre existence.</p>
 
@@ -486,7 +486,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Découvrez comment votre date de naissance influence votre personnalité, vos talents cachés et votre chemin de vie grâce à la numérologie.",
         date: "10 Mars 2026",
         category: "Voyance",
-        image: "🔢",
+        image: "/blog/voyance.svg",
         content: `
             <p>La numérologie est l'un des arts divinatoires les plus anciens. Bien avant l'astrologie ou le tarot, les civilisations babyloniennes, égyptiennes et grecques avaient compris que les nombres portent une vibration unique. Pythagore lui-même affirmait que "tout est nombre" — et que derrière chaque date de naissance se cache un code énergétique qui révèle votre mission d'âme.</p>
 
@@ -522,7 +522,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Améthyste, quartz rose, tourmaline noire… Découvrez les cristaux essentiels pour protéger votre énergie, apaiser votre esprit et renforcer votre intuition.",
         date: "8 Mars 2026",
         category: "Bien-être",
-        image: "💎",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Depuis la nuit des temps, les cristaux fascinent l'humanité. Les Égyptiens portaient du lapis-lazuli pour se connecter au divin, les Grecs utilisaient l'améthyste pour se protéger de l'ivresse, et les chamanes amérindiens se servaient du quartz clair comme outil de guérison. Aujourd'hui, la lithothérapie connaît un véritable renouveau : de plus en plus de personnes utilisent les pierres pour rééquilibrer leurs énergies et accompagner leur développement spirituel.</p>
 
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Tarot ou pendule ? Chaque outil divinatoire a ses forces. Découvrez lequel est le mieux adapté à vos questions et à votre sensibilité.",
         date: "6 Mars 2026",
         category: "Voyance",
-        image: "🃏",
+        image: "/blog/voyance.svg",
         content: `
             <p>Dans l'univers de la voyance, deux outils se distinguent par leur popularité et leur efficacité : le tarot et le pendule. L'un raconte des histoires à travers des images symboliques, l'autre tranche avec la précision d'un "oui" ou d'un "non". Mais lequel choisir ? La réponse dépend de la nature de votre question et de ce que vous attendez de la consultation.</p>
 
@@ -599,7 +599,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La méditation est la clé pour éveiller votre intuition. Découvrez des techniques simples pour développer votre sixième sens et mieux écouter votre voix intérieure.",
         date: "4 Mars 2026",
         category: "Spiritualité",
-        image: "🧘",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Nous possédons tous un sixième sens — cette petite voix intérieure, ce pressentiment inexplicable, cette certitude qui surgit sans raison logique. Mais dans le bruit constant de la vie moderne, cette voix est souvent étouffée par le mental, les doutes et les distractions. La méditation est l'outil le plus puissant pour faire taire ce bruit et laisser votre intuition s'exprimer librement.</p>
 
@@ -628,7 +628,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Certains rêves sont bien plus que des images nocturnes : ils portent des messages du futur. Apprenez à distinguer un rêve ordinaire d'un rêve prémonitoire.",
         date: "12 Mars 2026",
         category: "Spiritualité",
-        image: "🌙",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Avez-vous déjà rêvé d'un événement qui s'est ensuite produit dans la réalité ? Ce n'est pas une coïncidence. Les rêves prémonitoires existent depuis l'aube de l'humanité : les Égyptiens construisaient des temples du sommeil pour recevoir des visions divines, et dans la Bible, Joseph interprétait les rêves du pharaon pour prévoir les famines. Aujourd'hui encore, des milliers de personnes rapportent des rêves qui se réalisent — parfois dans les moindres détails.</p>
 
@@ -660,7 +660,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Votre signe astrologique influence votre vie amoureuse. Découvrez quelles combinaisons zodiacales forment les couples les plus harmonieux — et les plus passionnés.",
         date: "14 Mars 2026",
         category: "Astrologie",
-        image: "💕",
+        image: "/blog/astrologie.svg",
         content: `
             <p>L'astrologie amoureuse fascine depuis des millénaires. Les Romains consultaient les astrologues avant de se marier, et aujourd'hui encore, des millions de personnes vérifient la compatibilité zodiacale avant de s'engager. Si votre thème astral complet (avec Lune, Vénus et Mars) offre la lecture la plus précise, votre signe solaire donne déjà des indices puissants sur votre façon d'aimer et les énergies qui vous attirent.</p>
 
@@ -697,7 +697,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Quel pendule choisir quand on débute ? Cristal, laiton, améthyste... Notre guide complet pour trouver le pendule qui vous correspond.",
         date: "18 Mars 2026",
         category: "Guide d'achat",
-        image: "🔮",
+        image: "/blog/guide-achat.svg",
         content: `
             <p>Choisir son premier pendule est un moment important dans un parcours spirituel. C'est l'outil qui va amplifier votre intuition et vous permettre de recevoir des réponses claires. Mais face à la variété de pendules disponibles, comment s'y retrouver ? On vous guide.</p>
 
@@ -740,7 +740,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Tarot de Marseille, Rider-Waite, Oracle de Belline... Découvrez les différences et trouvez le jeu qui vous correspond.",
         date: "16 Mars 2026",
         category: "Guide d'achat",
-        image: "🃏",
+        image: "/blog/guide-achat.svg",
         content: `
             <p>Vous souhaitez vous initier au tarot mais vous ne savez pas quel jeu choisir ? C'est normal : l'offre est vaste et chaque tarot a sa personnalité. On vous aide à y voir clair.</p>
 
@@ -787,7 +787,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Labradorite, tourmaline noire, œil de tigre... Découvrez les pierres qui protègent votre énergie et comment les utiliser.",
         date: "14 Mars 2026",
         category: "Lithothérapie",
-        image: "💎",
+        image: "/blog/lithotherapie.svg",
         content: `
             <p>La lithothérapie utilise l'énergie des pierres et des cristaux pour harmoniser le corps et l'esprit. En matière de protection spirituelle, certaines pierres sont particulièrement puissantes. Voici les 7 incontournables.</p>
 
@@ -834,7 +834,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La fumigation à la sauge blanche est un rituel ancestral de purification. Apprenez à nettoyer les énergies de votre lieu de vie.",
         date: "12 Mars 2026",
         category: "Rituels",
-        image: "🌿",
+        image: "/blog/rituels.svg",
         content: `
             <p>La fumigation à la sauge blanche est l'un des rituels de purification les plus anciens et les plus pratiqués dans le monde. Originaire des traditions amérindiennes, cette pratique permet de nettoyer les énergies stagnantes d'un lieu et d'y inviter la paix et la positivité.</p>
 
@@ -882,7 +882,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les bougies jouent un rôle essentiel dans les pratiques divinatoires. Découvrez comment choisir et utiliser les bonnes bougies pour vos séances de voyance.",
         date: "26 Mars 2026",
         category: "Pratique",
-        image: "🕯️",
+        image: "/blog/pratique.svg",
         content: `
             <p>Depuis l'Antiquité, la flamme d'une bougie accompagne les rituels spirituels et les séances de divination. Bien plus qu'un simple éclairage d'ambiance, la bougie est un véritable outil énergétique qui aide à canaliser l'intention, à purifier l'espace et à favoriser la concentration nécessaire à toute pratique de voyance.</p>
 
@@ -922,7 +922,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'encens purifie l'espace et élève les vibrations. Voici les variétés les plus adaptées à vos pratiques spirituelles et divinatoires.",
         date: "25 Mars 2026",
         category: "Pratique",
-        image: "🪔",
+        image: "/blog/pratique.svg",
         content: `
             <p>L'encens est un allié incontournable de la spiritualité. Utilisé dans toutes les traditions à travers le monde, il purifie l'atmosphère, chasse les énergies stagnantes et crée un espace sacré propice à la méditation, à la prière et à la voyance.</p>
 
@@ -961,7 +961,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Contrairement au tarot, les cartes oracle sont accessibles à tous. Découvrez comment choisir votre premier jeu et réaliser vos premiers tirages.",
         date: "24 Mars 2026",
         category: "Voyance",
-        image: "🃏",
+        image: "/blog/voyance.svg",
         content: `
             <p>Les cartes oracle connaissent un véritable engouement ces dernières années, et pour cause : elles offrent une voie d'accès simple et intuitive à la guidance spirituelle. Contrairement au tarot qui possède une structure codifiée de 78 cartes, les oracles sont libres dans leur nombre et leur thématique, ce qui les rend plus accessibles aux débutants.</p>
 
@@ -997,7 +997,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La boule de cristal fascine depuis des siècles. Découvrez comment cet outil de divination fonctionne réellement et comment l'utiliser chez vous.",
         date: "23 Mars 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Quand on pense à la voyance, l'image de la boule de cristal s'impose immédiatement. Popularisée par le cinéma et la littérature, elle reste pourtant l'un des outils de divination les plus anciens et les plus respectés. La cristallomancie, l'art de lire dans le cristal, remonte à l'Antiquité et traverse toutes les cultures.</p>
 
@@ -1030,7 +1030,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'attrape-rêves filtre les mauvais rêves et protège votre sommeil. Apprenez son origine, sa signification et comment bien le choisir.",
         date: "22 Mars 2026",
         category: "Spiritualité",
-        image: "🌙",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>L'attrape-rêves, ou dreamcatcher, est bien plus qu'un objet décoratif tendance. Né de la tradition amérindienne Ojibwé, il est conçu pour filtrer les rêves : les beaux rêves glissent le long des plumes jusqu'au dormeur, tandis que les cauchemars restent piégés dans la toile et se dissipent aux premières lueurs de l'aube.</p>
 
@@ -1067,7 +1067,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Que vous soyez débutante ou confirmée, ces ouvrages de référence vous accompagneront dans votre chemin spirituel et divinatoire.",
         date: "21 Mars 2026",
         category: "Voyance",
-        image: "📚",
+        image: "/blog/voyance.svg",
         content: `
             <p>La voyance est un art qui se cultive. Si l'intuition est innée, sa maîtrise passe par la connaissance, la pratique et la sagesse des anciens. Voici une sélection de livres incontournables pour approfondir votre compréhension de la divination sous toutes ses formes.</p>
 
@@ -1110,7 +1110,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La nappe de tirage n'est pas qu'un accessoire : elle protège vos cartes et crée un espace sacré pour vos consultations de tarot et d'oracle.",
         date: "20 Mars 2026",
         category: "Pratique",
-        image: "✨",
+        image: "/blog/pratique.svg",
         content: `
             <p>Tout praticien du tarot ou de l'oracle le sait : le support sur lequel vous posez vos cartes a son importance. La nappe de tirage délimite un espace sacré, protège votre jeu de l'usure et des énergies résiduelles de la surface, et aide le consultant à se concentrer sur la lecture.</p>
 
@@ -1148,7 +1148,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le journal spirituel, ou grimoire personnel, vous aide à suivre votre évolution intuitive, vos tirages et vos synchronicités au quotidien.",
         date: "19 Mars 2026",
         category: "Spiritualité",
-        image: "📖",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Les voyantes et médiums les plus expérimentées partagent toutes un secret : elles notent tout. Rêves, tirages, synchronicités, ressentis, messages reçus... Le journal spirituel, parfois appelé grimoire, est un compagnon indispensable pour toute personne engagée dans un chemin de développement intuitif.</p>
 
@@ -1193,7 +1193,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Un autel personnel est un lieu de ressourcement et de pratique spirituelle. Découvrez comment aménager le vôtre pour vos séances de divination.",
         date: "18 Mars 2026",
         category: "Pratique",
-        image: "🕯️",
+        image: "/blog/pratique.svg",
         content: `
             <p>L'autel de voyance est un espace dédié à votre pratique spirituelle. Ce n'est pas une question de religion, mais d'intention : en consacrant un coin de votre intérieur à la méditation, à la divination et à la connexion avec vos guides, vous créez un point d'ancrage énergétique qui renforcera chacune de vos séances.</p>
 
@@ -1233,7 +1233,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Certaines pierres amplifient naturellement les capacités intuitives. Découvrez les cristaux les plus puissants pour accompagner votre pratique divinatoire.",
         date: "17 Mars 2026",
         category: "Spiritualité",
-        image: "💎",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>La lithothérapie et la voyance sont deux disciplines intimement liées. Depuis des millénaires, les voyants, chamanes et guérisseurs utilisent les pierres et cristaux pour amplifier leurs perceptions, se protéger des énergies négatives et renforcer leur connexion au monde subtil. Voici les pierres essentielles pour chaque aspect de la pratique divinatoire.</p>
 
@@ -1276,7 +1276,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Rider-Waite, Marseille ou Oracle de Belline ? Découvrez les jeux de tarot idéaux pour commencer votre pratique divinatoire en toute confiance.",
         date: "20 Mars 2026",
         category: "Voyance",
-        image: "🃏",
+        image: "/blog/voyance.svg",
         content: `
             <p>Choisir son premier jeu de tarot est une étape importante dans un parcours spirituel. Ce n'est pas qu'un simple achat : c'est une rencontre avec un outil qui deviendra votre compagnon de guidance. Mais face à la multitude de jeux disponibles, comment s'y retrouver ? Voici notre guide complet pour bien choisir.</p>
 
@@ -1321,7 +1321,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La fumigation est un rituel ancestral indispensable avant toute séance de voyance. Découvrez comment purifier votre lieu de vie avec l'encens et la sauge blanche.",
         date: "21 Mars 2026",
         category: "Bien-être",
-        image: "🌿",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Avant une séance de voyance, de méditation ou simplement pour assainir l'atmosphère de votre intérieur, la purification par la fumée est un geste ancestral pratiqué sur tous les continents. De la sauge blanche des Amérindiens au bois de santal des temples hindous, la fumigation nettoie les énergies stagnantes et crée un espace propice à la connexion spirituelle.</p>
 
@@ -1368,7 +1368,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Chaque couleur de bougie porte une intention différente. Apprenez à utiliser les bougies dans vos rituels de voyance, méditation et manifestation.",
         date: "22 Mars 2026",
         category: "Spiritualité",
-        image: "🕯️",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Les bougies sont bien plus que de simples sources de lumière. Dans la tradition ésotérique, elles représentent l'élément Feu, la transformation et l'intention manifestée. Allumer une bougie avec conscience, c'est envoyer un message à l'univers. Encore faut-il connaître le langage des couleurs et les gestes justes.</p>
 
@@ -1415,7 +1415,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le bol tibétain produit des sons qui apaisent le mental et rééquilibrent les chakras. Découvrez comment l'intégrer à votre pratique spirituelle quotidienne.",
         date: "23 Mars 2026",
         category: "Bien-être",
-        image: "🔔",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Le bol tibétain, aussi appelé bol chantant, est un instrument sacré utilisé depuis des siècles dans les monastères bouddhistes de l'Himalaya. Ses vibrations profondes agissent directement sur le corps et l'esprit, induisant un état de relaxation intense et favorisant la guérison énergétique. Aujourd'hui, il est devenu un outil incontournable de la méditation et du bien-être holistique.</p>
 
@@ -1458,7 +1458,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'attrape-rêves filtre les cauchemars et laisse passer les rêves porteurs de messages. Découvrez son histoire, sa signification et comment bien le choisir.",
         date: "24 Mars 2026",
         category: "Spiritualité",
-        image: "🌙",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>L'attrape-rêves, ou "dreamcatcher", est bien plus qu'un objet décoratif tendance. Né de la tradition Ojibwé (peuple amérindien), il est conçu pour filtrer les rêves : les bons passent à travers le tissage central et glissent le long des plumes jusqu'au dormeur, tandis que les mauvais rêves restent piégés dans la toile et se dissolvent aux premiers rayons du soleil.</p>
 
@@ -1500,7 +1500,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "De la voyance à la médiumnité en passant par le développement personnel, voici les ouvrages essentiels pour éveiller votre sixième sens.",
         date: "25 Mars 2026",
         category: "Voyance",
-        image: "📖",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le développement de l'intuition est un chemin que chacun peut emprunter. Que vous soyez déjà sensible aux énergies ou que vous souhaitiez simplement mieux écouter votre voix intérieure, la lecture est un formidable accélérateur. Voici une sélection d'ouvrages qui ont transformé la vie de milliers de personnes en quête de sens et de connexion spirituelle.</p>
 
@@ -1542,7 +1542,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Un bon coussin de méditation transforme votre pratique. Zafu, zabuton, banc : découvrez quel support choisir pour méditer confortablement chaque jour.",
         date: "26 Mars 2026",
         category: "Bien-être",
-        image: "🧘",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>La méditation est le socle de toute pratique spirituelle. Que vous méditiez pour calmer votre mental, pour développer votre intuition ou pour vous connecter à vos guides, le confort physique est essentiel. Un corps qui souffre tire l'esprit vers le bas. Un bon support de méditation, en revanche, vous permet d'oublier votre corps pour plonger plus profondément dans l'expérience intérieure.</p>
 
@@ -1582,7 +1582,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Cristal de roche, améthyste, laiton : chaque pendule a sa personnalité. Guide complet pour trouver le pendule qui résonnera avec votre énergie.",
         date: "27 Mars 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le pendule est l'outil central de la radiesthésie. Simple en apparence — un poids suspendu à un fil — il est en réalité un instrument d'une sensibilité remarquable, capable de capter les micro-mouvements de votre subconscient et de les amplifier en réponses claires. Mais tous les pendules ne se valent pas, et le choix du bon pendule est une étape fondamentale.</p>
 
@@ -1632,7 +1632,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Lavande, encens, ylang-ylang : certaines huiles essentielles élèvent la conscience et facilitent la connexion intérieure. Guide complet d'aromathérapie spirituelle.",
         date: "28 Mars 2026",
         category: "Bien-être",
-        image: "🌸",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>L'odorat est le sens le plus directement relié au cerveau limbique, siège des émotions et de la mémoire. C'est pourquoi les huiles essentielles sont des alliées si puissantes de la pratique spirituelle : une seule inspiration peut modifier votre état de conscience, apaiser le mental et ouvrir des portes intérieures que la volonté seule ne saurait déverrouiller.</p>
 
@@ -1682,7 +1682,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'écriture est un acte magique. Découvrez comment un journal de gratitude et d'intentions peut transformer votre vie et amplifier vos manifestations.",
         date: "28 Mars 2026",
         category: "Bien-être",
-        image: "📝",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Écrire, c'est donner une forme concrète à ses pensées. Dans le domaine spirituel, le passage de l'invisible (la pensée, le souhait) au visible (le mot écrit sur le papier) est considéré comme le premier acte de manifestation. Un journal de gratitude et d'intentions est bien plus qu'un carnet : c'est un rituel quotidien qui reprogramme votre esprit vers l'abondance et la clarté.</p>
 
@@ -1724,7 +1724,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les bracelets en pierres naturelles allient beauté et énergie. Oeil de tigre, tourmaline, labradorite : trouvez celui qui vous protège et vous accompagne.",
         date: "28 Mars 2026",
         category: "Bien-être",
-        image: "💫",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Porter un bracelet en pierres naturelles, c'est garder un bouclier énergétique au poignet toute la journée. Contrairement aux pierres que l'on pose chez soi ou que l'on utilise pendant une séance, le bracelet vous accompagne partout : au travail, dans les transports, lors de rencontres difficiles. C'est un allié discret mais puissant qui agit en continu sur votre champ énergétique.</p>
 
@@ -1771,7 +1771,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les bougies rituelles purifient l'énergie d'un lieu et accompagnent vos méditations. Découvrez comment choisir la bonne couleur selon votre intention.",
         date: "31 Mars 2026",
         category: "Spiritualité",
-        image: "🕯️",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Allumer une bougie n'est jamais un geste anodin. Depuis l'Antiquité, la flamme symbolise le lien entre le monde visible et l'invisible. Dans les traditions spirituelles du monde entier, la bougie sert de pont : elle porte nos intentions, nos prières et nos voeux vers des plans supérieurs. Créer un espace sacré chez soi commence souvent par ce simple geste lumineux.</p>
 
@@ -1816,7 +1816,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La fumigation est un rituel ancestral pour nettoyer un lieu. Sauge blanche, palo santo, encens naturel : on vous guide pour chasser les mauvaises ondes.",
         date: "30 Mars 2026",
         category: "Bien-être",
-        image: "🌿",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Avez-vous déjà ressenti un malaise en entrant dans une pièce, sans pouvoir l'expliquer ? Les lieux absorbent les émotions, les disputes, le stress et les pensées négatives. La fumigation, pratiquée depuis des millénaires par les peuples autochtones d'Amérique, les traditions hindoues et les rituels chamaniques, permet de nettoyer l'espace de ces résidus énergétiques invisibles.</p>
 
@@ -1854,7 +1854,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Contrairement au tarot, les cartes oracle sont accessibles à tous. On vous aide à choisir votre premier jeu selon votre sensibilité spirituelle.",
         date: "29 Mars 2026",
         category: "Voyance",
-        image: "🃏",
+        image: "/blog/voyance.svg",
         content: `
             <p>Vous êtes attiré par la divination mais le tarot de Marseille ou le Rider-Waite vous semblent trop complexes pour commencer ? Les cartes oracle sont la porte d'entrée idéale. Contrairement au tarot qui suit une structure fixe de 78 cartes avec des arcanes majeurs et mineurs, les oracles sont libres : chaque jeu possède son propre nombre de cartes, son propre univers et son propre système d'interprétation.</p>
 
@@ -1900,7 +1900,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La méditation transforme l'esprit mais les débuts sont souvent frustrants. Coussins, applications, bols tibétains : tout ce qu'il faut pour tenir sur la durée.",
         date: "27 Mars 2026",
         category: "Bien-être",
-        image: "🧘",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>On nous répète partout que la méditation change la vie. Réduction du stress, meilleur sommeil, clarté mentale, intuition renforcée. Et c'est vrai. Mais entre la théorie et la pratique, il y a souvent un fossé : on s'assoit, on ferme les yeux, les pensées défilent comme un torrent, le dos fait mal, et on se dit que ce n'est pas fait pour nous. La bonne nouvelle ? C'est exactement comme ça que ça commence pour tout le monde.</p>
 
@@ -1937,7 +1937,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'attrape-rêves filtre les énergies négatives pendant votre sommeil. Découvrez son origine amérindienne et comment bien le choisir pour votre chambre.",
         date: "26 Mars 2026",
         category: "Spiritualité",
-        image: "🌙",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Suspendu au-dessus d'un lit ou près d'une fenêtre, l'attrape-rêves (dreamcatcher) est devenu un objet décoratif courant. Mais peu de gens connaissent sa véritable origine et sa fonction spirituelle. Chez les Ojibwés, peuple autochtone d'Amérique du Nord, l'attrape-rêves était tissé par les grands-mères pour protéger les enfants pendant leur sommeil.</p>
 
@@ -1978,7 +1978,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Améthyste, quartz clair, obsidienne : chaque pendule possède une énergie propre. On vous explique lequel correspond à votre pratique divinatoire.",
         date: "25 Mars 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le pendule est un outil de radiesthésie dont la précision dépend autant de l'intention du praticien que du matériau dont il est fait. Un pendule en laiton ne vibre pas de la même manière qu'un pendule en améthyste. Chaque cristal possède sa propre fréquence, sa propre "personnalité" énergétique, et donc une affinité particulière avec certains types de questions ou de pratiques.</p>
 
@@ -2018,7 +2018,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Votre date de naissance cache un chiffre clé qui révèle votre mission de vie. Apprenez à le calculer et à l'interpréter grâce à la numérologie.",
         date: "24 Mars 2026",
         category: "Astrologie",
-        image: "🔢",
+        image: "/blog/astrologie.svg",
         content: `
             <p>La numérologie est l'un des arts divinatoires les plus anciens et les plus précis. Pythagore, le célèbre mathématicien grec, affirmait que "tout est nombre" et que l'univers entier repose sur des vibrations numériques. Votre date de naissance n'est pas un hasard : elle contient un code, votre chemin de vie, qui révèle votre mission principale sur cette Terre, vos talents innés et les défis que vous êtes venu surmonter.</p>
 
@@ -2063,7 +2063,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Nouvelle lune, pleine lune, lune décroissante : chaque phase est propice à un type d'action. Découvrez comment aligner vos projets avec les cycles lunaires.",
         date: "23 Mars 2026",
         category: "Astrologie",
-        image: "🌕",
+        image: "/blog/astrologie.svg",
         content: `
             <p>Depuis la nuit des temps, les civilisations ont vécu au rythme de la lune. Les agriculteurs plantaient et récoltaient selon ses phases, les pêcheurs suivaient les marées, les guérisseurs choisissaient le moment de leurs soins. Aujourd'hui encore, la lune exerce une influence mesurable sur les océans, les plantes et les cycles biologiques. Pourquoi n'en serait-il pas de même pour nos projets, nos intentions et notre énergie ?</p>
 
@@ -2102,7 +2102,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Lavande, encens, ylang-ylang : certaines huiles essentielles favorisent la méditation, l'intuition et le bien-être spirituel. Notre guide complet.",
         date: "22 Mars 2026",
         category: "Bien-être",
-        image: "💜",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>L'odorat est le sens le plus directement relié au cerveau émotionnel (le système limbique). Un parfum peut instantanément modifier votre état intérieur, évoquer un souvenir enfoui ou vous plonger dans un état méditatif profond. Les traditions spirituelles l'ont toujours su : l'encens dans les églises, le nag champa dans les temples hindous, le bois de santal dans les ashrams. Les huiles essentielles offrent aujourd'hui un accès simple et puissant à cette sagesse olfactive millénaire.</p>
 
@@ -2147,7 +2147,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le feng shui transforme votre intérieur en un lieu de paix et de prospérité. Découvrez les 5 principes essentiels pour faire circuler le chi chez vous.",
         date: "21 Mars 2026",
         category: "Bien-être",
-        image: "🏠",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Le feng shui, littéralement "vent et eau", est un art chinois millénaire d'harmonisation de l'énergie (le chi) dans les espaces de vie. Son principe fondamental : notre environnement influence directement notre état intérieur, nos relations, notre santé et même notre prospérité. Un espace encombré crée un esprit encombré. Un espace harmonieux invite la sérénité et l'abondance.</p>
 
@@ -2190,7 +2190,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Personnes toxiques, lieux chargés, fatigue inexpliquée : votre bouclier énergétique a peut-être besoin d'être renforcé. Voici les meilleures protections.",
         date: "20 Mars 2026",
         category: "Spiritualité",
-        image: "🛡️",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Vous rentrez épuisé après une réunion alors que vous n'avez rien fait de physique. Vous vous sentez vidé après avoir passé du temps avec certaines personnes. Vous ressentez un malaise dans certains lieux sans raison apparente. Ce ne sont pas des impressions : vous absorbez les énergies qui vous entourent. Les personnes sensibles, empathes ou intuitives sont particulièrement vulnérables à ce phénomène. La bonne nouvelle : il existe des protections efficaces, simples à mettre en place.</p>
 
@@ -2233,7 +2233,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les lampes de sel de l'Himalaya purifient l'air, créent une ambiance apaisante et harmonisent les énergies de votre espace de vie. Découvrez notre sélection.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "🧂",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>La lampe de sel de l'Himalaya est bien plus qu'un objet décoratif. Taillée dans un bloc de sel rose cristallin vieux de 250 millions d'années, elle émet une lumière orangée chaleureuse qui apaise l'esprit et purifie les énergies de votre intérieur. Les ions négatifs qu'elle libère neutralisent la pollution électromagnétique et les particules en suspension.</p>
 
@@ -2272,7 +2272,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Un bon tapis de méditation crée un espace sacré portable. Découvrez notre sélection des meilleurs tapis et coussins pour vos pratiques spirituelles.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "🧘",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>La méditation et la prière sont les fondations de toute pratique spirituelle. Que vous méditiez avant une séance de pendule, que vous pratiquiez la visualisation créatrice ou que vous vous connectiez à vos anges gardiens, le confort physique est essentiel pour atteindre la profondeur nécessaire.</p>
 
@@ -2306,7 +2306,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Portez votre protection sur vous au quotidien. Découvrez les meilleurs pendentifs en pierres naturelles pour vous protéger des énergies négatives.",
         date: "7 Avril 2026",
         category: "Spiritualité",
-        image: "📿",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Porter un pendentif en pierre naturelle n'est pas qu'un choix esthétique. C'est un acte de protection conscient. Depuis l'Antiquité, les chamans, les prêtresses et les guérisseurs portaient des amulettes chargées d'intentions pour se protéger et amplifier leurs dons. Aujourd'hui, la lithothérapie nous permet de perpétuer cette tradition avec discernement.</p>
 
@@ -2350,7 +2350,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "La planche de radiesthésie décuple la précision du pendule. Découvrez notre sélection des meilleures planches pour des réponses claires et détaillées.",
         date: "7 Avril 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Si le pendule seul répond par oui ou non, la planche de radiesthésie ouvre un champ de réponses infiniment plus riche. Lettres de l'alphabet, pourcentages, chakras, organes du corps, émotions : les planches spécialisées permettent au pendule de communiquer avec une précision remarquable.</p>
 
@@ -2390,7 +2390,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'eau en mouvement purifie l'énergie d'un lieu et favorise l'abondance selon le feng shui. Découvrez les meilleures fontaines d'intérieur pour votre espace sacré.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "⛲",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>L'eau courante est un symbole universel de vie, de purification et d'abondance. En feng shui, une fontaine d'intérieur active l'énergie Chi de votre espace, favorise la prospérité et neutralise les énergies stagnantes. Le son de l'eau qui coule est aussi un puissant outil de méditation et de relaxation.</p>
 
@@ -2427,7 +2427,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Commencez ou complétez votre collection de pierres avec un coffret complet. Découvrez notre sélection des meilleurs coffrets de lithothérapie sur Amazon.",
         date: "7 Avril 2026",
         category: "Spiritualité",
-        image: "💎",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>La lithothérapie repose sur l'énergie vibratoire des minéraux. Chaque pierre possède une fréquence propre qui entre en résonance avec nos centres énergétiques. Un coffret de pierres bien composé est le kit de base de toute personne qui souhaite travailler avec les cristaux pour le bien-être, la protection ou le développement de l'intuition.</p>
 
@@ -2469,7 +2469,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les cônes d'encens backflow créent une cascade de fumée hypnotique. Découvrez les plus beaux diffuseurs en cascade pour vos rituels et votre décoration.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "🌀",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Les diffuseurs d'encens en cascade (backflow) sont des objets fascinants : la fumée ne monte pas, elle descend, créant une cascade mystique qui semble défier les lois de la physique. Au-delà de l'effet visuel spectaculaire, ils transforment vos rituels et méditations en expériences véritablement immersives.</p>
 
@@ -2504,7 +2504,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Bouddha, Ganesh, anges, déesses : les statues incarnent une énergie spirituelle dans votre espace. Découvrez notre sélection pour votre autel ou votre décoration.",
         date: "7 Avril 2026",
         category: "Spiritualité",
-        image: "🗿",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Une statue spirituelle n'est pas un simple bibelot. C'est un point focal d'énergie, un rappel visuel de votre intention et un ancrage pour vos pratiques. Que vous choisissiez un Bouddha pour la sérénité, un ange pour la protection ou une déesse pour la féminité sacrée, la statue que vous placez sur votre autel influence l'atmosphère de votre espace.</p>
 
@@ -2545,7 +2545,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les runes nordiques sont un puissant outil de divination millénaire. Découvrez notre sélection des meilleurs sets de runes en pierre, bois et cristal.",
         date: "7 Avril 2026",
         category: "Voyance",
-        image: "ᛟ",
+        image: "/blog/voyance.svg",
         content: `
             <p>Les runes sont l'un des systèmes divinatoires les plus anciens d'Europe. Utilisées par les Vikings et les peuples germaniques, les 24 runes du Futhark ancien sont à la fois un alphabet sacré et un oracle. Chaque rune porte un nom, un son et surtout une signification profonde liée aux forces de la nature et du destin.</p>
 
@@ -2589,7 +2589,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Le mala est bien plus qu'un bracelet : c'est un outil de méditation millénaire. Découvrez les plus beaux malas en pierres naturelles pour vos mantras et intentions.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "📿",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Le mala est un chapelet bouddhiste composé traditionnellement de 108 perles. Utilisé depuis des millénaires pour la méditation et la récitation de mantras, il est aussi un puissant outil de programmation d'intentions. Chaque perle que vous faites glisser entre vos doigts ancre un peu plus votre souhait dans la réalité.</p>
 
@@ -2633,7 +2633,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les cartes d'affirmations positives sont un outil simple et puissant pour reprogrammer votre mental. Tirez-en une chaque matin pour transformer votre journée.",
         date: "7 Avril 2026",
         category: "Bien-être",
-        image: "✨",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Les affirmations positives sont des phrases courtes et puissantes qui reprogramment progressivement vos croyances limitantes. Les neurosciences confirment que la répétition de pensées positives crée de nouvelles connexions neuronales et modifie littéralement la structure du cerveau. Les cartes d'affirmations rendent cette pratique accessible et rituelle.</p>
 
@@ -2682,7 +2682,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Tout ce qu'il faut savoir pour commencer la radiesthésie avec un pendule : choix, purification, premières questions.",
         date: "16 Avril 2026",
         category: "Voyance",
-        image: "🔮",
+        image: "/blog/voyance.svg",
         content: `
             <p>Le pendule divinatoire est l'un des outils les plus anciens et les plus accessibles de la voyance. Suspendu à un fil, il amplifie les vibrations subtiles pour répondre à vos questions. Contrairement à ce que beaucoup pensent, tout le monde peut apprendre à l'utiliser.</p>
 
@@ -2727,7 +2727,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Chaque couleur d'aura révèle un trait de personnalité et un état énergétique. Apprenez à lire les auras.",
         date: "16 Avril 2026",
         category: "Spiritualité",
-        image: "✨",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>L'aura est le champ énergétique qui entoure chaque être vivant. Invisible à l'œil nu pour la plupart, elle peut être perçue avec de l'entraînement. Chaque couleur porte un message sur votre état émotionnel, spirituel et physique.</p>
 
@@ -2774,7 +2774,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Sauge, romarin, lavande, verveine : les plantes sacrées utilisées depuis des millénaires pour purifier, protéger et élever l'esprit.",
         date: "16 Avril 2026",
         category: "Rituels",
-        image: "🌿",
+        image: "/blog/rituels.svg",
         content: `
             <p>Depuis l'Antiquité, les plantes sont au cœur des pratiques spirituelles. Fumigation, infusions rituelles, sachets de protection : chaque herbe porte une vibration unique qui peut purifier, guérir ou protéger.</p>
 
@@ -2823,7 +2823,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Guide d'achat des meilleures boules de cristal et miroirs noirs pour la divination. Comparatif Amazon 2026.",
         date: "16 Avril 2026",
         category: "Guide d'achat",
-        image: "🔮",
+        image: "/blog/guide-achat.svg",
         content: `
             <p>La cristallomancie (divination par la boule de cristal) et la catoptromancie (divination par le miroir) sont des arts anciens qui fascinent depuis l'Antiquité. Voici les meilleurs outils disponibles sur Amazon pour pratiquer.</p>
 
@@ -2875,7 +2875,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Loup, aigle, papillon : chaque animal totem porte un message spirituel unique. Comment découvrir le vôtre et décoder ses enseignements.",
         date: "16 Avril 2026",
         category: "Spiritualité",
-        image: "🦅",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Dans les traditions chamaniques, chaque personne est accompagnée par un ou plusieurs animaux totems — des guides spirituels qui reflètent votre nature profonde et vous transmettent leurs qualités. Découvrir votre animal totem, c'est mieux vous connaître.</p>
 
@@ -2919,7 +2919,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les solstices et équinoxes sont des moments de puissance spirituelle. Comment les célébrer et les utiliser pour votre évolution.",
         date: "16 Avril 2026",
         category: "Spiritualité",
-        image: "☀️",
+        image: "/blog/spiritualite.svg",
         content: `
             <p>Quatre fois par an, la Terre traverse un portail énergétique puissant : les solstices et les équinoxes. Ces moments cosmiques, célébrés par toutes les civilisations depuis l'aube de l'humanité, sont des occasions uniques de se réaligner et de manifester.</p>
 
@@ -2961,7 +2961,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Les mantras sont des sons sacrés dont la vibration agit sur le corps et l'esprit. Guide pratique pour les intégrer à votre quotidien.",
         date: "16 Avril 2026",
         category: "Bien-être",
-        image: "🙏",
+        image: "/blog/bien-etre.svg",
         content: `
             <p>Un mantra est un mot ou une phrase sacrée, répétée en boucle, dont la vibration sonore transforme la conscience. Pratiqués depuis 3000 ans dans les traditions hindouistes et bouddhistes, les mantras sont aujourd'hui reconnus pour leurs effets mesurables sur le stress, la concentration et le bien-être.</p>
 
@@ -3008,7 +3008,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Votre signe lunaire révèle vos émotions profondes et votre vie intérieure. Découvrez comment le calculer et ce qu'il dit de vous.",
         date: "16 Avril 2026",
         category: "Astrologie",
-        image: "🌙",
+        image: "/blog/astrologie.svg",
         content: `
             <p>Tout le monde connaît son signe solaire (le signe du zodiaque classique). Mais peu de gens connaissent leur signe lunaire — et pourtant, c'est lui qui gouverne vos émotions, votre intuition et votre vie intime. C'est votre "moi intérieur", celui que seuls vos proches voient.</p>
 
@@ -3055,7 +3055,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "L'écriture automatique est une technique de canalisation où la main écrit sans contrôle conscient. Guide pour débuter en toute sécurité.",
         date: "16 Avril 2026",
         category: "Voyance",
-        image: "✍️",
+        image: "/blog/voyance.svg",
         content: `
             <p>L'écriture automatique est une forme de canalisation où vous laissez votre main écrire librement, sans intervention du mental. Messages de l'inconscient, de guides spirituels ou de proches décédés : cette pratique ancestrale ouvre un canal de communication subtil.</p>
 
@@ -3109,7 +3109,7 @@ export const blogPosts: BlogPost[] = [
         excerpt: "Sauge blanche, palo santo, cèdre, copal : comparatif des meilleurs bâtons de fumigation et encens naturels pour purifier votre espace.",
         date: "16 Avril 2026",
         category: "Guide d'achat",
-        image: "🌬️",
+        image: "/blog/guide-achat.svg",
         content: `
             <p>La fumigation est le geste de purification le plus ancien et le plus universel. Brûler des herbes sacrées ou de la résine chasse les énergies stagnantes et élève les vibrations de votre espace. Voici les meilleurs produits sur Amazon.</p>
 
