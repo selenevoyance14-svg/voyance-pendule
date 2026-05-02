@@ -75,7 +75,7 @@ export default function ConsultationPage() {
           <div className="text-mystic-300 text-sm">
             <div className="text-2xl mb-2">🔒</div>
             <strong className="text-mystic-100 block">Paiement sécurisé</strong>
-            Stripe — vos données ne transitent jamais par notre serveur.
+            PayPal — carte bancaire ou compte PayPal. Vos données bancaires ne transitent jamais par notre serveur.
           </div>
           <div className="text-mystic-300 text-sm">
             <div className="text-2xl mb-2">⏱️</div>

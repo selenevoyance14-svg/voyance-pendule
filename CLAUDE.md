@@ -10,55 +10,60 @@ Site Next.js 14 (static export) hébergé sur Cloudflare Pages.
 - Next.js 14 (App Router), TypeScript, Tailwind CSS (thème `mystic-*` + `gold-*`)
 - **Cloudflare Pages** (static export `output: "export"` → dossier `out/`)
 - **Cloudflare Pages Functions** (`functions/api/*.ts`) pour les routes API serveur
-- Stripe (paiement Checkout, appel API REST direct depuis Worker)
+- **PayPal Orders v2 API** (paiement direct via API REST, pas de SDK Node)
 - Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) — appel API Anthropic REST direct
 - Resend (envoi email depuis `contact@voyance-pendule.fr`)
 
 ## Flux de paiement (consultation)
 1. `src/app/consultation/page.tsx` — landing avec FAQ + composant client
 2. `src/app/components/VoyanceForm.tsx` — formulaire (3 plans, prénom, date, email, questions)
-3. POST `functions/api/checkout.ts` — crée session Stripe Checkout, métadonnées dans `metadata`
-4. Redirection Stripe → paiement → webhook
-5. POST `functions/api/webhook.ts` — vérifie signature, génère tirage Haiku, envoie email Resend
-6. `src/app/merci/page.tsx` — page de confirmation post-paiement
+3. POST `functions/api/checkout.ts` — crée un Order PayPal, retourne `{orderID, approvalUrl}`
+4. Le client **stocke les données dans `localStorage`** (clé : `pp_order_${orderID}`) avant de rediriger vers PayPal
+5. PayPal redirige vers `/merci?token=ORDER_ID` après approbation
+6. `src/app/components/MerciClient.tsx` (client) lit l'orderID + récupère les données depuis localStorage
+7. POST `functions/api/capture.ts` — capture l'ordre PayPal, **vérifie le montant côté serveur** (anti-tampering),
+   génère le tirage Haiku, envoie l'email via Resend
+8. La page /merci affiche success / missing (data perdue) / error
 
 ## Tarifs
 | Plan | ID | Prix | Questions |
 |------|----|----|-----------|
-| Question Unique | `q1` | 5,90€ (590) | 1 |
-| Tirage Approfondi (★ populaire) | `q3` | 11,90€ (1190) | 3 |
-| Tirage Complet | `q5` | 19,90€ (1990) | 5 |
+| Question Unique | `q1` | 5,90€ | 1 |
+| Tirage Approfondi (★ populaire) | `q3` | 11,90€ | 3 |
+| Tirage Complet | `q5` | 19,90€ | 5 |
 
-## Variables d'environnement (Cloudflare Pages → Settings → Environment variables)
-À configurer pour les **Functions** (pas le build) :
+## Variables d'environnement (Cloudflare Pages → Settings → Environment variables → Production)
+À configurer pour les **Functions** :
 
 ```
-STRIPE_SECRET_KEY=sk_live_...
-STRIPE_WEBHOOK_SECRET=whsec_...
+PAYPAL_CLIENT_ID=Axxx...
+PAYPAL_SECRET=Exxx...
+PAYPAL_API_BASE=https://api-m.paypal.com
 ANTHROPIC_API_KEY=sk-ant-...
 RESEND_API_KEY=re_...
 EMAIL_FROM=contact@voyance-pendule.fr
 SITE_URL=https://voyance-pendule.fr
 ```
 
-## Setup Stripe (à faire 1 fois)
-1. Créer compte Stripe (vérifier que la catégorie "voyance/divinatoire" passe — sinon basculer SumUp/Mollie)
-2. Récupérer `STRIPE_SECRET_KEY` (mode live)
-3. Dashboard Stripe → Developers → Webhooks → Add endpoint
-   - URL : `https://voyance-pendule.fr/api/webhook`
-   - Event : `checkout.session.completed`
-   - Récupérer `STRIPE_WEBHOOK_SECRET`
-4. Configurer les env vars dans Cloudflare Pages → Settings → Environment variables (Production)
+Pour tester en sandbox PayPal : `PAYPAL_API_BASE=https://api-m.sandbox.paypal.com`
++ utiliser les credentials sandbox.
 
-## Setup Resend (déjà utilisé sur bonsplansmania)
-1. Vérifier que le domaine `voyance-pendule.fr` est configuré dans Resend
-2. Récupérer `RESEND_API_KEY`
-3. Adresse d'expédition : `contact@voyance-pendule.fr`
+## Setup PayPal (à faire 1 fois)
+1. Aller sur https://developer.paypal.com/ → Apps & Credentials
+2. Basculer **Live** (pas Sandbox) — sauf pour tester
+3. Cliquer "Create App" → nom = "Voyance Pendule"
+4. Récupérer **Client ID** + **Secret** → mettre dans les env vars Cloudflare Pages
+5. Pas de webhook nécessaire (capture synchrone côté return_url)
+
+## Setup Resend
+1. Vérifier que le domaine `voyance-pendule.fr` est configuré (DNS SPF/DKIM/DMARC) dans Resend
+2. Récupérer `RESEND_API_KEY` (mode production)
+3. Adresse expéditrice : `contact@voyance-pendule.fr`
 
 ## Pages publiques
 - `/` — Home (hero, outils gratuits, **section consultation premium**, zodiac, témoignages)
 - `/consultation` — Landing payante avec formulaire et FAQ
-- `/merci` — Confirmation post-paiement (no-index)
+- `/merci` — Confirmation post-paiement + capture client-side (no-index)
 - `/voyance` — redirige vers `/pendule-gratuit`
 - `/pendule-gratuit`, `/tirage`, `/horoscope`, `/message-ange`, `/anges` — outils gratuits
 - `/blog`, `/blog/[slug]` — articles SEO
@@ -66,7 +71,8 @@ SITE_URL=https://voyance-pendule.fr
 - `/qui-suis-je`, `/faq`, `/cgv`, `/mentions-legales`, `/confidentialite`
 
 ## Points importants
-- `output: "export"` → site **static**. Les routes API doivent passer par `functions/` (Cloudflare Pages Functions), pas `app/api/`.
-- Le webhook Stripe **doit recevoir le body brut** pour vérifier la signature — les Pages Functions gèrent ça nativement (`request.text()` avant `JSON.parse`).
-- La signature Stripe est vérifiée en HMAC-SHA256 via Web Crypto API (pas de SDK Node nécessaire dans le Worker).
-- Tirage généré en français avec le ton "Sélène" (bienveillant, poétique). Disclaimer "oracle numérique" présent dans email + page consultation pour éthique et conformité légale.
+- `output: "export"` → site **static**. Routes API via `functions/` (Cloudflare Pages Functions), pas `app/api/`.
+- Les données du formulaire (questions, email, etc.) sont **stockées en localStorage** côté client entre /consultation et /merci. Pas de KV ni de DB nécessaire — simplifie le déploiement.
+- **Anti-tampering** : `/api/capture` revérifie côté serveur que le montant capturé par PayPal correspond bien au plan demandé (`q1`/`q3`/`q5`). Un user qui modifie son localStorage ne peut pas tricher.
+- Si l'utilisateur change de navigateur entre paiement et retour, localStorage est vide → page /merci affiche un message demandant de contacter `contact@voyance-pendule.fr`. Edge case rare mais géré proprement.
+- Tirage généré en français avec ton "Sélène" (bienveillant, poétique). Disclaimer "oracle numérique" présent dans email + page consultation pour éthique et conformité légale.

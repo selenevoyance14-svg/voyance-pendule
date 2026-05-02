@@ -63,19 +63,29 @@ export default function VoyanceForm() {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          plan,
-          firstName: firstName.trim(),
-          birthDate: birthDate.trim(),
-          email: email.trim(),
-          questions: filled,
-        }),
+        body: JSON.stringify({ plan }),
       });
-      const data = (await res.json()) as { url?: string; error?: string };
-      if (!res.ok || !data.url) {
-        throw new Error(data.error || "Impossible de créer la session de paiement.");
+      const data = (await res.json()) as { orderID?: string; approvalUrl?: string; error?: string };
+      if (!res.ok || !data.orderID || !data.approvalUrl) {
+        throw new Error(data.error || "Impossible de créer la commande PayPal.");
       }
-      window.location.href = data.url;
+
+      // Stocker les données du tirage pour la page /merci après retour PayPal
+      const payload = {
+        plan,
+        firstName: firstName.trim(),
+        birthDate: birthDate.trim(),
+        email: email.trim(),
+        questions: filled,
+        savedAt: Date.now(),
+      };
+      try {
+        localStorage.setItem(`pp_order_${data.orderID}`, JSON.stringify(payload));
+      } catch {
+        // localStorage indisponible (mode privé) — on continue, fallback géré côté /merci
+      }
+
+      window.location.href = data.approvalUrl;
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erreur inattendue.");
       setLoading(false);
@@ -184,9 +194,9 @@ export default function VoyanceForm() {
 
       {/* Disclaimer + CTA */}
       <div className="bg-mystic-950/40 border border-mystic-700/30 rounded-lg p-4 text-xs text-mystic-400 leading-relaxed">
-        🔒 Paiement sécurisé par Stripe. Votre tirage est généré par notre <strong>oracle numérique Sélène</strong>
-        (interprétation inspirée de la tradition divinatoire) et envoyé sous 30 minutes par email.
-        À usage de divertissement et de réflexion personnelle.
+        🔒 Paiement sécurisé par <strong>PayPal</strong> (carte bancaire ou compte PayPal). Votre tirage est généré
+        par notre <strong>oracle numérique Sélène</strong> (interprétation inspirée de la tradition divinatoire) et
+        envoyé sous 30 minutes par email. À usage de divertissement et de réflexion personnelle.
       </div>
 
       {error && (
@@ -200,7 +210,7 @@ export default function VoyanceForm() {
         disabled={loading}
         className="btn-gold w-full text-lg py-4 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {loading ? "Redirection…" : `🌙 Recevoir mon tirage — ${selectedPlan.price}`}
+        {loading ? "Redirection vers PayPal…" : `🌙 Payer avec PayPal — ${selectedPlan.price}`}
       </button>
     </form>
   );

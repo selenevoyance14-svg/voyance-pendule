@@ -1,75 +1,131 @@
-// Cloudflare Pages Function — POST /api/webhook
-// Reçoit les événements Stripe (checkout.session.completed),
-// génère le tirage avec Claude Haiku, envoie l'email via Resend.
+// Cloudflare Pages Function — POST /api/capture
+// Capture un ordre PayPal approuvé, vérifie le montant côté serveur,
+// génère le tirage avec Claude Haiku et envoie l'email via Resend.
 
 interface Env {
-  STRIPE_WEBHOOK_SECRET: string;
+  PAYPAL_CLIENT_ID: string;
+  PAYPAL_SECRET: string;
+  PAYPAL_API_BASE: string;
   ANTHROPIC_API_KEY: string;
   RESEND_API_KEY: string;
   EMAIL_FROM: string;
 }
 
-const PLAN_LABELS: Record<string, string> = {
-  q1: "1 question",
-  q3: "3 questions",
-  q5: "Tirage complet (5 questions)",
+const PLANS: Record<string, { amount: string; label: string; questions: number }> = {
+  q1: { amount: "5.90", label: "1 question", questions: 1 },
+  q3: { amount: "11.90", label: "3 questions", questions: 3 },
+  q5: { amount: "19.90", label: "Tirage complet (5 questions)", questions: 5 },
 };
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
-  const sig = request.headers.get("stripe-signature");
-  const rawBody = await request.text();
-
-  if (!sig) return new Response("Missing signature", { status: 400 });
-
-  const verified = await verifyStripeSignature(rawBody, sig, env.STRIPE_WEBHOOK_SECRET);
-  if (!verified) return new Response("Invalid signature", { status: 400 });
-
-  const event = JSON.parse(rawBody) as { type: string; data: { object: any } };
-
-  if (event.type !== "checkout.session.completed") {
-    return new Response("ok", { status: 200 });
-  }
-
-  const session = event.data.object;
-  const meta = session.metadata || {};
-  const email: string | undefined = session.customer_details?.email || session.customer_email;
-  const firstName: string = meta.firstName || "Cher consultant";
-  const birthDate: string = meta.birthDate || "";
-  const plan: string = meta.plan || "q1";
-
-  const questions: string[] = [];
-  for (let i = 1; i <= 5; i++) {
-    if (meta[`q${i}`]) questions.push(meta[`q${i}`]);
-  }
-
-  if (!email || questions.length === 0) {
-    return new Response("Missing data", { status: 200 });
-  }
-
   try {
+    const body = (await request.json()) as {
+      orderID?: string;
+      plan?: string;
+      firstName?: string;
+      birthDate?: string;
+      email?: string;
+      questions?: string[];
+    };
+
+    if (!body.orderID) return jsonError("orderID manquant", 400);
+    const plan = body.plan && PLANS[body.plan] ? body.plan : null;
+    if (!plan) return jsonError("Plan invalide", 400);
+    if (!body.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email)) return jsonError("Email invalide", 400);
+    if (!body.firstName || body.firstName.trim().length < 2) return jsonError("Prénom requis", 400);
+
+    const expected = PLANS[plan];
+    const cleanQuestions = (body.questions || [])
+      .map((q) => (typeof q === "string" ? q.trim() : ""))
+      .filter((q) => q.length >= 3)
+      .slice(0, expected.questions);
+
+    if (cleanQuestions.length !== expected.questions) {
+      return jsonError(`${expected.questions} question(s) requise(s)`, 400);
+    }
+
+    const accessToken = await getPaypalToken(env);
+
+    // Capture l'ordre
+    const capRes = await fetch(`${env.PAYPAL_API_BASE}/v2/checkout/orders/${body.orderID}/capture`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json",
+      },
+    });
+
+    const capData = (await capRes.json()) as {
+      status?: string;
+      purchase_units?: {
+        custom_id?: string;
+        payments?: {
+          captures?: { amount?: { value?: string; currency_code?: string }; status?: string }[];
+        };
+      }[];
+      message?: string;
+    };
+
+    if (!capRes.ok || capData.status !== "COMPLETED") {
+      return jsonError(capData.message || "Capture PayPal échouée", 502);
+    }
+
+    // Vérification du montant côté serveur (anti-tampering localStorage)
+    const capture = capData.purchase_units?.[0]?.payments?.captures?.[0];
+    const paidAmount = capture?.amount?.value;
+    const paidCurrency = capture?.amount?.currency_code;
+    const customId = capData.purchase_units?.[0]?.custom_id;
+
+    if (paidCurrency !== "EUR" || paidAmount !== expected.amount || customId !== plan) {
+      console.error("Tampering detected", { paidAmount, expectedAmount: expected.amount, customId, plan });
+      return jsonError("Montant ou plan invalide", 400);
+    }
+
+    // Génération du tirage
     const tirage = await generateTirage({
       apiKey: env.ANTHROPIC_API_KEY,
-      firstName,
-      birthDate,
-      questions,
+      firstName: body.firstName.trim(),
+      birthDate: (body.birthDate || "").trim(),
+      questions: cleanQuestions,
       plan,
     });
 
+    // Envoi email
     await sendEmail({
       apiKey: env.RESEND_API_KEY,
       from: env.EMAIL_FROM,
-      to: email,
-      firstName,
+      to: body.email.trim(),
+      firstName: body.firstName.trim(),
       tirage,
       plan,
     });
-  } catch (err) {
-    console.error("Webhook processing error:", err);
-    // 200 pour éviter retry Stripe en boucle ; on log l'erreur
-  }
 
-  return new Response("ok", { status: 200 });
+    return new Response(
+      JSON.stringify({ success: true, plan }),
+      { headers: { "Content-Type": "application/json" } }
+    );
+  } catch (err) {
+    console.error("Capture error:", err);
+    return jsonError(err instanceof Error ? err.message : "Erreur serveur", 500);
+  }
 };
+
+async function getPaypalToken(env: Env): Promise<string> {
+  const auth = btoa(`${env.PAYPAL_CLIENT_ID}:${env.PAYPAL_SECRET}`);
+  const res = await fetch(`${env.PAYPAL_API_BASE}/v1/oauth2/token`, {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${auth}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: "grant_type=client_credentials",
+  });
+  const data = (await res.json()) as { access_token?: string; error_description?: string };
+  if (!res.ok || !data.access_token) {
+    throw new Error(data.error_description || "Auth PayPal échouée");
+  }
+  return data.access_token;
+}
 
 async function generateTirage(opts: {
   apiKey: string;
@@ -130,7 +186,7 @@ async function sendEmail(opts: {
   plan: string;
 }) {
   const { apiKey, from, to, firstName, tirage, plan } = opts;
-  const planLabel = PLAN_LABELS[plan] || "Consultation pendule";
+  const planLabel = PLANS[plan]?.label || "Consultation pendule";
 
   const html = renderEmailHtml(firstName, tirage, planLabel);
   const text = `Bonjour ${firstName},\n\nVoici votre tirage Sélène :\n\n${tirage}\n\nAvec bienveillance,\nSélène — voyance-pendule.fr\n\nNote : interprétation générée par notre oracle numérique, à usage de divertissement.`;
@@ -185,42 +241,9 @@ function renderEmailHtml(firstName: string, tirage: string, planLabel: string): 
 </body></html>`;
 }
 
-// --- Vérification de signature Stripe (HMAC-SHA256, Web Crypto API) ---
-
-async function verifyStripeSignature(
-  payload: string,
-  header: string,
-  secret: string
-): Promise<boolean> {
-  const parts = header.split(",").reduce<Record<string, string>>((acc, p) => {
-    const [k, v] = p.split("=");
-    if (k === "t") acc.t = v;
-    if (k === "v1") acc.v1 = (acc.v1 ? acc.v1 + "," : "") + v;
-    return acc;
-  }, {});
-
-  if (!parts.t || !parts.v1) return false;
-
-  const signed = `${parts.t}.${payload}`;
-  const key = await crypto.subtle.importKey(
-    "raw",
-    new TextEncoder().encode(secret),
-    { name: "HMAC", hash: "SHA-256" },
-    false,
-    ["sign"]
-  );
-  const sig = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(signed));
-  const expected = Array.from(new Uint8Array(sig))
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
-
-  const provided = parts.v1.split(",");
-  return provided.some((p) => safeEqual(p, expected));
-}
-
-function safeEqual(a: string, b: string): boolean {
-  if (a.length !== b.length) return false;
-  let r = 0;
-  for (let i = 0; i < a.length; i++) r |= a.charCodeAt(i) ^ b.charCodeAt(i);
-  return r === 0;
+function jsonError(message: string, status: number) {
+  return new Response(JSON.stringify({ error: message }), {
+    status,
+    headers: { "Content-Type": "application/json" },
+  });
 }

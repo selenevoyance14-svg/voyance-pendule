@@ -178,7 +178,7 @@ export default function Home() {
                             🌙 Découvrir la consultation →
                         </a>
                         <p className="text-xs text-mystic-500 mt-4">
-                            Paiement sécurisé Stripe — livraison email sous 30 min — 100% personnalisé
+                            Paiement sécurisé PayPal — livraison email sous 30 min — 100% personnalisé
                         </p>
                     </div>
                 </div>
