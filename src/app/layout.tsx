@@ -3,9 +3,9 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Voyance Pendule — Horoscope Gratuit, Anges Gardiens & Consultation | voyance-pendule.fr",
-    description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope du jour et messages de vos anges gardiens. Tous nos outils de guidance spirituelle sont gratuits.",
-    keywords: "voyance, horoscope gratuit, anges gardiens, pendule, voyance en ligne, horoscope du jour, voyance pendule, spiritualité",
+    title: "Voyance Pendule — Tirage Personnalisé par Email & Outils Gratuits | voyance-pendule.fr",
+    description: "Tirage du pendule personnalisé par email à partir de 5,90€ (livré sous 30 min). Plus pendule Oui/Non, horoscope, anges gardiens — gratuits.",
+    keywords: "voyance pendule, tirage pendule personnalisé, consultation pendule, voyance par email, horoscope gratuit, anges gardiens, spiritualité",
     metadataBase: new URL("https://voyance-pendule.fr"),
     alternates: {
         canonical: "https://voyance-pendule.fr",
@@ -100,8 +100,11 @@ export default function RootLayout({
                                 <a href="/blog" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     📝 Blog
                                 </a>
-                                <a href="/boutique" className="btn-gold text-sm py-2 px-5">
+                                <a href="/boutique" className="text-mystic-200 hover:text-gold-400 transition font-medium">
                                     🛍️ Boutique
+                                </a>
+                                <a href="/consultation" className="btn-gold text-sm py-2 px-5">
+                                    🌙 Consultation
                                 </a>
                             </div>
                             {/* Mobile menu */}
@@ -111,6 +114,9 @@ export default function RootLayout({
                                 <a href="/horoscope" className="text-mystic-300 text-sm">♈</a>
                                 <a href="/message-ange" className="text-mystic-300 text-sm">👼</a>
                                 <a href="/boutique" className="text-mystic-300 text-sm">🛍️</a>
+                                <a href="/consultation" className="bg-gold-500/90 text-mystic-950 text-xs font-bold px-3 py-1.5 rounded-full">
+                                    🌙
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -142,6 +148,7 @@ export default function RootLayout({
                                     <li><a href="/pendule-gratuit" className="hover:text-gold-400 transition">🔮 Pendule Gratuit</a></li>
                                     <li><a href="/horoscope" className="hover:text-gold-400 transition">♈ Horoscope</a></li>
                                     <li><a href="/message-ange" className="hover:text-gold-400 transition">👼 Message Angélique</a></li>
+                                    <li><a href="/consultation" className="hover:text-gold-400 transition">🌙 Consultation Personnalisée</a></li>
                                     <li><a href="/boutique" className="hover:text-gold-400 transition">🛍️ Boutique</a></li>
                                     <li><a href="/qui-suis-je" className="hover:text-gold-400 transition">🌙 Qui suis-je ?</a></li>
                                     <li><a href="/faq" className="hover:text-gold-400 transition">❓ FAQ</a></li>
@@ -155,14 +162,15 @@ export default function RootLayout({
                                     <li><a href="/confidentialite" className="hover:text-gold-400 transition">Politique de confidentialité</a></li>
                                 </ul>
                                 <p className="mt-4 text-xs text-mystic-600">
-                                    Nos outils de guidance sont gratuits et à usage de divertissement.
-                                    Ils ne remplacent pas un avis médical ou professionnel.
+                                    Nos outils gratuits et notre consultation personnalisée sont à usage de
+                                    divertissement et de réflexion. Ils ne remplacent pas un avis médical
+                                    ou professionnel.
                                 </p>
                             </div>
                         </div>
                         <div className="mystic-divider mt-10 mb-6" />
                         <p className="text-center text-xs text-mystic-600">
-                            © 2026 Sélène Voyance. Tous droits réservés. | Tous nos outils sont gratuits ✨
+                            © 2026 Sélène Voyance. Tous droits réservés. | Outils gratuits + consultation personnalisée ✨
                         </p>
                     </div>
                 </footer>

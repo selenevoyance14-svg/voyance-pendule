@@ -19,7 +19,10 @@ const testimonials = [
     { name: "Marie C.", text: "L'horoscope est très juste et les messages des anges sont toujours réconfortants. Merci Sélène !", rating: 5 },
 ];
 
+import { blogPosts } from "@/data/blog";
+
 export default function Home() {
+    const latestPosts = blogPosts.slice(0, 4);
     return (
         <>
             {/* HERO */}
@@ -128,6 +131,59 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* CONSULTATION PERSONNALISÉE — offre premium */}
+            <section className="relative py-20 sm:py-28 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-b from-mystic-950/40 via-[#0a0518] to-mystic-950/40" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full bg-gold-500/5 blur-[140px]" />
+
+                <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <div className="inline-flex items-center gap-2 bg-gold-500/10 border border-gold-500/30 rounded-full px-5 py-2 mb-6 backdrop-blur-sm">
+                            <span>🌙</span>
+                            <span className="text-gold-300 text-sm font-medium">Nouveau — Consultation personnalisée</span>
+                        </div>
+                        <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+                            Votre Tirage <span className="text-gold-400">Écrit pour Vous</span>
+                        </h2>
+                        <p className="text-mystic-300 max-w-2xl mx-auto text-lg leading-relaxed">
+                            Au-delà de nos outils gratuits, recevez votre tirage du pendule personnalisé par email
+                            sous 30 minutes. Une réponse écrite, profonde, juste pour vous.
+                        </p>
+                        <div className="mystic-divider max-w-xs mx-auto mt-4" />
+                    </div>
+
+                    <div className="grid sm:grid-cols-3 gap-6 mb-10">
+                        <div className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm">
+                            <div className="text-mystic-400 text-sm uppercase tracking-wide mb-2">Question Unique</div>
+                            <div className="text-3xl font-bold text-gold-400 mb-3">5,90€</div>
+                            <p className="text-mystic-400 text-sm">Une question, une réponse claire et personnelle.</p>
+                        </div>
+                        <div className="bg-gradient-to-br from-gold-500/10 to-mystic-950/50 border-2 border-gold-500/40 rounded-xl p-6 text-center backdrop-blur-sm relative">
+                            <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold-500 text-mystic-950 text-xs font-bold px-3 py-1 rounded-full">
+                                ★ Le plus choisi
+                            </span>
+                            <div className="text-mystic-300 text-sm uppercase tracking-wide mb-2">Tirage Approfondi</div>
+                            <div className="text-3xl font-bold text-gold-400 mb-3">11,90€</div>
+                            <p className="text-mystic-300 text-sm">Trois questions explorées en profondeur.</p>
+                        </div>
+                        <div className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm">
+                            <div className="text-mystic-400 text-sm uppercase tracking-wide mb-2">Tirage Complet</div>
+                            <div className="text-3xl font-bold text-gold-400 mb-3">19,90€</div>
+                            <p className="text-mystic-400 text-sm">Cinq questions + synthèse globale détaillée.</p>
+                        </div>
+                    </div>
+
+                    <div className="text-center">
+                        <a href="/consultation" className="btn-gold text-lg inline-flex items-center gap-2">
+                            🌙 Découvrir la consultation →
+                        </a>
+                        <p className="text-xs text-mystic-500 mt-4">
+                            Paiement sécurisé Stripe — livraison email sous 30 min — 100% personnalisé
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             {/* ZODIAC SIGNS */}
             <section className="section-dark py-20 sm:py-28">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -183,6 +239,52 @@ export default function Home() {
                                 <div className="text-mystic-200 font-semibold text-sm">— {t.name}</div>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* LATEST BLOG ARTICLES */}
+            <section className="section-dark py-20 sm:py-28">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-16">
+                        <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
+                            Derniers <span className="text-gold-500">Articles</span>
+                        </h2>
+                        <p className="text-mystic-400 max-w-xl mx-auto">
+                            Explorez nos guides spirituels pour approfondir votre connexion intérieure
+                        </p>
+                        <div className="mystic-divider max-w-xs mx-auto mt-4" />
+                    </div>
+
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {latestPosts.map((post) => (
+                            <a
+                                key={post.slug}
+                                href={`/blog/${post.slug}`}
+                                className="glass-card flex flex-col group hover:border-mystic-500/50 transition-all duration-300"
+                            >
+                                <div className="h-32 bg-mystic-900/50 flex items-center justify-center text-5xl group-hover:scale-110 transition-transform duration-500">
+                                    {post.image}
+                                </div>
+                                <div className="p-5 flex flex-col flex-grow">
+                                    <span className="text-[10px] font-bold tracking-widest uppercase text-gold-500 bg-gold-500/10 px-2 py-0.5 rounded w-fit mb-2">
+                                        {post.category}
+                                    </span>
+                                    <h3 className="font-heading text-sm font-bold text-white mb-2 group-hover:text-gold-400 transition-colors leading-snug">
+                                        {post.title}
+                                    </h3>
+                                    <span className="mt-auto text-gold-400 text-xs font-semibold">
+                                        Lire l&apos;article →
+                                    </span>
+                                </div>
+                            </a>
+                        ))}
+                    </div>
+
+                    <div className="text-center mt-10">
+                        <a href="/blog" className="btn-mystic">
+                            📝 Voir tous les articles
+                        </a>
                     </div>
                 </div>
             </section>
