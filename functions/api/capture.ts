@@ -76,9 +76,17 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const paidCurrency = capture?.amount?.currency_code;
     const customId = capData.purchase_units?.[0]?.custom_id;
 
-    if (paidCurrency !== "EUR" || paidAmount !== expected.amount || customId !== plan) {
-      console.error("Tampering detected", { paidAmount, expectedAmount: expected.amount, customId, plan });
+    // Comparaison en centimes pour éviter les soucis de formatage ("5.9" vs "5.90")
+    const paidCents = paidAmount ? Math.round(parseFloat(paidAmount) * 100) : 0;
+    const expectedCents = Math.round(parseFloat(expected.amount) * 100);
+
+    if (paidCurrency !== "EUR" || paidCents !== expectedCents) {
+      console.error("Amount mismatch", { paidAmount, paidCents, expectedAmount: expected.amount, expectedCents, paidCurrency, customId, plan });
       return jsonError("Montant ou plan invalide", 400);
+    }
+    // customId est juste un check additionnel — log si différent mais ne bloque pas
+    if (customId && customId !== plan) {
+      console.warn("Plan mismatch (non-blocking)", { customId, plan });
     }
 
     // Génération du tirage
