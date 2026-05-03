@@ -71,27 +71,19 @@ export default function VoyanceForm() {
     try {
       const res = await fetch("/api/checkout", {
         method: "POST",
+        credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ plan }),
+        body: JSON.stringify({
+          plan,
+          firstName: firstName.trim(),
+          birthDate: birthDate.trim(),
+          email: email.trim(),
+          questions: filled,
+        }),
       });
       const data = (await res.json()) as { orderID?: string; approvalUrl?: string; error?: string };
       if (!res.ok || !data.orderID || !data.approvalUrl) {
         throw new Error(data.error || "Impossible de créer la commande PayPal.");
-      }
-
-      // Stocker les données du tirage pour la page /merci après retour PayPal
-      const payload = {
-        plan,
-        firstName: firstName.trim(),
-        birthDate: birthDate.trim(),
-        email: email.trim(),
-        questions: filled,
-        savedAt: Date.now(),
-      };
-      try {
-        localStorage.setItem(`pp_order_${data.orderID}`, JSON.stringify(payload));
-      } catch {
-        // localStorage indisponible (mode privé) — on continue, fallback géré côté /merci
       }
 
       window.location.href = data.approvalUrl;

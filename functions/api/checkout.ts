@@ -1,11 +1,11 @@
 // Cloudflare Pages Function — POST /api/checkout
-// Crée un ordre PayPal et retourne {orderID, approvalUrl}.
-// Le client stocke les données du formulaire dans localStorage avant de rediriger.
+// Crée un ordre PayPal, signe les données du formulaire dans un cookie HttpOnly,
+// retourne {orderID, approvalUrl}.
 
 interface Env {
   PAYPAL_CLIENT_ID: string;
   PAYPAL_SECRET: string;
-  PAYPAL_API_BASE: string; // "https://api-m.paypal.com" (live) ou "https://api-m.sandbox.paypal.com" (sandbox)
+  PAYPAL_API_BASE: string;
   SITE_URL: string;
 }
 
@@ -17,9 +17,27 @@ const PRICES: Record<string, { amount: string; label: string; questions: number 
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   try {
-    const body = (await request.json()) as { plan?: string };
+    const body = (await request.json()) as {
+      plan?: string;
+      firstName?: string;
+      birthDate?: string;
+      email?: string;
+      questions?: string[];
+    };
+
     const plan = body.plan && PRICES[body.plan] ? body.plan : null;
     if (!plan) return jsonError("Plan invalide", 400);
+    if (!body.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email)) return jsonError("Email invalide", 400);
+    if (!body.firstName || body.firstName.trim().length < 2) return jsonError("Prénom requis", 400);
+
+    const cleanQuestions = (body.questions || [])
+      .map((q) => (typeof q === "string" ? q.trim() : ""))
+      .filter((q) => q.length >= 3)
+      .slice(0, PRICES[plan].questions);
+
+    if (cleanQuestions.length !== PRICES[plan].questions) {
+      return jsonError(`${PRICES[plan].questions} question(s) requise(s)`, 400);
+    }
 
     const price = PRICES[plan];
     const accessToken = await getPaypalToken(env);
@@ -66,9 +84,27 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const approvalUrl = data.links?.find((l) => l.rel === "approve")?.href;
     if (!approvalUrl) return jsonError("Lien PayPal introuvable", 502);
 
+    // Signe les données du formulaire et stocke dans un cookie HttpOnly lié à l'orderID
+    const payload = {
+      plan,
+      firstName: body.firstName.trim(),
+      birthDate: (body.birthDate || "").trim(),
+      email: body.email.trim(),
+      questions: cleanQuestions,
+      orderID: data.id,
+    };
+    const signedToken = await signPayload(payload, env.PAYPAL_SECRET);
+    const cookieName = `vp_session_${data.id.slice(0, 32)}`;
+
+    const headers = new Headers({ "Content-Type": "application/json" });
+    headers.append(
+      "Set-Cookie",
+      `${cookieName}=${signedToken}; Path=/; Max-Age=3600; HttpOnly; Secure; SameSite=Lax`
+    );
+
     return new Response(
       JSON.stringify({ orderID: data.id, approvalUrl }),
-      { headers: { "Content-Type": "application/json" } }
+      { headers }
     );
   } catch (err) {
     return jsonError(err instanceof Error ? err.message : "Erreur serveur", 500);
@@ -90,6 +126,23 @@ async function getPaypalToken(env: Env): Promise<string> {
     throw new Error(data.error_description || "Auth PayPal échouée");
   }
   return data.access_token;
+}
+
+async function signPayload(payload: object, secret: string): Promise<string> {
+  const json = JSON.stringify(payload);
+  const b64 = btoa(unescape(encodeURIComponent(json)));
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+  const sig = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(b64));
+  const sigHex = Array.from(new Uint8Array(sig))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+  return `${b64}.${sigHex}`;
 }
 
 function jsonError(message: string, status: number) {

@@ -2,16 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-type Status = "loading" | "success" | "missing" | "error";
-
-interface SavedPayload {
-  plan: string;
-  firstName: string;
-  birthDate: string;
-  email: string;
-  questions: string[];
-  savedAt: number;
-}
+type Status = "loading" | "success" | "no-order" | "expired" | "error";
 
 export default function MerciClient() {
   const [status, setStatus] = useState<Status>("loading");
@@ -23,39 +14,24 @@ export default function MerciClient() {
     const orderID = params.get("token");
 
     if (!orderID) {
-      setStatus("missing");
+      setStatus("no-order");
       return;
     }
-
-    let payload: SavedPayload | null = null;
-    try {
-      const raw = localStorage.getItem(`pp_order_${orderID}`);
-      if (raw) payload = JSON.parse(raw) as SavedPayload;
-    } catch {
-      // localStorage indisponible
-    }
-
-    if (!payload) {
-      setStatus("missing");
-      return;
-    }
-
-    setEmail(payload.email);
 
     fetch("/api/capture", {
       method: "POST",
+      credentials: "include",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ orderID, ...payload }),
+      body: JSON.stringify({ orderID }),
     })
       .then(async (res) => {
-        const data = (await res.json()) as { success?: boolean; error?: string };
+        const data = (await res.json()) as { success?: boolean; email?: string; error?: string };
         if (res.ok && data.success) {
+          setEmail(data.email || "");
           setStatus("success");
-          try {
-            localStorage.removeItem(`pp_order_${orderID}`);
-          } catch {
-            // ignore
-          }
+        } else if (res.status === 410) {
+          setErrorMsg(data.error || "");
+          setStatus("expired");
         } else {
           setErrorMsg(data.error || "Erreur lors de la finalisation.");
           setStatus("error");
@@ -118,21 +94,47 @@ export default function MerciClient() {
     );
   }
 
-  if (status === "missing") {
+  if (status === "no-order") {
     return (
       <>
         <div className="text-7xl mb-6">🌙</div>
         <h1 className="font-heading text-3xl sm:text-4xl font-bold mb-4 text-mystic-100">
-          Paiement reçu
+          Aucune commande en cours
         </h1>
         <p className="text-mystic-300 leading-relaxed mb-6">
-          Votre paiement PayPal a bien été confirmé, mais nous n'avons pas pu retrouver les détails de votre
-          demande sur ce navigateur (probablement un changement d'appareil).
+          Cette page s'affiche normalement après un paiement validé via PayPal.
+          Vous semblez être arrivé(e) ici directement, sans transaction associée.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/consultation" className="btn-gold">🌙 Découvrir la consultation</a>
+          <a href="/" className="btn-mystic">← Retour à l'accueil</a>
+        </div>
+      </>
+    );
+  }
+
+  if (status === "expired") {
+    return (
+      <>
+        <div className="text-7xl mb-6">⏳</div>
+        <h1 className="font-heading text-3xl sm:text-4xl font-bold mb-4 text-mystic-100">
+          Paiement reçu — session expirée
+        </h1>
+        <p className="text-mystic-300 leading-relaxed mb-6">
+          Votre paiement PayPal est bien confirmé, mais nous n'avons pas pu retrouver les détails
+          de votre demande (session expirée ou navigateur qui efface les données).
         </p>
         <div className="bg-mystic-950/40 border border-mystic-700/30 rounded-lg p-5 text-left text-sm text-mystic-300 mb-8">
-          Écrivez à <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 underline">contact@voyance-pendule.fr</a> en
-          mentionnant votre adresse email PayPal. Nous renverrons votre tirage manuellement dans la journée
-          ou vous rembourserons.
+          {errorMsg || (
+            <>
+              Écrivez à{" "}
+              <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 underline">
+                contact@voyance-pendule.fr
+              </a>{" "}
+              en mentionnant votre email PayPal. Nous renverrons votre tirage manuellement dans la
+              journée ou vous rembourserons.
+            </>
+          )}
         </div>
         <a href="/" className="btn-mystic">← Retour à l'accueil</a>
       </>
@@ -143,20 +145,20 @@ export default function MerciClient() {
     <>
       <div className="text-7xl mb-6">⚠️</div>
       <h1 className="font-heading text-3xl sm:text-4xl font-bold mb-4 text-mystic-100">
-        Erreur lors de la finalisation
+        Finalisation impossible
       </h1>
       <p className="text-mystic-300 leading-relaxed mb-4">
-        Votre paiement a peut-être été pris en compte, mais nous avons rencontré une erreur :
+        Nous n'avons pas pu finaliser votre tirage. Si votre carte a été débitée, écrivez-nous,
+        nous résolvons immédiatement :
       </p>
       <div className="bg-red-900/20 border border-red-500/30 rounded-lg p-4 text-red-300 text-sm mb-6">
         {errorMsg}
       </div>
       <p className="text-mystic-400 text-sm leading-relaxed mb-6">
-        Écrivez-nous à{" "}
+        Contact :{" "}
         <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 underline">
           contact@voyance-pendule.fr
-        </a>{" "}
-        — nous résolvons ça immédiatement.
+        </a>
       </p>
       <a href="/" className="btn-mystic">← Retour à l'accueil</a>
     </>

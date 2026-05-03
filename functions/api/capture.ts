@@ -1,6 +1,7 @@
 // Cloudflare Pages Function — POST /api/capture
-// Capture un ordre PayPal approuvé, vérifie le montant côté serveur,
-// génère le tirage avec Claude Haiku et envoie l'email via Resend.
+// Capture un ordre PayPal approuvé. Récupère les données du formulaire depuis
+// le cookie signé HttpOnly posé lors du checkout. Génère le tirage avec Mistral
+// et envoie l'email via Resend.
 
 interface Env {
   PAYPAL_CLIENT_ID: string;
@@ -17,32 +18,44 @@ const PLANS: Record<string, { amount: string; label: string; questions: number }
   q5: { amount: "19.90", label: "Tirage complet (5 questions)", questions: 5 },
 };
 
+interface SessionPayload {
+  plan: string;
+  firstName: string;
+  birthDate: string;
+  email: string;
+  questions: string[];
+  orderID: string;
+}
+
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   try {
-    const body = (await request.json()) as {
-      orderID?: string;
-      plan?: string;
-      firstName?: string;
-      birthDate?: string;
-      email?: string;
-      questions?: string[];
-    };
-
+    const body = (await request.json()) as { orderID?: string };
     if (!body.orderID) return jsonError("orderID manquant", 400);
-    const plan = body.plan && PLANS[body.plan] ? body.plan : null;
-    if (!plan) return jsonError("Plan invalide", 400);
-    if (!body.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email)) return jsonError("Email invalide", 400);
-    if (!body.firstName || body.firstName.trim().length < 2) return jsonError("Prénom requis", 400);
 
-    const expected = PLANS[plan];
-    const cleanQuestions = (body.questions || [])
-      .map((q) => (typeof q === "string" ? q.trim() : ""))
-      .filter((q) => q.length >= 3)
-      .slice(0, expected.questions);
+    const cookieName = `vp_session_${body.orderID.slice(0, 32)}`;
+    const cookieHeader = request.headers.get("Cookie") || "";
+    const token = parseCookie(cookieHeader, cookieName);
 
-    if (cleanQuestions.length !== expected.questions) {
-      return jsonError(`${expected.questions} question(s) requise(s)`, 400);
+    if (!token) {
+      // Vérifie si l'ordre PayPal existe et a été payé pour donner le bon message
+      const status = await getOrderStatus(env, body.orderID).catch(() => null);
+      if (status === "COMPLETED" || status === "APPROVED") {
+        return jsonError(
+          "Paiement reçu mais session expirée. Contactez contact@voyance-pendule.fr avec votre email PayPal pour recevoir votre tirage.",
+          410
+        );
+      }
+      return jsonError("Aucune session active pour cet ordre", 404);
     }
+
+    const payload = await verifyToken(token, env.PAYPAL_SECRET);
+    if (!payload || payload.orderID !== body.orderID) {
+      return jsonError("Session invalide ou expirée", 401);
+    }
+
+    const plan = payload.plan;
+    if (!PLANS[plan]) return jsonError("Plan invalide", 400);
+    const expected = PLANS[plan];
 
     const accessToken = await getPaypalToken(env);
 
@@ -70,31 +83,25 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       return jsonError(capData.message || "Capture PayPal échouée", 502);
     }
 
-    // Vérification du montant côté serveur (anti-tampering localStorage)
+    // Vérification du montant côté serveur
     const capture = capData.purchase_units?.[0]?.payments?.captures?.[0];
     const paidAmount = capture?.amount?.value;
     const paidCurrency = capture?.amount?.currency_code;
-    const customId = capData.purchase_units?.[0]?.custom_id;
 
-    // Comparaison en centimes pour éviter les soucis de formatage ("5.9" vs "5.90")
     const paidCents = paidAmount ? Math.round(parseFloat(paidAmount) * 100) : 0;
     const expectedCents = Math.round(parseFloat(expected.amount) * 100);
 
     if (paidCurrency !== "EUR" || paidCents !== expectedCents) {
-      console.error("Amount mismatch", { paidAmount, paidCents, expectedAmount: expected.amount, expectedCents, paidCurrency, customId, plan });
-      return jsonError("Montant ou plan invalide", 400);
-    }
-    // customId est juste un check additionnel — log si différent mais ne bloque pas
-    if (customId && customId !== plan) {
-      console.warn("Plan mismatch (non-blocking)", { customId, plan });
+      console.error("Amount mismatch", { paidAmount, paidCents, expectedAmount: expected.amount, expectedCents, paidCurrency, plan });
+      return jsonError("Montant invalide", 400);
     }
 
     // Génération du tirage
     const tirage = await generateTirage({
       apiKey: env.MISTRAL_API_KEY,
-      firstName: body.firstName.trim(),
-      birthDate: (body.birthDate || "").trim(),
-      questions: cleanQuestions,
+      firstName: payload.firstName,
+      birthDate: payload.birthDate,
+      questions: payload.questions,
       plan,
     });
 
@@ -102,16 +109,20 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     await sendEmail({
       apiKey: env.RESEND_API_KEY,
       from: env.EMAIL_FROM,
-      to: body.email.trim(),
-      firstName: body.firstName.trim(),
+      to: payload.email,
+      firstName: payload.firstName,
       tirage,
       plan,
     });
 
-    return new Response(
-      JSON.stringify({ success: true, plan }),
-      { headers: { "Content-Type": "application/json" } }
+    // Cookie de session expiré (Max-Age=0)
+    const headers = new Headers({ "Content-Type": "application/json" });
+    headers.append(
+      "Set-Cookie",
+      `${cookieName}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`
     );
+
+    return new Response(JSON.stringify({ success: true, plan, email: payload.email }), { headers });
   } catch (err) {
     console.error("Capture error:", err);
     return jsonError(err instanceof Error ? err.message : "Erreur serveur", 500);
@@ -133,6 +144,62 @@ async function getPaypalToken(env: Env): Promise<string> {
     throw new Error(data.error_description || "Auth PayPal échouée");
   }
   return data.access_token;
+}
+
+async function getOrderStatus(env: Env, orderID: string): Promise<string | null> {
+  const accessToken = await getPaypalToken(env);
+  const res = await fetch(`${env.PAYPAL_API_BASE}/v2/checkout/orders/${orderID}`, {
+    headers: { Authorization: `Bearer ${accessToken}` },
+  });
+  if (!res.ok) return null;
+  const data = (await res.json()) as { status?: string };
+  return data.status || null;
+}
+
+function parseCookie(header: string, name: string): string | null {
+  const cookies = header.split(/;\s*/);
+  for (const c of cookies) {
+    const eq = c.indexOf("=");
+    if (eq === -1) continue;
+    if (c.slice(0, eq) === name) return c.slice(eq + 1);
+  }
+  return null;
+}
+
+async function verifyToken(token: string, secret: string): Promise<SessionPayload | null> {
+  try {
+    const dot = token.lastIndexOf(".");
+    if (dot === -1) return null;
+    const b64 = token.slice(0, dot);
+    const sigHex = token.slice(dot + 1);
+
+    const key = await crypto.subtle.importKey(
+      "raw",
+      new TextEncoder().encode(secret),
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["sign"]
+    );
+    const expected = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(b64));
+    const expectedHex = Array.from(new Uint8Array(expected))
+      .map((b) => b.toString(16).padStart(2, "0"))
+      .join("");
+
+    if (!safeEqual(sigHex, expectedHex)) return null;
+
+    const json = decodeURIComponent(escape(atob(b64)));
+    const payload = JSON.parse(json) as SessionPayload;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
+function safeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) return false;
+  let r = 0;
+  for (let i = 0; i < a.length; i++) r |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return r === 0;
 }
 
 async function generateTirage(opts: {
@@ -184,9 +251,7 @@ Réponds à chaque question dans l'ordre. Sépare clairement chaque réponse par
     throw new Error(`Mistral error: ${res.status} ${await res.text()}`);
   }
 
-  const data = (await res.json()) as {
-    choices: { message: { content: string } }[];
-  };
+  const data = (await res.json()) as { choices: { message: { content: string } }[] };
   return data.choices[0]?.message?.content || "";
 }
 
