@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type Plan = "q1" | "q3" | "q5";
 
@@ -39,6 +39,15 @@ export default function VoyanceForm() {
   const [error, setError] = useState<string | null>(null);
 
   const selectedPlan = PLANS.find((p) => p.id === plan)!;
+
+  // Pré-sélection du plan via query param ?plan=q1|q3|q5
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const queryPlan = params.get("plan");
+    if (queryPlan === "q1" || queryPlan === "q3" || queryPlan === "q5") {
+      setPlan(queryPlan);
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -137,7 +146,7 @@ export default function VoyanceForm() {
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-mystic-300 mb-2">Date de naissance (optionnel)</label>
+          <label className="block text-sm font-medium text-mystic-300 mb-2">Date de naissance</label>
           <input
             type="text"
             value={birthDate}

@@ -153,31 +153,46 @@ export default function Home() {
                     </div>
 
                     <div className="grid sm:grid-cols-3 gap-6 mb-10">
-                        <div className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm">
+                        <a
+                            href="/consultation?plan=q1"
+                            className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm hover:border-gold-500/60 hover:scale-105 transition-all duration-200 cursor-pointer block group"
+                        >
                             <div className="text-mystic-400 text-sm uppercase tracking-wide mb-2">Question Unique</div>
                             <div className="text-3xl font-bold text-gold-400 mb-3">5,90€</div>
-                            <p className="text-mystic-400 text-sm">Une question, une réponse claire et personnelle.</p>
-                        </div>
-                        <div className="bg-gradient-to-br from-gold-500/10 to-mystic-950/50 border-2 border-gold-500/40 rounded-xl p-6 text-center backdrop-blur-sm relative">
+                            <p className="text-mystic-400 text-sm mb-4">Une question, une réponse claire et personnelle.</p>
+                            <span className="inline-block text-gold-400 text-sm font-semibold group-hover:underline">
+                                Choisir cette formule →
+                            </span>
+                        </a>
+                        <a
+                            href="/consultation?plan=q3"
+                            className="bg-gradient-to-br from-gold-500/10 to-mystic-950/50 border-2 border-gold-500/40 rounded-xl p-6 text-center backdrop-blur-sm relative hover:scale-105 transition-all duration-200 cursor-pointer block group"
+                        >
                             <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold-500 text-mystic-950 text-xs font-bold px-3 py-1 rounded-full">
                                 ★ Le plus choisi
                             </span>
                             <div className="text-mystic-300 text-sm uppercase tracking-wide mb-2">Tirage Approfondi</div>
                             <div className="text-3xl font-bold text-gold-400 mb-3">11,90€</div>
-                            <p className="text-mystic-300 text-sm">Trois questions explorées en profondeur.</p>
-                        </div>
-                        <div className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm">
+                            <p className="text-mystic-300 text-sm mb-4">Trois questions explorées en profondeur.</p>
+                            <span className="inline-block text-gold-400 text-sm font-semibold group-hover:underline">
+                                Choisir cette formule →
+                            </span>
+                        </a>
+                        <a
+                            href="/consultation?plan=q5"
+                            className="bg-mystic-950/50 border border-mystic-700/30 rounded-xl p-6 text-center backdrop-blur-sm hover:border-gold-500/60 hover:scale-105 transition-all duration-200 cursor-pointer block group"
+                        >
                             <div className="text-mystic-400 text-sm uppercase tracking-wide mb-2">Tirage Complet</div>
                             <div className="text-3xl font-bold text-gold-400 mb-3">19,90€</div>
-                            <p className="text-mystic-400 text-sm">Cinq questions + synthèse globale détaillée.</p>
-                        </div>
+                            <p className="text-mystic-400 text-sm mb-4">Cinq questions + synthèse globale détaillée.</p>
+                            <span className="inline-block text-gold-400 text-sm font-semibold group-hover:underline">
+                                Choisir cette formule →
+                            </span>
+                        </a>
                     </div>
 
                     <div className="text-center">
-                        <a href="/consultation" className="btn-gold text-lg inline-flex items-center gap-2">
-                            🌙 Découvrir la consultation →
-                        </a>
-                        <p className="text-xs text-mystic-500 mt-4">
+                        <p className="text-xs text-mystic-500">
                             Paiement sécurisé PayPal — livraison email sous 30 min — 100% personnalisé
                         </p>
                     </div>
