@@ -11,7 +11,7 @@ Site Next.js 14 (static export) hébergé sur Cloudflare Pages.
 - **Cloudflare Pages** (static export `output: "export"` → dossier `out/`)
 - **Cloudflare Pages Functions** (`functions/api/*.ts`) pour les routes API serveur
 - **PayPal Orders v2 API** (paiement direct via API REST, pas de SDK Node)
-- Claude Haiku 4.5 (`claude-haiku-4-5-20251001`) — appel API Anthropic REST direct
+- **Mistral Large** (`mistral-large-latest`) — appel API Mistral REST direct (modèle français, excellent pour ce type d'écriture poétique)
 - Resend (envoi email depuis `contact@voyance-pendule.fr`)
 
 ## Flux de paiement (consultation)
@@ -39,7 +39,7 @@ Site Next.js 14 (static export) hébergé sur Cloudflare Pages.
 PAYPAL_CLIENT_ID=Axxx...
 PAYPAL_SECRET=Exxx...
 PAYPAL_API_BASE=https://api-m.paypal.com
-ANTHROPIC_API_KEY=sk-ant-...
+MISTRAL_API_KEY=...
 RESEND_API_KEY=re_...
 EMAIL_FROM=contact@voyance-pendule.fr
 SITE_URL=https://voyance-pendule.fr
@@ -47,6 +47,13 @@ SITE_URL=https://voyance-pendule.fr
 
 Pour tester en sandbox PayPal : `PAYPAL_API_BASE=https://api-m.sandbox.paypal.com`
 + utiliser les credentials sandbox.
+
+## Setup Mistral
+1. Créer compte sur https://console.mistral.ai
+2. Recharger 5€ via carte bancaire (paiement français, plus souple qu'Anthropic)
+3. Récupérer la clé API dans Settings → API Keys
+4. Mettre dans Cloudflare → variable `MISTRAL_API_KEY`
+5. Modèle utilisé : `mistral-large-latest` (~0,01€ par tirage)
 
 ## Setup PayPal (à faire 1 fois)
 1. Aller sur https://developer.paypal.com/ → Apps & Credentials

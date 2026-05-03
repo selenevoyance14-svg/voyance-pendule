@@ -6,7 +6,7 @@ interface Env {
   PAYPAL_CLIENT_ID: string;
   PAYPAL_SECRET: string;
   PAYPAL_API_BASE: string;
-  ANTHROPIC_API_KEY: string;
+  MISTRAL_API_KEY: string;
   RESEND_API_KEY: string;
   EMAIL_FROM: string;
 }
@@ -83,7 +83,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
     // Génération du tirage
     const tirage = await generateTirage({
-      apiKey: env.ANTHROPIC_API_KEY,
+      apiKey: env.MISTRAL_API_KEY,
       firstName: body.firstName.trim(),
       birthDate: (body.birthDate || "").trim(),
       questions: cleanQuestions,
@@ -154,27 +154,32 @@ Réponds à chaque question dans l'ordre. Sépare clairement chaque réponse par
     isLong ? "\nTermine par une synthèse globale précédée de '## Synthèse globale'." : ""
   }`;
 
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
+  const res = await fetch("https://api.mistral.ai/v1/chat/completions", {
     method: "POST",
     headers: {
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
+      Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
+      Accept: "application/json",
     },
     body: JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
+      model: "mistral-large-latest",
       max_tokens: isLong ? 2400 : 1400,
-      system,
-      messages: [{ role: "user", content: userPrompt }],
+      temperature: 0.85,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: userPrompt },
+      ],
     }),
   });
 
   if (!res.ok) {
-    throw new Error(`Anthropic error: ${res.status} ${await res.text()}`);
+    throw new Error(`Mistral error: ${res.status} ${await res.text()}`);
   }
 
-  const data = (await res.json()) as { content: { text: string }[] };
-  return data.content.map((c) => c.text).join("\n");
+  const data = (await res.json()) as {
+    choices: { message: { content: string } }[];
+  };
+  return data.choices[0]?.message?.content || "";
 }
 
 async function sendEmail(opts: {
