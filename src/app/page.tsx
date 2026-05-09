@@ -57,10 +57,6 @@ const Check = () => (
     </svg>
 );
 
-const Star = () => (
-    <svg fill="currentColor" viewBox="0 0 16 16"><path d="M8 1l2 5h5l-4 3 1 5-4-3-4 3 1-5-4-3h5z" /></svg>
-);
-
 export default function Home() {
     return (
         <>
@@ -348,8 +344,8 @@ export default function Home() {
                         <div className="sv-selene-content">
                             <span className="sv-eyebrow">À l&apos;origine du site</span>
                             <h2>Sélène, votre <em>guide</em> spirituelle</h2>
-                            <p>Initiée à la radiesthésie par sa grand-mère bretonne, Sélène pratique le tirage du pendule depuis plus de quinze ans. Tisseuse, lectrice de cartes, observatrice patiente des cycles lunaires — elle a fondé ce site pour offrir une guidance accessible, sans charabia, sans pression.</p>
-                            <p>Chaque tirage personnalisé est <em>écrit à la main</em> depuis son cabinet à Lyon. Une question posée, un pendule qui répond, et une voyante qui prend le temps d&apos;écrire ce qu&apos;elle a vu.</p>
+                            <p>Passionnée de voyance et de radiesthésie depuis plus de quinze ans, Sélène a fondé voyance-pendule.fr pour offrir une guidance <em>accessible</em>, sans charabia, sans pression. Tarot, pendule, anges gardiens, cycles lunaires — autant d&apos;outils qui éclairent, sans jamais figer l&apos;avenir.</p>
+                            <p>Chaque tirage est <em>composé pour vous</em>, à partir de votre prénom, votre date de naissance et la question que vous avez posée. Pas de réponses recyclées : votre lecture est unique.</p>
 
                             <div className="sv-selene-stats">
                                 <div className="sv-stat">
@@ -357,12 +353,12 @@ export default function Home() {
                                     <div className="sv-lbl">de pratique</div>
                                 </div>
                                 <div className="sv-stat">
-                                    <div className="sv-num">2 800+</div>
-                                    <div className="sv-lbl">tirages effectués</div>
+                                    <div className="sv-num">30 min</div>
+                                    <div className="sv-lbl">délai annoncé</div>
                                 </div>
                                 <div className="sv-stat">
-                                    <div className="sv-num">4,9 / 5</div>
-                                    <div className="sv-lbl">sur 412 avis</div>
+                                    <div className="sv-num">5,90€</div>
+                                    <div className="sv-lbl">à partir de</div>
                                 </div>
                             </div>
 
@@ -373,8 +369,8 @@ export default function Home() {
                                     <path d="M55 45 Q90 55 145 50" stroke="#f3d27a" strokeWidth="0.6" fill="none" opacity="0.5" />
                                 </svg>
                                 <div className="sv-who">
-                                    <strong>Sélène M.</strong>
-                                    Voyante &amp; radiesthésiste — Lyon
+                                    <strong>Sélène</strong>
+                                    Voyante &amp; radiesthésiste
                                 </div>
                             </div>
                         </div>
@@ -508,8 +504,8 @@ export default function Home() {
                         </div>
                         <div className="sv-step">
                             <div className="sv-step-num">II</div>
-                            <h4>Sélène consulte le pendule</h4>
-                            <p>Au calme dans son cabinet, à la lumière d&apos;une bougie. Pas de modèle préfabriqué.</p>
+                            <h4>Sélène compose votre tirage</h4>
+                            <p>Votre prénom, votre date de naissance, vos questions précises — tout est pris en compte pour une lecture unique.</p>
                         </div>
                         <div className="sv-step">
                             <div className="sv-step-num">III</div>
@@ -570,76 +566,79 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* TESTIMONIALS */}
+            {/* ENGAGEMENTS */}
             <section className="sv-testimonials">
                 <div className="sv-container">
                     <div className="sv-section-head">
-                        <span className="sv-eyebrow">Ce que disent nos consultantes</span>
-                        <h2>2 800 lectures, <em>4,9 / 5</em></h2>
-                        <p className="sv-lede">Avis vérifiés des consultantes ayant reçu un tirage personnalisé. Anonymisés, non triés.</p>
+                        <span className="sv-eyebrow">Notre approche</span>
+                        <h2>Pourquoi <em>nous faire confiance</em></h2>
+                        <p className="sv-lede">Voyance-pendule.fr a été lancé pour offrir une guidance accessible, claire et bienveillante. Voici les engagements qui nous tiennent à cœur.</p>
                     </div>
 
                     <div className="sv-testi-grid">
                         <div className="sv-testi">
                             <div className="sv-testi-head">
-                                <div className="sv-avatar sv-a1">SM</div>
-                                <div className="sv-testi-id">
-                                    <div className="sv-name">Sophie M.</div>
-                                    <div className="sv-meta">Lyon · il y a 3 jours</div>
+                                <div className="sv-avatar sv-a1">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+                                        <path d="M12 3 L4 7 V12 C4 17 8 21 12 22 C16 21 20 17 20 12 V7 Z" />
+                                        <path d="M9 12 L11 14 L15 10" />
+                                    </svg>
                                 </div>
-                                <div className="sv-testi-stars">
-                                    {Array.from({ length: 5 }).map((_, i) => <Star key={i} />)}
+                                <div className="sv-testi-id">
+                                    <div className="sv-name">Personnalisé</div>
+                                    <div className="sv-meta">Pas un tirage standard</div>
                                 </div>
                             </div>
-                            <p className="sv-testi-quote">« J&apos;ai posé une question que je traînais depuis six mois. Sélène a répondu en 22 minutes — précise, douce, et étonnamment juste sur un détail que je n&apos;avais pas mentionné. »</p>
+                            <p className="sv-testi-quote">« Chaque tirage est composé à partir de <em>votre prénom, votre date de naissance et vos questions précises</em>. Aucun copier-coller, aucune réponse réutilisée. »</p>
                             <div className="sv-testi-foot">
-                                <span className="sv-pill">Tirage Approfondi · 11,90€</span>
-                                <span style={{ marginLeft: "auto" }}>587 mots</span>
+                                <span className="sv-pill">Promesse n°1</span>
                             </div>
                         </div>
 
                         <div className="sv-testi">
                             <div className="sv-testi-head">
-                                <div className="sv-avatar sv-a2">LD</div>
-                                <div className="sv-testi-id">
-                                    <div className="sv-name">Laurent D.</div>
-                                    <div className="sv-meta">Bordeaux · il y a 6 jours</div>
+                                <div className="sv-avatar sv-a2">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+                                        <rect x="5" y="11" width="14" height="10" rx="1" />
+                                        <path d="M8 11 V7 a4 4 0 0 1 8 0 V11" />
+                                    </svg>
                                 </div>
-                                <div className="sv-testi-stars">
-                                    {Array.from({ length: 5 }).map((_, i) => <Star key={i} />)}
+                                <div className="sv-testi-id">
+                                    <div className="sv-name">Confidentiel</div>
+                                    <div className="sv-meta">Vos questions, vos secrets</div>
                                 </div>
                             </div>
-                            <p className="sv-testi-quote">« Sceptique au départ. Le pendule gratuit m&apos;a bluffé deux fois de suite. J&apos;ai testé une question payante : elle voit clairement quand on hésite, quand on ment à soi-même. »</p>
+                            <p className="sv-testi-quote">« Vos questions et votre email ne sont <em>jamais partagés</em> ni réutilisés à des fins marketing. Une fois le tirage envoyé, vos données sont effacées. »</p>
                             <div className="sv-testi-foot">
-                                <span className="sv-pill">Question Unique · 5,90€</span>
-                                <span style={{ marginLeft: "auto" }}>261 mots</span>
+                                <span className="sv-pill">Promesse n°2</span>
                             </div>
                         </div>
 
                         <div className="sv-testi">
                             <div className="sv-testi-head">
-                                <div className="sv-avatar sv-a3">MC</div>
-                                <div className="sv-testi-id">
-                                    <div className="sv-name">Marie C.</div>
-                                    <div className="sv-meta">Toulouse · il y a 2 semaines</div>
+                                <div className="sv-avatar sv-a3">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+                                        <circle cx="12" cy="12" r="9" />
+                                        <path d="M12 7 V12 L15 14" />
+                                    </svg>
                                 </div>
-                                <div className="sv-testi-stars">
-                                    {Array.from({ length: 5 }).map((_, i) => <Star key={i} />)}
+                                <div className="sv-testi-id">
+                                    <div className="sv-name">Sous 30 minutes</div>
+                                    <div className="sv-meta">Pas de longue attente</div>
                                 </div>
                             </div>
-                            <p className="sv-testi-quote">« Ce qui m&apos;a touchée : Sélène n&apos;a pas écrit &quot;je vois ceci, je vois cela&quot;. Elle a écrit comme une amie qui prend soin. C&apos;est rare en voyance. Le tirage complet vaut largement son prix. »</p>
+                            <p className="sv-testi-quote">« Votre tirage est livré <em>par email sous 30 minutes</em> après le paiement. Vous n&apos;attendez pas des jours pour avoir vos réponses. »</p>
                             <div className="sv-testi-foot">
-                                <span className="sv-pill">Tirage Complet · 19,90€</span>
-                                <span style={{ marginLeft: "auto" }}>1 184 mots</span>
+                                <span className="sv-pill">Promesse n°3</span>
                             </div>
                         </div>
                     </div>
 
                     <div className="sv-trust-row">
-                        <div><div className="sv-num">2 847</div><div className="sv-lbl">tirages livrés</div></div>
-                        <div><div className="sv-num">22 min</div><div className="sv-lbl">délai moyen</div></div>
-                        <div><div className="sv-num">412</div><div className="sv-lbl">avis vérifiés</div></div>
-                        <div><div className="sv-num">96%</div><div className="sv-lbl">recommandent</div></div>
+                        <div><div className="sv-num">5,90€</div><div className="sv-lbl">à partir de</div></div>
+                        <div><div className="sv-num">30 min</div><div className="sv-lbl">délai annoncé</div></div>
+                        <div><div className="sv-num">100%</div><div className="sv-lbl">personnalisé</div></div>
+                        <div><div className="sv-num">Satisfait</div><div className="sv-lbl">ou remboursé</div></div>
                     </div>
                 </div>
             </section>
