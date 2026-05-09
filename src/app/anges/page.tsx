@@ -230,7 +230,7 @@ export default function AngesPage() {
                         Posez votre question au pendule et recevez une réponse claire par Oui ou Non.
                     </p>
                     <a href="/voyance" className="btn-gold text-lg">
-                        🔮 Consulter le Pendule — dès 5€
+                        🔮 Consulter le Pendule
                     </a>
                 </div>
             </section>

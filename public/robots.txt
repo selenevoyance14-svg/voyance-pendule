@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /merci
+
+Sitemap: https://voyance-pendule.fr/sitemap.xml

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function QuiSuisJe() {
     return (
-        <div className="min-h-screen bg-[#0a0520] pt-24 pb-16">
+        <div className="min-h-screen bg-[#2a1a3a] pt-24 pb-16">
             <div className="max-w-3xl mx-auto px-4 sm:px-6">
                 <div className="text-center mb-12">
                     <div className="text-6xl mb-4">🌙</div>
@@ -70,9 +70,9 @@ export default function QuiSuisJe() {
                             <div>
                                 <h3 className="text-gold-400 font-semibold mb-1">Des consultations personnalisées</h3>
                                 <p>
-                                    Pour ceux qui souhaitent aller plus loin, je propose des consultations par pendule
-                                    à partir de 5 euros. Vous posez vos questions, je consulte le pendule et vous
-                                    recevez une réponse détaillée par email. Chaque consultation est unique et
+                                    Pour ceux qui souhaitent aller plus loin, je propose des consultations gratuites
+                                    par pendule. Vous posez vos questions, je consulte le pendule et vous
+                                    recevez une réponse détaillée. Chaque consultation est unique et
                                     réalisée avec soin.
                                 </p>
                             </div>
@@ -116,7 +116,7 @@ export default function QuiSuisJe() {
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
-                                <span><strong className="text-white">Transparence</strong> — Les tarifs sont clairs, les liens affiliés sont signalés, et les limites de la voyance sont rappelées.</span>
+                                <span><strong className="text-white">Transparence</strong> — Les liens affiliés sont signalés et les limites de la voyance sont rappelées.</span>
                             </li>
                         </ul>
                     </section>

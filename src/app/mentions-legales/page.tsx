@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function MentionsLegales() {
     return (
-        <div className="min-h-screen bg-[#0a0520] pt-24 pb-16">
+        <div className="min-h-screen bg-[#2a1a3a] pt-24 pb-16">
             <div className="max-w-3xl mx-auto px-4 sm:px-6">
                 <h1 className="font-heading text-3xl font-bold text-white mb-8">
                     Mentions <span className="text-gold-400">Légales</span>
@@ -30,10 +30,10 @@ export default function MentionsLegales() {
                         <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">2. Hébergement</h2>
                         <p>
                             Le site est hébergé par :<br />
-                            <strong className="text-mystic-300">Vercel Inc.</strong><br />
-                            440 N Barranca Ave #4133<br />
-                            Covina, CA 91723, États-Unis<br />
-                            Site web : <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition">vercel.com</a>
+                            <strong className="text-mystic-300">Cloudflare Inc.</strong><br />
+                            101 Townsend Street<br />
+                            San Francisco, CA 94107, États-Unis<br />
+                            Site web : <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition">cloudflare.com</a>
                         </p>
                     </section>
 
@@ -91,7 +91,7 @@ export default function MentionsLegales() {
                     </section>
 
                     <p className="text-mystic-600 text-xs mt-8">
-                        Dernière mise à jour : Février 2026
+                        Dernière mise à jour : Mai 2026
                     </p>
                 </div>
             </div>

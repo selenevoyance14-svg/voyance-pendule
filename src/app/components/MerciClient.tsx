@@ -69,7 +69,7 @@ export default function MerciClient() {
         <p className="text-xl text-mystic-200 mb-8 leading-relaxed">
           Votre paiement est confirmé. Le pendule a parlé.
         </p>
-        <div className="bg-gradient-to-br from-mystic-950/60 to-[#0a0518]/80 border border-gold-500/30 rounded-2xl p-8 mb-8 text-left">
+        <div className="bg-gradient-to-br from-mystic-950/60 to-[#2a1a3a]/80 border border-gold-500/30 rounded-2xl p-8 mb-8 text-left">
           <h2 className="font-heading text-xl text-gold-400 mb-4">📧 Votre tirage arrive</h2>
           <p className="text-mystic-300 leading-relaxed mb-4">
             Votre tirage personnalisé vient d'être envoyé à <strong className="text-gold-300">{email || "votre email"}</strong>.

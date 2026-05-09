@@ -3156,5 +3156,491 @@ export const blogPosts: BlogPost[] = [
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
+    },
+    {
+        title: "Pendule en cristal de roche : guide d'achat pour débuter en radiesthésie",
+        slug: "pendule-cristal-roche-guide-achat-debutant",
+        excerpt: "Le pendule en cristal de roche est l'allié idéal pour débuter en radiesthésie. Découvrez comment le choisir, l'utiliser et l'entretenir.",
+        date: "Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Le pendule en cristal de roche est considéré comme le pendule de référence pour débuter en radiesthésie. Sa transparence cristalline et sa neutralité énergétique en font un outil polyvalent qui s'adapte à toutes les sensibilités.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi choisir le cristal de roche ?</h2>
+            <p>Le cristal de roche, ou quartz hyalin, est appelé "pierre maîtresse" en lithothérapie. Il amplifie les énergies sans les colorer, ce qui en fait un capteur fidèle pour la radiesthésie. Contrairement à des pierres comme l'améthyste (introspection) ou l'obsidienne (protection), le cristal de roche n'oriente pas les réponses : il transmet ce qu'il capte.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les critères à vérifier avant l'achat</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Le poids :</strong> entre 15 et 30 grammes pour un mouvement fluide</li>
+                <li><strong>La forme :</strong> bipointe ou en goutte, pour une oscillation nette</li>
+                <li><strong>La chaîne :</strong> 18 à 22 cm de longueur, idéalement en métal léger</li>
+                <li><strong>La pureté :</strong> évitez les pendules synthétiques en verre</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+cristal+roche+radiesthesie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les pendules en cristal de roche sur Amazon</a> — à partir de 12-25 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment purifier votre pendule</h2>
+            <p>Avant la première utilisation, passez votre pendule sous l'eau claire pendant quelques secondes, puis laissez-le sécher au soleil ou à la lumière de la lune. Cette double purification efface les empreintes énergétiques accumulées avant qu'il n'arrive entre vos mains.</p>
+            <p class="mt-6">Pour aller plus loin, essayez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> ou commandez votre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage personnalisé par email</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Tarot de Marseille : choisir votre premier jeu en 2026",
+        slug: "tarot-marseille-choisir-premier-jeu",
+        excerpt: "Le Tarot de Marseille est le jeu divinatoire le plus authentique. Conseils pour choisir un premier jeu adapté aux débutants.",
+        date: "Mai 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+            <p>Le Tarot de Marseille est le jeu divinatoire le plus codifié et le plus enseigné en France. Avec ses 78 cartes — 22 arcanes majeurs et 56 arcanes mineurs — il offre une lecture profonde et nuancée des situations de vie.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quel jeu choisir pour débuter ?</h2>
+            <p>Pour un premier achat, privilégiez un Tarot de Marseille traditionnel restauré (Camoin-Jodorowsky, Conver, Grimaud). Évitez les jeux fantaisie ou modernes qui s'éloignent du symbolisme originel : ils sont magnifiques à regarder, mais moins fidèles aux interprétations classiques que vous trouverez dans les livres d'apprentissage.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Format et qualité du jeu</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Format standard :</strong> 7 × 12 cm, idéal pour mélanger en main</li>
+                <li><strong>Cartes plastifiées :</strong> plus durables que le carton simple</li>
+                <li><strong>Couleurs vives :</strong> les Tarots de Marseille restaurés respectent les pigments d'origine (rouge, jaune, bleu, vert)</li>
+                <li><strong>Boîte de rangement :</strong> protège vos cartes des chocs et de l'humidité</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tarot+marseille+jeu+traditionnel&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les Tarots de Marseille sur Amazon</a> — à partir de 15-30 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Préparer son jeu</h2>
+            <p>Avant la première utilisation, "imprégnez" votre jeu : tenez-le quelques minutes entre vos mains en vous concentrant sur votre intention de pratiquer la divination avec respect et bienveillance. Rangez-le dans un tissu en soie ou en lin lorsque vous ne l'utilisez pas.</p>
+            <p class="mt-6">Pour une réponse claire en attendant de maîtriser le tarot, posez vos questions au <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "L'améthyste : la pierre violette de la sagesse spirituelle",
+        slug: "amethyste-pierre-sagesse-spirituelle",
+        excerpt: "L'améthyste apaise le mental, favorise l'intuition et protège des énergies négatives. Tout savoir sur cette pierre incontournable.",
+        date: "Mai 2026",
+        category: "Lithothérapie",
+        image: "/blog/lithotherapie.svg",
+        content: `
+            <p>L'améthyste est probablement la pierre la plus connue de la lithothérapie. Sa belle couleur violette, allant du mauve pâle au pourpre profond, en fait à la fois un objet décoratif et un outil énergétique puissant.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Vertus principales de l'améthyste</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Apaisement mental :</strong> calme les pensées agitées et favorise un sommeil paisible</li>
+                <li><strong>Ouverture spirituelle :</strong> stimule le 6e chakra (3e œil) et renforce l'intuition</li>
+                <li><strong>Protection psychique :</strong> agit comme un bouclier contre les énergies négatives</li>
+                <li><strong>Aide au lâcher-prise :</strong> recommandée pour traverser les phases de deuil ou de rupture</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment l'utiliser au quotidien</h2>
+            <p>Posez une géode d'améthyste dans votre chambre pour favoriser l'endormissement. Portez un bracelet ou un pendentif en améthyste pour bénéficier de ses vertus tout au long de la journée. Évitez de l'exposer trop longtemps au soleil : sa couleur peut pâlir.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=amethyste+pierre+brute+geode&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les améthystes sur Amazon</a> — à partir de 8-25 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Purification et rechargement</h2>
+            <p>Purifiez votre améthyste sous l'eau claire (à éviter pour les géodes fragiles, préférez un amas de quartz). Rechargez-la sous la lumière de la pleine lune. Ne pas exposer au soleil direct : le rayonnement UV altère le pigment violet.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Sauge blanche : purifier votre maison des énergies négatives",
+        slug: "sauge-blanche-purification-maison",
+        excerpt: "La sauge blanche californienne est utilisée depuis des siècles pour nettoyer énergétiquement les lieux et les personnes.",
+        date: "Mai 2026",
+        category: "Rituels",
+        image: "/blog/rituels.svg",
+        content: `
+            <p>La sauge blanche (Salvia apiana) est une plante sacrée chez les peuples amérindiens, utilisée depuis des millénaires pour purifier les espaces, les objets et les personnes des énergies stagnantes.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quand utiliser la sauge blanche ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Après une dispute ou une période difficile</li>
+                <li>Lors d'un emménagement dans un nouveau logement</li>
+                <li>Avant et après une consultation de voyance</li>
+                <li>En période de pleine lune ou de nouvelle lune (énergies fortes)</li>
+                <li>Quand l'atmosphère vous semble lourde ou pesante</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment fumiger correctement</h2>
+            <p>Allumez l'extrémité du bâton de sauge, laissez la flamme prendre quelques secondes, puis soufflez. La braise doit fumer doucement. Passez de pièce en pièce en insistant sur les angles (où les énergies s'accumulent), formulez votre intention à voix haute : « Je purifie cet espace de toute énergie qui ne me sert plus. » Terminez par la porte d'entrée et aérez bien après.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=sauge+blanche+californienne+fumigation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les bâtons de sauge blanche sur Amazon</a> — à partir de 6-15 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Précautions d'usage</h2>
+            <p>Ne fumigez pas en présence de jeunes enfants, de personnes asthmatiques ou d'animaux domestiques sensibles. Utilisez une coquille d'ormeau (abalone) ou un bol résistant à la chaleur pour récupérer les cendres en toute sécurité.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Bougies blanches : votre alliée pour méditer et invoquer la lumière",
+        slug: "bougies-blanches-meditation-rituels",
+        excerpt: "La bougie blanche est universelle dans les rituels spirituels. Elle symbolise la pureté, la paix et la connexion divine.",
+        date: "Mai 2026",
+        category: "Rituels",
+        image: "/blog/rituels.svg",
+        content: `
+            <p>La bougie blanche est la bougie spirituelle par excellence. Sa flamme symbolise la lumière intérieure, la guidance divine et la purification. Elle peut remplacer toutes les autres couleurs dans un rituel : c'est sa polyvalence qui en fait l'incontournable de tout autel spirituel.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les usages traditionnels</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Méditation :</strong> fixer la flamme aide à concentrer l'attention</li>
+                <li><strong>Prière :</strong> support pour adresser une demande à l'univers ou à un ange</li>
+                <li><strong>Purification :</strong> nettoie les énergies d'une pièce</li>
+                <li><strong>Honorer la mémoire :</strong> rendre hommage à un être cher disparu</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Choisir une bougie de qualité</h2>
+            <p>Privilégiez les bougies en cire végétale (soja, colza) ou en cire d'abeille naturelle. Évitez la paraffine qui dégage des composés volatils peu propices au recueillement. Une mèche en coton non blanchi brûle plus proprement.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bougies+blanches+naturelles+meditation+cire&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les bougies blanches naturelles sur Amazon</a> — à partir de 8-20 € le lot.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le rituel de la flamme</h2>
+            <p>Avant d'allumer votre bougie, prenez quelques secondes pour formuler votre intention. Une fois allumée, ne la soufflez jamais avec la bouche : utilisez un éteignoir ou laissez-la se consumer naturellement. Ce détail compte dans la tradition pour ne pas "renvoyer" l'énergie demandée.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Œil turc (Nazar) : le bracelet de protection contre le mauvais œil",
+        slug: "oeil-turc-nazar-bracelet-protection",
+        excerpt: "L'œil turc, ou Nazar Boncuk, est l'un des symboles de protection les plus anciens. Découvrez ses origines et son fonctionnement.",
+        date: "Mai 2026",
+        category: "Spiritualité",
+        image: "/blog/spiritualite.svg",
+        content: `
+            <p>L'œil turc, ou « Nazar Boncuk », est un amulette de protection originaire du bassin méditerranéen. On le retrouve en Turquie, en Grèce, au Maghreb et au Moyen-Orient depuis plus de 3000 ans. Sa fonction : déjouer le « mauvais œil », c'est-à-dire les regards et pensées négatives que d'autres pourraient projeter sur nous.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi cette couleur bleue ?</h2>
+            <p>Le bleu profond de l'œil turc n'est pas un hasard. Selon la tradition, le bleu absorbe les ondes négatives et les renvoie à leur émetteur. C'est aussi la couleur du ciel et de l'eau, deux éléments purificateurs présents dans presque toutes les cosmogonies anciennes.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Sous quelle forme le porter ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Bracelet :</strong> protège l'énergie qui circule dans nos mains et nos gestes</li>
+                <li><strong>Pendentif :</strong> protège le cœur et la gorge (centres émotionnels)</li>
+                <li><strong>Porte-clés :</strong> protection sur soi en permanence</li>
+                <li><strong>Décoration murale :</strong> protège l'entrée de la maison</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+oeil+turc+nazar+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les bracelets œil turc sur Amazon</a> — à partir de 7-20 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Et s'il se casse ?</h2>
+            <p>Selon la tradition, si votre œil turc se brise spontanément, c'est qu'il a accompli son rôle : il a absorbé une attaque énergétique pour vous protéger. Remerciez-le, jetez-le respectueusement (idéalement dans la nature) et procurez-vous-en un nouveau.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Carnet de rêves : décoder les messages de votre inconscient",
+        slug: "carnet-reves-decoder-inconscient",
+        excerpt: "Tenir un carnet de rêves au quotidien est une pratique puissante pour comprendre les messages de votre subconscient.",
+        date: "Mai 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+            <p>Tenir un carnet de rêves est une des pratiques spirituelles les plus accessibles et les plus révélatrices. Nos rêves sont des messages que notre subconscient nous envoie chaque nuit — encore faut-il prendre le temps de les écouter.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi noter ses rêves ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Identifier les schémas émotionnels qui se répètent</li>
+                <li>Reconnaître les messages prémonitoires (heures, lieux, personnes récurrents)</li>
+                <li>Développer la mémoire onirique et faciliter les rêves lucides</li>
+                <li>Mieux se connaître à travers les symboles personnels qui émergent</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment bien tenir son carnet</h2>
+            <p>Posez le carnet et un stylo à portée de main avant de dormir. Au réveil, notez immédiatement (avant de bouger ou de parler) les images, les émotions, les couleurs, les personnes présentes. Ne cherchez pas à interpréter sur le moment : laissez sortir tout ce qui vient. La signification se révèlera souvent plusieurs jours plus tard, en relisant.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=carnet+reves+journal+intime+spirituel&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les carnets de rêves sur Amazon</a> — à partir de 9-18 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les symboles oniriques universels</h2>
+            <p>Eau (émotions), feu (passion ou colère), maison (le soi), voiture (le contrôle de sa vie), chute (perte de contrôle), vol (libération), animal (instinct ou guide spirituel). Ces symboles forment un alphabet à interpréter dans le contexte de votre vie personnelle.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Encens Nag Champa : l'arôme indien du bien-être spirituel",
+        slug: "encens-nag-champa-bien-etre-spirituel",
+        excerpt: "Le Nag Champa est l'encens spirituel le plus célèbre au monde. Sa fragrance unique apaise l'esprit et favorise la méditation.",
+        date: "Mai 2026",
+        category: "Bien-être",
+        image: "/blog/bien-etre.svg",
+        content: `
+            <p>Le Nag Champa est probablement l'encens indien le plus reconnu au monde. Créé dans les années 1960 par la marque Satya à Bangalore, il est devenu emblématique des ashrams, temples et lieux de méditation depuis cinq décennies.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une composition mystique</h2>
+            <p>Le Nag Champa associe la fleur de Champak (un magnolia indien) à plusieurs résines précieuses comme le santal, le benjoin et l'encens. Cette combinaison crée un arôme à la fois floral, sucré et boisé, qui invite naturellement au recueillement.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quand l'utiliser ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Pendant les séances de méditation ou de yoga</li>
+                <li>Avant un tirage de cartes ou une consultation de voyance</li>
+                <li>Pour purifier l'atmosphère après une journée stressante</li>
+                <li>Comme parfum d'ambiance pour favoriser la concentration ou le sommeil</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=encens+nag+champa+satya+sai+baba&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les encens Nag Champa sur Amazon</a> — à partir de 8-15 € le lot.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment bien faire brûler l'encens</h2>
+            <p>Allumez l'extrémité, laissez la flamme s'enflammer 5 secondes, puis soufflez : la braise doit rougeoyer et fumer doucement. Posez le bâton sur un porte-encens en bois ou en céramique pour récupérer les cendres. Aérez la pièce après usage pour évacuer les particules de combustion.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Disclaimer santé : les fumées d'encens peuvent irriter les voies respiratoires des personnes sensibles. Consultez un professionnel de santé en cas de doute.</p>
+        `
+    },
+    {
+        title: "Quartz rose : la pierre de l'amour, du cœur et de la douceur",
+        slug: "quartz-rose-pierre-amour-coeur",
+        excerpt: "Le quartz rose est la pierre incontournable de l'amour de soi et de la guérison émotionnelle. Découvrez tous ses bienfaits.",
+        date: "Mai 2026",
+        category: "Lithothérapie",
+        image: "/blog/lithotherapie.svg",
+        content: `
+            <p>Le quartz rose est universellement reconnu comme la pierre de l'amour. Sa douceur visuelle se reflète dans son énergie : apaisante, réconfortante, profondément maternelle. C'est la première pierre que recommandent les lithothérapeutes pour travailler sur le cœur émotionnel.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les vertus émotionnelles</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Amour de soi :</strong> apprend à s'accepter avec bienveillance</li>
+                <li><strong>Guérison du cœur :</strong> aide à se reconstruire après une rupture</li>
+                <li><strong>Ouverture aux autres :</strong> dénoue les blocages relationnels</li>
+                <li><strong>Apaisement :</strong> calme les émotions intenses (jalousie, peur, colère)</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment l'utiliser au quotidien</h2>
+            <p>Tenez une pierre roulée de quartz rose dans la main lors de vos méditations. Posez-la sur votre cœur (4e chakra) en position allongée pour des soins énergétiques de 15 minutes. Portez un pendentif au niveau du sternum pour un effet permanent.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=quartz+rose+pierre+roulee+brute&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les quartz rose sur Amazon</a> — à partir de 7-20 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Purification et entretien</h2>
+            <p>Le quartz rose se purifie sous l'eau claire ou par fumigation à la sauge. Évitez l'exposition au soleil prolongée : sa belle teinte rose pâle peut s'estomper avec les UV. Préférez la lumière de la lune pour le rechargement, particulièrement en pleine lune.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Obsidienne noire : le bouclier énergétique le plus puissant",
+        slug: "obsidienne-noire-bouclier-protection",
+        excerpt: "L'obsidienne noire est la pierre de protection ultime. Elle absorbe les énergies négatives et révèle ce qui doit être guéri.",
+        date: "Mai 2026",
+        category: "Lithothérapie",
+        image: "/blog/lithotherapie.svg",
+        content: `
+            <p>L'obsidienne est une roche volcanique formée par le refroidissement rapide de la lave. Cette origine ardente lui confère une énergie particulièrement intense, à la fois protectrice et révélatrice. Elle est considérée comme l'une des pierres de protection les plus puissantes en lithothérapie.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une protection ferme et sans concession</h2>
+            <p>Contrairement à des pierres plus douces comme l'améthyste, l'obsidienne ne se contente pas de filtrer les énergies négatives : elle les renvoie à leur émetteur. C'est une pierre que l'on porte quand on traverse des situations conflictuelles ou qu'on travaille avec des personnes en souffrance énergétique.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le miroir de votre âme</h2>
+            <p>Surnommée la « pierre miroir », l'obsidienne reflète aussi nos propres ombres. Elle est utilisée par les chamans pour faire émerger les blocages enfouis et les peurs cachées. Travail puissant mais parfois inconfortable : commencez par des sessions courtes (10-15 min) avant d'en faire un compagnon quotidien.</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Obsidienne noire :</strong> protection brute</li>
+                <li><strong>Obsidienne flocon de neige :</strong> plus douce, ancrage émotionnel</li>
+                <li><strong>Obsidienne œil céleste :</strong> protection + clairvoyance</li>
+                <li><strong>Obsidienne dorée :</strong> abondance et confiance en soi</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=obsidienne+noire+pierre+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les obsidiennes sur Amazon</a> — à partir de 8-25 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Purification après usage</h2>
+            <p>L'obsidienne se charge rapidement en énergies absorbées : purifiez-la souvent. Eau claire, sel marin (jamais sur les pierres avec inclusions métalliques), ou fumigation à la sauge. Rechargement à la pleine lune ou sur un amas de quartz.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Cartes oracle : choisir le jeu qui résonne avec vous",
+        slug: "cartes-oracle-choisir-jeu-resonne",
+        excerpt: "Les oracles sont plus accessibles que le tarot et permettent une divination plus intuitive. Comment choisir son premier jeu ?",
+        date: "Mai 2026",
+        category: "Voyance",
+        image: "/blog/voyance.svg",
+        content: `
+            <p>Les cartes oracle sont une porte d'entrée idéale dans la divination. Contrairement au Tarot de Marseille qui suit un système strict de 78 cartes, l'oracle est libre dans sa forme : chaque jeu a son propre nombre de cartes, son propre univers, et ses propres règles d'interprétation.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les grandes familles d'oracles</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Oracles d'anges :</strong> Doreen Virtue, Anges Gardiens, Archanges</li>
+                <li><strong>Oracles de la nature :</strong> animaux totem, fleurs, arbres sacrés</li>
+                <li><strong>Oracles symboliques :</strong> Belline, Lenormand, Gé</li>
+                <li><strong>Oracles d'affirmations positives :</strong> messages quotidiens de guidance</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment choisir le bon jeu</h2>
+            <p>Le critère le plus important : la résonance visuelle. Quand vous regardez les illustrations d'un oracle, vous devez ressentir une attirance, une émotion. Si les images vous laissent froid·e, le jeu ne « parlera » pas. Lisez les avis, regardez les photos en ligne, et faites confiance à votre intuition.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+cartes+divinatoires+jeu+anges&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les oracles sur Amazon</a> — à partir de 15-30 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Premier tirage : une carte par jour</h2>
+            <p>Pour vous familiariser avec votre nouveau jeu, tirez une carte chaque matin. Lisez son interprétation, et observez comment elle résonne avec votre journée. Cette pratique simple développe votre intuition divinatoire en quelques semaines.</p>
+            <p class="mt-6">En attendant, posez vos questions au <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou commandez un <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage personnalisé</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Statue de Bouddha : ancrer la sérénité dans votre intérieur",
+        slug: "statue-bouddha-serenite-interieur",
+        excerpt: "La statue de Bouddha est bien plus qu'un objet de décoration. Elle invite à la paix intérieure et au lâcher-prise quotidien.",
+        date: "Mai 2026",
+        category: "Spiritualité",
+        image: "/blog/spiritualite.svg",
+        content: `
+            <p>La statue de Bouddha est un symbole universel de paix, de sagesse et d'éveil spirituel. Présente dans les temples comme dans les jardins zen ou les intérieurs occidentaux, elle invite quiconque la regarde à un moment de pause et de respiration consciente.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les principales postures et leurs significations</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Bouddha méditant :</strong> mains jointes en lotus, paix intérieure</li>
+                <li><strong>Bouddha rieur (Hotei) :</strong> abondance et joie</li>
+                <li><strong>Bouddha couché :</strong> entrée dans le Nirvana, lâcher-prise ultime</li>
+                <li><strong>Bouddha protecteur :</strong> main levée, paume vers l'extérieur</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Où placer sa statue ?</h2>
+            <p>Selon le Feng Shui, la statue de Bouddha se place toujours à hauteur du regard ou plus haut (jamais au sol). Le salon, le bureau ou un coin méditation sont les emplacements les plus harmonieux. Évitez la chambre à coucher, la salle de bain et les pièces où vous mangez.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=statue+bouddha+decoration+zen+meditation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les statues de Bouddha sur Amazon</a> — à partir de 15-50 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Matériaux à privilégier</h2>
+            <p>Pour l'extérieur (jardin, terrasse), choisissez la pierre reconstituée résistante au gel. Pour l'intérieur, le bois sculpté à la main ou le bronze patiné apportent une chaleur authentique. Évitez les statues en plastique : leur énergie est peu compatible avec leur rôle spirituel.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Coussin de méditation : confort et alignement pour votre pratique",
+        slug: "coussin-meditation-zafu-confort",
+        excerpt: "Bien méditer commence par bien s'asseoir. Le coussin de méditation (zafu) maintient le bassin et soulage les genoux.",
+        date: "Mai 2026",
+        category: "Bien-être",
+        image: "/blog/bien-etre.svg",
+        content: `
+            <p>Bien méditer commence par bien s'asseoir. Sans support adapté, la posture du lotus ou demi-lotus devient vite douloureuse, ce qui parasite l'attention. Le coussin de méditation (ou zafu, terme japonais) résout ce problème en surélevant le bassin de 10 à 15 cm.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les bienfaits d'une bonne posture</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Le bassin basculé vers l'avant aligne naturellement la colonne vertébrale</li>
+                <li>Les genoux descendent au sol, ancrent le corps</li>
+                <li>La respiration s'approfondit et devient plus régulière</li>
+                <li>L'esprit reste éveillé et vigilant, sans somnolence</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Garnissage : Kapok ou sarrasin ?</h2>
+            <p><strong>Kapok</strong> (fibre végétale légère) : très moelleux, idéal pour les débutants ou les sessions courtes. <strong>Coques de sarrasin</strong> : plus ferme, épouse les formes du corps, recommandé pour la pratique régulière. Plus dense, il offre un meilleur ancrage.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coussin+meditation+zafu+sarrasin&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les coussins zafu sur Amazon</a> — à partir de 25-55 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Compléter avec un zabuton</h2>
+            <p>Pour un confort total, ajoutez un zabuton (tapis épais) sous le zafu. Il protège les genoux et les chevilles du contact dur avec le sol. L'ensemble zafu + zabuton est l'équipement de base de tout pratiquant régulier de méditation.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Diffuseur d'huiles essentielles : créer une bulle sacrée chez vous",
+        slug: "diffuseur-huiles-essentielles-bulle-sacree",
+        excerpt: "Les huiles essentielles transforment l'atmosphère d'une pièce. Le diffuseur ultrasonique en libère les vertus en douceur.",
+        date: "Mai 2026",
+        category: "Bien-être",
+        image: "/blog/bien-etre.svg",
+        content: `
+            <p>Les huiles essentielles sont des concentrés d'énergie végétale, chacune porteuse de vertus thérapeutiques et énergétiques. Diffusées dans l'air, elles transforment instantanément l'atmosphère d'une pièce — et donc votre état intérieur.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les huiles spirituelles incontournables</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Encens (oliban) :</strong> élévation spirituelle, méditation profonde</li>
+                <li><strong>Lavande vraie :</strong> apaisement, sommeil, détente</li>
+                <li><strong>Bois de santal :</strong> connexion au sacré, recueillement</li>
+                <li><strong>Sauge sclarée :</strong> purification énergétique douce</li>
+                <li><strong>Ylang-ylang :</strong> ouverture du cœur, sensualité</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Diffuseur ultrasonique : pourquoi ce choix ?</h2>
+            <p>Le diffuseur ultrasonique disperse les huiles en fines gouttelettes via des vibrations à haute fréquence, sans chauffer. Les molécules conservent toutes leurs propriétés thérapeutiques. C'est la méthode la plus respectueuse, plus que les brûle-parfums (qui altèrent les huiles par la chaleur).</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=diffuseur+huiles+essentielles+ultrasonique&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les diffuseurs ultrasoniques sur Amazon</a> — à partir de 25-60 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Précautions importantes</h2>
+            <p>Ne diffusez pas en présence de jeunes enfants (- de 3 ans), de femmes enceintes, ou d'animaux sensibles (chats, oiseaux). Limitez la diffusion à 15-30 minutes par session, dans une pièce aérée. Toujours respecter les dosages recommandés.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Disclaimer santé : les huiles essentielles peuvent présenter des contre-indications. Consultez un professionnel de santé avant utilisation, en cas de doute, ou pour les enfants, femmes enceintes, et personnes allergiques.</p>
+        `
+    },
+    {
+        title: "Cristal de roche : la pierre maîtresse de tous les rituels",
+        slug: "cristal-roche-pierre-maitresse-rituels",
+        excerpt: "Le cristal de roche amplifie l'énergie de toutes les autres pierres. Il est l'élément central de tout autel spirituel.",
+        date: "Mai 2026",
+        category: "Lithothérapie",
+        image: "/blog/lithotherapie.svg",
+        content: `
+            <p>Le cristal de roche, ou quartz hyalin, est surnommé la « pierre maîtresse » en lithothérapie. Sa transparence pure et sa neutralité énergétique en font le compagnon idéal de toutes les autres pierres — il les amplifie sans les colorer.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Vertus universelles</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Amplification énergétique :</strong> renforce les autres cristaux placés à proximité</li>
+                <li><strong>Purification :</strong> nettoie les charges négatives accumulées</li>
+                <li><strong>Clarté mentale :</strong> facilite la prise de décision et la concentration</li>
+                <li><strong>Programmation :</strong> peut être chargé d'une intention précise</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Différentes formes, différents usages</h2>
+            <p>Une <strong>pointe</strong> dirige l'énergie (vers le haut pour invoquer, vers vous pour recevoir). Une <strong>boule</strong> diffuse l'énergie de manière uniforme dans une pièce. Un <strong>amas</strong> ou « druse » purifie et recharge les autres pierres posées dessus. Une <strong>pierre roulée</strong> se garde sur soi en permanence.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=cristal+roche+pointe+brute+pierre&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les cristaux de roche sur Amazon</a> — à partir de 8-25 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Programmer son cristal</h2>
+            <p>Tenez le cristal entre vos mains, fermez les yeux, et formulez mentalement une intention claire (« Je te programme pour m'apporter la paix intérieure », par exemple). Le cristal conservera cette empreinte jusqu'à votre prochaine purification.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Le livre des 72 anges gardiens : connaître votre protecteur céleste",
+        slug: "livre-72-anges-gardiens-protecteur",
+        excerpt: "Selon la Kabbale, 72 anges veillent sur l'humanité. Découvrez comment identifier le vôtre selon votre date de naissance.",
+        date: "Mai 2026",
+        category: "Spiritualité",
+        image: "/blog/spiritualite.svg",
+        content: `
+            <p>Selon la tradition kabbalistique, 72 anges gardiens veillent sur l'humanité, chacun ayant la charge de cinq jours dans l'année. Votre ange protecteur est déterminé par votre date de naissance — il porte un nom hébraïque, un attribut spirituel précis, et un domaine d'intervention.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">L'origine de cette tradition</h2>
+            <p>Le système des 72 anges gardiens trouve ses racines dans le Sefer Yetsirah, l'un des livres fondateurs de la Kabbale juive. Chaque ange est issu d'une combinaison de trois lettres hébraïques tirées de versets bibliques. Cette tradition a ensuite été adoptée par certaines branches du christianisme ésotérique.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment trouver votre ange ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Ange de naissance :</strong> selon votre date de naissance, gouverne votre incarnation</li>
+                <li><strong>Ange du cœur :</strong> selon votre heure de naissance, gouverne vos émotions</li>
+                <li><strong>Ange de l'intellect :</strong> selon votre moment de conception, gouverne la pensée</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=livre+72+anges+gardiens+kabbale&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les livres sur les 72 anges sur Amazon</a> — à partir de 15-25 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Invoquer son ange gardien</h2>
+            <p>Chaque ange a des « heures de régence » dans la journée pendant lesquelles son énergie est plus accessible. La méditation, la bougie blanche allumée et la formulation mentale du nom angélique sont les moyens traditionnels pour entrer en contact avec lui.</p>
+            <p class="mt-6">Pour découvrir le message de vos anges, consultez gratuitement notre page <a href="/message-ange" class="text-gold-400 border-b border-gold-400/30">Message angélique</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Calendrier lunaire 2026 : suivre les cycles pour aligner votre vie",
+        slug: "calendrier-lunaire-2026-cycles-vie",
+        excerpt: "La lune influence nos énergies, nos émotions et nos cycles. Le calendrier lunaire vous aide à agir au bon moment.",
+        date: "Mai 2026",
+        category: "Astrologie",
+        image: "/blog/astrologie.svg",
+        content: `
+            <p>La lune influence depuis toujours nos énergies, nos émotions, et même les cycles biologiques de la nature. Le calendrier lunaire 2026 est un outil précieux pour aligner vos actions sur les phases lunaires et tirer parti des moments les plus favorables.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les 4 phases majeures et leurs énergies</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Nouvelle lune :</strong> commencements, intentions, semer (au sens propre et figuré)</li>
+                <li><strong>Lune croissante :</strong> action, croissance, prendre des initiatives</li>
+                <li><strong>Pleine lune :</strong> aboutissement, célébration, manifestation</li>
+                <li><strong>Lune décroissante :</strong> lâcher-prise, nettoyage, libération de ce qui ne sert plus</li>
+            </ul>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi un calendrier physique ?</h2>
+            <p>Avoir un calendrier lunaire au mur ou dans un agenda permet d'anticiper visuellement les moments-clés du mois. Les calendriers lunaires modernes intègrent souvent les nœuds lunaires, les éclipses, et les positions zodiacales — informations précieuses pour les rituels.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=calendrier+lunaire+2026+agenda&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les calendriers lunaires 2026 sur Amazon</a> — à partir de 8-18 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Petits rituels lunaires</h2>
+            <p>À chaque nouvelle lune, écrivez 3 intentions pour le mois à venir. À chaque pleine lune, brûlez (en sécurité) une feuille listant ce que vous voulez libérer. Ces gestes simples, répétés mois après mois, transforment progressivement votre rapport au temps et à vos désirs.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Boule de cristal : initiation à la cristallomancie pour débutants",
+        slug: "boule-cristal-cristallomancie-initiation",
+        excerpt: "La boule de cristal est un outil divinatoire puissant. Apprenez à l'utiliser et à interpréter les images qui apparaissent.",
+        date: "Mai 2026",
+        category: "Voyance",
+        image: "/blog/voyance.svg",
+        content: `
+            <p>La boule de cristal est l'image emblématique de la voyante traditionnelle. Mais derrière le cliché se cache une pratique divinatoire ancienne et exigeante : la cristallomancie, ou « scrying », consiste à entrer en transe légère en fixant la sphère pour y voir apparaître images et symboles.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quel cristal choisir ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Cristal de roche pur :</strong> le plus traditionnel, neutre énergétiquement</li>
+                <li><strong>Obsidienne noire :</strong> facilite la connexion au subconscient (réservée aux initiés)</li>
+                <li><strong>Quartz fumé :</strong> intermédiaire, idéal pour débuter en douceur</li>
+            </ul>
+            <p>La taille recommandée pour débuter est entre 6 et 10 cm de diamètre. Plus grand, la boule devient lourde à manipuler. Plus petit, le champ visuel est trop réduit.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">La méthode de scrying</h2>
+            <p>Installez-vous dans une pièce faiblement éclairée (lumière de bougies). Posez la boule sur un support sombre, à distance de bras. Détendez le regard sans cligner trop souvent. Au bout de quelques minutes, des images, des couleurs ou des symboles peuvent apparaître. N'analysez pas immédiatement : laissez les visions se former, puis notez-les.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=boule+cristal+divination+voyance&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les boules de cristal sur Amazon</a> — à partir de 15-40 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Précautions importantes</h2>
+            <p>Ne placez jamais une boule de cristal au soleil direct : elle agit comme une loupe et peut provoquer un incendie. Conservez-la dans un sac en velours noir lorsque vous ne l'utilisez pas. Purifiez-la régulièrement à la fumigation de sauge.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Mala 108 perles : compter ses mantras pour méditer profondément",
+        slug: "mala-108-perles-mantras-meditation",
+        excerpt: "Le mala est le chapelet bouddhiste de 108 perles. Il rythme la récitation des mantras et installe une concentration profonde.",
+        date: "Mai 2026",
+        category: "Spiritualité",
+        image: "/blog/spiritualite.svg",
+        content: `
+            <p>Le mala est un chapelet de méditation utilisé depuis des millénaires dans l'hindouisme et le bouddhisme. Composé de 108 perles plus une perle « guru » qui marque le départ du circuit, il permet de compter les mantras récités sans avoir à le faire mentalement.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi 108 ?</h2>
+            <p>Le nombre 108 est sacré dans de nombreuses traditions spirituelles. Il représenterait l'union du divin (1), du vide (0) et de l'infini (8). En astronomie védique, c'est aussi le nombre de connections énergétiques (nadis) qui aboutissent au chakra cardiaque. La récitation de 108 mantras est donc considérée comme une boucle complète d'énergie.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quel matériau choisir ?</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Bois de santal ou bois de rose :</strong> traditionnel, doux au toucher</li>
+                <li><strong>Graines de Rudraksha :</strong> sacrées dans l'hindouisme, très énergétiques</li>
+                <li><strong>Pierres semi-précieuses :</strong> améthyste (apaisement), quartz rose (amour), turquoise (protection)</li>
+                <li><strong>Os ou ivoire végétal :</strong> tradition tibétaine bouddhiste</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=mala+108+perles+meditation+bouddhiste&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les malas 108 perles sur Amazon</a> — à partir de 10-30 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment l'utiliser</h2>
+            <p>Tenez le mala dans la main droite. Avec le pouce, faites passer les perles une à une, en récitant un mantra à chaque perle (« Om mani padme hum », « So Ham », ou simplement votre intention personnelle). Une fois arrivé à la perle guru, ne la traversez pas : retournez le mala et repartez en sens inverse.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Encens copal : la purification énergétique des civilisations Maya",
+        slug: "encens-copal-purification-maya",
+        excerpt: "Le copal est la résine sacrée des civilisations précolombiennes. Sa fumée puissante purifie en profondeur les espaces et les âmes.",
+        date: "Mai 2026",
+        category: "Rituels",
+        image: "/blog/rituels.svg",
+        content: `
+            <p>Le copal est une résine aromatique extraite d'arbres tropicaux (Bursera, Protium) que les civilisations Maya, Aztèque et Olmèque considéraient comme sacrée. Surnommé « le sang des arbres », il était brûlé lors des cérémonies religieuses pour communiquer avec les divinités et purifier les âmes.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une puissance purifiante intense</h2>
+            <p>Comparée à la sauge blanche (douce et aérienne), la fumée du copal est plus dense, plus profonde, plus enracinée. Elle pénètre les structures énergétiques tenaces — particulièrement utile après une période de stress chronique, un déménagement dans un lieu chargé, ou un travail thérapeutique de fond.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les différentes variétés de copal</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Copal blanc :</strong> le plus pur, idéal pour la méditation et la prière</li>
+                <li><strong>Copal noir :</strong> protection et exorcisme, à utiliser avec parcimonie</li>
+                <li><strong>Copal d'or :</strong> abondance, succès, manifestation des intentions</li>
+                <li><strong>Copal Maya :</strong> mélange traditionnel pour rituels chamaniques</li>
+            </ul>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=encens+copal+resine+naturel+purification&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">Voir les encens copal sur Amazon</a> — à partir de 10-20 €.</p>
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment brûler la résine</h2>
+            <p>Le copal s'utilise sur charbon ardent (charbon spécial encens, jamais de charbon de barbecue). Allumez le charbon dans un brûleur, attendez qu'il soit incandescent (5 min environ), puis déposez quelques grains de copal dessus. La fumée sera abondante : aérez après usage.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Disclaimer santé : les fumées de combustion peuvent irriter les voies respiratoires des personnes sensibles. Consultez un professionnel de santé en cas de doute.</p>
+        `
     }
 ];

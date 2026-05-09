@@ -24,23 +24,23 @@ const faqs = [
         ],
     },
     {
-        category: "Les Consultations Payantes",
+        category: "La Consultation Personnalisée",
         questions: [
             {
-                q: "Comment se déroule une consultation par pendule ?",
-                a: "Vous choisissez votre formule (1 question à 5 euros, 3 questions à 10 euros, ou 5 questions à 15 euros), vous rédigez vos questions dans le formulaire et vous procédez au paiement sécurisé par carte bancaire via Stripe. Sélène consulte ensuite le pendule pour chacune de vos questions et vous envoie les réponses détaillées par email dans un délai de 30 minutes.",
+                q: "Qu'est-ce que la consultation personnalisée par email ?",
+                a: "C'est notre service signature : un tirage du pendule rédigé sur mesure, à partir de votre prénom, votre date de naissance et vos questions précises. Vous recevez le tirage par email dans un délai indicatif de 30 minutes. Trois formules sont disponibles : Question Unique (5,90 €), Tirage Approfondi 3 questions (11,90 €) et Tirage Complet 5 questions + synthèse globale (19,90 €).",
             },
             {
-                q: "Quels types de questions puis-je poser ?",
-                a: "Vous pouvez poser des questions sur l'amour, le travail, la famille, les projets, les décisions à prendre ou tout autre sujet qui vous préoccupe. Les questions en format Oui/Non fonctionnent le mieux avec le pendule. Par exemple : \"Est-ce que mon projet professionnel va aboutir ?\", \"Est-ce que je vais retrouver l'amour cette année ?\". Évitez les questions sur la santé ou les diagnostics médicaux.",
+                q: "Comment fonctionne l'oracle numérique Sélène ?",
+                a: "Sélène est un oracle numérique basé sur une intelligence artificielle inspirée de la tradition divinatoire de la radiesthésie. Il interprète vos questions avec bienveillance et formule des réponses personnalisées en français. Ce n'est pas un médium humain : c'est un outil de réflexion et de guidance, à usage de divertissement.",
             },
             {
-                q: "Le paiement est-il sécurisé ?",
-                a: "Oui, tous les paiements sont traités par Stripe, une plateforme de paiement certifiée PCI DSS (le plus haut niveau de sécurité dans l'industrie du paiement). Nous n'avons jamais accès à vos coordonnées bancaires. Stripe accepte Visa, Mastercard et American Express.",
+                q: "Quel mode de paiement est accepté ?",
+                a: "Le paiement s'effectue exclusivement par PayPal — soit avec votre compte PayPal, soit en carte bancaire (Visa, Mastercard, etc.) via l'interface PayPal. Le paiement est sécurisé : vos données bancaires ne transitent jamais par notre serveur.",
             },
             {
-                q: "Puis-je me faire rembourser ?",
-                a: "Les consultations étant des prestations de services numériques exécutées immédiatement, le droit de rétractation ne s'applique pas (article L221-28 du Code de la consommation). Cependant, en cas de problème technique empêchant la délivrance de la prestation, un remboursement intégral sera effectué. Contactez-nous à contact@voyance-pendule.fr.",
+                q: "Et si je ne reçois pas mon tirage ?",
+                a: "Vérifiez d'abord votre dossier Spam / Promotions. Si rien après 1 heure, écrivez à contact@voyance-pendule.fr en mentionnant votre adresse email PayPal. Nous renvoyons le tirage immédiatement ou procédons au remboursement (frais PayPal exclus). Voir nos CGV pour les détails.",
             },
         ],
     },
@@ -48,8 +48,21 @@ const faqs = [
         category: "Les Outils Gratuits",
         questions: [
             {
-                q: "Les outils de guidance sont-ils vraiment gratuits ?",
-                a: "Oui, tous nos outils de guidance sont 100% gratuits et accessibles sans inscription : le tirage de cartes, le pendule Oui/Non en ligne, l'horoscope du jour pour les 12 signes du zodiaque et les messages de vos anges gardiens. Aucun paiement ni engagement n'est demandé pour utiliser ces services.",
+                q: "Comment se déroule la consultation par pendule gratuite ?",
+                a: "Rendez-vous sur la page du pendule gratuit, rédigez votre question en format Oui/Non et lancez la consultation. Le pendule oscille et vous délivre une réponse instantanée. C'est 100 % gratuit, sans inscription ni engagement.",
+            },
+            {
+                q: "Quels types de questions puis-je poser au pendule gratuit ?",
+                a: "Vous pouvez poser des questions sur l'amour, le travail, la famille, les projets, les décisions à prendre. Les questions en format Oui/Non fonctionnent le mieux avec le pendule. Évitez les questions sur la santé ou les diagnostics médicaux. Pour des questions plus profondes ou des interprétations personnalisées, optez pour la consultation par email.",
+            },
+        ],
+    },
+    {
+        category: "Les Autres Outils Gratuits",
+        questions: [
+            {
+                q: "Tous les outils de guidance sont-ils gratuits ?",
+                a: "Le pendule Oui/Non en ligne, le tirage de cartes, l'horoscope du jour pour les 12 signes et les messages des anges gardiens sont 100 % gratuits, sans inscription. Seule la consultation personnalisée par email (rédigée par notre oracle numérique Sélène et envoyée sous 30 min) est un service payant.",
             },
             {
                 q: "Comment fonctionne le tirage de cartes gratuit ?",
@@ -57,7 +70,7 @@ const faqs = [
             },
             {
                 q: "L'horoscope est-il mis à jour chaque jour ?",
-                a: "Oui, l'horoscope est actualisé quotidiennement pour chacun des 12 signes du zodiaque. Il couvre les domaines Amour, Travail, Santé et Finances. C'est un outil de guidance générale basé sur votre signe solaire — pour une lecture plus personnalisée, une consultation par pendule prend en compte votre situation individuelle.",
+                a: "Oui, l'horoscope est actualisé quotidiennement pour les 12 signes du zodiaque. Il couvre Amour, Travail, Santé et Finances. C'est une guidance générale basée sur votre signe solaire — pour une lecture personnalisée tenant compte de votre situation, optez pour la consultation par email.",
             },
         ],
     },
@@ -104,7 +117,7 @@ const faqs = [
 
 export default function FAQ() {
     return (
-        <div className="min-h-screen bg-[#0a0520] pt-24 pb-16">
+        <div className="min-h-screen bg-[#2a1a3a] pt-24 pb-16">
             <div className="max-w-3xl mx-auto px-4 sm:px-6">
                 <div className="text-center mb-12">
                     <div className="text-6xl mb-4">❓</div>
@@ -148,11 +161,11 @@ export default function FAQ() {
                         contact@voyance-pendule.fr
                     </a>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-                        <a href="/pendule-gratuit" className="btn-gold">
-                            🔮 Essayer le Pendule Gratuit
+                        <a href="/consultation" className="btn-gold">
+                            🌙 Consultation Personnalisée
                         </a>
-                        <a href="/voyance" className="btn-mystic">
-                            ✨ Consultation Personnalisée
+                        <a href="/pendule-gratuit" className="btn-mystic">
+                            🔮 Pendule Gratuit
                         </a>
                     </div>
                 </div>

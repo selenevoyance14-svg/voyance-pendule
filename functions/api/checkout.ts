@@ -99,7 +99,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const headers = new Headers({ "Content-Type": "application/json" });
     headers.append(
       "Set-Cookie",
-      `${cookieName}=${signedToken}; Path=/; Max-Age=3600; HttpOnly; Secure; SameSite=Lax`
+      `${cookieName}=${signedToken}; Path=/; Max-Age=3600; HttpOnly; Secure; SameSite=None`
     );
 
     return new Response(

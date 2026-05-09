@@ -119,7 +119,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const headers = new Headers({ "Content-Type": "application/json" });
     headers.append(
       "Set-Cookie",
-      `${cookieName}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`
+      `${cookieName}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=None`
     );
 
     return new Response(JSON.stringify({ success: true, plan, email: payload.email }), { headers });
@@ -269,6 +269,10 @@ async function sendEmail(opts: {
   const html = renderEmailHtml(firstName, tirage, planLabel);
   const text = `Bonjour ${firstName},\n\nVoici votre tirage Sélène :\n\n${tirage}\n\nAvec bienveillance,\nSélène — voyance-pendule.fr\n\nNote : interprétation générée par notre oracle numérique, à usage de divertissement.`;
 
+  // Délai aléatoire 20-30 min pour donner le côté "Sélène consulte le pendule"
+  const delayMinutes = 20 + Math.floor(Math.random() * 11);
+  const scheduledAt = new Date(Date.now() + delayMinutes * 60 * 1000).toISOString();
+
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
@@ -281,6 +285,7 @@ async function sendEmail(opts: {
       subject: `🌙 Votre tirage du pendule — ${planLabel}`,
       html,
       text,
+      scheduled_at: scheduledAt,
     }),
   });
 

@@ -74,7 +74,7 @@ export default function BlogPostPage({ params }: Props) {
     };
 
     return (
-        <div className="min-h-screen bg-[#0a0518] pt-24 pb-20">
+        <div className="min-h-screen bg-[#2a1a3a] pt-24 pb-20">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

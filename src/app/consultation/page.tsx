@@ -66,7 +66,7 @@ export default function ConsultationPage() {
         </div>
 
         {/* FORM */}
-        <div className="bg-gradient-to-br from-mystic-950/60 to-[#0a0518]/80 backdrop-blur-sm border border-mystic-700/30 rounded-2xl p-6 sm:p-10 shadow-2xl shadow-mystic-900/30">
+        <div className="bg-gradient-to-br from-mystic-950/60 to-[#2a1a3a]/80 backdrop-blur-sm border border-mystic-700/30 rounded-2xl p-6 sm:p-10 shadow-2xl shadow-mystic-900/30">
           <VoyanceForm />
         </div>
 
@@ -101,8 +101,7 @@ export default function ConsultationPage() {
               </summary>
               <p className="mt-3 text-mystic-400 text-sm leading-relaxed">
                 Oui. Chaque tirage est unique et rédigé en fonction de votre prénom, votre date de naissance
-                (si fournie) et de vos questions précises. Notre oracle numérique Sélène n'envoie jamais deux
-                tirages identiques.
+                et de vos questions précises.
               </p>
             </details>
             <details className="bg-mystic-950/40 border border-mystic-700/30 rounded-lg p-5">
@@ -132,6 +131,20 @@ export default function ConsultationPage() {
               <p className="mt-3 text-mystic-400 text-sm leading-relaxed">
                 Vérifiez vos spams. Si rien après 1h, écrivez à contact@voyance-pendule.fr avec votre adresse
                 de paiement : nous renvoyons votre tirage immédiatement ou vous remboursons.
+              </p>
+            </details>
+            <details className="bg-mystic-950/40 border border-mystic-700/30 rounded-lg p-5">
+              <summary className="font-medium text-mystic-100 cursor-pointer">
+                Quelle est votre politique de remboursement ?
+              </summary>
+              <p className="mt-3 text-mystic-400 text-sm leading-relaxed">
+                Si votre tirage n'arrive pas ou ne vous correspond pas, écrivez-nous à
+                contact@voyance-pendule.fr dans les 14 jours suivant votre achat. Le remboursement
+                s'effectue sur votre compte PayPal sous 2 à 5 jours ouvrés.
+                <br /><br />
+                <strong>À noter</strong> : les frais de gestion PayPal (environ 0,40 € par transaction)
+                ne nous sont pas restitués par PayPal. Le remboursement est donc effectué net de ces frais
+                conformément aux conditions de PayPal.
               </p>
             </details>
           </div>

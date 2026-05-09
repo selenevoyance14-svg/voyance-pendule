@@ -142,7 +142,7 @@ export default function BoutiquePage() {
 
             {/* CTA */}
             <section className="py-20 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-b from-mystic-950/50 to-[#0a0518]" />
+                <div className="absolute inset-0 bg-gradient-to-b from-mystic-950/50 to-[#2a1a3a]" />
                 <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
                     <div className="text-5xl mb-6">🌙</div>
                     <h2 className="font-heading text-2xl sm:text-3xl font-bold text-white mb-4">
