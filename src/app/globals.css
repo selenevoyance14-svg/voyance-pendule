@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --bg-dark: #0a0518;
+  --bg-dark: #2a1a3a;
+  --bg-darker: #1f0e2c;
   --mystic-purple: #8b4cfc;
   --gold: #d4a017;
 }
@@ -133,7 +134,7 @@ body {
 
 .btn-gold {
   background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
-  color: #1a0a3e;
+  color: #2d1850;
   padding: 14px 32px;
   border-radius: 50px;
   font-weight: 700;
@@ -175,21 +176,22 @@ body {
 /* Pendulum animation */
 @keyframes pendulumSwing {
   0% {
-    transform: rotate(-30deg);
+    transform: rotate(-28deg);
   }
 
   50% {
-    transform: rotate(30deg);
+    transform: rotate(28deg);
   }
 
   100% {
-    transform: rotate(-30deg);
+    transform: rotate(-28deg);
   }
 }
 
 .pendulum {
-  animation: pendulumSwing 3s ease-in-out infinite;
+  animation: pendulumSwing 4.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
   transform-origin: top center;
+  will-change: transform;
 }
 
 /* Pricing card special */
@@ -205,7 +207,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   background: linear-gradient(135deg, #d4a017, #b8860b);
-  color: #1a0a3e;
+  color: #2d1850;
   padding: 4px 20px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -214,11 +216,11 @@ body {
 
 /* Section gradients */
 .section-dark {
-  background: linear-gradient(180deg, #0a0518 0%, #12082a 50%, #0a0518 100%);
+  background: linear-gradient(180deg, #2a1a3a 0%, #221038 50%, #2a1a3a 100%);
 }
 
 .section-purple {
-  background: linear-gradient(180deg, #0a0518 0%, #1a0a3e 50%, #0a0518 100%);
+  background: linear-gradient(180deg, #2a1a3a 0%, #2d1850 50%, #2a1a3a 100%);
 }
 
 /* Typography for articles */
@@ -289,4 +291,132 @@ body {
 
 .perspective-1000 {
   perspective: 1000px;
+}
+
+/* ============================================
+   IMMERSION & ENGAGEMENT
+   ============================================ */
+
+/* Étoiles filantes — traversent le hero */
+@keyframes shootingStar {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-15deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-120vw) translateY(60vh) rotate(-15deg);
+    opacity: 0;
+  }
+}
+
+.shooting-star {
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 160, 23, 0.9), rgba(255, 255, 255, 0.9));
+  border-radius: 50%;
+  filter: drop-shadow(0 0 6px rgba(212, 160, 23, 0.7));
+  animation: shootingStar 6s linear infinite;
+  pointer-events: none;
+}
+
+.shooting-star::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Brillance qui balaye les cards au survol */
+.glass-card,
+.gold-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card::before,
+.gold-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    rgba(212, 160, 23, 0.15),
+    transparent
+  );
+  transition: left 0.7s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.glass-card:hover::before,
+.gold-card:hover::before {
+  left: 100%;
+}
+
+/* S'assurer que le contenu reste au-dessus du shine */
+.glass-card>*,
+.gold-card>* {
+  position: relative;
+  z-index: 2;
+}
+
+/* Reveal au scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Boutons : shimmer en continu sur le doré */
+.btn-gold {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 50%, #d4a017 100%);
+  background-size: 200% 100%;
+  animation: shimmerGold 4s ease-in-out infinite;
+}
+
+@keyframes shimmerGold {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Pulsation lente pour les éléments d'ambiance */
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 4s ease-in-out infinite;
 }
