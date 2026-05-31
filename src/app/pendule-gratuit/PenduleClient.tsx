@@ -137,6 +137,22 @@ export default function PenduleClient() {
         </div>
       )}
 
+      {/* CTA vers la consultation payante */}
+      <div className="glass-card border border-gold-500/30 p-6 sm:p-8 mt-12 text-center">
+        <div className="text-3xl mb-3">🌙</div>
+        <h2 className="font-heading text-xl sm:text-2xl font-bold text-white mb-3">
+          Envie d&apos;une réponse vraiment personnalisée ?
+        </h2>
+        <p className="text-mystic-300 text-sm leading-relaxed max-w-md mx-auto mb-6">
+          Au-delà du simple Oui/Non, recevez un véritable tirage du pendule rédigé pour vous
+          par Sélène — à partir de votre prénom, votre date de naissance et vos questions précises,
+          livré par email sous 30 minutes.
+        </p>
+        <a href="/consultation" className="btn-gold">
+          🔮 Mon tirage personnalisé — dès 2€
+        </a>
+      </div>
+
       {/* Disclaimer */}
       <p className="text-center text-mystic-600 text-xs mt-12">
         Ce pendule en ligne est un outil de divertissement et de reflexion personnelle.
