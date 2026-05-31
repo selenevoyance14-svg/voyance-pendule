@@ -6,7 +6,7 @@ import { MoonPhasePill } from "./components/MoonPhase";
 
 export const metadata: Metadata = {
     title: "Voyance Pendule — Tirage Personnalisé par Email & Outils Gratuits | voyance-pendule.fr",
-    description: "Tirage du pendule personnalisé par email à partir de 5,90€ (livré sous 30 min). Plus pendule Oui/Non, horoscope, anges gardiens — gratuits.",
+    description: "Tirage du pendule personnalisé par email à partir de 2€ (livré sous 30 min). Plus pendule Oui/Non, horoscope, anges gardiens — gratuits.",
     keywords: "voyance pendule, tirage pendule personnalisé, consultation pendule, voyance par email, horoscope gratuit, anges gardiens, spiritualité",
     metadataBase: new URL("https://voyance-pendule.fr"),
     alternates: {
@@ -199,9 +199,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                             <div>
                                 <h5>Consultation</h5>
                                 <ul>
-                                    <li><a href="/consultation?plan=q1">Question unique · 5,90€</a></li>
-                                    <li><a href="/consultation?plan=q3">Tirage approfondi · 11,90€</a></li>
-                                    <li><a href="/consultation?plan=q5">Tirage complet · 19,90€</a></li>
+                                    <li><a href="/consultation?plan=q1">Question unique · 2€</a></li>
+                                    <li><a href="/consultation?plan=q3">Tirage approfondi · 5€</a></li>
+                                    <li><a href="/consultation?plan=q5">Tirage complet · 7€</a></li>
                                     <li><a href="/faq">FAQ</a></li>
                                 </ul>
                             </div>

@@ -51,9 +51,9 @@ export default function CGV() {
                         <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">3. Tarifs</h2>
                         <p className="mb-2">Les tarifs des consultations sont les suivants (TVA non applicable, art. 293 B du CGI) :</p>
                         <ul className="list-disc list-inside space-y-1">
-                            <li><strong className="text-mystic-300">Question Unique</strong> — 1 question : <strong className="text-mystic-300">5,90 €</strong></li>
-                            <li><strong className="text-mystic-300">Tirage Approfondi</strong> — 3 questions : <strong className="text-mystic-300">11,90 €</strong></li>
-                            <li><strong className="text-mystic-300">Tirage Complet</strong> — 5 questions + synthèse : <strong className="text-mystic-300">19,90 €</strong></li>
+                            <li><strong className="text-mystic-300">Question Unique</strong> — 1 question : <strong className="text-mystic-300">2 €</strong></li>
+                            <li><strong className="text-mystic-300">Tirage Approfondi</strong> — 3 questions : <strong className="text-mystic-300">5 €</strong></li>
+                            <li><strong className="text-mystic-300">Tirage Complet</strong> — 5 questions + synthèse : <strong className="text-mystic-300">7 €</strong></li>
                         </ul>
                         <p className="mt-2">
                             Les prix sont indiqués en euros, toutes taxes comprises. Sélène Voyance se réserve le droit

@@ -4,7 +4,7 @@ import VoyanceForm from "@/app/components/VoyanceForm";
 export const metadata: Metadata = {
   title: "Consultation Pendule Personnalisée — Tirage par Email | Sélène Voyance",
   description:
-    "Recevez votre tirage du pendule personnalisé par email sous 30 minutes. Question unique 5,90€, tirage approfondi 11,90€, tirage complet 19,90€.",
+    "Recevez votre tirage du pendule personnalisé par email sous 30 minutes. Question unique 2€, tirage approfondi 5€, tirage complet 7€.",
   alternates: { canonical: "https://voyance-pendule.fr/consultation" },
   openGraph: {
     title: "Consultation Pendule Personnalisée — Tirage par Email",

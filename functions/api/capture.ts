@@ -13,9 +13,9 @@ interface Env {
 }
 
 const PLANS: Record<string, { amount: string; label: string; questions: number }> = {
-  q1: { amount: "5.90", label: "1 question", questions: 1 },
-  q3: { amount: "11.90", label: "3 questions", questions: 3 },
-  q5: { amount: "19.90", label: "Tirage complet (5 questions)", questions: 5 },
+  q1: { amount: "2.00", label: "1 question", questions: 1 },
+  q3: { amount: "5.00", label: "3 questions", questions: 3 },
+  q5: { amount: "7.00", label: "Tirage complet (5 questions)", questions: 5 },
 };
 
 interface SessionPayload {

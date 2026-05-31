@@ -28,7 +28,7 @@ const faqs = [
         questions: [
             {
                 q: "Qu'est-ce que la consultation personnalisée par email ?",
-                a: "C'est notre service signature : un tirage du pendule rédigé sur mesure, à partir de votre prénom, votre date de naissance et vos questions précises. Vous recevez le tirage par email dans un délai indicatif de 30 minutes. Trois formules sont disponibles : Question Unique (5,90 €), Tirage Approfondi 3 questions (11,90 €) et Tirage Complet 5 questions + synthèse globale (19,90 €).",
+                a: "C'est notre service signature : un tirage du pendule rédigé sur mesure, à partir de votre prénom, votre date de naissance et vos questions précises. Vous recevez le tirage par email dans un délai indicatif de 30 minutes. Trois formules sont disponibles : Question Unique (2 €), Tirage Approfondi 3 questions (5 €) et Tirage Complet 5 questions + synthèse globale (7 €).",
             },
             {
                 q: "Comment fonctionne l'oracle numérique Sélène ?",

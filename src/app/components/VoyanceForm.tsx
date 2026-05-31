@@ -8,14 +8,14 @@ const PLANS: { id: Plan; label: string; price: string; questions: number; popula
   {
     id: "q1",
     label: "Question Unique",
-    price: "5,90€",
+    price: "2€",
     questions: 1,
     description: "Une réponse claire à la question qui vous tient à cœur.",
   },
   {
     id: "q3",
     label: "Tirage Approfondi",
-    price: "11,90€",
+    price: "5€",
     questions: 3,
     popular: true,
     description: "Trois questions explorées en profondeur — le format préféré.",
@@ -23,7 +23,7 @@ const PLANS: { id: Plan; label: string; price: string; questions: number; popula
   {
     id: "q5",
     label: "Tirage Complet",
-    price: "19,90€",
+    price: "7€",
     questions: 5,
     description: "Cinq questions + synthèse globale qui relie tous vos messages.",
   },

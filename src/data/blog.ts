@@ -3642,5 +3642,559 @@ export const blogPosts: BlogPost[] = [
             <p>Le copal s'utilise sur charbon ardent (charbon spécial encens, jamais de charbon de barbecue). Allumez le charbon dans un brûleur, attendez qu'il soit incandescent (5 min environ), puis déposez quelques grains de copal dessus. La fumée sera abondante : aérez après usage.</p>
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Disclaimer santé : les fumées de combustion peuvent irriter les voies respiratoires des personnes sensibles. Consultez un professionnel de santé en cas de doute.</p>
         `
+    },
+    {
+        title: "Labradorite : la pierre bouclier du voyant (guide d'achat)",
+        slug: "labradorite-pierre-protection-guide-achat",
+        excerpt: "Reflets bleu-vert, protection énergétique, intuition décuplée : découvrez comment choisir une vraie labradorite et nos meilleures pièces sur Amazon.",
+        date: "31 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Si une seule pierre devait accompagner le praticien spirituel, ce serait sans doute la labradorite. Surnommée la « pierre des chamanes », elle forme un véritable bouclier énergétique qui empêche les énergies parasites de vous atteindre. Indispensable dès que l'on travaille au contact des émotions des autres.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Reconnaître une vraie labradorite</h2>
+            <p>La labradorite authentique présente la fameuse <em>labradorescence</em> : des reflets bleus, verts, parfois dorés qui apparaissent quand on incline la pierre à la lumière. Une pierre uniformément grise sans ces éclats est de qualité médiocre. Privilégiez les pièces où le « feu » bleu est visible.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le galet de labradorite — à garder dans la poche</h2>
+            <p>Le galet roulé est parfait pour débuter : on le tient en main pendant la méditation ou on le garde sur soi dans la journée comme protection. Choisissez un galet bien poli, aux reflets visibles.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=labradorite+galet+pierre+naturelle+roulee&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le bracelet en labradorite — la protection au quotidien</h2>
+            <p>Porté au poignet gauche (côté réception), le bracelet de perles de labradorite maintient une bulle protectrice toute la journée. Idéal pour les personnes hypersensibles ou les empathes.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+labradorite+perles+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le bloc brut à poser sur l'autel</h2>
+            <p>Un beau bloc de labradorite posé sur votre espace de consultation protège le lieu et favorise la clairvoyance. Comptez 20 à 40 € pour une pièce d'environ 300 g aux reflets marqués.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=labradorite+brute+bloc+pierre+decoration&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Avec votre labradorite en main, posez vos questions à notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> : la pierre vous aidera à rester neutre et réceptif.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Pierre de lune : intuition et féminité (guide d'achat)",
+        slug: "pierre-lune-intuition-feminite-guide-achat",
+        excerpt: "Reflets nacrés et énergie lunaire : la pierre de lune éveille l'intuition et apaise les émotions. Notre guide pour bien la choisir sur Amazon.",
+        date: "31 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La pierre de lune est l'alliée de l'intuition et du féminin sacré. Ses reflets bleutés et nacrés, appelés <em>adularescence</em>, évoquent le clair de lune. Elle accompagne magnifiquement les cycles, les rituels lunaires et le développement de la réceptivité psychique.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quelle couleur choisir ?</h2>
+            <p>La pierre de lune blanche aux reflets bleus est la plus prisée et la plus douce. La pierre de lune arc-en-ciel offre des éclats multicolores et une énergie joyeuse. La pierre de lune pêche apaise les émotions et soutient la confiance en soi.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le bracelet en pierre de lune</h2>
+            <p>Le plus simple pour s'imprégner de son énergie au quotidien. Particulièrement recommandé pendant les périodes de changement émotionnel.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+pierre+de+lune+perles+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le pendentif pierre de lune</h2>
+            <p>Porté près du cœur, il soutient l'intuition et la sensibilité. Un cadeau symbolique très apprécié.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendentif+pierre+de+lune+collier+argent&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Les galets pour vos rituels lunaires</h2>
+            <p>À déposer sur le rebord de la fenêtre les soirs de pleine lune pour recharger l'ensemble de vos pierres. Quelques galets suffisent.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pierre+de+lune+galet+roulee+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pour suivre les phases lunaires idéales, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope du jour</a> avant chaque rituel.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Citrine : la pierre de l'abondance (guide d'achat)",
+        slug: "citrine-pierre-abondance-prosperite-guide",
+        excerpt: "Soleil minéral, la citrine attire prospérité, joie et confiance. Découvrez comment distinguer la vraie citrine et nos sélections Amazon.",
+        date: "30 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La citrine est la pierre de l'abondance et de la joie de vivre. De couleur jaune doré à orangé, elle est associée au plexus solaire, au pouvoir personnel et à la prospérité. On la surnomme la « pierre du marchand » car la tradition lui prête le pouvoir d'attirer la réussite.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Citrine naturelle ou améthyste chauffée ?</h2>
+            <p>Beaucoup de citrines du commerce sont en réalité des améthystes chauffées (teinte orange vif très uniforme). La citrine naturelle a une couleur jaune plus douce et nuancée. Les deux fonctionnent en lithothérapie, mais les puristes préfèrent la citrine naturelle, plus rare.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La pointe ou la druse de citrine</h2>
+            <p>Posée près de l'entrée ou sur le bureau, elle symbolise le flux d'abondance qui entre dans la maison. Une belle pièce de 200 à 400 g fait son effet.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=citrine+brute+pointe+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le bracelet citrine</h2>
+            <p>Pour porter sur soi l'énergie solaire et la confiance. Parfait lors des périodes de doute ou de lancement de projet.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+citrine+perles+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. L'arbre de vie en citrine</h2>
+            <p>Très décoratif, l'arbre de vie aux pierres de citrine combine symbole d'enracinement et énergie d'abondance. Idéal en cadeau.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=arbre+de+vie+citrine+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Une question sur un projet financier ? Interrogez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> pour y voir plus clair.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Tourmaline noire : la pierre anti-énergies négatives",
+        slug: "tourmaline-noire-protection-ondes-guide",
+        excerpt: "La tourmaline noire absorbe les énergies négatives et les ondes. Notre guide d'achat pour protéger votre maison et votre espace de travail.",
+        date: "30 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La tourmaline noire (ou schorl) est LA pierre de protection par absorption. Là où la labradorite renvoie les énergies, la tourmaline noire les capte et les neutralise. C'est la pierre des lieux chargés, des personnes négatives et des environnements stressants.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi tout le monde l'adopte</h2>
+            <p>On la place souvent près des appareils électroniques, à l'entrée de la maison ou sur le bureau. Beaucoup de praticiens en gardent un morceau dans la poche lors des journées difficiles. Pensez à la purifier régulièrement car elle se « charge » vite.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le brut de tourmaline noire</h2>
+            <p>La forme la plus puissante : un beau morceau brut à poser dans chaque pièce sensible. Économique et efficace.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tourmaline+noire+brute+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le bracelet tourmaline noire</h2>
+            <p>Pour une protection mobile, à porter dans les transports, au travail ou lors de rencontres énergétiquement pesantes.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+tourmaline+noire+perles&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le pendentif de protection</h2>
+            <p>Porté au niveau du plexus, il agit comme un filtre permanent contre les énergies basses. Idéal pour les empathes.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendentif+tourmaline+noire+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pour purifier votre intérieur en complément, lisez notre guide sur <a href="/blog/encens-sauge-purifier-espace-energies" class="text-gold-400 border-b border-gold-400/30">la sauge blanche</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Sélénite : purifier et recharger vos pierres (guide)",
+        slug: "selenite-purifier-recharger-pierres-guide",
+        excerpt: "La sélénite recharge vos cristaux sans les épuiser et n'a jamais besoin d'être purifiée. Découvrez plaques, lampes et bâtons sur Amazon.",
+        date: "29 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La sélénite est la pierre autonettoyante par excellence. Blanche, translucide et striée comme du satin, elle purifie et recharge les autres cristaux <strong>sans jamais avoir besoin d'être purifiée elle-même</strong>. C'est l'accessoire indispensable de toute collection de pierres.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une précaution importante</h2>
+            <p>La sélénite est tendre et craint l'eau : ne la passez jamais sous le robinet, elle se dissout ! On la nettoie à sec ou à la fumée. C'est justement parce qu'elle n'absorbe pas les énergies négatives qu'elle reste toujours pure.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La plaque de rechargement en sélénite</h2>
+            <p>Posez simplement vos pierres et bijoux dessus toute la nuit : au matin, ils sont rechargés. L'outil le plus pratique pour entretenir sa collection.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=selenite+plaque+rechargement+pierre&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le bâton de sélénite</h2>
+            <p>Pour balayer l'aura ou nettoyer un objet ponctuellement, le bâton de sélénite se manie comme une baguette de purification.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=selenite+baton+baguette+pierre&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. La lampe en sélénite</h2>
+            <p>Allumée, elle diffuse une lumière douce et purifie l'atmosphère de la pièce. Décorative et apaisante pour un espace de méditation.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=lampe+selenite+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Shungite : protection des ondes et purification de l'eau",
+        slug: "shungite-protection-ondes-eau-guide-achat",
+        excerpt: "Pierre ancienne aux propriétés uniques, la shungite protège des ondes et purifie l'eau. Notre guide d'achat des meilleures pièces sur Amazon.",
+        date: "29 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La shungite est une pierre noire originaire de Carélie (Russie), réputée pour deux usages : la protection contre les ondes électromagnétiques et la purification de l'eau. Riche en carbone et en fullerènes, elle fascine autant les amateurs de lithothérapie que les curieux de bien-être.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Shungite classique ou élite ?</h2>
+            <p>La shungite « élite » (argentée, brillante) est la plus pure mais plus fragile et plus chère. La shungite classique (noire mate) est plus solide et se travaille en objets. Pour débuter, la shungite classique suffit largement.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La plaque pour smartphone</h2>
+            <p>Collée à l'arrière du téléphone, elle est la manière la plus simple de s'initier à la shungite anti-ondes.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=shungite+plaque+telephone+protection+ondes&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Les pierres pour purifier l'eau</h2>
+            <p>Quelques pierres de shungite déposées dans une carafe quelques heures « dynamisent » l'eau selon la tradition. Rincez bien les pierres avant la première utilisation.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=shungite+pierre+purification+eau&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. La pyramide de shungite</h2>
+            <p>À poser près de l'ordinateur ou de la box internet, elle est à la fois décorative et symbolique de la protection du foyer.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=shungite+pyramide+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. La purification de l'eau par les pierres relève d'une tradition et ne remplace pas un dispositif de potabilisation certifié.</p>
+        `
+    },
+    {
+        title: "Géode d'améthyste : purifier et embellir votre maison",
+        slug: "geode-amethyste-purifier-maison-guide",
+        excerpt: "Une géode d'améthyste purifie l'énergie d'une pièce et recharge vos cristaux. Notre guide pour choisir la bonne taille et la bonne couleur.",
+        date: "28 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>La géode d'améthyste est à la fois un objet décoratif spectaculaire et un véritable purificateur d'ambiance. Ses cristaux violets élèvent la vibration d'une pièce, apaisent l'atmosphère et servent de support pour recharger vos autres pierres.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quelle taille choisir ?</h2>
+            <p>Pour un bureau ou une table de chevet, une géode de 10 à 15 cm suffit. Pour purifier tout un salon, visez une pièce de 20 cm et plus. La couleur violette doit être franche : une améthyste pâle a une énergie plus douce mais moins spectaculaire.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La petite géode d'appoint</h2>
+            <p>Parfaite pour débuter et pour recharger vos bracelets et galets en les posant à l'intérieur.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=geode+amethyste+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. La géode « cathédrale » de salon</h2>
+            <p>Une grande pièce sur socle devient le point d'ancrage énergétique de la maison. Investissement décoratif et spirituel à la fois.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=geode+amethyste+grande+cathedrale+socle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. La druse plate à poser</h2>
+            <p>Idéale comme plateau de rechargement : on y dépose les pierres après chaque utilisation pour qu'elles retrouvent leur énergie.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=druse+amethyste+plateau+pierre&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Envie d'un moment de guidance près de votre géode ? Faites un <a href="/tirage" class="text-gold-400 border-b border-gold-400/30">tirage de cartes gratuit</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Orgonite : la pyramide d'équilibre énergétique (guide)",
+        slug: "orgonite-pyramide-protection-energie-guide",
+        excerpt: "Résine, métaux et cristaux : l'orgonite intrigue par son design et ses usages énergétiques. Notre guide pour choisir une vraie orgonite sur Amazon.",
+        date: "28 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>L'orgonite est un objet contemporain fait de résine, de copeaux métalliques et de cristaux. Inspirée des travaux de Wilhelm Reich sur l'« orgone », elle est utilisée comme harmonisateur d'énergie et objet de protection, en particulier près des sources d'ondes.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment reconnaître une orgonite de qualité</h2>
+            <p>Une bonne orgonite contient un véritable cristal (souvent du quartz) bien visible et une couche de métal homogène. Méfiez-vous des pièces uniquement décoratives sans cristal réel. La pointe pyramidale est censée concentrer et diffuser l'énergie.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La pyramide d'orgonite</h2>
+            <p>La forme classique, à poser près de la box internet, du bureau ou sur l'autel. Choisissez les pierres selon votre intention (améthyste pour l'intuition, citrine pour l'abondance).</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=orgonite+pyramide+cristal+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le pendentif orgonite</h2>
+            <p>Pour porter l'harmonisation sur soi. Discret et souvent très esthétique.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=orgonite+pendentif+collier+cristal&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le set d'orgonites pour la maison</h2>
+            <p>Plusieurs petites pièces à répartir dans les différentes pièces pour harmoniser l'ensemble du foyer.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=orgonite+set+lot+pierre+protection&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Les usages énergétiques de l'orgonite relèvent de croyances et ne sont pas scientifiquement démontrés.</p>
+        `
+    },
+    {
+        title: "Arbre de vie en pierres : symbole et énergie (guide d'achat)",
+        slug: "arbre-vie-pierres-decoration-energetique-guide",
+        excerpt: "Symbole d'enracinement et de croissance, l'arbre de vie en pierres décore et harmonise. Notre guide pour choisir vos pierres et votre modèle.",
+        date: "27 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>L'arbre de vie est un symbole universel d'enracinement, de croissance et de connexion entre la terre et le ciel. Réalisé en fil de cuivre et garni de petites pierres roulées, il devient un objet décoratif chargé d'intention, parfait sur un autel ou une étagère.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Choisir les pierres selon l'intention</h2>
+            <p>Améthyste pour la sérénité et l'intuition, quartz rose pour l'amour, citrine pour l'abondance, sept couleurs pour l'équilibre des chakras. La pierre détermine l'énergie que vous souhaitez cultiver chez vous.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. L'arbre de vie 7 chakras</h2>
+            <p>Le plus polyvalent : il réunit les sept couleurs et symbolise l'harmonie globale. Un cadeau toujours apprécié.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=arbre+de+vie+7+chakras+pierres+naturelles&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. L'arbre de vie sur géode d'améthyste</h2>
+            <p>Le plus spectaculaire : l'arbre prend racine sur une tranche de géode, alliant deux symboles puissants.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=arbre+de+vie+amethyste+geode+pierre&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le pendentif arbre de vie</h2>
+            <p>Pour porter le symbole sur soi, en argent ou en pierres, comme un talisman d'enracinement.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendentif+arbre+de+vie+pierre+collier&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Bracelet 7 chakras : équilibrer ses énergies (guide d'achat)",
+        slug: "bracelet-7-chakras-equilibre-energie-guide",
+        excerpt: "Sept pierres pour sept centres d'énergie : le bracelet 7 chakras est l'allié bien-être incontournable. Comment le choisir et le porter.",
+        date: "27 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Le bracelet 7 chakras réunit sept pierres correspondant aux sept centres énergétiques du corps. Porté au quotidien, il symbolise l'équilibre et l'harmonie de l'ensemble du système énergétique. C'est l'un des bijoux de lithothérapie les plus populaires, et un excellent cadeau d'initiation.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les 7 pierres et leur chakra</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Racine</strong> — jaspe rouge (ancrage)</li>
+                <li><strong>Sacré</strong> — cornaline (créativité)</li>
+                <li><strong>Plexus solaire</strong> — citrine ou œil de tigre (confiance)</li>
+                <li><strong>Cœur</strong> — aventurine verte (amour)</li>
+                <li><strong>Gorge</strong> — turquoise ou calcédoine (expression)</li>
+                <li><strong>Troisième œil</strong> — lapis-lazuli (intuition)</li>
+                <li><strong>Couronne</strong> — améthyste (spiritualité)</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le bracelet 7 chakras en pierres naturelles</h2>
+            <p>Vérifiez la mention « pierres naturelles » : beaucoup de modèles bon marché utilisent des perles teintées. Une belle pièce respecte les vraies couleurs des pierres.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+7+chakras+pierres+naturelles&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le coffret bracelet + pierres</h2>
+            <p>Certains coffrets associent le bracelet à un set de pierres brutes pour la méditation. Idéal pour découvrir la lithothérapie en profondeur.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+7+chakras+bracelet+pierres+lithotherapie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pour comprendre chaque centre énergétique, lisez notre article sur <a href="/blog/chakras-7-centres-energie-equilibre" class="text-gold-400 border-b border-gold-400/30">les 7 chakras</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Oracle de Belline : quelle édition choisir ? (guide d'achat)",
+        slug: "oracle-belline-guide-achat-edition",
+        excerpt: "L'oracle préféré des voyants français. Découvrez son histoire, comment le choisir et les meilleures éditions disponibles sur Amazon.",
+        date: "26 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>L'Oracle de Belline est l'un des jeux de divination les plus utilisés en France. Direct, précis et sans détour, il séduit ceux qui veulent des réponses claires plutôt qu'un symbolisme à décrypter. Voici comment bien le choisir.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une histoire fascinante</h2>
+            <p>Créé au XIXe siècle par le mage Edmond, le jeu fut redécouvert et publié par le voyant Belline. Ses 52 cartes (plus 1 carte du consultant) mêlent astrologie, symbolisme et couleurs codées. Chaque carte porte un mot-clé qui facilite l'interprétation.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le coffret Oracle de Belline avec livret</h2>
+            <p>Pour débuter, choisissez impérativement une édition avec livret explicatif : il détaille la signification de chaque carte et les principaux tirages.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+belline+coffret+livret+cartes&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le livre d'interprétation approfondie</h2>
+            <p>Une fois les bases acquises, un livre dédié aux combinaisons de cartes vous fera passer un cap dans vos lectures.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+belline+livre+interpretation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pas encore prêt à investir ? Essayez notre <a href="/tirage" class="text-gold-400 border-b border-gold-400/30">tirage de cartes gratuit</a> pour vous familiariser avec la cartomancie.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Oracle Lenormand : le jeu de 36 cartes (guide d'achat)",
+        slug: "oracle-lenormand-jeu-36-cartes-guide",
+        excerpt: "Précis et concret, l'Oracle Lenormand séduit toute l'Europe. Notre guide pour choisir votre premier jeu de 36 cartes sur Amazon.",
+        date: "26 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>L'Oracle Lenormand, baptisé en hommage à la célèbre cartomancienne Marie-Anne Lenormand, est un jeu de 36 cartes réputé pour ses lectures concrètes et précises. Très populaire en Allemagne et en Europe de l'Est, il se distingue par la lecture en combinaison des cartes.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi le Lenormand plaît tant</h2>
+            <p>Contrairement au tarot qui demande une interprétation symbolique profonde, le Lenormand parle de la vie quotidienne : la maison, le travail, l'argent, les sentiments. Le « Grand Tableau » (tirage des 36 cartes) offre une vision panoramique d'une situation.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le jeu Lenormand pour débutant</h2>
+            <p>Optez pour une édition classique avec illustrations traditionnelles et livret en français. Les cartes au format poker sont plus faciles à mélanger.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=oracle+lenormand+jeu+cartes+francais+debutant&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le guide d'apprentissage du Lenormand</h2>
+            <p>Un bon manuel est indispensable pour maîtriser les combinaisons et le Grand Tableau. C'est là que réside toute la richesse du jeu.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=lenormand+livre+apprendre+methode&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Hésitant entre Lenormand, Belline et tarot ? Notre <a href="/blog/quel-tarot-choisir-guide-debutant" class="text-gold-400 border-b border-gold-400/30">guide pour choisir son jeu</a> vous aidera.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Pendule égyptien (Isis) : précision et symbolisme (guide)",
+        slug: "pendule-egyptien-isis-radiesthesie-guide",
+        excerpt: "Le pendule Isis, d'inspiration égyptienne, est prisé pour sa précision en radiesthésie. Découvrez ce qui le distingue et où l'acheter.",
+        date: "25 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Le pendule égyptien, ou pendule Isis, est reconnaissable à sa forme allongée et cannelée inspirée de l'Antiquité. Réputé pour sa grande précision et sa capacité à émettre des ondes, il est apprécié des radiesthésistes confirmés autant que des amateurs de symbolisme égyptien.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi ce pendule est particulier</h2>
+            <p>Sa forme à plusieurs « étages » (parfois appelés pendules à témoin) permet, selon la tradition radiesthésique, de moduler et d'amplifier les réponses. Sa réactivité est souvent décrite comme supérieure à celle d'un pendule simple. Le laiton est le matériau le plus courant.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le pendule Isis en laiton</h2>
+            <p>Le grand classique : poids idéal, oscillations nettes, parfait pour le travail sur planche ou sur carte.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+egyptien+isis+laiton+radiesthesie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le pendule à témoin (cavité)</h2>
+            <p>Doté d'une petite cavité dévissable, il permet d'insérer un « témoin » (cheveu, photo miniature) pour des recherches ciblées.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pendule+temoin+cavite+radiesthesie+laiton&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Avant de manier votre pendule physique, entraînez-vous avec notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Pochette et sac à tarot : protéger vos cartes (guide d'achat)",
+        slug: "pochette-sac-tarot-protection-cartes-guide",
+        excerpt: "Velours, soie, bois gravé : protégez l'énergie de vos cartes avec la bonne pochette. Notre sélection d'écrins pour tarot et oracle sur Amazon.",
+        date: "25 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Un jeu de tarot ou d'oracle est un objet personnel chargé de votre énergie. Le ranger dans un écrin dédié n'est pas qu'une question de protection physique : c'est une manière de préserver sa vibration et de sacraliser votre pratique. Voici comment bien choisir.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quelle matière privilégier ?</h2>
+            <p>Le velours protège bien et absorbe les énergies résiduelles. La soie est traditionnellement recommandée pour « isoler » les cartes. Le coffret en bois gravé offre la meilleure protection et un bel objet rituel. À vous de choisir selon votre sensibilité et votre budget.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. La pochette en velours à cordon</h2>
+            <p>Économique et pratique pour transporter votre jeu. Choisissez une taille adaptée (les jeux d'oracle sont souvent plus grands que les tarots).</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=pochette+tarot+velours+sac+cartes&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le foulard en soie pour tirage</h2>
+            <p>Double usage : il enveloppe les cartes et sert de surface de tirage. Les motifs lunaires ou étoilés sont les plus prisés.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=foulard+soie+tarot+tirage+lune&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le coffret en bois gravé</h2>
+            <p>Pour ceux qui veulent le summum : une boîte gravée de motifs ésotériques qui sacralise et protège durablement votre jeu.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+bois+grave+tarot+rangement&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Charbons et brûle-encens : bien brûler vos résines (guide)",
+        slug: "charbon-brule-encens-resine-guide-achat",
+        excerpt: "Pour brûler oliban, copal ou myrrhe, il faut le bon matériel. Notre guide d'achat des charbons, brûle-encens et accessoires de fumigation.",
+        date: "24 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Les encens en résine (oliban, myrrhe, copal, benjoin) se brûlent sur charbon ardent, pas comme un bâtonnet. Pour profiter pleinement de leurs vertus purificatrices, il faut le bon matériel. Voici l'équipement essentiel.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">La règle de sécurité n°1</h2>
+            <p>Utilisez uniquement du charbon spécial encens (autoallumant), jamais du charbon de barbecue. Posez toujours votre brûleur sur une surface résistante à la chaleur et aérez la pièce après usage.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Les charbons autoallumants</h2>
+            <p>Vendus en rouleaux, ils s'allument en quelques secondes et tiennent une bonne vingtaine de minutes. La base de tout rituel de fumigation à la résine.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=charbon+encens+autoallumant+resine&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le brûle-encens en laiton ou céramique</h2>
+            <p>Avec une coupelle remplie de sable ou de cendre pour isoler le charbon. Les modèles à couvercle ajouré sont les plus pratiques.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=brule+encens+resine+charbon+laiton+coupelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le coffret découverte de résines</h2>
+            <p>Pour découvrir plusieurs parfums (oliban, myrrhe, benjoin, copal) et trouver celui qui vous correspond.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+resines+encens+oliban+myrrhe+benjoin&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Les fumées de combustion peuvent irriter les voies respiratoires des personnes sensibles : aérez et consultez un professionnel de santé en cas de doute.</p>
+        `
+    },
+    {
+        title: "Bois de santal : l'encens de la méditation (guide d'achat)",
+        slug: "encens-bois-santal-meditation-guide-achat",
+        excerpt: "Parfum chaud et apaisant, le bois de santal favorise la concentration et la méditation profonde. Notre guide pour le choisir sur Amazon.",
+        date: "24 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Le bois de santal est l'un des encens les plus prisés pour la méditation. Son parfum chaud, boisé et légèrement sucré apaise le mental, favorise la concentration et accompagne magnifiquement les pratiques spirituelles. Utilisé depuis des millénaires en Inde, il est l'allié des séances de recueillement.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Santal indien ou australien ?</h2>
+            <p>Le santal Mysore (indien) est le plus réputé mais rare et cher en raison de la surexploitation. Le santal australien est une excellente alternative durable, au parfum très proche. Privilégiez les encens mentionnant un santal de source responsable.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Les bâtonnets de bois de santal</h2>
+            <p>La forme la plus simple : un bâtonnet allumé avant la méditation suffit à transformer l'atmosphère d'une pièce.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=encens+bois+de+santal+batonnets+meditation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Les copeaux de santal pour charbon</h2>
+            <p>Pour les puristes : des copeaux ou de la poudre à brûler sur charbon, au parfum plus authentique que les bâtonnets parfumés.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bois+de+santal+copeaux+poudre+encens&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le porte-encens adapté</h2>
+            <p>Un porte-bâtonnet avec rigole récupère les cendres et évite les salissures. Indispensable pour un usage régulier.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=porte+encens+batonnet+bois+rigole&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Aérez après usage : la fumée peut gêner les personnes sensibles.</p>
+        `
+    },
+    {
+        title: "Bougies en cire d'abeille : la lumière naturelle des rituels",
+        slug: "bougies-cire-abeille-naturelles-rituels-guide",
+        excerpt: "Naturelles, sans toxiques et au parfum de miel, les bougies en cire d'abeille subliment vos rituels. Notre guide d'achat sur Amazon.",
+        date: "23 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Pour vos rituels et méditations, la qualité de la bougie compte. Les bougies en cire d'abeille pure sont une alternative naturelle aux bougies de paraffine : elles brûlent proprement, dégagent un léger parfum de miel et purifieraient l'air en libérant des ions négatifs.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi éviter la paraffine</h2>
+            <p>La paraffine est un dérivé du pétrole qui peut libérer des composés indésirables en brûlant. Pour un usage spirituel et fréquent, la cire d'abeille ou la cire de soja sont préférables : plus saines et plus respectueuses de l'environnement.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Les bougies en cire d'abeille pure</h2>
+            <p>Vérifiez la mention « 100 % cire d'abeille » : certaines bougies n'en contiennent qu'un faible pourcentage. La vraie cire a une couleur dorée naturelle.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bougie+cire+abeille+pure+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Les bougies chauffe-plat en cire naturelle</h2>
+            <p>Pratiques pour les rituels rapides ou pour accompagner un brûle-parfum. Optez pour des coupelles transparentes ou sans aluminium.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bougie+chauffe+plat+cire+abeille+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pour le sens des couleurs de bougies en rituel, lisez notre guide <a href="/blog/bougies-rituelles-couleurs-intentions-spirituelle" class="text-gold-400 border-b border-gold-400/30">bougies rituelles et intentions</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous. Ne laissez jamais une bougie allumée sans surveillance.</p>
+        `
+    },
+    {
+        title: "Tambour chamanique : voyage intérieur et transe (guide)",
+        slug: "tambour-chamanique-voyage-meditation-guide",
+        excerpt: "Le tambour chamanique guide le voyage intérieur par sa pulsation régulière. Notre guide pour choisir votre premier tambour sur Amazon.",
+        date: "23 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Le tambour chamanique est l'instrument du voyage intérieur. Sa pulsation régulière, autour de 4 à 7 battements par seconde, induit un état modifié de conscience propice à la méditation profonde, à la visualisation et à la connexion spirituelle. C'est un outil ancestral présent sur tous les continents.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment choisir son tambour</h2>
+            <p>Le diamètre influence la profondeur du son : 35-40 cm est un bon compromis pour débuter. La peau (chèvre, cheval) donne un son chaud et grave. Pour ceux qui préfèrent une option sans matière animale, des tambours synthétiques existent aussi.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le tambour chamanique avec mailloche</h2>
+            <p>L'ensemble complet pour débuter : tambour, mailloche (batte) et parfois une housse. Idéal pour les voyages chamaniques guidés.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tambour+chamanique+mailloche+meditation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le tambour océan (drum wave)</h2>
+            <p>Plus doux, il imite le bruit des vagues grâce à des billes internes. Parfait pour la relaxation et l'endormissement, ou pour accompagner une séance de soin.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tambour+ocean+drum+relaxation+sonore&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Pour préparer votre esprit au voyage, découvrez nos conseils sur <a href="/blog/meditation-intuition-sixieme-sens" class="text-gold-400 border-b border-gold-400/30">la méditation et l'intuition</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Cymbales tingsha : purifier l'espace par le son (guide)",
+        slug: "cymbales-tingsha-purification-sonore-guide",
+        excerpt: "Les tingsha tibétaines purifient un lieu d'un son cristallin avant méditation ou tirage. Notre guide d'achat de ces cymbales sacrées.",
+        date: "22 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Les tingsha sont deux petites cymbales tibétaines reliées par une lanière de cuir. Leur tintement clair et cristallin sert à purifier un espace, marquer le début et la fin d'une méditation, ou nettoyer l'énergie d'un lieu avant un tirage. Un son qui « remet les compteurs à zéro ».</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Reconnaître de belles tingsha</h2>
+            <p>La qualité du son dépend de l'alliage. Les tingsha traditionnelles en bronze (alliage de plusieurs métaux) offrent un son riche et long. Les modèles gravés de mantras ou des huit symboles auspicieux sont les plus recherchés. Frappez-les sur la tranche pour un son pur et prolongé.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Les tingsha traditionnelles gravées</h2>
+            <p>Le choix de référence pour la purification d'espace. Un son cristallin qui résonne plusieurs secondes.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=tingsha+cymbales+tibetaines+bronze&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le bol chantant tibétain (complément)</h2>
+            <p>Pour aller plus loin dans la purification sonore, le bol chantant prolonge et approfondit le travail vibratoire. Excellent duo avec les tingsha.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bol+chantant+tibetain+vibration+meditation&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Vous avez purifié votre espace ? C'est le moment idéal pour un <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule</a> ou un <a href="/tirage" class="text-gold-400 border-b border-gold-400/30">tirage gratuit</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
+    },
+    {
+        title: "Coffret cadeau voyance : le présent idéal pour débuter",
+        slug: "coffret-cadeau-voyance-debuter-spiritualite",
+        excerpt: "Quel cadeau offrir à un passionné de spiritualité ? Notre sélection de coffrets découverte voyance et lithothérapie sur Amazon.",
+        date: "22 Mai 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Offrir un cadeau à une personne attirée par la spiritualité n'est pas toujours évident. Les coffrets découverte sont la solution idéale : ils réunissent plusieurs outils de qualité, dans une belle présentation, pour s'initier sans se tromper. Voici nos préférés selon le profil du destinataire.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Le coffret pendule + planche de radiesthésie</h2>
+            <p>Pour qui aime les réponses claires : pendule, planche oui/non et guide d'utilisation. Parfait pour s'initier à la radiesthésie.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+pendule+planche+radiesthesie+guide&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Le coffret lithothérapie (pierres + guide)</h2>
+            <p>Pour qui aime les cristaux : un assortiment de pierres roulées avec leurs significations. Souvent présenté dans une jolie boîte en bois.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+pierres+lithotherapie+set+decouverte&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Le coffret tarot ou oracle débutant</h2>
+            <p>Pour qui aime la cartomancie : un jeu accompagné de son livret d'apprentissage. Le Rider-Waite ou un oracle des anges sont parfaits pour commencer.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+tarot+oracle+debutant+livret&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">4. Le coffret bien-être (encens, bougies, pierres)</h2>
+            <p>Pour qui aime l'ambiance zen : un assortiment d'encens, de bougies et de petites pierres pour créer un cocon spirituel.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=coffret+cadeau+encens+bougies+pierres+zen&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir sur Amazon</a></p>
+
+            <p class="mt-6">Et pour accompagner le cadeau, offrez une expérience : notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée par pendule</a> fait toujours plaisir.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
     }
 ];

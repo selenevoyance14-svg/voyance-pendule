@@ -63,7 +63,7 @@ export default function PenduleClient() {
       <div className="text-center mb-12">
         <div className="text-6xl mb-4 animate-float">🔮</div>
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
-          Pendule <span className="text-gold-400">Gratuit</span>
+          Pendule <span className="text-gold-400">Oui/Non</span>
         </h1>
         <p className="text-mystic-300 max-w-lg mx-auto">
           Posez une question qui se repond par Oui ou Non.

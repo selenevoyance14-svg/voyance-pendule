@@ -10,9 +10,9 @@ interface Env {
 }
 
 const PRICES: Record<string, { amount: string; label: string; questions: number }> = {
-  q1: { amount: "5.90", label: "Tirage du pendule — 1 question", questions: 1 },
-  q3: { amount: "11.90", label: "Tirage du pendule — 3 questions (approfondi)", questions: 3 },
-  q5: { amount: "19.90", label: "Tirage du pendule — 5 questions + synthèse", questions: 5 },
+  q1: { amount: "2.00", label: "Tirage du pendule — 1 question", questions: 1 },
+  q3: { amount: "5.00", label: "Tirage du pendule — 3 questions (approfondi)", questions: 3 },
+  q5: { amount: "7.00", label: "Tirage du pendule — 5 questions + synthèse", questions: 5 },
 };
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {

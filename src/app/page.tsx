@@ -68,7 +68,7 @@ export default function Home() {
                             <span className="sv-eyebrow">Voyance &amp; guidance spirituelle</span>
                             <h1>Révélez<br /><span className="sv-accent">votre Destinée</span></h1>
                             <p className="sv-lede">
-                                Tirage de cartes, pendule, horoscope et messages angéliques — quatre outils gratuits
+                                Tirage de cartes, pendule, horoscope et messages angéliques — quatre outils de guidance
                                 pour écouter ce que l&apos;univers a à vous dire. Et au-delà, recevez votre tirage personnalisé,
                                 écrit par Sélène, livré sous 30 minutes.
                             </p>
@@ -155,8 +155,8 @@ export default function Home() {
             <section className="sv-section" id="tools">
                 <div className="sv-container">
                     <div className="sv-section-head">
-                        <span className="sv-eyebrow">Sans inscription, sans paiement</span>
-                        <h2>Quatre outils <em>gratuits</em></h2>
+                        <span className="sv-eyebrow">Voyance &amp; guidance au quotidien</span>
+                        <h2>Quatre outils de <em>guidance</em></h2>
                         <p className="sv-lede">Pour vos questions du quotidien, laissez-vous guider par les outils que Sélène a affinés au fil des années.</p>
                     </div>
 
@@ -187,7 +187,7 @@ export default function Home() {
                         </a>
 
                         {/* Pendule */}
-                        <a className="sv-tool-card" href="/pendule-gratuit">
+                        <a className="sv-tool-card" href="/consultation">
                             <svg className="sv-illu" viewBox="0 0 100 100" fill="none">
                                 <defs>
                                     <linearGradient id="penC" x1="0" y1="0" x2="0" y2="1">
@@ -206,9 +206,9 @@ export default function Home() {
                                 </g>
                                 <path d="M30 60 q20 -10 40 0" stroke="#c4a5ff" strokeWidth="0.5" strokeDasharray="1 3" fill="none" opacity="0.6" />
                             </svg>
-                            <h3>Pendule Oui/Non</h3>
-                            <p>Posez votre question. Le pendule oscille et vous répond en quelques secondes.</p>
-                            <span className="sv-badge">Gratuit</span>
+                            <h3>Tirage du Pendule</h3>
+                            <p>Recevez votre tirage du pendule personnalisé, rédigé pour vous par Sélène et livré par email.</p>
+                            <span className="sv-badge">Dès 2€</span>
                         </a>
 
                         {/* Horoscope */}
@@ -357,7 +357,7 @@ export default function Home() {
                                     <div className="sv-lbl">délai annoncé</div>
                                 </div>
                                 <div className="sv-stat">
-                                    <div className="sv-num">5,90€</div>
+                                    <div className="sv-num">2€</div>
                                     <div className="sv-lbl">à partir de</div>
                                 </div>
                             </div>
@@ -398,7 +398,7 @@ export default function Home() {
                             <div className="sv-plan-name">Question Unique</div>
                             <div className="sv-plan-tag">Une réponse claire et juste</div>
                             <div className="sv-plan-price">
-                                <span className="sv-amt">5,90</span><span className="sv-cur">€</span>
+                                <span className="sv-amt">2</span><span className="sv-cur">€</span>
                                 <span className="sv-unit">/tirage</span>
                             </div>
                             <ul>
@@ -427,7 +427,7 @@ export default function Home() {
                             <div className="sv-plan-name">Tirage Approfondi</div>
                             <div className="sv-plan-tag">Trois questions, une vision d&apos;ensemble</div>
                             <div className="sv-plan-price">
-                                <span className="sv-amt">11,90</span><span className="sv-cur">€</span>
+                                <span className="sv-amt">5</span><span className="sv-cur">€</span>
                                 <span className="sv-unit">/tirage</span>
                             </div>
                             <ul>
@@ -451,7 +451,7 @@ export default function Home() {
                             <div className="sv-plan-name">Tirage Complet</div>
                             <div className="sv-plan-tag">Cinq questions + synthèse de votre cycle</div>
                             <div className="sv-plan-price">
-                                <span className="sv-amt">19,90</span><span className="sv-cur">€</span>
+                                <span className="sv-amt">7</span><span className="sv-cur">€</span>
                                 <span className="sv-unit">/tirage</span>
                             </div>
                             <ul>
@@ -635,7 +635,7 @@ export default function Home() {
                     </div>
 
                     <div className="sv-trust-row">
-                        <div><div className="sv-num">5,90€</div><div className="sv-lbl">à partir de</div></div>
+                        <div><div className="sv-num">2€</div><div className="sv-lbl">à partir de</div></div>
                         <div><div className="sv-num">30 min</div><div className="sv-lbl">délai annoncé</div></div>
                         <div><div className="sv-num">100%</div><div className="sv-lbl">personnalisé</div></div>
                         <div><div className="sv-num">Satisfait</div><div className="sv-lbl">ou remboursé</div></div>
@@ -667,7 +667,7 @@ export default function Home() {
                     <p className="sv-lede">Commencez par un outil gratuit. Quand vous serez prête, Sélène sera là.</p>
                     <div className="sv-actions">
                         <a className="sv-btn-primary" href="/consultation">Recevoir mon tirage personnalisé</a>
-                        <a className="sv-btn-ghost" href="/pendule-gratuit">Essayer le pendule gratuit</a>
+                        <a className="sv-btn-ghost" href="/pendule-gratuit">Essayer le pendule</a>
                     </div>
                 </div>
             </section>
