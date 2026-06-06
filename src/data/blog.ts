@@ -4196,5 +4196,295 @@ export const blogPosts: BlogPost[] = [
             <p class="mt-6">Et pour accompagner le cadeau, offrez une expérience : notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée par pendule</a> fait toujours plaisir.</p>
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
+    },
+    {
+        title: "Cafédomancie : lire l'avenir dans le marc de café",
+        slug: "cafedomancie-lire-avenir-marc-de-cafe",
+        excerpt: "Après le café, ne jetez pas votre tasse trop vite. La cafédomancie, art divinatoire venu d'Orient, lit les messages cachés dans les dessins du marc.",
+        date: "1 Juin 2026",
+        category: "Voyance",
+        image: "/blog/voyance.svg",
+        content: `
+            <p>Vous avez sans doute déjà entendu parler de la lecture des feuilles de thé. Sa cousine, la cafédomancie, fait exactement la même chose avec le marc de café. Pratiquée depuis des siècles en Turquie, en Grèce et au Moyen-Orient, elle transforme un simple café partagé en un moment de divination intime et chaleureux.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment préparer la tasse ?</h2>
+            <p>La cafédomancie se pratique idéalement avec un café à la turque, non filtré, qui laisse un dépôt épais au fond de la tasse. Voici le rituel traditionnel :</p>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Buvez le café lentement en pensant à votre question.</li>
+                <li>Laissez un fond de marc, puis posez la soucoupe sur la tasse.</li>
+                <li>Retournez l'ensemble d'un geste sûr et laissez refroidir quelques minutes.</li>
+                <li>Relevez la tasse : les coulures du marc dessinent vos symboles.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Interpréter les symboles</h2>
+            <p>Chaque forme évoque une image, et chaque image porte un sens. Un cœur annonce l'amour, un oiseau de bonnes nouvelles, une route un voyage ou un changement, un cercle un projet qui se boucle. La zone compte aussi : près du bord, l'événement est proche ; au fond, il appartient au passé ou à un futur lointain.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">L'art de l'intuition</h2>
+            <p>La cafédomancie n'obéit à aucune règle rigide : elle s'appuie avant tout sur votre ressenti. Deux personnes liront la même tasse différemment, car le marc ne fait qu'éveiller l'intuition déjà présente en vous. C'est un excellent exercice pour développer votre sixième sens.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le marc de café ne prédit pas l'avenir, il révèle ce que votre cœur sait déjà."</p>
+            </div>
+
+            <p class="mt-6">Envie d'une réponse plus claire et personnalisée ? Découvrez notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation par pendule</a>, où Sélène répond précisément à vos questions.</p>
+        `
+    },
+    {
+        title: "Chiromancie : initiation à la lecture des lignes de la main",
+        slug: "chiromancie-lignes-de-la-main-initiation",
+        excerpt: "Votre main est une carte de votre vie. Apprenez à reconnaître les lignes de cœur, de tête et de vie, et ce qu'elles révèlent de votre destinée.",
+        date: "1 Juin 2026",
+        category: "Voyance",
+        image: "/blog/voyance.svg",
+        content: `
+            <p>La chiromancie, ou lecture des lignes de la main, est l'un des plus anciens arts divinatoires du monde. De l'Inde antique à la Grèce d'Aristote, on a toujours considéré la paume comme un miroir de la personnalité et du chemin de vie. Bonne nouvelle : ses bases sont accessibles à tous.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quelle main observer ?</h2>
+            <p>La tradition distingue la main passive (celle que vous utilisez le moins) qui révèle votre potentiel de naissance, et la main active qui montre ce que vous en avez fait. Comparer les deux est souvent très éclairant sur votre évolution.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les trois lignes majeures</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>La ligne de cœur :</strong> en haut de la paume, elle parle de vos émotions et de votre vie amoureuse. Longue et courbée, elle annonce un cœur généreux.</li>
+                <li><strong>La ligne de tête :</strong> au centre, elle décrit votre façon de penser. Droite, elle révèle un esprit logique ; sinueuse, une grande créativité.</li>
+                <li><strong>La ligne de vie :</strong> elle entoure le pouce. Contrairement à une idée reçue, elle n'indique pas la durée de vie mais votre vitalité et votre énergie.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les monts de la paume</h2>
+            <p>Sous chaque doigt se trouve un "mont" associé à une planète : le mont de Vénus (amour), de Jupiter (ambition), de Saturne (sagesse). Leur relief renseigne sur les forces dominantes de votre caractère.</p>
+
+            <p class="mt-6">La chiromancie se marie merveilleusement avec d'autres arts. Pour une vision complète de votre avenir, combinez-la avec une <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a> ou un tirage gratuit sur notre site.</p>
+        `
+    },
+    {
+        title: "Le pendule sur photo : retrouver une personne ou un objet",
+        slug: "pendule-sur-photo-retrouver-personne-objet",
+        excerpt: "La radiesthésie ne se limite pas aux questions oui/non. Avec une photo et une carte, le pendule peut aider à localiser un objet perdu ou un être cher.",
+        date: "2 Juin 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+            <p>Le pendule est un formidable outil de réponse par oui ou par non. Mais les radiesthésistes expérimentés l'utilisent aussi pour la recherche à distance : retrouver un trousseau de clés, un animal égaré ou ressentir l'état d'une personne à partir d'une simple photographie. Voici comment aborder cette pratique avancée.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le principe du témoin</h2>
+            <p>En radiesthésie, un "témoin" est un support qui relie le pendule à ce que vous cherchez : une photo, un objet ayant appartenu à la personne, une mèche de cheveux. Ce témoin sert de point d'ancrage à votre intention et concentre l'énergie de votre recherche.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Rechercher un objet perdu</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Dessinez un plan simple de votre logement, pièce par pièce.</li>
+                <li>Tenez le pendule au-dessus de chaque pièce en demandant : "L'objet est-il ici ?"</li>
+                <li>Affinez en quadrillant la pièce indiquée par le pendule.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Ressentir l'énergie d'une personne</h2>
+            <p>Au-dessus d'une photo, le pendule peut révéler l'état émotionnel ou la vitalité d'un proche. Posez des questions bienveillantes et respectueuses : la radiesthésie sur autrui demande toujours le consentement et l'éthique. Le but n'est jamais d'espionner, mais de comprendre et d'aider.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le pendule ne cherche pas à votre place : il guide la main de celui qui sait écouter le silence."</p>
+            </div>
+
+            <p class="mt-6">Vous débutez ? Entraînez-vous d'abord avec notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> avant de passer à la recherche à distance.</p>
+        `
+    },
+    {
+        title: "Mercure rétrograde : survivre aux périodes de chaos astral",
+        slug: "mercure-retrograde-survivre-periode",
+        excerpt: "Trois à quatre fois par an, Mercure semble reculer dans le ciel. Malentendus, pannes, retards... Découvrez comment traverser sereinement ces périodes.",
+        date: "2 Juin 2026",
+        category: "Astrologie",
+        image: "/blog/astrologie.svg",
+        content: `
+            <p>Si vous suivez un peu l'astrologie, vous avez forcément entendu cette expression redoutée : "Mercure est rétrograde". Plusieurs fois par an, la planète de la communication donne l'illusion, vue de la Terre, de reculer dans le zodiaque. Une période souvent associée aux quiproquos et aux contretemps.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Qu'est-ce qui change vraiment ?</h2>
+            <p>Mercure gouverne la communication, les déplacements, les contrats et la technologie. Pendant sa rétrogradation, ces domaines deviennent plus capricieux : courriels mal interprétés, trains en retard, appareils qui tombent en panne au pire moment. Rien de magique : c'est une invitation à ralentir.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Ce qu'il vaut mieux éviter</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Signer un contrat important sans tout relire deux fois.</li>
+                <li>Acheter du matériel électronique ou un véhicule.</li>
+                <li>Lancer un projet entièrement nouveau : préférez attendre la fin de la période.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le bon côté de la rétrogradation</h2>
+            <p>Le préfixe "re" est la clé de cette période : revoir, réviser, recontacter, réparer, réfléchir. C'est le moment idéal pour reprendre un projet en sommeil, renouer avec une personne du passé ou clarifier ses idées. Loin d'être maudite, cette phase favorise l'introspection.</p>
+
+            <p class="mt-6">Pour savoir comment cette énergie touche précisément votre signe, consultez chaque jour votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a>.</p>
+        `
+    },
+    {
+        title: "Nettoyage énergétique au gros sel : un rituel simple et puissant",
+        slug: "nettoyage-energetique-gros-sel-rituel",
+        excerpt: "Le gros sel est le purificateur le plus ancien et le plus accessible. Découvrez comment l'utiliser pour assainir votre maison, vos objets et votre aura.",
+        date: "3 Juin 2026",
+        category: "Rituels",
+        image: "/blog/rituels.svg",
+        content: `
+            <p>Avant les encens raffinés et les pierres précieuses, nos ancêtres utilisaient déjà un purificateur universel présent dans chaque foyer : le gros sel. Reconnu dans toutes les traditions pour sa capacité à absorber les énergies négatives, il reste le rituel de nettoyage le plus simple et le plus économique qui soit.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi le sel purifie-t-il ?</h2>
+            <p>Le sel est un cristal naturel. Comme une éponge, il capte l'humidité de l'air mais aussi, selon les croyances ésotériques, les charges énergétiques stagnantes. C'est pourquoi on le retrouve dans les rituels de protection du monde entier, du Japon à l'Amérique latine.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Purifier sa maison</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Placez une petite coupelle de gros sel dans chaque coin des pièces à assainir.</li>
+                <li>Laissez agir 24 à 48 heures, puis jetez le sel dans les toilettes (jamais à la poubelle).</li>
+                <li>Renouvelez après une dispute, une maladie ou l'arrivée d'une énergie lourde.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le bain de sel pour l'aura</h2>
+            <p>Une poignée de gros sel dans l'eau du bain suffit à nettoyer votre champ énergétique. Restez immergé une quinzaine de minutes en visualisant les tensions qui se dissolvent. À la sortie, vous vous sentirez plus léger et apaisé.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le sel ne demande rien d'autre que votre intention pour devenir un puissant gardien."</p>
+            </div>
+
+            <p class="mt-6">Le gros sel sert aussi à recharger vos outils. Pensez à purifier votre espace de tirage avant chaque séance pour une guidance plus claire.</p>
+        `
+    },
+    {
+        title: "Le bain rituel : purifier son corps et son aura en profondeur",
+        slug: "bain-rituel-purifier-corps-aura",
+        excerpt: "Bien plus qu'un moment détente, le bain rituel est un acte sacré de purification. Sels, plantes, huiles et intention : découvrez la recette d'un bain magique.",
+        date: "3 Juin 2026",
+        category: "Rituels",
+        image: "/blog/rituels.svg",
+        content: `
+            <p>L'eau est l'élément de l'émotion et de la purification par excellence. Depuis l'Antiquité, le bain rituel accompagne les grandes étapes de la vie spirituelle. Loin du simple bain moussant, il s'agit d'un moment dédié à votre renaissance énergétique.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Préparer l'espace sacré</h2>
+            <p>Tamisez la lumière, allumez quelques bougies, faites brûler un encens doux. L'idée est de transformer votre salle de bain en sanctuaire. Coupez votre téléphone : ce moment vous appartient.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les ingrédients d'un bain magique</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Le gros sel ou le sel d'Epsom :</strong> pour absorber les énergies lourdes.</li>
+                <li><strong>Les plantes :</strong> lavande pour l'apaisement, romarin pour la protection, pétales de rose pour l'amour.</li>
+                <li><strong>Les huiles essentielles :</strong> quelques gouttes diluées pour parfumer et élever les vibrations.</li>
+                <li><strong>Une bougie blanche :</strong> symbole de lumière et de clarté.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Le rituel pas à pas</h2>
+            <p>Entrez dans l'eau avec une intention claire : "Je me libère de ce qui ne me sert plus". Restez vingt minutes, respirez profondément et visualisez une lumière qui vous enveloppe. En vidant la baignoire, imaginez toutes les énergies négatives s'écouler avec l'eau.</p>
+
+            <p class="mt-6">Un bain rituel est parfait avant une séance de voyance ou une <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation</a> : l'esprit clarifié reçoit des réponses plus justes.</p>
+        `
+    },
+    {
+        title: "Le Reiki : comprendre l'énergie universelle de guérison",
+        slug: "reiki-energie-universelle-guerison",
+        excerpt: "Né au Japon, le Reiki canalise l'énergie vitale par l'imposition des mains pour rééquilibrer le corps et l'esprit. Découvrez les principes de cette méthode douce.",
+        date: "4 Juin 2026",
+        category: "Bien-être",
+        image: "/blog/bien-etre.svg",
+        content: `
+            <p>Le Reiki, dont le nom signifie "énergie vitale universelle" en japonais, est une méthode de soin énergétique mise au point par Mikao Usui au début du XXe siècle. De plus en plus populaire, il accompagne la détente, la gestion du stress et le mieux-être de manière douce et naturelle.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment fonctionne le Reiki ?</h2>
+            <p>Le praticien pose délicatement ses mains sur ou au-dessus du corps de la personne pour canaliser l'énergie universelle. Cette énergie circulerait là où le corps en a besoin, dénouant les blocages et favorisant un profond état de relaxation. Aucune manipulation physique : tout repose sur le toucher léger et l'intention.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les 5 principes du Reiki</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Juste pour aujourd'hui, je ne me mets pas en colère.</li>
+                <li>Juste pour aujourd'hui, je ne me fais pas de souci.</li>
+                <li>Juste pour aujourd'hui, je suis reconnaissant.</li>
+                <li>Juste pour aujourd'hui, je travaille avec honnêteté.</li>
+                <li>Juste pour aujourd'hui, je suis bienveillant envers tout ce qui vit.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Reiki et développement de l'intuition</h2>
+            <p>Au-delà de la détente, beaucoup de praticiens constatent que le Reiki affine la sensibilité énergétique. En apprenant à ressentir les flux du corps, on développe naturellement son intuition, un atout précieux pour la voyance et la radiesthésie.</p>
+
+            <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
+                <p class="italic text-mystic-300">"Le Reiki ne guérit pas à votre place : il rappelle au corps comment retrouver son équilibre naturel."</p>
+            </div>
+
+            <p class="mt-6"><em>Le Reiki est une pratique de bien-être et ne remplace en aucun cas un avis ou un traitement médical.</em></p>
+        `
+    },
+    {
+        title: "Nombres angéliques : décoder les messages 111, 222, 333...",
+        slug: "nombres-angeliques-decoder-111-222-333",
+        excerpt: "Vous voyez sans cesse les mêmes séquences de chiffres ? Vos anges vous parlent. Découvrez la signification précise des nombres angéliques les plus fréquents.",
+        date: "4 Juin 2026",
+        category: "Spiritualité",
+        image: "/blog/spiritualite.svg",
+        content: `
+            <p>Il arrive que certaines séquences de chiffres s'invitent partout dans notre quotidien : sur l'horloge, une plaque d'immatriculation, un ticket de caisse. Loin d'être un hasard, ces "nombres angéliques" seraient des messages codés que nos guides célestes nous adressent pour nous rassurer ou nous orienter.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi les anges utilisent-ils les chiffres ?</h2>
+            <p>Les êtres de lumière communiquent par des moyens subtils, et les nombres sont un langage universel qui traverse les cultures. Quand une séquence attire votre attention de façon répétée, c'est le signe qu'un message vous est destiné. Le sens dépend de votre situation du moment.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">La signification des principales séquences</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>111 :</strong> une porte s'ouvre. Vos pensées se manifestent rapidement, restez positif.</li>
+                <li><strong>222 :</strong> équilibre et confiance. Vous êtes sur le bon chemin, soyez patient.</li>
+                <li><strong>333 :</strong> les maîtres ascensionnés vous entourent et vous soutiennent.</li>
+                <li><strong>444 :</strong> protection. Vos anges sont tout près de vous.</li>
+                <li><strong>555 :</strong> un grand changement se prépare dans votre vie.</li>
+                <li><strong>777 :</strong> chance et alignement spirituel, continuez ainsi.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment répondre à ces signes ?</h2>
+            <p>Quand vous remarquez un nombre angélique, arrêtez-vous un instant. Notez à quoi vous pensiez : le message concerne souvent cette préoccupation précise. Un simple "merci" intérieur entretient le dialogue avec vos guides.</p>
+
+            <p class="mt-6">Pour aller plus loin, découvrez l'identité de votre protecteur dans notre section <a href="/anges" class="text-gold-400 border-b border-gold-400/30">Anges Gardiens</a>.</p>
+        `
+    },
+    {
+        title: "Voyance par téléphone ou en ligne : comment bien choisir ?",
+        slug: "voyance-telephone-en-ligne-bien-choisir",
+        excerpt: "Consultation par téléphone, par email ou via un outil en ligne : chaque format a ses avantages. Nos conseils pour une voyance à distance sereine et fiable.",
+        date: "5 Juin 2026",
+        category: "Voyance",
+        image: "/blog/voyance.svg",
+        content: `
+            <p>Fini le temps où il fallait se déplacer dans un cabinet : la voyance à distance s'est largement démocratisée. Téléphone, email, chat, outils en ligne... Mais comment s'y retrouver et surtout, comment éviter les pièges ? Voici nos repères pour consulter en toute confiance.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les différents formats</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li><strong>Le téléphone :</strong> l'échange en direct, idéal pour les questions spontanées, mais le tarif à la minute peut grimper vite.</li>
+                <li><strong>L'email ou l'écrit :</strong> une réponse posée et réfléchie, que vous conservez et relisez à tête reposée.</li>
+                <li><strong>Les outils en ligne :</strong> pendule, tirage ou horoscope automatisés, parfaits pour une première approche gratuite.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les signes d'un service sérieux</h2>
+            <p>Une voyance honnête ne vous promet jamais la lune ni ne vous fait peur pour vous vendre un "désenvoûtement". Méfiez-vous des discours alarmistes. Un bon praticien reste bienveillant, transparent sur ses tarifs et clair sur le caractère d'accompagnement de sa démarche.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Bien préparer sa consultation</h2>
+            <p>Pour une réponse utile, formulez des questions précises et ouvertes plutôt que de simples "oui/non" sur tout. Notez vos interrogations à l'avance et restez détendu : plus votre esprit est clair, plus la guidance est juste.</p>
+
+            <p class="mt-6">Chez nous, vous recevez un <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage de pendule personnalisé par email</a> : une réponse écrite, posée et bienveillante, livrée en quelques minutes et que vous gardez précieusement.</p>
+        `
+    },
+    {
+        title: "Le jade : la pierre porte-bonheur de la prospérité (guide d'achat)",
+        slug: "jade-pierre-porte-bonheur-prosperite-guide-achat",
+        excerpt: "Symbole de chance et d'harmonie en Asie, le jade attire l'abondance et apaise le cœur. Notre guide pour choisir un vrai jade et l'utiliser au quotidien.",
+        date: "6 Juin 2026",
+        category: "Guide d'achat",
+        image: "/blog/guide-achat.svg",
+        content: `
+            <p>Vénéré en Chine depuis plus de 5 000 ans, le jade est bien plus qu'une pierre précieuse : c'est un véritable talisman de prospérité, de santé et de longévité. Sa douce couleur verte invite à l'harmonie et à la sérénité. Voici comment bien le choisir.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Les vertus du jade</h2>
+            <p>En lithothérapie, le jade est associé au chakra du cœur. On lui prête le pouvoir d'attirer la chance et l'abondance, d'apaiser les émotions et de favoriser des relations harmonieuses. Porté ou posé chez soi, il diffuse une énergie de paix et d'équilibre.</p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Reconnaître un vrai jade</h2>
+            <ul class="list-disc list-inside space-y-2 mt-4">
+                <li>Le vrai jade (jadéite ou néphrite) est frais au toucher et lourd en main.</li>
+                <li>Sa couleur est rarement uniforme : de légères nuances trahissent l'authenticité.</li>
+                <li>Méfiez-vous des prix trop bas : beaucoup de "jades" bon marché sont en réalité de la résine teintée.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Bien le choisir et l'utiliser</h2>
+            <p>Le bracelet en jade est le format le plus courant : on le porte au poignet gauche pour recevoir ses bienfaits. Une statuette ou un galet posé dans le coin "richesse" de la maison (au fond à gauche en entrant, selon le Feng Shui) renforce son action sur la prospérité.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=bracelet+jade+veritable+pierre+naturelle&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir les bracelets en jade sur Amazon</a></p>
+
+            <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Entretenir son jade</h2>
+            <p>Purifiez-le sous l'eau claire et rechargez-le à la lumière douce de la Lune. Évitez le soleil direct prolongé qui peut altérer sa couleur. Un jade bien entretenu vous accompagnera de longues années.</p>
+            <p class="mt-4"><a href="https://www.amazon.fr/s?k=jade+pierre+roulee+lithotherapie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir les pierres de jade sur Amazon</a></p>
+
+            <p class="mt-6">Le jade se marie bien avec d'autres pierres de cœur comme le quartz rose. Pour savoir quelle pierre vous correspond le mieux, tentez notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a>.</p>
+            <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
+        `
     }
 ];
