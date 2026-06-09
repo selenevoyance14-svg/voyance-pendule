@@ -211,6 +211,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                                     <li><a href="/qui-suis-je">Qui suis-je ?</a></li>
                                     <li><a href="/blog">Le blog</a></li>
                                     <li><a href="/boutique">Boutique</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                     <li><a href="/mentions-legales">Mentions légales</a></li>
                                     <li><a href="/cgv">CGV</a></li>
                                     <li><a href="/confidentialite">Confidentialité</a></li>

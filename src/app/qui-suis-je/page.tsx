@@ -125,7 +125,7 @@ export default function QuiSuisJe() {
                         <p className="text-mystic-400 mb-6">
                             Une question ? Un message ? N&apos;hésitez pas à me contacter.
                         </p>
-                        <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition font-medium">
+                        <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 hover:text-gold-300 transition font-medium">
                             contact@voyance-pendule.fr
                         </a>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
