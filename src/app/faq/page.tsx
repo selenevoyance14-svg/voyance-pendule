@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Questions Fréquentes (FAQ) — Sélène Voyance",
-    description: "Réponses à vos questions sur la voyance par pendule, les consultations, le tarot, l'horoscope et les outils de guidance gratuits de voyance-pendule.fr.",
+    description: "Réponses à vos questions sur le pendule gratuit, le tarot, l'horoscope, les anges, la lithothérapie et les outils de guidance de voyance-pendule.fr.",
 };
 
 const faqs = [
@@ -24,27 +24,6 @@ const faqs = [
         ],
     },
     {
-        category: "La Consultation Personnalisée",
-        questions: [
-            {
-                q: "Qu'est-ce que la consultation personnalisée par email ?",
-                a: "C'est notre service signature : un tirage du pendule rédigé sur mesure, à partir de votre prénom, votre date de naissance et vos questions précises. Vous recevez le tirage par email dans un délai indicatif de 30 minutes. Trois formules sont disponibles : Question Unique (2 €), Tirage Approfondi 3 questions (5 €) et Tirage Complet 5 questions + synthèse globale (7 €).",
-            },
-            {
-                q: "Comment fonctionne l'oracle numérique Sélène ?",
-                a: "Sélène est un oracle numérique basé sur une intelligence artificielle inspirée de la tradition divinatoire de la radiesthésie. Il interprète vos questions avec bienveillance et formule des réponses personnalisées en français. Ce n'est pas un médium humain : c'est un outil de réflexion et de guidance, à usage de divertissement.",
-            },
-            {
-                q: "Quel mode de paiement est accepté ?",
-                a: "Le paiement s'effectue exclusivement par PayPal — soit avec votre compte PayPal, soit en carte bancaire (Visa, Mastercard, etc.) via l'interface PayPal. Le paiement est sécurisé : vos données bancaires ne transitent jamais par notre serveur.",
-            },
-            {
-                q: "Et si je ne reçois pas mon tirage ?",
-                a: "Vérifiez d'abord votre dossier Spam / Promotions. Si rien après 1 heure, écrivez à contact@voyance-pendule.fr en mentionnant votre adresse email PayPal. Nous renvoyons le tirage immédiatement ou procédons au remboursement (frais PayPal exclus). Voir nos CGV pour les détails.",
-            },
-        ],
-    },
-    {
         category: "Les Outils Gratuits",
         questions: [
             {
@@ -53,7 +32,7 @@ const faqs = [
             },
             {
                 q: "Quels types de questions puis-je poser au pendule gratuit ?",
-                a: "Vous pouvez poser des questions sur l'amour, le travail, la famille, les projets, les décisions à prendre. Les questions en format Oui/Non fonctionnent le mieux avec le pendule. Évitez les questions sur la santé ou les diagnostics médicaux. Pour des questions plus profondes ou des interprétations personnalisées, optez pour la consultation par email.",
+                a: "Vous pouvez poser des questions sur l'amour, le travail, la famille, les projets ou une décision. Les formulations simples auxquelles on peut répondre par Oui ou Non fonctionnent le mieux. Évitez les questions de santé, les diagnostics et les décisions à fort enjeu.",
             },
         ],
     },
@@ -62,7 +41,7 @@ const faqs = [
         questions: [
             {
                 q: "Tous les outils de guidance sont-ils gratuits ?",
-                a: "Le pendule Oui/Non en ligne, le tirage de cartes, l'horoscope du jour pour les 12 signes et les messages des anges gardiens sont 100 % gratuits, sans inscription. Seule la consultation personnalisée par email (rédigée par notre oracle numérique Sélène et envoyée sous 30 min) est un service payant.",
+                a: "Oui. Le pendule Oui/Non en ligne, le tirage de cartes, l'horoscope du jour pour les 12 signes et les messages des anges gardiens sont gratuits et accessibles sans inscription.",
             },
             {
                 q: "Comment fonctionne le tirage de cartes gratuit ?",
@@ -70,7 +49,7 @@ const faqs = [
             },
             {
                 q: "L'horoscope est-il mis à jour chaque jour ?",
-                a: "Oui, l'horoscope est actualisé quotidiennement pour les 12 signes du zodiaque. Il couvre Amour, Travail, Santé et Finances. C'est une guidance générale basée sur votre signe solaire — pour une lecture personnalisée tenant compte de votre situation, optez pour la consultation par email.",
+                a: "Oui, l'horoscope est actualisé quotidiennement pour les 12 signes du zodiaque. Il couvre notamment l'amour, le travail, le bien-être et les finances. Cette lecture générale basée sur votre signe solaire reste un contenu de divertissement et de réflexion.",
             },
         ],
     },
@@ -125,8 +104,8 @@ export default function FAQ() {
                         Questions <span className="text-gold-400">Fréquentes</span>
                     </h1>
                     <p className="text-mystic-300 max-w-xl mx-auto">
-                        Retrouvez les réponses aux questions les plus posées sur la voyance par pendule,
-                        nos consultations, les outils gratuits et la boutique spirituelle.
+                        Retrouvez les réponses aux questions les plus posées sur le pendule,
+                        nos outils gratuits et la boutique spirituelle.
                     </p>
                     <div className="mystic-divider max-w-xs mx-auto mt-6" />
                 </div>
@@ -161,8 +140,8 @@ export default function FAQ() {
                         contact@voyance-pendule.fr
                     </a>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-                        <a href="/consultation" className="btn-gold">
-                            🌙 Consultation Personnalisée
+                        <a href="/tirage" className="btn-gold">
+                            🃏 Tirage de cartes gratuit
                         </a>
                         <a href="/pendule-gratuit" className="btn-mystic">
                             🔮 Pendule Gratuit

@@ -154,12 +154,12 @@ export default function BlogPostPage({ params }: Props) {
                         Envie d&apos;en savoir plus sur votre avenir ?
                     </h2>
                     <p className="text-mystic-400 mb-10 max-w-lg mx-auto">
-                        Je réalise pour vous une consultation personnalisée par pendule
-                        pour répondre à vos questions les plus pressantes.
+                        Posez une question simple au pendule en ligne ou complétez votre
+                        réflexion avec un tirage de cartes. Les deux outils sont gratuits.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <a href="/voyance" className="btn-gold">
-                            🔮 Consulter le Pendule
+                        <a href="/pendule-gratuit" className="btn-gold">
+                            🔮 Pendule gratuit
                         </a>
                         <a href="/horoscope" className="btn-mystic">
                             ♈ Horoscope Gratuit

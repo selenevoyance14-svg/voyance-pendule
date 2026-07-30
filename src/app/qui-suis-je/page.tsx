@@ -68,12 +68,11 @@ export default function QuiSuisJe() {
                                 </p>
                             </div>
                             <div>
-                                <h3 className="text-gold-400 font-semibold mb-1">Des consultations personnalisées</h3>
+                                <h3 className="text-gold-400 font-semibold mb-1">Une approche libre et responsable</h3>
                                 <p>
-                                    Pour ceux qui souhaitent aller plus loin, je propose des consultations gratuites
-                                    par pendule. Vous posez vos questions, je consulte le pendule et vous
-                                    recevez une réponse détaillée. Chaque consultation est unique et
-                                    réalisée avec soin.
+                                    Les outils proposés sont des supports d&apos;introspection et de
+                                    divertissement. Ils invitent à écouter son intuition sans jamais remplacer
+                                    votre libre arbitre ni l&apos;avis d&apos;un professionnel.
                                 </p>
                             </div>
                             <div>
@@ -104,7 +103,7 @@ export default function QuiSuisJe() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
-                                <span><strong className="text-white">Bienveillance</strong> — Chaque consultation est réalisée dans le respect et la douceur, sans jugement.</span>
+                                <span><strong className="text-white">Bienveillance</strong> — Les contenus sont conçus avec respect, douceur et sans jugement.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
@@ -112,7 +111,7 @@ export default function QuiSuisJe() {
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
-                                <span><strong className="text-white">Confidentialité</strong> — Vos questions et données personnelles restent strictement confidentielles.</span>
+                                <span><strong className="text-white">Confidentialité</strong> — Les outils gratuits ne demandent ni identité ni inscription.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>

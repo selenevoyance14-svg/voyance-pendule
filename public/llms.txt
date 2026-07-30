@@ -1,0 +1,28 @@
+# Sélène Voyance
+
+> voyance-pendule.fr propose des outils gratuits de guidance et d'introspection en français. Aucun compte ni achat n'est nécessaire pour utiliser les expériences.
+
+## Pages principales
+
+- [Pendule gratuit Oui/Non](https://voyance-pendule.fr/pendule-gratuit) : poser une question simple et obtenir une réponse symbolique immédiate.
+- [Tirage de cartes gratuit](https://voyance-pendule.fr/tirage) : tirages intuitifs accompagnés d'interprétations.
+- [Horoscope gratuit](https://voyance-pendule.fr/horoscope) : tendances du jour pour les douze signes.
+- [Messages des anges](https://voyance-pendule.fr/anges) : contenus autour des anges gardiens.
+- [Pierres et lithothérapie](https://voyance-pendule.fr/pierres) : guides sur les pierres, usages symboliques et précautions.
+- [Blog](https://voyance-pendule.fr/blog) : articles sur le pendule, le tarot, l'astrologie et la spiritualité.
+- [Boutique](https://voyance-pendule.fr/boutique) : sélection de produits vendus par des marchands tiers.
+
+## Principes éditoriaux
+
+- Tous les outils interactifs du site sont gratuits.
+- Les résultats sont destinés au divertissement et à la réflexion personnelle.
+- Ils ne constituent pas des conseils médicaux, psychologiques, juridiques ou financiers.
+- Le libre arbitre de l'utilisateur prime toujours.
+- Certains liens de la boutique sont affiliés à Amazon et peuvent générer une commission sans surcoût.
+
+## Informations
+
+- [À propos](https://voyance-pendule.fr/qui-suis-je)
+- [FAQ](https://voyance-pendule.fr/faq)
+- [Confidentialité](https://voyance-pendule.fr/confidentialite)
+- Contact : contact@voyance-pendule.fr

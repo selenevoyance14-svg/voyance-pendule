@@ -137,19 +137,18 @@ export default function PenduleClient() {
         </div>
       )}
 
-      {/* CTA vers la consultation payante */}
+      {/* Continuer avec les autres outils gratuits */}
       <div className="glass-card border border-gold-500/30 p-6 sm:p-8 mt-12 text-center">
         <div className="text-3xl mb-3">🌙</div>
         <h2 className="font-heading text-xl sm:text-2xl font-bold text-white mb-3">
-          Envie d&apos;une réponse vraiment personnalisée ?
+          Continuez votre exploration gratuitement
         </h2>
         <p className="text-mystic-300 text-sm leading-relaxed max-w-md mx-auto mb-6">
-          Au-delà du simple Oui/Non, recevez un véritable tirage du pendule rédigé pour vous
-          par Sélène — à partir de votre prénom, votre date de naissance et vos questions précises,
-          livré par email sous 30 minutes.
+          Complétez cette réponse avec un tirage de cartes, votre horoscope du jour
+          ou un message angélique. Aucun paiement et aucune inscription.
         </p>
-        <a href="/consultation" className="btn-gold">
-          🔮 Mon tirage personnalisé — dès 2€
+        <a href="/tirage" className="btn-gold">
+          🃏 Faire un tirage gratuit
         </a>
       </div>
 

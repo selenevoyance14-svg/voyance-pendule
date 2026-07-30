@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import PenduleClient from "./PenduleClient";
 
 export const metadata: Metadata = {
-  title: "Pendule Oui/Non en ligne — Selene Voyance",
-  description: "Posez votre question au pendule et recevez une reponse Oui ou Non instantanee. Pendule de voyance en ligne.",
+  title: "Pendule gratuit Oui/Non en ligne, sans inscription | Sélène",
+  description: "Posez votre question au pendule gratuit et recevez une réponse Oui, Non ou Incertain instantanément. Sans inscription, à utiliser librement.",
+  alternates: { canonical: "/pendule-gratuit" },
 };
 
 export default function PenduleGratuitPage() {

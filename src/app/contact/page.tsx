@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Contact — Sélène Voyance | voyance-pendule.fr",
-    description: "Une question sur la voyance par pendule, une consultation ou le site ? Contactez Sélène par e-mail. Réponse personnelle sous 24 à 48 heures.",
+    description: "Une question sur le pendule gratuit, les contenus ou la boutique de voyance-pendule.fr ? Contactez Sélène par e-mail.",
     alternates: { canonical: "https://voyance-pendule.fr/contact" },
 };
 
@@ -17,8 +17,8 @@ export default function Contact() {
                     </h1>
                     <div className="mystic-divider max-w-xs mx-auto" />
                     <p className="text-mystic-300 mt-6 max-w-xl mx-auto leading-relaxed">
-                        Une question, une remarque, un besoin d&apos;aide avec une consultation ou
-                        simplement l&apos;envie d&apos;échanger ? Je lis personnellement chaque message
+                        Une question, une remarque, un besoin d&apos;aide avec un outil ou
+                        simplement l&apos;envie d&apos;échanger ? Je lis chaque message
                         et je vous réponds avec attention.
                     </p>
                 </div>
@@ -48,11 +48,11 @@ export default function Contact() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
-                                <span><strong className="text-white">Une consultation</strong> — question sur votre tirage, modification, ou message non reçu.</span>
+                                <span><strong className="text-white">Un outil gratuit</strong> — question sur le pendule, le tirage, l&apos;horoscope ou les anges.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
-                                <span><strong className="text-white">Un paiement</strong> — facture, remboursement ou difficulté lors du règlement.</span>
+                                <span><strong className="text-white">Un partenariat</strong> — proposition éditoriale ou demande professionnelle.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-gold-400 mt-0.5">✦</span>
@@ -72,12 +72,12 @@ export default function Contact() {
                         <p>
                             La plupart des questions trouvent déjà leur réponse dans la
                             {" "}<a href="/faq" className="text-gold-400 hover:text-gold-300">FAQ</a> :
-                            délai de réception d&apos;une consultation, déroulé d&apos;un tirage par pendule,
-                            confidentialité de vos questions, moyens de paiement acceptés. N&apos;hésitez pas
+                            fonctionnement du pendule, déroulé d&apos;un tirage de cartes,
+                            confidentialité et utilisation de la boutique. N&apos;hésitez pas
                             à y jeter un œil, c&apos;est souvent le plus rapide.
                         </p>
                         <p className="mt-4">
-                            Pour rappel, les outils gratuits et les consultations proposés ici sont à usage
+                            Pour rappel, les outils proposés ici sont à usage
                             de divertissement et de réflexion personnelle. Ils ne remplacent pas un avis
                             médical, juridique, psychologique ou financier.
                         </p>

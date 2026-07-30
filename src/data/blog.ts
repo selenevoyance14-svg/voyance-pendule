@@ -1151,7 +1151,7 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pleine Lune et voyance</h2>
             <p>Les séances de voyance sont particulièrement puissantes pendant la Pleine Lune. L'énergie lunaire amplifie les canaux intuitifs, rendant les réponses du pendule plus claires et plus précises. Si vous hésitez sur le moment idéal pour consulter, la période de Pleine Lune est un excellent choix.</p>
 
-            <p class="mt-6">Pour savoir ce que les astres vous réservent, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">Horoscope Gratuit</a> ou posez directement vos questions à <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Sélène et son pendule</a>.</p>
+            <p class="mt-6">Pour savoir ce que les astres vous réservent, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">Horoscope Gratuit</a> ou posez directement vos questions à <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Sélène et son pendule</a>.</p>
         `
     },
     {
@@ -1222,7 +1222,7 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Pourquoi le pendule est idéal pour les questions d'amour ?</h2>
             <p>En amour, on a souvent besoin d'une réponse claire, pas d'une longue analyse. Le pendule offre exactement cela : un oui ou un non, direct et sans ambiguïté. Associé aux interprétations mystiques de Sélène, il apporte à la fois la réponse et le réconfort dont le cœur a besoin.</p>
 
-            <p class="mt-6">Vous avez une question qui vous brûle le cœur ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez-la à Sélène</a> et recevez votre réponse personnalisée sous 24h.</p>
+            <p class="mt-6">Vous avez une question qui vous brûle le cœur ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez-la à Sélène</a> et recevez votre réponse personnalisée sous 24h.</p>
         `
     },
     {
@@ -1298,7 +1298,7 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment le pendule peut aider ?</h2>
             <p>Le pendule est un outil précieux pour les parcours flammes jumelles. Il peut répondre à des questions essentielles : "Est-ce bien ma flamme jumelle ?", "Va-t-il/elle revenir ?", "Suis-je dans la phase de fuite ou de poursuite ?". Ces réponses apportent clarté et sérénité dans un parcours souvent chaotique.</p>
 
-            <p class="mt-6">Vous pensez avoir rencontré votre flamme jumelle ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez Sélène</a> pour une guidance personnalisée.</p>
+            <p class="mt-6">Vous pensez avoir rencontré votre flamme jumelle ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez Sélène</a> pour une guidance personnalisée.</p>
         `
     },
     {
@@ -1371,7 +1371,7 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Loi de l'attraction et voyance</h2>
             <p>Le pendule peut confirmer si vous êtes aligné(e) avec votre manifestation. Demandez à Sélène : "Suis-je sur la bonne voie pour manifester mon souhait ?" ou "Y a-t-il un blocage énergétique qui m'empêche d'attirer ce que je désire ?". Le pendule identifie les résistances inconscientes qui sabotent vos efforts.</p>
 
-            <p class="mt-6">Besoin de clarté sur votre chemin de manifestation ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour identifier et lever vos blocages.</p>
+            <p class="mt-6">Besoin de clarté sur votre chemin de manifestation ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour identifier et lever vos blocages.</p>
         `
     },
     {
@@ -1447,7 +1447,7 @@ export const blogPosts: BlogPost[] = [
                 <li><strong>Nouvelle Lune en Poissons :</strong> Puissante pour les rêves, l'intuition et la spiritualité</li>
             </ul>
 
-            <p class="mt-6">Pour savoir quel signe influence la prochaine Nouvelle Lune et comment en tirer parti, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">Horoscope Gratuit</a> ou demandez guidance à <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Sélène</a>.</p>
+            <p class="mt-6">Pour savoir quel signe influence la prochaine Nouvelle Lune et comment en tirer parti, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">Horoscope Gratuit</a> ou demandez guidance à <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Sélène</a>.</p>
         `
     },
     {
@@ -1479,7 +1479,7 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Tirer les cartes pour soi-même</h2>
             <p>Vous pouvez apprendre à tirer les cartes pour vous-même, mais attention : il est très difficile d'être objectif quand on est émotionnellement impliqué dans la question. C'est pourquoi consulter un voyant extérieur reste la méthode la plus fiable pour obtenir des réponses impartiales.</p>
 
-            <p class="mt-6">Pour des réponses claires et directes à vos questions, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a> — un outil de guidance complémentaire au tarot.</p>
+            <p class="mt-6">Pour des réponses claires et directes à vos questions, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a> — un outil de guidance complémentaire au tarot.</p>
         `
     },
     {
@@ -1511,7 +1511,7 @@ export const blogPosts: BlogPost[] = [
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Numérologie et pendule : une alliance puissante</h2>
             <p>La numérologie dresse votre portrait énergétique, mais elle ne répond pas aux questions concrètes du quotidien. C'est là que le pendule entre en jeu. Une fois que vous connaissez votre chemin de vie, vous pouvez poser des questions ciblées au pendule : "Suis-je aligné(e) avec mon chemin de vie ?", "Cette décision sert-elle ma mission d'âme ?".</p>
-            <p class="mt-4">Pour obtenir des réponses précises sur votre destinée, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a>. Vous pouvez aussi découvrir ce que les astres prévoient pour vous dans votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a>.</p>
+            <p class="mt-4">Pour obtenir des réponses précises sur votre destinée, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a>. Vous pouvez aussi découvrir ce que les astres prévoient pour vous dans votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a>.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"Les nombres sont le langage universel offert par la divinité aux humains comme confirmation de la vérité." — Pythagore</p>
@@ -1549,7 +1549,7 @@ export const blogPosts: BlogPost[] = [
             </ul>
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Cristaux et voyance : amplifier votre guidance</h2>
-            <p>Les cristaux sont de merveilleux compagnons pour les séances de voyance. L'améthyste posée près de vous lors d'une consultation au pendule renforce la clarté des réponses. Le quartz clair amplifie la connexion entre votre question et l'énergie du pendule. Si vous souhaitez des réponses guidées par les énergies cosmiques, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a> et découvrez les messages que les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">anges gardiens</a> ont pour vous.</p>
+            <p>Les cristaux sont de merveilleux compagnons pour les séances de voyance. L'améthyste posée près de vous lors d'une consultation au pendule renforce la clarté des réponses. Le quartz clair amplifie la connexion entre votre question et l'énergie du pendule. Si vous souhaitez des réponses guidées par les énergies cosmiques, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a> et découvrez les messages que les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">anges gardiens</a> ont pour vous.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"Les cristaux sont les os de la Terre Mère. Ils portent la mémoire de millions d'années de sagesse."</p>
@@ -1588,7 +1588,7 @@ export const blogPosts: BlogPost[] = [
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quel outil pour quelle question ?</h2>
             <p>En réalité, le choix entre tarot et pendule n'est pas un dilemme — c'est une complémentarité. Utilisez le tarot pour explorer une situation complexe, puis le pendule pour confirmer la direction à prendre. Le tarot ouvre la porte, le pendule vous dit si vous devez la franchir.</p>
-            <p class="mt-4">Si vous avez des questions précises qui nécessitent une réponse claire, le pendule de Sélène est l'outil idéal. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez vos questions dès maintenant</a> et recevez vos réponses par email. Pour une guidance quotidienne plus large, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope du jour</a>.</p>
+            <p class="mt-4">Si vous avez des questions précises qui nécessitent une réponse claire, le pendule de Sélène est l'outil idéal. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez vos questions dès maintenant</a> et recevez vos réponses par email. Pour une guidance quotidienne plus large, consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope du jour</a>.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"Le tarot murmure les possibilités. Le pendule confirme le chemin. Ensemble, ils éclairent votre destinée tout entière."</p>
@@ -1617,7 +1617,7 @@ export const blogPosts: BlogPost[] = [
             </ul>
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Combiner méditation et guidance spirituelle</h2>
-            <p>La méditation aiguise votre intuition au quotidien, mais pour les grandes questions de vie, il est parfois nécessaire de faire appel à un outil plus structuré. Le pendule de Sélène offre des réponses claires quand votre esprit est encore trop agité pour entendre sa propre voix intérieure. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule</a> pour vos questions les plus pressantes, et laissez les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">messages de vos anges gardiens</a> vous accompagner dans votre éveil spirituel.</p>
+            <p>La méditation aiguise votre intuition au quotidien, mais pour les grandes questions de vie, il est parfois nécessaire de faire appel à un outil plus structuré. Le pendule de Sélène offre des réponses claires quand votre esprit est encore trop agité pour entendre sa propre voix intérieure. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule</a> pour vos questions les plus pressantes, et laissez les <a href="/anges" class="text-gold-400 border-b border-gold-400/30">messages de vos anges gardiens</a> vous accompagner dans votre éveil spirituel.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"L'intuition est l'âme qui parle au corps. La méditation est le silence qui permet d'entendre."</p>
@@ -1649,7 +1649,7 @@ export const blogPosts: BlogPost[] = [
             <p class="mt-4">Relisez votre journal chaque semaine. Comparez vos rêves avec les événements réels. Avec le temps, vous développerez un véritable "langage" onirique personnel — des symboles récurrents qui ont une signification spécifique pour vous.</p>
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Quand le rêve a besoin d'une confirmation</h2>
-            <p>Un rêve puissant vous a secoué(e) et vous ne savez pas s'il est prémonitoire ou simplement anxiogène ? C'est le moment de demander une confirmation au pendule. Posez des questions précises : "Ce rêve annonce-t-il un événement réel ?", "Dois-je me préparer à un changement ?", "Ce message vient-il de mes guides ?". <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour décrypter les messages cachés de vos nuits.</p>
+            <p>Un rêve puissant vous a secoué(e) et vous ne savez pas s'il est prémonitoire ou simplement anxiogène ? C'est le moment de demander une confirmation au pendule. Posez des questions précises : "Ce rêve annonce-t-il un événement réel ?", "Dois-je me préparer à un changement ?", "Ce message vient-il de mes guides ?". <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour décrypter les messages cachés de vos nuits.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"Le rêve est le courrier de l'âme. Certaines nuits, il vous envoie une lettre du futur."</p>
@@ -1686,7 +1686,7 @@ export const blogPosts: BlogPost[] = [
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Au-delà des signes : poser la bonne question</h2>
             <p>L'astrologie donne des tendances, mais chaque relation est unique. Les astres ne condamnent ni ne garantissent rien — ils éclairent les dynamiques en jeu. Si vous vous interrogez sur votre compatibilité ou l'avenir de votre couple, le pendule peut vous apporter une réponse directe et personnalisée.</p>
-            <p class="mt-4">Consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a> pour connaître les influences astrales du moment, puis <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">posez vos questions au pendule de Sélène</a> pour obtenir des réponses claires sur votre vie amoureuse.</p>
+            <p class="mt-4">Consultez votre <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">horoscope gratuit</a> pour connaître les influences astrales du moment, puis <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">posez vos questions au pendule de Sélène</a> pour obtenir des réponses claires sur votre vie amoureuse.</p>
 
             <div class="bg-mystic-900/50 border border-mystic-700/30 rounded-xl p-6 mt-10">
                 <p class="italic text-mystic-300">"Les étoiles inclinent, mais ne contraignent pas. C'est votre cœur qui choisit — les astres éclairent simplement le chemin."</p>
@@ -1913,7 +1913,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"La flamme de la bougie est le miroir de l'âme : elle révèle ce que les mots ne peuvent exprimer."</p>
             </div>
 
-            <p class="mt-6">Prête à recevoir vos réponses ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour obtenir une guidance personnalisée.</p>
+            <p class="mt-6">Prête à recevoir vos réponses ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour obtenir une guidance personnalisée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -1988,7 +1988,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les cartes ne prédisent pas l'avenir, elles éclairent le chemin que votre âme souhaite emprunter."</p>
             </div>
 
-            <p class="mt-6">Pour une réponse précise par Oui ou Non, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">demandez au pendule de Sélène</a>.</p>
+            <p class="mt-6">Pour une réponse précise par Oui ou Non, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">demandez au pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2101,7 +2101,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Un livre de sagesse est une lanterne dans la nuit : il n'éclaire pas tout le chemin, mais assez pour que le pas suivant soit sûr."</p>
             </div>
 
-            <p class="mt-6">En complément de vos lectures, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a> pour une guidance personnalisée sur vos questions actuelles.</p>
+            <p class="mt-6">En complément de vos lectures, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez le pendule de Sélène</a> pour une guidance personnalisée sur vos questions actuelles.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2224,7 +2224,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Votre autel est le reflet de votre monde intérieur. Prenez-en soin comme vous prendriez soin de votre âme."</p>
             </div>
 
-            <p class="mt-6">Votre autel est prêt ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez votre question au pendule de Sélène</a> et recevez votre guidance personnalisée.</p>
+            <p class="mt-6">Votre autel est prêt ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez votre question au pendule de Sélène</a> et recevez votre guidance personnalisée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2312,7 +2312,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le tarot ne prédit pas l'avenir de manière figée. Il éclaire les possibilités et vous aide à faire des choix alignés avec votre âme."</p>
             </div>
 
-            <p class="mt-6">Envie d'une réponse immédiate ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour recevoir votre guidance personnalisée.</p>
+            <p class="mt-6">Envie d'une réponse immédiate ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour recevoir votre guidance personnalisée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2359,7 +2359,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Là où la fumée sacrée passe, les ombres s'effacent et la lumière reprend sa place."</p>
             </div>
 
-            <p class="mt-6">Votre espace est purifié ? C'est le moment idéal pour <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">poser votre question au pendule de Sélène</a>.</p>
+            <p class="mt-6">Votre espace est purifié ? C'est le moment idéal pour <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">poser votre question au pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2406,7 +2406,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Une bougie allumée avec intention devient une prière visible, un pont de lumière entre votre coeur et l'univers."</p>
             </div>
 
-            <p class="mt-6">Allumez votre bougie et <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a> pour une guidance éclairée.</p>
+            <p class="mt-6">Allumez votre bougie et <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a> pour une guidance éclairée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2449,7 +2449,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le son du bol tibétain est la voix de l'univers qui vous rappelle que tout est vibration, et que vous pouvez accorder la vôtre à la fréquence de la paix."</p>
             </div>
 
-            <p class="mt-6">Après une séance de bol, votre esprit est clair et réceptif. Le moment idéal pour <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consulter le pendule de Sélène</a>.</p>
+            <p class="mt-6">Après une séance de bol, votre esprit est clair et réceptif. Le moment idéal pour <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consulter le pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2491,7 +2491,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Vos rêves sont des lettres que votre âme s'envoie à elle-même. Apprenez à les lire et vous découvrirez des vérités que le jour vous cache."</p>
             </div>
 
-            <p class="mt-6">Un rêve vous intrigue ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Demandez l'éclairage du pendule de Sélène</a> pour comprendre son message.</p>
+            <p class="mt-6">Un rêve vous intrigue ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Demandez l'éclairage du pendule de Sélène</a> pour comprendre son message.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2533,7 +2533,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Un livre ne vous donne pas de pouvoir. Il vous rappelle celui que vous avez toujours eu."</p>
             </div>
 
-            <p class="mt-6">Votre intuition vous souffle une question ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène est là pour vous répondre</a>.</p>
+            <p class="mt-6">Votre intuition vous souffle une question ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène est là pour vous répondre</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2573,7 +2573,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Méditer, ce n'est pas fuir le monde. C'est revenir à soi pour mieux le retrouver, avec plus de clarté et de compassion."</p>
             </div>
 
-            <p class="mt-6">Après votre méditation, vous êtes en état de réceptivité optimal. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez votre question au pendule de Sélène</a>.</p>
+            <p class="mt-6">Après votre méditation, vous êtes en état de réceptivité optimal. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez votre question au pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2623,7 +2623,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le pendule ne choisit pas pour vous. Il vous aide à entendre la réponse que votre âme connaît déjà."</p>
             </div>
 
-            <p class="mt-6">Pas encore de pendule ? Pas de souci. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Sélène utilise le sien pour vous</a> et vous envoie votre guidance par email.</p>
+            <p class="mt-6">Pas encore de pendule ? Pas de souci. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Sélène utilise le sien pour vous</a> et vous envoie votre guidance par email.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2673,7 +2673,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le parfum est le langage silencieux de l'âme. Quand les mots ne suffisent plus, respirez et laissez l'essence vous guider."</p>
             </div>
 
-            <p class="mt-6">Dans cette bulle de sérénité, <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a> et recevez votre réponse par email.</p>
+            <p class="mt-6">Dans cette bulle de sérénité, <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a> et recevez votre réponse par email.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2715,7 +2715,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Ce que vous écrivez avec le coeur, l'univers le lit avec attention. Chaque mot posé sur le papier est une graine plantée dans le jardin de votre futur."</p>
             </div>
 
-            <p class="mt-6">Notez votre question dans votre journal, puis <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">soumettez-la au pendule de Sélène</a> pour une réponse éclairée.</p>
+            <p class="mt-6">Notez votre question dans votre journal, puis <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">soumettez-la au pendule de Sélène</a> pour une réponse éclairée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2762,7 +2762,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les pierres ne font pas le travail à votre place. Elles vous rappellent, à chaque regard posé sur votre poignet, l'intention que vous avez choisie pour votre journée."</p>
             </div>
 
-            <p class="mt-6">Votre bracelet au poignet, vous êtes protégé. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour recevoir votre guidance du jour.</p>
+            <p class="mt-6">Votre bracelet au poignet, vous êtes protégé. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez le pendule de Sélène</a> pour recevoir votre guidance du jour.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2807,7 +2807,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"La flamme d'une bougie est la prière visible de celui qui l'allume. Elle danse au rythme de vos intentions les plus profondes."</p>
             </div>
 
-            <p class="mt-6">Allumez votre bougie, posez votre question, et <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">laissez le pendule de Sélène vous répondre</a>.</p>
+            <p class="mt-6">Allumez votre bougie, posez votre question, et <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">laissez le pendule de Sélène vous répondre</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2845,7 +2845,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Purifier son espace, c'est faire de la place pour ce qui vient. On ne peut pas remplir une coupe déjà pleine."</p>
             </div>
 
-            <p class="mt-6">Après avoir purifié votre espace, l'énergie est limpide. C'est le moment idéal pour <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">poser votre question au pendule</a>.</p>
+            <p class="mt-6">Après avoir purifié votre espace, l'énergie est limpide. C'est le moment idéal pour <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">poser votre question au pendule</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2891,7 +2891,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les cartes ne prédisent pas l'avenir, elles révèlent ce que votre âme sait déjà mais que votre mental refuse d'entendre."</p>
             </div>
 
-            <p class="mt-6">Complétez votre tirage avec <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">une consultation au pendule</a> pour approfondir votre guidance.</p>
+            <p class="mt-6">Complétez votre tirage avec <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">une consultation au pendule</a> pour approfondir votre guidance.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2928,7 +2928,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Vous n'avez pas besoin de méditer une heure. Cinq minutes par jour, c'est déjà un acte révolutionnaire dans un monde qui ne s'arrête jamais."</p>
             </div>
 
-            <p class="mt-6">La méditation calme l'esprit, le pendule éclaire le chemin. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez votre question à Sélène</a> en toute sérénité.</p>
+            <p class="mt-6">La méditation calme l'esprit, le pendule éclaire le chemin. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez votre question à Sélène</a> en toute sérénité.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -2969,7 +2969,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les rêves sont les lettres que l'univers glisse sous la porte de votre conscience chaque nuit. L'attrape-rêves s'assure que seules les plus importantes vous parviennent."</p>
             </div>
 
-            <p class="mt-6">Un rêve vous intrigue ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène peut éclairer son message</a>.</p>
+            <p class="mt-6">Un rêve vous intrigue ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène peut éclairer son message</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3009,7 +3009,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le bon pendule est celui qui vibre dans votre main comme une extension de votre intuition. Laissez votre coeur choisir, pas votre mental."</p>
             </div>
 
-            <p class="mt-6">Pas encore de pendule ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Sélène utilise le sien pour vous</a> et vous envoie la réponse par email.</p>
+            <p class="mt-6">Pas encore de pendule ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Sélène utilise le sien pour vous</a> et vous envoie la réponse par email.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3054,7 +3054,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Votre date de naissance est la première phrase que l'univers a prononcée pour vous. La numérologie vous apprend à la lire."</p>
             </div>
 
-            <p class="mt-6">Vous connaissez votre chemin de vie ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Posez une question au pendule</a> pour savoir si vous êtes aligné avec votre destinée.</p>
+            <p class="mt-6">Vous connaissez votre chemin de vie ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Posez une question au pendule</a> pour savoir si vous êtes aligné avec votre destinée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3093,7 +3093,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Vivre au rythme de la lune, c'est accepter que tout a un temps : un temps pour semer, un temps pour récolter, un temps pour lâcher prise."</p>
             </div>
 
-            <p class="mt-6">La pleine lune approche ? C'est le moment parfait pour <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consulter le pendule de Sélène</a> et recevoir votre guidance.</p>
+            <p class="mt-6">La pleine lune approche ? C'est le moment parfait pour <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consulter le pendule de Sélène</a> et recevoir votre guidance.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3138,7 +3138,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le parfum est le langage invisible de l'âme. Quand les mots manquent, les huiles essentielles parlent directement au coeur."</p>
             </div>
 
-            <p class="mt-6">Diffusez votre huile préférée, respirez profondément, et <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a>.</p>
+            <p class="mt-6">Diffusez votre huile préférée, respirez profondément, et <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">posez votre question au pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3181,7 +3181,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Votre maison est le miroir de votre vie intérieure. Changez l'énergie de votre espace, et votre réalité suivra."</p>
             </div>
 
-            <p class="mt-6">Votre maison est harmonisée, votre esprit est clair. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Demandez au pendule de Sélène</a> quelle sera la prochaine étape de votre transformation.</p>
+            <p class="mt-6">Votre maison est harmonisée, votre esprit est clair. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Demandez au pendule de Sélène</a> quelle sera la prochaine étape de votre transformation.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3224,7 +3224,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Se protéger n'est pas de la paranoïa spirituelle. C'est de l'hygiène énergétique, aussi naturelle que se laver les mains."</p>
             </div>
 
-            <p class="mt-6">Protégé et serein, demandez votre guidance. <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène répond à vos questions</a> avec clarté et bienveillance.</p>
+            <p class="mt-6">Protégé et serein, demandez votre guidance. <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène répond à vos questions</a> avec clarté et bienveillance.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3297,7 +3297,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Méditer, c'est rentrer chez soi. Votre tapis est le seuil de cette porte intérieure."</p>
             </div>
 
-            <p class="mt-6">Après votre méditation, pourquoi ne pas consulter <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">le pendule de Sélène</a> pour obtenir une guidance sur les questions qui émergent de votre silence intérieur ?</p>
+            <p class="mt-6">Après votre méditation, pourquoi ne pas consulter <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">le pendule de Sélène</a> pour obtenir une guidance sur les questions qui émergent de votre silence intérieur ?</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3381,7 +3381,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"La planche ne donne pas les réponses. Elle offre au pendule un langage plus riche pour exprimer ce que l'invisible veut vous transmettre."</p>
             </div>
 
-            <p class="mt-6">Envie d'une guidance précise sans matériel ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Consultez Sélène</a> et recevez votre réponse personnalisée par email.</p>
+            <p class="mt-6">Envie d'une guidance précise sans matériel ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Consultez Sélène</a> et recevez votre réponse personnalisée par email.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3460,7 +3460,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les pierres ne guérissent pas. Elles accompagnent votre propre guérison en élevant votre vibration."</p>
             </div>
 
-            <p class="mt-6">Besoin d'une guidance sur quelle pierre vous correspond ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Demandez au pendule de Sélène</a>.</p>
+            <p class="mt-6">Besoin d'une guidance sur quelle pierre vous correspond ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Demandez au pendule de Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3536,7 +3536,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"L'autel n'est pas un lieu de culte. C'est un miroir de votre monde intérieur, un espace où le sacré trouve sa place dans le quotidien."</p>
             </div>
 
-            <p class="mt-6">Votre autel est prêt ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Demandez une guidance au pendule de Sélène</a> pour savoir quelle énergie activer en ce moment.</p>
+            <p class="mt-6">Votre autel est prêt ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Demandez une guidance au pendule de Sélène</a> pour savoir quelle énergie activer en ce moment.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3580,7 +3580,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les runes ne prédisent pas l'avenir. Elles révèlent les courants invisibles qui le façonnent, pour que vous puissiez naviguer avec sagesse."</p>
             </div>
 
-            <p class="mt-6">Les runes vous intriguent mais vous préférez une guidance directe ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène</a> répond à vos questions avec clarté.</p>
+            <p class="mt-6">Les runes vous intriguent mais vous préférez une guidance directe ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène</a> répond à vos questions avec clarté.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3624,7 +3624,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"108 perles, 108 respirations, 108 pas vers votre centre. Le mala ne vous emmène nulle part : il vous ramène à vous-même."</p>
             </div>
 
-            <p class="mt-6">Après votre méditation, posez votre question à <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Sélène et son pendule</a> pour une guidance personnalisée.</p>
+            <p class="mt-6">Après votre méditation, posez votre question à <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Sélène et son pendule</a> pour une guidance personnalisée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3673,7 +3673,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Vos pensées créent votre réalité. Choisir consciemment vos pensées, c'est reprendre le pouvoir sur votre vie."</p>
             </div>
 
-            <p class="mt-6">Besoin d'une guidance personnalisée ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène</a> vous éclaire sur les questions qui comptent vraiment.</p>
+            <p class="mt-6">Besoin d'une guidance personnalisée ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Le pendule de Sélène</a> vous éclaire sur les questions qui comptent vraiment.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3718,7 +3718,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le pendule ne vous dit pas quoi faire. Il éclaire ce que vous savez déjà au fond de vous, mais que votre mental refuse d'entendre."</p>
             </div>
 
-            <p class="mt-6">Envie de poser vos questions à Sélène ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Essayez le pendule gratuit</a> ou <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">demandez une consultation personnalisée</a>.</p>
+            <p class="mt-6">Envie de poser vos questions à Sélène ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Essayez le pendule gratuit</a> ou <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">essayez le pendule gratuit</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3765,7 +3765,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"L'aura est le miroir de l'âme. Quand vous prenez soin de votre énergie intérieure, votre aura rayonne naturellement."</p>
             </div>
 
-            <p class="mt-6">Découvrez ce que votre énergie révèle : <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a> pour une lecture personnalisée.</p>
+            <p class="mt-6">Découvrez ce que votre énergie révèle : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a> pour une lecture personnalisée.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3814,7 +3814,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Les plantes sont les messagères de la Terre. Quand vous travaillez avec elles en conscience, elles répondent avec une générosité infinie."</p>
             </div>
 
-            <p class="mt-6">Besoin de guidance pour vos rituels ? <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">Demandez conseil à Sélène</a>.</p>
+            <p class="mt-6">Besoin de guidance pour vos rituels ? <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">Demandez conseil à Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3866,7 +3866,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le cristal ne crée pas les visions — il ouvre la porte. C'est votre regard intérieur qui voit au-delà du voile."</p>
             </div>
 
-            <p class="mt-6">Posez vos questions au pendule de Sélène : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a>.</p>
+            <p class="mt-6">Posez vos questions au pendule de Sélène : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">expérience du pendule gratuit</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3910,7 +3910,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"L'animal totem ne vient pas à vous par hasard. Il vient parce que vous portez en vous la même essence que lui."</p>
             </div>
 
-            <p class="mt-6">Demandez à Sélène quel message votre animal totem a pour vous : <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a>.</p>
+            <p class="mt-6">Demandez à Sélène quel message votre animal totem a pour vous : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">expérience du pendule gratuit</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -3999,7 +3999,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le mantra est comme une clé. Répétée assez longtemps, elle ouvre une porte que la pensée seule ne peut atteindre."</p>
             </div>
 
-            <p class="mt-6">Complétez votre pratique avec une guidance spirituelle : <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a>.</p>
+            <p class="mt-6">Complétez votre pratique avec une guidance spirituelle : <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultez Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -4044,7 +4044,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Connaître son signe solaire, c'est connaître son masque. Connaître son signe lunaire, c'est connaître son âme."</p>
             </div>
 
-            <p class="mt-6">Découvrez ce que les astres révèlent pour vous : <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">votre horoscope gratuit du jour</a> ou <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">une consultation personnalisée avec Sélène</a>.</p>
+            <p class="mt-6">Découvrez ce que les astres révèlent pour vous : <a href="/horoscope" class="text-gold-400 border-b border-gold-400/30">votre horoscope gratuit du jour</a> ou <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">une pendule gratuit de Sélène</a>.</p>
 
             <p class="mt-4">Pour approfondir l'astrologie, découvrez les <a href="https://www.amazon.fr/s?k=livre+astrologie+theme+natal+debutant&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="text-gold-400 border-b border-gold-400/30">meilleurs livres d'astrologie sur Amazon</a>.</p>
 
@@ -4100,7 +4100,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"L'écriture automatique est un acte de confiance. Vous confiez votre plume à une intelligence plus vaste que votre mental quotidien."</p>
             </div>
 
-            <p class="mt-6">Complétez votre pratique avec les messages du <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou demandez une <a href="/voyance" class="text-gold-400 border-b border-gold-400/30">guidance personnalisée à Sélène</a>.</p>
+            <p class="mt-6">Complétez votre pratique avec les messages du <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou demandez une <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">guidance personnalisée à Sélène</a>.</p>
 
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
@@ -4201,7 +4201,7 @@ export const blogPosts: BlogPost[] = [
             <p>C'est possible, mais beaucoup de praticiens préfèrent garder un pendule personnel. Si vous le prêtez, une purification après usage suffit à le réharmoniser avec votre propre énergie.</p>
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Comment purifier votre pendule</h2>
             <p>Avant la première utilisation, passez votre pendule sous l'eau claire pendant quelques secondes, puis laissez-le sécher au soleil ou à la lumière de la lune. Cette double purification efface les empreintes énergétiques accumulées avant qu'il n'arrive entre vos mains.</p>
-            <p class="mt-6">Pour aller plus loin, essayez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> ou commandez votre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage personnalisé par email</a>.</p>
+            <p class="mt-6">Pour aller plus loin, essayez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule en ligne gratuit</a> ou commandez votre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">tirage de cartes gratuit</a>.</p>
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
 `
     },
@@ -4654,7 +4654,7 @@ export const blogPosts: BlogPost[] = [
             <p>L'oracle est généralement plus accessible : ses messages sont souvent positifs et directs, sans la rigueur symbolique du tarot. C'est un excellent terrain d'entraînement avant d'aborder un système plus codifié.</p>
             <h3 class="text-xl font-semibold text-mystic-200 mt-6 mb-3">Combien de cartes tirer ?</h3>
             <p>Une seule carte suffit pour une guidance du jour. Pour une question précise, un tirage à trois cartes (passé, présent, à venir) offre déjà une lecture riche sans vous noyer.</p>
-            <p class="mt-6">En attendant, posez vos questions au <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou commandez un <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage personnalisé</a>.</p>
+            <p class="mt-6">En attendant, posez vos questions au <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">pendule gratuit</a> ou commandez un <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">tirage personnalisé</a>.</p>
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
 `
     },
@@ -6007,7 +6007,7 @@ export const blogPosts: BlogPost[] = [
             <p>Un coffret prend une tout autre valeur quand vous y ajoutez une intention personnelle. Glissez une petite carte expliquant pourquoi vous avez pensé à cette personne, ou proposez-lui de découvrir l'outil ensemble lors d'un moment partagé. La spiritualité s'apprend souvent mieux à deux, dans la conversation et la curiosité.</p>
             <p class="mt-4">Vous pouvez aussi accompagner le présent d'un rituel d'ouverture : suggérer de purifier les pierres ou les cartes à la lumière de la prochaine pleine lune, par exemple. Ce genre de détail transforme un simple objet en véritable point de départ d'un chemin intérieur.</p>
 
-            <p class="mt-6">Et pour accompagner le cadeau, offrez une expérience : notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée par pendule</a> fait toujours plaisir.</p>
+            <p class="mt-6">Et pour accompagner le cadeau, offrez une expérience : notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">expérience du pendule gratuit</a> fait toujours plaisir.</p>
 
             <h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Questions fréquentes</h2>
             <h3 class="text-xl font-semibold text-mystic-200 mt-6 mb-3">Quel coffret offrir à un vrai débutant qui ne connaît rien ?</h3>
@@ -6049,7 +6049,7 @@ export const blogPosts: BlogPost[] = [
                 <p class="italic text-mystic-300">"Le marc de café ne prédit pas l'avenir, il révèle ce que votre cœur sait déjà."</p>
             </div>
 
-            <p class="mt-6">Envie d'une réponse plus claire et personnalisée ? Découvrez notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation par pendule</a>, où Sélène répond précisément à vos questions.</p>
+            <p class="mt-6">Envie d'une réponse plus claire et personnalisée ? Découvrez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultation par pendule</a>, où Sélène répond précisément à vos questions.</p>
         `
     },
     {
@@ -6095,7 +6095,7 @@ export const blogPosts: BlogPost[] = [
             <h3 class="text-xl font-semibold text-mystic-200 mt-6 mb-3">La chiromancie est-elle de la voyance ?</h3>
             <p>Elle relève davantage de la lecture du caractère et des tendances que de la prédiction pure. Beaucoup la combinent avec d'autres arts divinatoires pour une vision plus complète.</p>
 
-            <p class="mt-6">La chiromancie se marie merveilleusement avec d'autres arts. Pour une vision complète de votre avenir, combinez-la avec une <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a> ou un tirage gratuit sur notre site.</p>
+            <p class="mt-6">La chiromancie se marie merveilleusement avec d'autres arts. Pour une vision complète de votre avenir, combinez-la avec une <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">expérience du pendule gratuit</a> ou un tirage gratuit sur notre site.</p>
 `
     },
     {
@@ -6302,7 +6302,7 @@ export const blogPosts: BlogPost[] = [
             <h3 class="text-xl font-semibold text-mystic-200 mt-6 mb-3">Faut-il se rincer après ?</h3>
             <p>Évitez de vous rincer à l'eau claire juste après : laissez l'eau du rituel agir quelques instants sur la peau, puis séchez-vous doucement sans frotter. Vous prolongez ainsi le bénéfice énergétique de votre bain.</p>
 
-            <p class="mt-6">Un bain rituel est parfait avant une séance de voyance ou une <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation</a> : l'esprit clarifié reçoit des réponses plus justes.</p>
+            <p class="mt-6">Un bain rituel est parfait avant une séance de voyance ou une <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">consultation</a> : l'esprit clarifié reçoit des réponses plus justes.</p>
 `
     },
     {
@@ -6451,7 +6451,7 @@ export const blogPosts: BlogPost[] = [
             <h3 class="text-xl font-semibold text-mystic-200 mt-6 mb-3">À quelle fréquence consulter ?</h3>
             <p>Inutile de consulter chaque semaine. Laissez les conseils reçus infuser et se vérifier. Une consultation ponctuelle, lors d'un vrai tournant de vie, a bien plus de valeur qu'une habitude qui finirait par remplacer vos propres décisions.</p>
 
-            <p class="mt-6">Chez nous, vous recevez un <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">tirage de pendule personnalisé par email</a> : une réponse écrite, posée et bienveillante, livrée en quelques minutes et que vous gardez précieusement.</p>
+            <p class="mt-6">Chez nous, vous recevez un <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">tirage de pendule personnalisé par email</a> : une réponse écrite, posée et bienveillante, livrée en quelques minutes et que vous gardez précieusement.</p>
 `
     },
     {
@@ -6482,7 +6482,7 @@ export const blogPosts: BlogPost[] = [
             <p>Purifiez-le sous l'eau claire et rechargez-le à la lumière douce de la Lune. Évitez le soleil direct prolongé qui peut altérer sa couleur. Un jade bien entretenu vous accompagnera de longues années.</p>
             <p class="mt-4"><a href="https://www.amazon.fr/s?k=jade+pierre+roulee+lithotherapie&tag=lebrunnathali-21" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition">Voir les pierres de jade sur Amazon</a></p>
 
-            <p class="mt-6">Le jade se marie bien avec d'autres pierres de cœur comme le quartz rose. Pour savoir quelle pierre vous correspond le mieux, tentez notre <a href="/consultation" class="text-gold-400 border-b border-gold-400/30">consultation personnalisée</a>.</p>
+            <p class="mt-6">Le jade se marie bien avec d'autres pierres de cœur comme le quartz rose. Pour savoir quelle pierre vous correspond le mieux, tentez notre <a href="/pendule-gratuit" class="text-gold-400 border-b border-gold-400/30">expérience du pendule gratuit</a>.</p>
             <p class="text-mystic-600 text-xs mt-8 italic">En tant que partenaire Amazon, nous percevons une commission sur les achats qualifiés, sans surcoût pour vous.</p>
         `
     }

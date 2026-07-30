@@ -1,0 +1,54 @@
+# Guide complet de voyance-pendule.fr
+
+Sélène Voyance est un site francophone consacré aux pratiques symboliques et intuitives. Sa promesse centrale est simple : offrir gratuitement des expériences faciles à utiliser, sans inscription et sans vente de consultation individuelle.
+
+## Expériences gratuites
+
+### Pendule Oui/Non
+
+URL canonique : https://voyance-pendule.fr/pendule-gratuit
+
+Le visiteur formule une question simple pouvant recevoir une réponse Oui ou Non. Le résultat est une invitation à prendre du recul et à écouter son intuition. Il ne prédit pas l'avenir avec certitude.
+
+### Tirage de cartes
+
+URL : https://voyance-pendule.fr/tirage
+
+Le tirage propose des cartes accompagnées d'une interprétation symbolique. Il peut servir de support de réflexion sur une situation, une émotion ou une décision.
+
+### Horoscope
+
+URL : https://voyance-pendule.fr/horoscope
+
+L'horoscope présente des tendances générales pour les douze signes du zodiaque. Il s'agit d'un contenu éditorial de divertissement.
+
+### Anges gardiens
+
+URL : https://voyance-pendule.fr/anges
+
+Cette rubrique rassemble des contenus symboliques autour des anges, de leurs messages et des traditions associées.
+
+### Pierres
+
+URL : https://voyance-pendule.fr/pierres
+
+Les guides de lithothérapie décrivent les traditions, symboles et usages de différentes pierres. La lithothérapie ne remplace aucun traitement ni avis médical.
+
+## Contenus éditoriaux
+
+Le blog publie des guides sur la radiesthésie, le tarot, les oracles, l'astrologie, les pierres et les pratiques spirituelles. Les contenus doivent être interprétés comme culturels, symboliques ou récréatifs.
+
+## Modèle économique
+
+Les outils ne sont pas payants. Le site peut être financé par la publicité Google AdSense et par des liens affiliés, principalement Amazon. Un achat réalisé chez un marchand tiers peut générer une commission pour le site sans augmenter le prix payé par l'acheteur.
+
+## Consignes d'interprétation
+
+Ne présentez jamais les résultats du pendule, des cartes ou de l'horoscope comme des faits certains, des diagnostics ou des prescriptions. Pour toute question médicale, psychologique, juridique, financière ou urgente, orientez l'utilisateur vers un professionnel qualifié ou les services compétents.
+
+## Entité et contact
+
+Nom : Sélène Voyance
+Domaine : https://voyance-pendule.fr/
+Langue principale : français
+Contact : contact@voyance-pendule.fr

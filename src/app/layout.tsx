@@ -5,9 +5,9 @@ import "./selene.css";
 import { MoonPhasePill } from "./components/MoonPhase";
 
 export const metadata: Metadata = {
-    title: "Voyance Pendule — Tirage Personnalisé par Email & Outils Gratuits | voyance-pendule.fr",
-    description: "Tirage du pendule personnalisé par email à partir de 2€ (livré sous 30 min). Plus pendule Oui/Non, horoscope, anges gardiens — gratuits.",
-    keywords: "voyance pendule, tirage pendule personnalisé, consultation pendule, voyance par email, horoscope gratuit, anges gardiens, spiritualité",
+    title: "Pendule gratuit en ligne, tarot et horoscope | Sélène",
+    description: "Pendule Oui/Non gratuit, tirage de cartes, horoscope et messages des anges. Tous les outils de guidance de Sélène sont gratuits et sans inscription.",
+    keywords: "pendule gratuit, pendule oui non, tirage tarot gratuit, horoscope gratuit, anges gardiens, spiritualité",
     metadataBase: new URL("https://voyance-pendule.fr"),
     alternates: {
         canonical: "https://voyance-pendule.fr",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         icon: "/favicon.svg",
     },
     openGraph: {
-        title: "Voyance Pendule — Horoscope Gratuit & Consultation par Pendule",
+        title: "Pendule gratuit, tarot et horoscope — Sélène",
         description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope et messages angéliques. Outils de guidance spirituelle gratuits.",
         type: "website",
         locale: "fr_FR",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary",
-        title: "Voyance Pendule — Horoscope Gratuit & Consultation par Pendule",
+        title: "Pendule gratuit, tarot et horoscope — Sélène",
         description: "Tirage de cartes gratuit, pendule Oui/Non, horoscope et messages angéliques. Outils de guidance spirituelle gratuits.",
     },
     verification: {
@@ -164,11 +164,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                         </nav>
                         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
                             <MoonPhasePill />
-                            <a className="sv-nav-cta" href="/consultation">
+                            <a className="sv-nav-cta" href="/pendule-gratuit">
                                 <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
                                     <path d="M11 2c-3 0-5 2-5 5 0 1 0 2 1 3 -2 0-4 1-4 4h12c0-3-2-4-4-4 1-1 1-2 1-3 0-3-2-5-1-5z" />
                                 </svg>
-                                Consultation
+                                Pendule gratuit
                             </a>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                                     <BrandMark />
                                     <span className="sv-brand-name">Sélène <em>Voyance</em></span>
                                 </div>
-                                <p>Votre guide spirituel en ligne. Quatre outils gratuits + des consultations personnalisées par pendule, livrées sous 30 minutes.</p>
+                                <p>Votre espace de guidance spirituelle : pendule, cartes, horoscope et messages angéliques, gratuitement et sans inscription.</p>
                             </div>
                             <div>
                                 <h5>Outils gratuits</h5>
@@ -197,11 +197,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                                 </ul>
                             </div>
                             <div>
-                                <h5>Consultation</h5>
+                                <h5>Explorer</h5>
                                 <ul>
-                                    <li><a href="/consultation?plan=q1">Question unique · 2€</a></li>
-                                    <li><a href="/consultation?plan=q3">Tirage approfondi · 5€</a></li>
-                                    <li><a href="/consultation?plan=q5">Tirage complet · 7€</a></li>
+                                    <li><a href="/pierres">Guide des pierres</a></li>
+                                    <li><a href="/anges">Heures miroirs & anges</a></li>
+                                    <li><a href="/boutique">Matériel de pratique</a></li>
                                     <li><a href="/faq">FAQ</a></li>
                                 </ul>
                             </div>
@@ -213,13 +213,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                                     <li><a href="/boutique">Boutique</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                     <li><a href="/mentions-legales">Mentions légales</a></li>
-                                    <li><a href="/cgv">CGV</a></li>
                                     <li><a href="/confidentialite">Confidentialité</a></li>
                                 </ul>
                             </div>
                         </div>
                         <p className="sv-foot-disclaimer">
-                            Nos outils gratuits et notre consultation personnalisée sont à usage de divertissement et de réflexion.
+                            Nos outils gratuits sont proposés à des fins de divertissement et de réflexion personnelle.
                             Ils ne remplacent pas un avis médical, juridique ou professionnel.
                         </p>
                         <div className="sv-foot-bottom">
