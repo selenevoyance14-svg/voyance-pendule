@@ -83,7 +83,17 @@ export default function MentionsLegales() {
                     </section>
 
                     <section>
-                        <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">7. Contact</h2>
+                        <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">7. Affiliation Amazon</h2>
+                        <p>
+                            En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
+                            Certains liens présents sur le site sont des liens affiliés. Ils peuvent générer une commission sans
+                            modifier le prix payé par l&apos;utilisateur. Les prix, la disponibilité, la livraison et le service
+                            après-vente relèvent exclusivement d&apos;Amazon et des vendeurs concernés.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="font-heading text-lg font-semibold text-mystic-200 mb-3">8. Contact</h2>
                         <p>
                             Pour toute question concernant le site ou ces mentions légales, vous pouvez nous contacter à :<br />
                             <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition">contact@voyance-pendule.fr</a>

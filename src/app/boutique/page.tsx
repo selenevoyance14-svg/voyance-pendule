@@ -96,7 +96,7 @@ export default function BoutiquePage() {
                     </p>
                     <div className="mystic-divider max-w-xs mx-auto mt-6" />
                     <p className="text-mystic-500 text-xs mt-4 italic">
-                        En tant que partenaire Amazon, nous percevons une commission sur les achats qualifies, sans surcout pour vous.
+                        En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
                     </p>
                 </div>
             </section>

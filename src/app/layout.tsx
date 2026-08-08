@@ -213,6 +213,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                                     <li><a href="/boutique">Boutique</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                     <li><a href="/mentions-legales">Mentions légales</a></li>
+                                    <li><a href="/affiliation-amazon">Affiliation Amazon</a></li>
                                     <li><a href="/confidentialite">Confidentialité</a></li>
                                 </ul>
                             </div>
@@ -220,6 +221,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                         <p className="sv-foot-disclaimer">
                             Nos outils gratuits sont proposés à des fins de divertissement et de réflexion personnelle.
                             Ils ne remplacent pas un avis médical, juridique ou professionnel.
+                            <br />
+                            En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
                         </p>
                         <div className="sv-foot-bottom">
                             <span>© 2026 Sélène Voyance. Tous droits réservés.</span>
