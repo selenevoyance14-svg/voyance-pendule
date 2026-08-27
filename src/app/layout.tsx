@@ -164,11 +164,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                         </nav>
                         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
                             <MoonPhasePill />
-                            <a className="sv-nav-cta" href="/pendule-gratuit">
+                            <a className="sv-nav-cta" href="/#consultation-privee">
                                 <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
                                     <path d="M11 2c-3 0-5 2-5 5 0 1 0 2 1 3 -2 0-4 1-4 4h12c0-3-2-4-4-4 1-1 1-2 1-3 0-3-2-5-1-5z" />
                                 </svg>
-                                Pendule gratuit
+                                <span className="sv-nav-cta-long">Échanger avec un professionnel</span>
+                                <span className="sv-nav-cta-short">Consulter</span>
                             </a>
                         </div>
                     </div>

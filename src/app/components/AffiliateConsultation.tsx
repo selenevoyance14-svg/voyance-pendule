@@ -35,12 +35,12 @@ export default function AffiliateConsultation() {
   }, []);
 
   return (
-    <section className="sv-affiliate-section" aria-labelledby="consultation-privee">
+    <section id="consultation-privee" className="sv-affiliate-section" aria-labelledby="consultation-privee-title">
       <div className="sv-container">
         <div className="sv-affiliate-heading">
           <div>
             <span className="sv-eyebrow">Pour aller plus loin · partenaire</span>
-            <h2 id="consultation-privee">Échanger avec un professionnel de la voyance</h2>
+            <h2 id="consultation-privee-title">Échanger avec un professionnel de la voyance</h2>
           </div>
           <p>
             Les outils Sélène restent gratuits. Si vous souhaitez une consultation
