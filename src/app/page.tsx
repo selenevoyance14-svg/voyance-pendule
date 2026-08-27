@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DailyEnergyCard } from "./components/MoonPhase";
+import AffiliateConsultation from "./components/AffiliateConsultation";
 
 export const metadata: Metadata = {
   title: "Pendule gratuit, tarot et horoscope en ligne | Sélène",
@@ -132,6 +133,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <AffiliateConsultation />
 
       <section className="sv-section">
         <div className="sv-container">

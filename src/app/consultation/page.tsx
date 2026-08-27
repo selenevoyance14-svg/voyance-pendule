@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AffiliateConsultation from "@/app/components/AffiliateConsultation";
 
 export const metadata: Metadata = {
   title: "Outils de guidance gratuits | Sélène Voyance",
@@ -16,24 +17,27 @@ const TOOLS = [
 
 export default function ConsultationPage() {
   return (
-    <section className="sv-section sv-free-hub">
-      <div className="sv-container">
-        <div className="sv-section-head">
-          <span className="sv-eyebrow">100 % gratuit · sans inscription</span>
-          <h1>Toute la guidance de Sélène,<br /><em>librement accessible</em></h1>
-          <p className="sv-lede">Les consultations payantes ont été supprimées. Choisissez simplement l’outil qui correspond à votre envie du moment.</p>
+    <>
+      <section className="sv-section sv-free-hub">
+        <div className="sv-container">
+          <div className="sv-section-head">
+            <span className="sv-eyebrow">100 % gratuit · sans inscription</span>
+            <h1>Toute la guidance de Sélène,<br /><em>librement accessible</em></h1>
+            <p className="sv-lede">Choisissez simplement l’outil gratuit qui correspond à votre envie du moment.</p>
+          </div>
+          <div className="sv-tools-grid">
+            {TOOLS.map((tool) => (
+              <a key={tool.href} className="sv-tool-card" href={tool.href}>
+                <span className="sv-free-icon">{tool.icon}</span>
+                <h2>{tool.title}</h2>
+                <p>{tool.text}</p>
+                <span className="sv-badge">Gratuit</span>
+              </a>
+            ))}
+          </div>
         </div>
-        <div className="sv-tools-grid">
-          {TOOLS.map((tool) => (
-            <a key={tool.href} className="sv-tool-card" href={tool.href}>
-              <span className="sv-free-icon">{tool.icon}</span>
-              <h2>{tool.title}</h2>
-              <p>{tool.text}</p>
-              <span className="sv-badge">Gratuit</span>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+      <AffiliateConsultation />
+    </>
   );
 }
