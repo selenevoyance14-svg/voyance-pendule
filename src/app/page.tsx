@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DailyEnergyCard } from "./components/MoonPhase";
 import AffiliateConsultation from "./components/AffiliateConsultation";
+import { blogPosts } from "@/data/blog";
 
 export const metadata: Metadata = {
   title: "Pendule gratuit, tarot et horoscope en ligne | Sélène",
@@ -43,6 +44,7 @@ const explore = [
 ];
 
 export default function Home() {
+  const latestGuides = blogPosts.slice(0, 3);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -135,6 +137,31 @@ export default function Home() {
       </section>
 
       <AffiliateConsultation />
+
+      <section className="sv-section sv-latest-guides">
+        <div className="sv-container">
+          <div className="sv-section-head sv-guides-heading">
+            <div>
+              <span className="sv-eyebrow">Le journal spirituel</span>
+              <h2>À lire en ce <em>moment</em></h2>
+            </div>
+            <a href="/blog" className="sv-btn-ghost">Voir tous les guides</a>
+          </div>
+          <div className="sv-guides-grid">
+            {latestGuides.map((guide) => (
+              <a key={guide.slug} href={`/blog/${guide.slug}`} className="sv-guide-card">
+                <img src={guide.image} alt="" loading="lazy" />
+                <div>
+                  <span>{guide.category} · {guide.date}</span>
+                  <h3>{guide.title}</h3>
+                  <p>{guide.excerpt}</p>
+                  <b>Lire le guide →</b>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="sv-section">
         <div className="sv-container">

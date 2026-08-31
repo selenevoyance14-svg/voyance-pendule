@@ -6,6 +6,16 @@ type Props = {
     params: { slug: string };
 };
 
+function toIsoDate(date: string): string {
+    const months: Record<string, string> = {
+        janvier: "01", février: "02", mars: "03", avril: "04", mai: "05", juin: "06",
+        juillet: "07", août: "08", septembre: "09", octobre: "10", novembre: "11", décembre: "12",
+    };
+    const match = date.trim().toLowerCase().match(/^(\d{1,2})\s+([^\s]+)\s+(\d{4})$/);
+    if (!match || !months[match[2]]) return date;
+    return `${match[3]}-${months[match[2]]}-${match[1].padStart(2, "0")}`;
+}
+
 export function generateStaticParams() {
     return blogPosts.map((p) => ({ slug: p.slug }));
 }
@@ -29,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: "fr_FR",
             url,
             siteName: "Sélène Voyance",
-            publishedTime: post.date,
+            publishedTime: toIsoDate(post.date),
             authors: ["Sélène"],
         },
         twitter: {
@@ -69,7 +79,7 @@ export default function BlogPostPage({ params }: Props) {
             name: "Sélène Voyance",
             url: "https://voyance-pendule.fr",
         },
-        datePublished: post.date,
+        datePublished: toIsoDate(post.date),
         mainEntityOfPage: `https://voyance-pendule.fr/blog/${post.slug}`,
     };
 

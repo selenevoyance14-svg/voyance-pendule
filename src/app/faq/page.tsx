@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Questions Fréquentes (FAQ) — Sélène Voyance",
     description: "Réponses à vos questions sur le pendule gratuit, le tarot, l'horoscope, les anges, la lithothérapie et les outils de guidance de voyance-pendule.fr.",
+    alternates: { canonical: "/faq" },
 };
 
 const faqs = [
@@ -95,8 +96,22 @@ const faqs = [
 ];
 
 export default function FAQ() {
+    const faqJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.flatMap((section) => section.questions).map((faq) => ({
+            "@type": "Question",
+            name: faq.q,
+            acceptedAnswer: { "@type": "Answer", text: faq.a },
+        })),
+    };
+
     return (
         <div className="min-h-screen bg-[#2a1a3a] pt-24 pb-16">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+            />
             <div className="max-w-3xl mx-auto px-4 sm:px-6">
                 <div className="text-center mb-12">
                     <div className="text-6xl mb-4">❓</div>
@@ -136,7 +151,7 @@ export default function FAQ() {
                     <p className="text-mystic-400 mb-4">
                         Vous avez une autre question ? Contactez-nous directement.
                     </p>
-                    <a href="mailto:bonsplansmania@gmail.com" className="text-gold-400 hover:text-gold-300 transition font-medium">
+                    <a href="mailto:contact@voyance-pendule.fr" className="text-gold-400 hover:text-gold-300 transition font-medium">
                         contact@voyance-pendule.fr
                     </a>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
