@@ -1,31 +1,33 @@
 "use client";
 import { useState } from "react";
 
+type FaqItem = { question: string; answer: string };
+
 const RESPONSES_OUI = [
-  "Le pendule oscille clairement vers le OUI. Les energies sont alignees en votre faveur.",
-  "OUI, sans hesitation. Le pendule tourne avec une grande amplitude. Faites confiance a ce signe.",
-  "Le pendule repond par un OUI lumineux. L'univers approuve cette direction.",
-  "OUI. Le pendule vibre d'une energie positive. Le chemin est ouvert devant vous.",
-  "Le mouvement du pendule est clair : OUI. Les astres sont de votre cote.",
-  "OUI, le pendule tourne dans le sens de l'affirmation. Avancez avec confiance.",
+  "Le pendule oscille vers le OUI. Observez ce que cette réponse éveille en vous.",
+  "OUI. Prenez un instant pour distinguer votre intuition de votre première impulsion.",
+  "Le mouvement indique OUI. Considérez cette réponse comme une piste de réflexion.",
+  "OUI. Le chemin semble ouvert ; vérifiez maintenant les faits qui comptent pour votre décision.",
+  "Le pendule répond OUI. Accueillez ce résultat avec recul et libre arbitre.",
+  "OUI. Si cette réponse vous soulage, demandez-vous ce qu’elle confirme déjà en vous.",
 ];
 
 const RESPONSES_NON = [
-  "Le pendule reste immobile, puis oscille vers le NON. Ce n'est peut-etre pas le bon moment.",
-  "NON, le pendule est clair. Mais ne perdez pas espoir — un autre chemin se dessine.",
-  "Le pendule repond NON pour l'instant. Patience, les energies evoluent.",
-  "NON. Le pendule suggere de prendre du recul et de reconsiderer la situation.",
-  "Le mouvement du pendule indique NON. Ecoutez cette reponse avec sagesse.",
-  "NON, mais ce n'est pas une fin. Le pendule vous invite a reformuler votre question ou a attendre.",
+  "Le pendule oscille vers le NON. Ce résultat vous invite peut-être à prendre du recul.",
+  "NON. Ce n’est pas une certitude : examinez les éléments concrets avant de décider.",
+  "Le pendule répond NON pour cette consultation. Observez simplement votre réaction.",
+  "NON. Prenez le temps de reconsidérer la situation sans abandonner votre libre arbitre.",
+  "Le mouvement indique NON. Votre propre jugement reste toujours prioritaire.",
+  "NON. Vous pourrez reformuler la question plus tard si le contexte évolue.",
 ];
 
 const RESPONSES_INCERTAIN = [
-  "Le pendule hesite entre deux mouvements. La reponse n'est pas encore claire. Reposez votre question plus tard.",
-  "Les energies sont melangees. Le pendule ne peut pas repondre clairement aujourd'hui. Meditez et revenez.",
-  "Le pendule tourne lentement sans direction claire. Le moment n'est pas encore venu pour cette reponse.",
+  "Le pendule hésite entre deux mouvements. Reformulez votre question de façon plus précise.",
+  "La réponse reste incertaine. Accordez-vous un temps de réflexion avant de recommencer.",
+  "Le mouvement ne donne pas de direction claire. Les informations vous manquent peut-être encore.",
 ];
 
-export default function PenduleClient() {
+export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
   const [question, setQuestion] = useState("");
   const [response, setResponse] = useState<{ answer: string; message: string } | null>(null);
   const [isSwinging, setIsSwinging] = useState(false);
@@ -63,11 +65,11 @@ export default function PenduleClient() {
       <div className="text-center mb-12">
         <div className="text-6xl mb-4 animate-float">🔮</div>
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">
-          Pendule <span className="text-gold-400">Oui/Non</span>
+          Pendule gratuit en ligne : <span className="text-gold-400">Oui ou Non</span>
         </h1>
         <p className="text-mystic-300 max-w-lg mx-auto">
-          Posez une question qui se repond par Oui ou Non.
-          Concentrez-vous, puis laissez le pendule vous guider.
+          Posez une question qui se répond par Oui ou Non. Concentrez-vous,
+          puis utilisez le résultat comme un miroir de votre intuition.
         </p>
         <div className="mystic-divider max-w-xs mx-auto mt-6" />
       </div>
@@ -76,16 +78,19 @@ export default function PenduleClient() {
       {!response && (
         <div className="glass-card p-8 mb-8">
           <label className="block text-mystic-200 font-heading font-semibold mb-3">
-            Votre question :
+            Votre question au pendule :
           </label>
           <input
             type="text"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="Ex: Est-ce que je vais trouver l'amour cette annee ?"
+            placeholder="Ex. : Devrais-je accepter cette proposition ?"
             className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-200 placeholder:text-mystic-600 focus:border-gold-500/50 focus:outline-none transition"
             onKeyDown={(e) => e.key === "Enter" && consult()}
           />
+          <p className="text-mystic-500 text-xs mt-3">
+            Votre question reste sur cet appareil : elle n’est ni envoyée ni enregistrée.
+          </p>
           <button
             onClick={consult}
             disabled={isSwinging || !question.trim()}
@@ -111,7 +116,7 @@ export default function PenduleClient() {
       {/* Reponse */}
       {response && (
         <div className="animate-fadeIn">
-          <div className={`gold-card p-8 text-center mb-8 ${response.answer === "OUI" ? "border-green-500/30" : response.answer === "NON" ? "border-red-500/30" : "border-mystic-500/30"}`}>
+          <div aria-live="polite" className={`gold-card p-8 text-center mb-8 ${response.answer === "OUI" ? "border-green-500/30" : response.answer === "NON" ? "border-red-500/30" : "border-mystic-500/30"}`}>
             <div className="text-5xl mb-4">
               {response.answer === "OUI" ? "✅" : response.answer === "NON" ? "❌" : "🌀"}
             </div>
@@ -137,6 +142,100 @@ export default function PenduleClient() {
         </div>
       )}
 
+      <section className="mt-16" aria-labelledby="mode-emploi-pendule">
+        <p className="text-gold-400 text-sm uppercase tracking-widest mb-2">Mode d’emploi</p>
+        <h2 id="mode-emploi-pendule" className="font-heading text-2xl sm:text-3xl font-bold text-white mb-6">
+          Comment utiliser le pendule Oui/Non ?
+        </h2>
+        <div className="grid sm:grid-cols-3 gap-4">
+          {[
+            ["1", "Isolez une question", "Choisissez un seul sujet et évitez de mélanger deux décisions."],
+            ["2", "Formulez-la clairement", "Préférez une phrase courte qui appelle vraiment Oui ou Non."],
+            ["3", "Observez votre ressenti", "La réponse est aléatoire : votre réaction peut nourrir votre réflexion."],
+          ].map(([number, title, text]) => (
+            <div key={number} className="glass-card p-5">
+              <span className="text-gold-400 font-heading text-2xl">{number}</span>
+              <h3 className="text-white font-semibold mt-2 mb-2">{title}</h3>
+              <p className="text-mystic-300 text-sm leading-relaxed">{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="glass-card p-6 sm:p-8 mt-12">
+        <h2 className="font-heading text-2xl font-bold text-white mb-4">Comment poser une bonne question ?</h2>
+        <p className="text-mystic-300 leading-relaxed mb-5">
+          Une bonne question est personnelle, précise et fermée. Elle porte sur une seule situation
+          et ne cherche pas à obtenir une date, un nom ou une prédiction détaillée.
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4 text-sm">
+          <div className="rounded-xl border border-green-500/20 bg-green-950/20 p-4">
+            <h3 className="text-green-300 font-semibold mb-2">Questions adaptées</h3>
+            <ul className="text-mystic-300 space-y-2">
+              <li>« Est-ce le bon moment pour reprendre contact ? »</li>
+              <li>« Cette proposition correspond-elle à mes priorités ? »</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-red-500/20 bg-red-950/20 p-4">
+            <h3 className="text-red-300 font-semibold mb-2">Questions à reformuler</h3>
+            <ul className="text-mystic-300 space-y-2">
+              <li>« Que va-t-il se passer dans ma vie ? »</li>
+              <li>« Quand et avec qui vais-je trouver l’amour ? »</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="font-heading text-2xl font-bold text-white mb-4">Comment fonctionne ce pendule virtuel ?</h2>
+        <div className="text-mystic-300 leading-relaxed space-y-4">
+          <p>
+            Le pendule divinatoire traditionnel est un poids suspendu à une chaîne dont les mouvements
+            sont interprétés comme Oui, Non ou une réponse indéterminée. Ici, l’expérience est numérique :
+            après trois secondes d’animation, le résultat est choisi aléatoirement entre ces trois possibilités.
+          </p>
+          <p>
+            Il ne s’agit donc ni d’une prédiction certaine ni d’une analyse de votre question. L’intérêt
+            de l’exercice est introspectif : remarquez si la réponse vous rassure, vous déçoit ou vous surprend.
+            Cette réaction révèle parfois la préférence que vous aviez déjà sans l’avoir formulée.
+          </p>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="font-heading text-2xl font-bold text-white mb-5">Approfondir la pratique du pendule</h2>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <a href="/blog/pendule-divinatoire-guide-complet-debutants" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Guide du pendule pour débuter</h3>
+            <p className="text-mystic-300 text-sm">Comprendre les mouvements, préparer une séance et éviter les erreurs fréquentes.</p>
+          </a>
+          <a href="/blog/voyance-amour-questions-pendule" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Questions d’amour au pendule</h3>
+            <p className="text-mystic-300 text-sm">Cinq exemples de questions et les formulations à privilégier.</p>
+          </a>
+          <a href="/blog/tarot-vs-pendule-methode-voyance" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Tarot ou pendule ?</h3>
+            <p className="text-mystic-300 text-sm">Choisir l’outil adapté à la nature de votre question.</p>
+          </a>
+          <a href="/boutique" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Pendules et matériel de radiesthésie</h3>
+            <p className="text-mystic-300 text-sm">Découvrir la sélection de pendules physiques et d’accessoires sur Amazon.</p>
+          </a>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="font-heading text-2xl font-bold text-white mb-5">Questions fréquentes</h2>
+        <div className="space-y-4">
+          {faq.map((item) => (
+            <details key={item.question} className="glass-card p-5">
+              <summary className="text-white font-semibold cursor-pointer">{item.question}</summary>
+              <p className="text-mystic-300 leading-relaxed mt-3">{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
       {/* Continuer avec les autres outils gratuits */}
       <div className="glass-card border border-gold-500/30 p-6 sm:p-8 mt-12 text-center">
         <div className="text-3xl mb-3">🌙</div>
@@ -154,7 +253,7 @@ export default function PenduleClient() {
 
       {/* Disclaimer */}
       <p className="text-center text-mystic-600 text-xs mt-12">
-        Ce pendule en ligne est un outil de divertissement et de reflexion personnelle.
+        Ce pendule en ligne est un outil de divertissement et de réflexion personnelle.
         Il ne remplace pas un conseil professionnel.
       </p>
     </div>
