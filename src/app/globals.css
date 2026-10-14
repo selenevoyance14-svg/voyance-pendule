@@ -420,3 +420,7 @@ body {
 .animate-pulse-slow {
   animation: pulseSlow 4s ease-in-out infinite;
 }
+/* Respect du réglage d’accessibilité sur le pendule gratuit. */
+@media (prefers-reduced-motion: reduce) {
+  .pendulum, .animate-swing, .animate-float, .animate-fadeIn { animation: none !important; }
+}

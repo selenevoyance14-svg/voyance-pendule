@@ -28,6 +28,18 @@ export default function PenduleGratuitPage() {
       answer: "Non. La question reste dans votre navigateur pendant la consultation et n’est pas envoyée ni conservée par Sélène Voyance.",
     },
     {
+      question: "Pourquoi le pendule peut-il répondre Incertain ?",
+      answer: "Incertain est l’un des trois résultats possibles du tirage aléatoire. Ce résultat ne révèle pas une information cachée : prenez une pause ou reformulez votre question.",
+    },
+    {
+      question: "Pourquoi la réponse peut-elle changer pour la même question ?",
+      answer: "Chaque tirage est indépendant et aléatoire. Répéter une question ne rend pas la réponse plus fiable et ne permet pas de prédire un événement.",
+    },
+    {
+      question: "Comment effacer mes derniers tirages ?",
+      answer: "Utilisez le bouton Effacer l’historique, rechargez la page ou quittez-la. Les cinq derniers tirages ne sont pas sauvegardés dans un compte ni dans le stockage de votre navigateur.",
+    },
+    {
       question: "Peut-on se fier à la réponse pour une décision importante ?",
       answer: "Non. Le résultat est généré aléatoirement et sert uniquement de support de réflexion et de divertissement. Il ne remplace jamais un avis médical, juridique, financier ou psychologique.",
     },

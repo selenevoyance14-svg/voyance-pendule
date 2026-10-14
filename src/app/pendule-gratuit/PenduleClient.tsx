@@ -1,7 +1,14 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type FaqItem = { question: string; answer: string };
+const QUESTION_EXAMPLES = [
+  { label: "Relations", question: "Ai-je envie de proposer un moment à partager ?" },
+  { label: "Projets", question: "Ce projet correspond-il à mes priorités actuelles ?" },
+  { label: "Quotidien", question: "Ai-je besoin de réserver un moment pour moi aujourd’hui ?" },
+  { label: "Créativité", question: "Ai-je envie d’essayer une nouvelle activité créative ?" },
+];
+type Result = { answer: string; message: string; question: string };
 
 const RESPONSES_OUI = [
   "Le pendule oscille vers le OUI. Observez ce que cette réponse éveille en vous.",
@@ -29,15 +36,31 @@ const RESPONSES_INCERTAIN = [
 
 export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
   const [question, setQuestion] = useState("");
-  const [response, setResponse] = useState<{ answer: string; message: string } | null>(null);
+  const [response, setResponse] = useState<Result | null>(null);
   const [isSwinging, setIsSwinging] = useState(false);
 
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const questionRef = useRef<HTMLInputElement>(null);
+  const [history, setHistory] = useState<Result[]>([]);
+
+  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current); }, []);
+
+  function startAgain(keepQuestion = false) {
+    if (timerRef.current) clearTimeout(timerRef.current);
+    timerRef.current = null;
+    setIsSwinging(false);
+    setResponse(null);
+    if (!keepQuestion) setQuestion("");
+    requestAnimationFrame(() => questionRef.current?.focus());
+  }
+
   function consult() {
-    if (!question.trim()) return;
+    const submittedQuestion = question.trim();
+    if (!submittedQuestion || timerRef.current) return;
     setIsSwinging(true);
     setResponse(null);
 
-    setTimeout(() => {
+    timerRef.current = setTimeout(() => {
       const rand = Math.random();
       let answer: string;
       let messages: string[];
@@ -54,13 +77,16 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
       }
 
       const message = messages[Math.floor(Math.random() * messages.length)];
-      setResponse({ answer, message });
+      const result = { answer, message, question: submittedQuestion };
+      setResponse(result);
+      setHistory(previous => [result, ...previous].slice(0, 5));
+      timerRef.current = null;
       setIsSwinging(false);
     }, 3000);
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-12">
+    <div className="max-w-2xl mx-auto px-4 pt-24 pb-12">
       {/* Header */}
       <div className="text-center mb-12">
         <div className="text-6xl mb-4 animate-float">🔮</div>
@@ -71,39 +97,57 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
           Posez une question qui se répond par Oui ou Non. Concentrez-vous,
           puis utilisez le résultat comme un miroir de votre intuition.
         </p>
+        <p className="text-gold-400 text-sm mt-4">Gratuit · Sans inscription · Question privée</p>
         <div className="mystic-divider max-w-xs mx-auto mt-6" />
       </div>
 
       {/* Question */}
       {!response && (
         <div className="glass-card p-8 mb-8">
-          <label className="block text-mystic-200 font-heading font-semibold mb-3">
+          <label htmlFor="pendule-question" className="block text-mystic-200 font-heading font-semibold mb-3">
             Votre question au pendule :
           </label>
           <input
+            id="pendule-question"
+            ref={questionRef}
             type="text"
+            maxLength={300}
+            disabled={isSwinging}
+            aria-describedby="pendule-privacy"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="Ex. : Devrais-je accepter cette proposition ?"
+            placeholder="Ex. : Ce projet correspond-il à mes priorités ?"
             className="w-full bg-mystic-950/50 border border-mystic-700/30 rounded-xl px-4 py-3 text-mystic-200 placeholder:text-mystic-600 focus:border-gold-500/50 focus:outline-none transition"
             onKeyDown={(e) => e.key === "Enter" && consult()}
           />
-          <p className="text-mystic-500 text-xs mt-3">
+          <p id="pendule-privacy" className="text-mystic-400 text-xs mt-3">
             Votre question reste sur cet appareil : elle n’est ni envoyée ni enregistrée.
           </p>
+          <p className="text-mystic-300 text-sm mt-5 mb-2">Besoin d’une idée ? Choisissez un exemple :</p>
+          <div className="flex flex-wrap gap-2">
+            {QUESTION_EXAMPLES.map(example => (
+              <button key={example.label} type="button" disabled={isSwinging} onClick={() => { setQuestion(example.question); questionRef.current?.focus(); }} className="rounded-full border border-mystic-700 px-3 py-2 text-sm text-mystic-200 hover:border-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold-400 disabled:opacity-50">{example.label}</button>
+            ))}
+          </div>
+          <p className="text-mystic-400 text-xs mt-4">Le résultat est choisi au hasard : utilisez-le comme support de réflexion.</p>
           <button
+            type="button"
             onClick={consult}
             disabled={isSwinging || !question.trim()}
             className="btn-gold w-full mt-6 py-4 text-lg justify-center disabled:opacity-50"
           >
             {isSwinging ? "Le pendule oscille..." : "Consulter le pendule"}
           </button>
+          {isSwinging && <button type="button" className="text-mystic-200 underline text-sm block mx-auto mt-4" onClick={() => startAgain(true)}>Annuler le tirage</button>}
         </div>
       )}
 
+      <p role="status" aria-live="polite" aria-atomic="true" className="sr-only">
+        {isSwinging ? "Tirage en cours." : response ? `Réponse : ${response.answer}. ${response.message}` : ""}
+      </p>
       {/* Pendule animation */}
       {isSwinging && (
-        <div className="flex justify-center my-12">
+        <div className="flex justify-center my-12" aria-hidden="true">
           <div className="pendulum">
             <div className="flex flex-col items-center">
               <div className="w-0.5 h-24 bg-gradient-to-b from-gold-400/60 to-gold-500" />
@@ -116,7 +160,7 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
       {/* Reponse */}
       {response && (
         <div className="animate-fadeIn">
-          <div aria-live="polite" className={`gold-card p-8 text-center mb-8 ${response.answer === "OUI" ? "border-green-500/30" : response.answer === "NON" ? "border-red-500/30" : "border-mystic-500/30"}`}>
+          <div className={`gold-card p-8 text-center mb-8 ${response.answer === "OUI" ? "border-green-500/30" : response.answer === "NON" ? "border-red-500/30" : "border-mystic-500/30"}`}>
             <div className="text-5xl mb-4">
               {response.answer === "OUI" ? "✅" : response.answer === "NON" ? "❌" : "🌀"}
             </div>
@@ -127,19 +171,31 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
               {response.message}
             </p>
             <p className="text-mystic-500 text-xs mt-4">
-              Question : &ldquo;{question}&rdquo;
+              Question : &ldquo;{response.question}&rdquo;
             </p>
           </div>
 
           <div className="text-center">
             <button
-              onClick={() => { setResponse(null); setQuestion(""); }}
+              onClick={() => startAgain()}
               className="btn-mystic"
             >
               Poser une autre question
             </button>
+            <button type="button" onClick={() => startAgain(true)} className="text-mystic-200 underline block mx-auto mt-4">Reformuler ma question</button>
           </div>
         </div>
+      )}
+
+      {history.length > 0 && (
+        <section className="glass-card p-6 mt-10" aria-labelledby="pendule-history">
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+            <h2 id="pendule-history" className="font-heading text-xl text-white">Vos derniers tirages</h2>
+            <button type="button" onClick={() => setHistory([])} className="text-mystic-200 underline text-sm">Effacer l’historique</button>
+          </div>
+          <p className="text-mystic-300 text-sm mb-4">Les 5 derniers tirages restent uniquement sur cette page. Ils disparaissent quand vous la rechargez ou la quittez.</p>
+          <ol className="space-y-3">{history.map((item, index) => <li key={index} className="border-t border-mystic-700/40 pt-3 text-sm text-mystic-200 break-words"><span className="text-gold-400 font-semibold">{item.answer}</span> · {item.question}</li>)}</ol>
+        </section>
       )}
 
       <section className="mt-16" aria-labelledby="mode-emploi-pendule">
@@ -216,6 +272,14 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
           <a href="/blog/tarot-vs-pendule-methode-voyance" className="glass-card p-5 block">
             <h3 className="text-white font-semibold mb-2">Tarot ou pendule ?</h3>
             <p className="text-mystic-300 text-sm">Choisir l’outil adapté à la nature de votre question.</p>
+          </a>
+          <a href="/blog/pendule-en-ligne-reponse-incertaine" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Que faire d’une réponse incertaine ?</h3>
+            <p className="text-mystic-300 text-sm">Reformuler sans multiplier les tirages pour obtenir une réponse souhaitée.</p>
+          </a>
+          <a href="/blog/pendule-oui-non-exemples-questions" className="glass-card p-5 block">
+            <h3 className="text-white font-semibold mb-2">Exemples de questions Oui/Non</h3>
+            <p className="text-mystic-300 text-sm">Des formulations simples pour explorer vos envies et vos priorités.</p>
           </a>
           <a href="/boutique" className="glass-card p-5 block">
             <h3 className="text-white font-semibold mb-2">Pendules et matériel de radiesthésie</h3>

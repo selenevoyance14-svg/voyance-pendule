@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const pages = [
         { url: BASE_URL, changeFrequency: "weekly" as const, priority: 1 },
         { url: `${BASE_URL}/tirage`, changeFrequency: "daily" as const, priority: 0.9 },
-        { url: `${BASE_URL}/pendule-gratuit`, changeFrequency: "daily" as const, priority: 0.9 },
+        { url: `${BASE_URL}/pendule-gratuit`, lastModified: "2026-10-14", changeFrequency: "daily" as const, priority: 0.9 },
         { url: `${BASE_URL}/horoscope`, changeFrequency: "daily" as const, priority: 0.9 },
         { url: `${BASE_URL}/message-ange`, changeFrequency: "daily" as const, priority: 0.8 },
         { url: `${BASE_URL}/anges`, changeFrequency: "monthly" as const, priority: 0.7 },
@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const blogPages = blogPosts.map((post) => ({
         url: `${BASE_URL}/blog/${post.slug}`,
+        ...(post.date === "14 Octobre 2026" ? { lastModified: "2026-10-14" } : {}),
         changeFrequency: "monthly" as const,
         priority: 0.6,
     }));
