@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import "./selene.css";
+import MainNavigation from "./components/MainNavigation";
 import { MoonPhasePill } from "./components/MoonPhase";
 
 export const metadata: Metadata = {
@@ -81,6 +82,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 />
             </head>
             <body className="sv-root antialiased">
+                <a className="sv-skip-link" href="#contenu">Aller au contenu</a>
                 <div className="sv-bg-celestial" aria-hidden="true" />
                 <svg className="sv-bg-stars" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
                     <defs>
@@ -122,49 +124,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                             <BrandMark />
                             <span className="sv-brand-name">Sélène <em>Voyance</em></span>
                         </a>
-                        <nav className="sv-nav-links">
-                            <a className="sv-nav-link" href="/tirage">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-                                    <rect x="6" y="3" width="9" height="14" rx="1.5" transform="rotate(-8 10 10)" />
-                                    <rect x="9" y="6" width="9" height="14" rx="1.5" transform="rotate(8 13 13)" />
-                                </svg>
-                                Cartes
-                            </a>
-                            <a className="sv-nav-link" href="/pendule-gratuit">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-                                    <line x1="12" y1="2" x2="12" y2="14" />
-                                    <path d="M9 14 L12 21 L15 14 Z" fill="currentColor" fillOpacity="0.2" />
-                                    <circle cx="12" cy="2" r="1" fill="currentColor" />
-                                </svg>
-                                Pendule
-                            </a>
-                            <a className="sv-nav-link" href="/horoscope">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-                                    <circle cx="12" cy="12" r="9" />
-                                    <path d="M12 3 v18 M3 12 h18 M5.6 5.6 l12.8 12.8 M5.6 18.4 l12.8 -12.8" />
-                                </svg>
-                                Horoscope
-                            </a>
-                            <a className="sv-nav-link" href="/message-ange">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-                                    <circle cx="12" cy="7" r="3" />
-                                    <path d="M5 20 c0-4 3-7 7-7 s7 3 7 7" />
-                                    <path d="M5 13 c-2 1-3 3-3 5 M19 13 c2 1 3 3 3 5" strokeDasharray="2 2" />
-                                </svg>
-                                Anges
-                            </a>
-                            <a className="sv-nav-link" href="/blog">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
-                                    <path d="M5 3 h11 l4 4 v14 H5 z" />
-                                    <path d="M16 3 v4 h4" />
-                                    <path d="M8 12 h8 M8 16 h6" />
-                                </svg>
-                                Blog
-                            </a>
-                        </nav>
-                        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <MainNavigation />
+                        <div className="sv-nav-actions" style={{ display: "flex", alignItems: "center", gap: 14 }}>
                             <MoonPhasePill />
-                            <a className="sv-nav-cta" href="/#consultation-privee">
+                            <a className="sv-nav-cta" href="/consultation#consultation-privee">
                                 <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
                                     <path d="M11 2c-3 0-5 2-5 5 0 1 0 2 1 3 -2 0-4 1-4 4h12c0-3-2-4-4-4 1-1 1-2 1-3 0-3-2-5-1-5z" />
                                 </svg>
@@ -175,7 +138,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     </div>
                 </header>
 
-                <main>{children}</main>
+                <main id="contenu" tabIndex={-1}>{children}</main>
 
                 {/* FOOTER */}
                 <footer className="sv-footer">

@@ -1,3 +1,4 @@
+import ExperiencePicker from "./components/ExperiencePicker";
 import type { Metadata } from "next";
 import { DailyEnergyCard } from "./components/MoonPhase";
 import AffiliateConsultation from "./components/AffiliateConsultation";
@@ -59,19 +60,19 @@ export default function Home() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <section className="sv-hero sv-free-hero">
+      <section className="sv-hero sv-free-hero sv-home-refresh">
         <div className="sv-container">
           <div className="sv-hero-grid">
             <div>
               <span className="sv-eyebrow">Guidance libre · sans inscription</span>
-              <h1>Écoutez votre<br /><span className="sv-accent">intuition.</span></h1>
+              <h1>Un moment pour vous.<br /><span className="sv-accent">Une autre perspective.</span></h1>
               <p className="sv-lede">
                 Pendule, cartes, horoscope et messages angéliques : un espace calme
                 pour prendre du recul, explorer une question et revenir à ce que vous ressentez.
               </p>
               <div className="sv-hero-actions">
                 <a className="sv-btn-primary" href="/pendule-gratuit">
-                  Consulter le pendule gratuitement <span aria-hidden>→</span>
+                  Ouvrir le pendule gratuit <span aria-hidden>→</span>
                 </a>
                 <a className="sv-btn-ghost" href="/tirage">Tirer les cartes</a>
               </div>
@@ -81,26 +82,16 @@ export default function Home() {
                 <span>✓ Réponse immédiate</span>
               </div>
             </div>
-            <div className="sv-oracle-visual" aria-hidden="true">
-              <div className="sv-orbit sv-orbit-one" />
-              <div className="sv-orbit sv-orbit-two" />
-              <div className="sv-moon-disc">☾</div>
-              <div className="sv-visual-pendulum">
-                <span />
-                <b />
-              </div>
-              <small>Un instant pour soi</small>
-            </div>
+            <ExperiencePicker />
           </div>
-          <DailyEnergyCard />
         </div>
       </section>
 
-      <section className="sv-section">
+      <section className="sv-section sv-home-tools">
         <div className="sv-container">
           <div className="sv-section-head">
             <span className="sv-eyebrow">Choisissez votre expérience</span>
-            <h2>Quatre outils. <em>Aucun paiement.</em></h2>
+            <h2>Explorez à votre <em>rythme.</em></h2>
             <p className="sv-lede">Utilisez-les librement, sans laisser votre adresse email et sans abonnement caché.</p>
           </div>
           <div className="sv-tools-grid">
@@ -116,11 +107,13 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="sv-container"><DailyEnergyCard /></div>
+
       <section className="sv-free-manifesto">
         <div className="sv-container sv-manifesto-grid">
           <div>
             <span className="sv-eyebrow">La philosophie Sélène</span>
-            <h2>La réponse ne remplace jamais votre libre arbitre.</h2>
+            <h2>Un support de réflexion. Votre décision reste la vôtre.</h2>
           </div>
           <div>
             <p>

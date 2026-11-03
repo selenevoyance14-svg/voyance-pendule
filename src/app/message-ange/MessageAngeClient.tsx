@@ -1,41 +1,48 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const MESSAGES = [
-  { ange: "Vehuiah", message: "Aujourd'hui, une energie nouvelle vous porte. Osez sortir de votre zone de confort. Votre ange vous donne le courage d'entreprendre ce que vous repoussez depuis longtemps." },
-  { ange: "Jeliel", message: "L'amour est tout autour de vous. Ouvrez votre coeur aux personnes qui vous entourent. Votre ange vous envoie une vague de tendresse et d'harmonie." },
-  { ange: "Sitael", message: "La fidelite et la sincerite sont vos forces aujourd'hui. Restez authentique dans vos relations. Votre ange vous protege des energies negatives." },
-  { ange: "Elemiah", message: "Un voyage interieur ou exterieur se prepare. Soyez ouvert aux decouvertes. Votre ange vous guide vers de nouvelles perspectives." },
-  { ange: "Mahasiah", message: "La paix interieure est a votre portee. Prenez un moment pour mediter et vous recentrer. Votre ange vous enveloppe de serenite." },
-  { ange: "Lelahel", message: "La lumiere brille en vous. C'est le moment de partager vos talents et votre creativite avec le monde. Votre ange illumine votre chemin." },
-  { ange: "Achaiah", message: "La patience est votre meilleure alliee en ce moment. Les choses se mettent en place doucement. Votre ange vous demande de faire confiance au timing divin." },
-  { ange: "Cahetel", message: "La nature et la terre vous appellent. Reconnectez-vous a l'essentiel. Votre ange vous rappelle la beaute simple de la vie.", },
-  { ange: "Haziel", message: "Le pardon est la cle qui ouvrira une porte fermee depuis longtemps. Votre ange vous aide a liberer votre coeur de toute rancune." },
-  { ange: "Aladiah", message: "Une guerison est en cours, qu'elle soit physique, emotionnelle ou spirituelle. Votre ange veille sur votre retablissement." },
-  { ange: "Lauviah", message: "Vos reves portent des messages importants. Notez-les au reveil. Votre ange communique avec vous a travers votre sommeil." },
-  { ange: "Hahaiah", message: "Un mystere va bientot se devoiler. Gardez les yeux et le coeur ouverts. Votre ange vous prepare a une revelation." },
-  { ange: "Yezalel", message: "L'union et la reconciliation sont favorisees. Si un conflit pese sur votre coeur, c'est le moment de tendre la main. Votre ange favorise la paix." },
-  { ange: "Mebahel", message: "La justice est de votre cote. Continuez a agir avec integrite. Votre ange vous assure que la verite triomphera." },
-  { ange: "Hariel", message: "L'inspiration vous visite aujourd'hui. Accueillez les idees qui surgissent, elles viennent de plus haut. Votre ange nourrit votre esprit." },
-  { ange: "Hekamiah", message: "Vous etes plus fort que vous ne le pensez. Les defis actuels sont a la mesure de votre grandeur. Votre ange croit en vous." },
-  { ange: "Nith-Haiah", message: "La sagesse ancestrale vous accompagne. Les reponses que vous cherchez sont dans les traditions et les enseignements anciens. Votre ange vous connecte a cette sagesse." },
-  { ange: "Haaiah", message: "L'ordre revient dans votre vie. Ce qui etait confus s'eclaircit. Votre ange organise les evenements en votre faveur." },
-  { ange: "Caliel", message: "La clarte mentale est votre cadeau du jour. Profitez-en pour prendre les decisions que vous repoussez. Votre ange eclaire votre jugement." },
-  { ange: "Leuviah", message: "La gratitude multiplie les benedictions. Remerciez pour ce que vous avez deja. Votre ange vous montre l'abondance qui vous entoure." },
+  { ange: "Vehuiah", message: "Une petite initiative suffit parfois à ouvrir un espace nouveau. Quelle idée aimeriez-vous essayer, simplement pour vous ?" },
+  { ange: "Jeliel", message: "Accordez une attention aux liens qui vous font du bien. Un mot sincère peut être une belle manière de les nourrir." },
+  { ange: "Sitael", message: "Revenez à ce qui compte pour vous. Vous pouvez être à l’écoute des autres tout en respectant vos limites." },
+  { ange: "Elemiah", message: "Regarder une situation autrement ne demande pas toujours de tout changer. Quelle autre perspective pourriez-vous explorer ?" },
+  { ange: "Mahasiah", message: "Offrez-vous quelques minutes sans exigence de résultat. Vous n’avez pas besoin d’avoir toutes les réponses maintenant." },
+  { ange: "Lelahel", message: "Un talent se cultive par petites touches. Quelle activité vous donne envie de créer ou de partager ?" },
+  { ange: "Achaiah", message: "La patience peut aussi être un choix actif. Repérez ce qui mérite un petit pas et ce qui a besoin de temps." },
+  { ange: "Cahetel", message: "Un détail de la nature peut devenir un point d’ancrage : une couleur, une feuille, un peu de lumière. Prenez le temps de le remarquer." },
+  { ange: "Haziel", message: "Vous pouvez chercher l’apaisement sans vous forcer à pardonner. Respectez votre rythme et vos limites." },
+  { ange: "Aladiah", message: "Prendre soin de soi peut commencer par reconnaître un besoin. Quel geste de douceur serait bienvenu aujourd’hui ?" },
+  { ange: "Lauviah", message: "Une image ou une idée vous accompagne au réveil ? Vous pouvez la noter, sans chercher à lui donner une vérité absolue." },
+  { ange: "Hahaiah", message: "L’incertitude laisse aussi de la place à la curiosité. Quelle question pourriez-vous explorer sans exiger une réponse immédiate ?" },
+  { ange: "Yezalel", message: "Un échange peut commencer par une écoute attentive. Demandez-vous si vous avez aujourd’hui l’envie et l’espace nécessaires." },
+  { ange: "Mebahel", message: "Agir selon vos valeurs ne signifie pas tout porter seul. Sur quels faits et quels soutiens pouvez-vous vous appuyer ?" },
+  { ange: "Hariel", message: "Une idée n’a pas besoin d’être parfaite pour être notée. Gardez une place pour ce qui vous inspire." },
+  { ange: "Hekamiah", message: "Reconnaissez un effort déjà accompli, même discret. Votre journée ne se résume pas à ce qu’il reste à faire." },
+  { ange: "Nith-Haiah", message: "Une lecture, un souvenir ou une conversation peut nourrir votre réflexion. Qu’aimeriez-vous approfondir avec curiosité ?" },
+  { ange: "Haaiah", message: "Quand tout semble mêlé, commencez par une seule chose. Une priorité simple peut rendre la prochaine étape plus lisible." },
+  { ange: "Caliel", message: "Avant de décider, distinguez ce que vous savez, ce que vous supposez et ce que vous souhaitez. Vous pouvez prendre le temps de vérifier." },
+  { ange: "Leuviah", message: "Quel moment, quelle présence ou quelle petite attention aimeriez-vous reconnaître aujourd’hui ? La gratitude peut rester simple." },
 ];
 
 export default function MessageAngeClient() {
   const [message, setMessage] = useState<typeof MESSAGES[0] | null>(null);
   const [isRevealing, setIsRevealing] = useState(false);
 
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
+  useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
+  useEffect(() => { if (message) resultRef.current?.focus(); }, [message]);
+
   function reveal() {
+    if (timer.current) return;
     setIsRevealing(true);
     setMessage(null);
 
-    setTimeout(() => {
+    timer.current = setTimeout(() => {
       const random = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
       setMessage(random);
       setIsRevealing(false);
+      timer.current = null;
     }, 2000);
   }
 
@@ -48,8 +55,7 @@ export default function MessageAngeClient() {
           Message de votre <span className="text-gold-400">Ange</span>
         </h1>
         <p className="text-mystic-300 max-w-lg mx-auto">
-          Fermez les yeux, respirez profondement, puis cliquez pour recevoir
-          le message que votre ange gardien souhaite vous transmettre.
+          Prenez une respiration et découvrez une pensée inspirée de la tradition des anges, comme point de départ pour votre réflexion.
         </p>
         <div className="mystic-divider max-w-xs mx-auto mt-6" />
       </div>
@@ -62,11 +68,13 @@ export default function MessageAngeClient() {
             disabled={isRevealing}
             className="btn-gold text-lg px-10 py-4 disabled:opacity-50"
           >
-            {isRevealing ? "Votre ange vous repond..." : "Recevoir mon message"}
+            {isRevealing ? "Votre message se dévoile…" : "Recevoir mon message"}
           </button>
         </div>
       )}
 
+      <p role="status" aria-live="polite" aria-atomic="true" className="sr-only">{isRevealing ? "Sélection du message en cours." : message ? `${message.ange}. ${message.message}` : ""}</p>
+      {isRevealing ? <button type="button" className="block mx-auto text-mystic-200 underline" onClick={() => { if (timer.current) clearTimeout(timer.current); timer.current = null; setIsRevealing(false); }}>Annuler</button> : null}
       {/* Animation */}
       {isRevealing && (
         <div className="flex justify-center my-12">
@@ -76,7 +84,7 @@ export default function MessageAngeClient() {
 
       {/* Message */}
       {message && (
-        <div className="animate-fadeIn">
+        <div ref={resultRef} tabIndex={-1} className="animate-fadeIn">
           <div className="gold-card p-8 text-center mb-8">
             <div className="text-5xl mb-4">👼</div>
             <div className="inline-block bg-gold-500/20 text-gold-400 text-sm font-bold px-4 py-1 rounded-full mb-4">
@@ -98,9 +106,7 @@ export default function MessageAngeClient() {
       {/* Info */}
       <div className="glass-card p-6 mt-12 text-center">
         <p className="text-mystic-400 text-sm">
-          Chaque message est choisi specialement pour vous a cet instant precis.
-          Votre ange gardien communique a travers les signes et les synchronicites.
-          Decouvrez aussi <a href="/anges" className="text-gold-400 hover:underline">les 72 anges gardiens</a>.
+          Le texte est tiré au hasard dans une sélection de pensées symboliques. Il ne constitue pas une prédiction ni un message personnalisé. Découvrez aussi <a href="/anges" className="text-gold-400 hover:underline">les 72 anges gardiens</a>.
         </p>
       </div>
     </div>
