@@ -9,6 +9,59 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+    {
+        title: "Après un tirage au pendule, que noter dans son carnet ?",
+        slug: "carnet-apres-tirage-pendule",
+        excerpt: "Une page en quatre lignes pour distinguer la question, le tirage, votre réaction et une action concrète.",
+        date: "10 Novembre 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+<p>Après un tirage avec le <a href="/pendule-gratuit">pendule gratuit</a>, il suffit de quelques lignes pour garder ce que l’exercice vous a fait remarquer. La réponse du pendule en ligne est aléatoire. Le carnet sert à consigner votre réaction et à revenir aux informations que vous pouvez vérifier.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Une page en quatre lignes</h2>
+<ol class="list-decimal list-inside space-y-2">
+<li>Écrivez la question telle que vous l’avez posée.</li>
+<li>Recopiez le résultat affiché, Oui, Non ou Incertain.</li>
+<li>Notez votre première réaction et ce qui vous a surpris.</li>
+<li>Choisissez une petite action que vous pouvez décider vous-même.</li>
+</ol>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Exemple avec un projet créatif</h2>
+<p>À la question « Ai-je envie de reprendre le dessin cette semaine ? », imaginons un « Non ». Vous remarquez que cette réponse vous déçoit. Notez précisément ce qui vous manque, par exemple le plaisir de dessiner quinze minutes après le dîner. Votre prochaine action peut être de sortir votre carnet ce soir et de voir si l’envie est toujours là.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Relire une fois, à froid</h2>
+<p>Quelques jours plus tard, relisez surtout la réaction et l’action. Demandez-vous si vous avez testé cette action et ce que vous avez observé. Si vous aviez obtenu « Incertain », retrouvez aussi le <a href="/blog/pendule-en-ligne-reponse-incertaine">guide sur les réponses incertaines</a> pour savoir quand faire une pause.</p>`,
+    },
+    {
+        title: "Fabriquer un cadran de pendule Oui, Non et Pause sur papier",
+        slug: "fabriquer-cadran-pendule-oui-non",
+        excerpt: "Dessinez un cadran en trois zones avec une feuille, puis essayez-le avec une question légère.",
+        date: "10 Novembre 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+<p>Une feuille et un crayon suffisent pour préparer un repère visuel à utiliser avec un pendule physique. Le tracé organise l’exercice et laisse une place à l’hésitation.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Tracer trois zones lisibles</h2>
+<p>Dessinez un grand demi-cercle, puis marquez le milieu de sa base. À partir de ce point, séparez trois secteurs et inscrivez « Oui », « Pause » et « Non » en gros caractères. Posez la feuille à plat et gardez les libellés visibles quand vous tenez le pendule au-dessus du centre.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">S’arrêter si le mouvement est difficile à lire</h2>
+<p>Posez une question légère sur une préférence personnelle. Gardez la main dans une position confortable et observez le mouvement. S’il chevauche deux zones, change de direction ou reste minime, utilisez la case « Pause ». Vous pouvez alors simplement noter ce que vous auriez aimé entendre et passer à autre chose.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Choisir entre une feuille et un recueil</h2>
+<p>Gardez la feuille si vous utilisez toujours les mêmes trois repères. Si vous souhaitez parcourir d’autres exemples de mise en page, comparez les <a href="/boutique#livres">recueils de cadrans</a> par format, sommaire et lisibilité. Le <a href="/pendule-gratuit">pendule gratuit en ligne</a> propose un exercice distinct, avec un résultat généré aléatoirement.</p>`,
+    },
+    {
+        title: "Pendule physique qui bouge peu ou tourne trop : ajuster sa prise",
+        slug: "pendule-physique-ajuster-prise-chaine",
+        excerpt: "Trois réglages simples pour observer un pendule physique : l’appui, la longueur libre de chaîne et le temps de repos.",
+        date: "10 Novembre 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+<p>Si la pointe frotte sur la table ou si la chaîne glisse entre vos doigts, commencez par régler votre installation. Faites l’exercice quelques instants sans poser de question, pour voir ce qui change avec votre prise.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Préparer l’appui et laisser de la hauteur</h2>
+<p>Asseyez-vous devant une table et posez l’avant-bras si cela vous aide à relâcher l’épaule. Pincez la chaîne entre le pouce et l’index, assez haut pour que la pointe reste libre. Si l’objet vient de bouger, attendez qu’il ralentisse avant de commencer à observer.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Changer un seul réglage à la fois</h2>
+<p>Faites un premier essai, puis remontez légèrement votre prise sur la chaîne ou raccourcissez la portion suspendue. Gardez le même appui et comparez la sensation dans les doigts. Vous pouvez aussi changer de position si vous remarquez que vous serrez de plus en plus fort.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Utiliser cette comparaison avant un achat</h2>
+<p>Si vous cherchez un autre modèle, relevez le poids et la longueur de chaîne de celui que vous possédez. Vous aurez un point de comparaison pour lire les <a href="/boutique#pendules">fiches de pendules</a>. Retrouvez aussi notre <a href="/blog/choisir-pendule-materiau-forme-budget">guide des formes et matériaux</a> pour évaluer la prise en main avant de commander.</p>`,
+    },
 {
     "title": "Choisir un premier pendule : matériau, forme et budget",
     "slug": "choisir-pendule-materiau-forme-budget",

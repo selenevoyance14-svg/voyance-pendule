@@ -281,7 +281,15 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
             <h3 className="text-white font-semibold mb-2">Exemples de questions Oui/Non</h3>
             <p className="text-mystic-300 text-sm">Des formulations simples pour explorer vos envies et vos priorités.</p>
           </a>
-          <a href="/boutique" className="glass-card p-5 block">
+          <a href="/blog/carnet-apres-tirage-pendule" className="glass-card p-5 block">
+            <h3 className="font-semibold text-gold-400 mb-2">Que noter après le tirage ?</h3>
+            <p className="text-mystic-300 text-sm">Quatre lignes pour garder votre réaction et choisir une prochaine action.</p>
+          </a>
+          <a href="/blog/fabriquer-cadran-pendule-oui-non" className="glass-card p-5 block">
+            <h3 className="font-semibold text-gold-400 mb-2">Fabriquer un cadran sur papier</h3>
+            <p className="text-mystic-300 text-sm">Trois zones à tracer pour un exercice avec un pendule physique.</p>
+          </a>
+          <a href="/boutique#pendules" className="glass-card p-5 block">
             <h3 className="text-white font-semibold mb-2">Pendules et matériel de radiesthésie</h3>
             <p className="text-mystic-300 text-sm">Découvrir la sélection de pendules physiques et d’accessoires sur Amazon.</p>
           </a>

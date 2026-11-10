@@ -4,7 +4,7 @@ import products from "@/data/products.json";
 
 export const metadata: Metadata = {
     title: "Pendules, tarots et accessoires : sélection spirituelle | Sélène",
-    description: "30 références de pendules, tarots, oracles, livres et accessoires. Photos, liens directs et conseils pour comparer avant de choisir.",
+    description: "Une sélection de pendules, tarots, oracles, livres et accessoires. Photos, liens directs et conseils pour comparer avant de choisir.",
     alternates: { canonical: "/boutique" },
 };
 
@@ -26,7 +26,7 @@ export default function BoutiquePage() {
                     <p className="text-gold-400 uppercase tracking-widest text-sm mb-3">La sélection de Sélène</p>
                     <h1 className="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">Pendules, cartes et <span className="text-gold-400">accessoires</span></h1>
                     <p className="text-mystic-300">{availableProducts.length} références pour découvrir une pratique symbolique, comparer les formats et trouver un objet qui vous plaît. Chaque fiche mène directement au produit chez le vendeur.</p>
-                    <p className="text-mystic-400 text-sm mt-5">Références et disponibilité vérifiées le 14 octobre 2026. Le prix, les variantes, le vendeur et la disponibilité peuvent changer : vérifiez-les sur Amazon avant l’achat.</p>
+                    <p className="text-mystic-400 text-sm mt-5">Dernière vérification des pendules et de quatre recueils de cadrans le 10 novembre 2026. Consultez Amazon pour le prix, la variante, le vendeur et la disponibilité au moment de commander.</p>
                     <p className="text-mystic-400 text-xs mt-4">En tant que Partenaire Amazon, Sélène réalise un bénéfice sur les achats remplissant les conditions requises. <a href="/affiliation-amazon" className="underline">Notre politique d’affiliation</a>.</p>
                     <nav aria-label="Catégories de la boutique" className="flex flex-wrap justify-center gap-2 mt-8">{categories.map(category => <a key={category.id} href={`#${category.id}`} className="rounded-full border border-mystic-700 px-4 py-2 text-sm text-mystic-200 hover:border-gold-400">{category.emoji} {category.title}</a>)}</nav>
                 </div>
@@ -61,6 +61,8 @@ export default function BoutiquePage() {
                 <div className="grid sm:grid-cols-3 gap-5">
                     <a href="/blog/choisir-pendule-materiau-forme-budget" className="glass-card p-6"><h3 className="font-semibold text-gold-400 mb-2">Choisir un premier pendule</h3><p className="text-mystic-300 text-sm">Forme, chaîne, matériau et budget : les critères pratiques.</p></a>
                     <a href="/blog/tarot-oracle-verifier-coffret-avant-achat" className="glass-card p-6"><h3 className="font-semibold text-gold-400 mb-2">Comparer un tarot ou un oracle</h3><p className="text-mystic-300 text-sm">Vérifier l’édition, la langue et les accessoires inclus.</p></a>
+                    <a href="/blog/pendule-physique-ajuster-prise-chaine" className="glass-card p-6"><h3 className="font-semibold text-gold-400 mb-2">Ajuster sa prise et la chaîne</h3><p className="text-mystic-300 text-sm">Essayez trois réglages avant de comparer les modèles.</p></a>
+                    <a href="/blog/fabriquer-cadran-pendule-oui-non" className="glass-card p-6"><h3 className="font-semibold text-gold-400 mb-2">Tracer un cadran sur papier</h3><p className="text-mystic-300 text-sm">Essayez une feuille à trois zones avant de choisir un recueil.</p></a>
                     <a href="/pendule-gratuit" className="glass-card p-6"><h3 className="font-semibold text-gold-400 mb-2">Essayer le pendule gratuit</h3><p className="text-mystic-300 text-sm">Un exercice de réflexion accessible sans matériel ni achat.</p></a>
                 </div>
             </section>
