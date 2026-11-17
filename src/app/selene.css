@@ -127,7 +127,6 @@
   transition: all 0.2s;
 }
 .sv-nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 30px -6px var(--sv-gold); }
-.sv-nav-cta-short { display: none; }
 
 .sv-moon-pill {
   display: flex; align-items: center; gap: 10px;
@@ -772,8 +771,6 @@
   .sv-container { padding: 0 20px; }
   .sv-nav { padding: 14px 20px; }
   .sv-nav-cta { padding: 10px 15px; }
-  .sv-nav-cta-long { display: none; }
-  .sv-nav-cta-short { display: inline; }
   .sv-foot-bottom { flex-direction: column; gap: 8px; }
 }
 
