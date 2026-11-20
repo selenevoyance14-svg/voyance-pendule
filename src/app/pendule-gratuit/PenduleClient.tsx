@@ -1,6 +1,9 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
+import QuestionBuilder from "./QuestionBuilder";
+import ReflectionNote from "./ReflectionNote";
+
 type FaqItem = { question: string; answer: string };
 const QUESTION_EXAMPLES = [
   { label: "Relations", question: "Ai-je envie de proposer un moment à partager ?" },
@@ -129,6 +132,7 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
               <button key={example.label} type="button" disabled={isSwinging} onClick={() => { setQuestion(example.question); questionRef.current?.focus(); }} className="rounded-full border border-mystic-700 px-3 py-2 text-sm text-mystic-200 hover:border-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold-400 disabled:opacity-50">{example.label}</button>
             ))}
           </div>
+          <QuestionBuilder disabled={isSwinging} onChoose={value => { setQuestion(value); questionRef.current?.focus(); }} />
           <p className="text-mystic-400 text-xs mt-4">Le résultat est choisi au hasard : utilisez-le comme support de réflexion.</p>
           <button
             type="button"
@@ -175,7 +179,8 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
             </p>
           </div>
 
-          <div className="text-center">
+          <ReflectionNote question={response.question} answer={response.answer} />
+          <div className="text-center mt-6">
             <button
               onClick={() => startAgain()}
               className="btn-mystic"
@@ -294,6 +299,17 @@ export default function PenduleClient({ faq }: { faq: FaqItem[] }) {
             <p className="text-mystic-300 text-sm">Découvrir la sélection de pendules physiques et d’accessoires sur Amazon.</p>
           </a>
         </div>
+      </section>
+
+      <section className="glass-card p-6 sm:p-8 mt-12" aria-labelledby="question-workshop">
+        <h2 id="question-workshop" className="font-heading text-2xl text-white mb-4">Passer d’une question vague à une envie concrète</h2>
+        <p className="text-mystic-300 mb-4">Une question utile porte sur votre marge de manœuvre. Elle n’essaie pas de deviner ce qu’une autre personne pense ni de garantir un événement.</p>
+        <dl className="space-y-4 text-sm">
+          <div><dt className="text-mystic-300">« Vais-je réussir mon projet ? »</dt><dd className="text-gold-400 mt-1">« Ai-je envie de consacrer un premier créneau à ce projet cette semaine ? »</dd></div>
+          <div><dt className="text-mystic-300">« Que pense cette personne de moi ? »</dt><dd className="text-gold-400 mt-1">« Ai-je envie de lui proposer une conversation ? »</dd></div>
+          <div><dt className="text-mystic-300">« Dois-je tout changer ? »</dt><dd className="text-gold-400 mt-1">« Ai-je envie d’essayer une nouvelle organisation pendant quelques jours ? »</dd></div>
+        </dl>
+        <a href="/blog/reformuler-question-ouverte-pendule" className="text-gold-400 underline inline-block mt-5">Voir l’atelier de formulation</a>
       </section>
 
       <section className="mt-12">

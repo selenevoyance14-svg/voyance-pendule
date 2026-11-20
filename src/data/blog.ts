@@ -10,6 +10,27 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        title: "Transformer une question ouverte en question Oui/Non : un atelier pratique",
+        slug: "reformuler-question-ouverte-pendule",
+        excerpt: "Trois exemples pour passer d’une attente vague à une question personnelle, puis choisir une petite action après le tirage.",
+        date: "20 Novembre 2026",
+        category: "Pratique",
+        image: "/blog/pratique.svg",
+        content: `
+<p>Une question comme « Que dois-je faire ? » laisse beaucoup de sujets ouverts. Pour utiliser le <a href="/pendule-gratuit">pendule gratuit Oui/Non</a>, commencez par choisir une seule envie que vous pouvez formuler clairement. Le résultat reste aléatoire : cet atelier sert à préciser votre réflexion, sans prédire l’avenir.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">1. Remplacer une attente par une action possible</h2>
+<p>« Vais-je réussir mon projet ? » dépend de nombreux éléments. Essayez plutôt : « Ai-je envie de consacrer un premier créneau à ce projet cette semaine ? » Vous passez d’un résultat futur à une action dont vous pouvez discuter avec vous-même. Si vous hésitez sur deux projets, posez d’abord la question sur l’un d’eux, sans les mélanger dans la même phrase.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">2. Parler de soi plutôt que deviner les pensées des autres</h2>
+<p>« Que pense cette personne de moi ? » ne peut pas être vérifié par un tirage. « Ai-je envie de lui proposer une conversation ? » recentre la question sur votre intention. Même avec un « Oui », la suite dépend de votre jugement et du respect de la disponibilité de l’autre. Si vous décidez de prendre contact, choisissez un message simple qui laisse la possibilité de refuser.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">3. Délimiter un essai plutôt que vouloir tout changer</h2>
+<p>« Dois-je tout changer ? » mélange souvent organisation, travail, relations et rythme de vie. Isolez un sujet léger : « Ai-je envie d’essayer une nouvelle organisation pendant quelques jours ? » Décrivez ensuite l’essai en une phrase, par exemple préparer le lendemain le soir ou réserver un moment de lecture. Vous pourrez observer concrètement si cela vous convient.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Utiliser l’aide à la formulation</h2>
+<p>Sur la page du pendule, ouvrez « M’aider à formuler ma question ». Choisissez une activité et une période, puis utilisez la proposition. Elle remplit le champ sans lancer le tirage : relisez-la et modifiez-la si nécessaire. Cet assemblage se fait dans votre navigateur et n’analyse pas votre texte.</p>
+<h2 class="text-2xl font-bold text-mystic-200 mt-8 mb-4">Après le résultat, écrire ce que vous gardez</h2>
+<p>La fiche de réflexion propose trois espaces : votre ressenti, les faits à vérifier et une petite action. Si la réponse vous déçoit, notez ce que vous auriez préféré entendre. Si elle vous rassure, vérifiez quand même les éléments concrets. Un résultat « Incertain » peut simplement être l’occasion de laisser la question de côté ; notre <a href="/blog/pendule-en-ligne-reponse-incertaine">guide sur la réponse incertaine</a> développe cette piste.</p>
+<p>Vous pouvez télécharger votre fiche en texte brut. Aucun téléchargement ne se déclenche automatiquement et les notes ne sont pas envoyées au site. Le fichier téléchargé reste sur votre appareil même si vous effacez la note de la page. Pour prolonger l’exercice sur papier, retrouvez les <a href="/blog/carnet-apres-tirage-pendule">quatre lignes du carnet après tirage</a>.</p>`,
+    },
+    {
         title: "Après un tirage au pendule, que noter dans son carnet ?",
         slug: "carnet-apres-tirage-pendule",
         excerpt: "Une page en quatre lignes pour distinguer la question, le tirage, votre réaction et une action concrète.",

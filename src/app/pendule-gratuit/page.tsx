@@ -3,7 +3,7 @@ import PenduleClient from "./PenduleClient";
 
 export const metadata: Metadata = {
   title: "Pendule gratuit en ligne : réponse Oui ou Non | Sélène",
-  description: "Posez une question au pendule Oui/Non gratuit et obtenez une réponse immédiate. Sans inscription : mode d’emploi, exemples et conseils pour bien formuler.",
+  description: "Posez une question au pendule Oui/Non gratuit et obtenez une réponse aléatoire. Sans inscription : aide à la formulation et fiche de réflexion à télécharger.",
   alternates: { canonical: "/pendule-gratuit" },
   openGraph: {
     title: "Pendule gratuit en ligne — Oui, Non ou Incertain",
@@ -38,6 +38,14 @@ export default function PenduleGratuitPage() {
     {
       question: "Comment effacer mes derniers tirages ?",
       answer: "Utilisez le bouton Effacer l’historique, rechargez la page ou quittez-la. Les cinq derniers tirages ne sont pas sauvegardés dans un compte ni dans le stockage de votre navigateur.",
+    },
+    {
+      question: "Comment télécharger ma fiche de réflexion ?",
+      answer: "Après le tirage, complétez les trois champs facultatifs et utilisez Télécharger ma fiche (.txt). Le fichier est créé dans votre navigateur. Vos notes ne sont pas envoyées au site et disparaissent de la page au prochain tirage, à son rechargement ou à sa fermeture.",
+    },
+    {
+      question: "L’aide à la formulation analyse-t-elle ma question ?",
+      answer: "Non. Elle assemble une activité et une période que vous choisissez pour proposer une question personnelle. Vous pouvez la modifier avant de consulter le pendule. Aucun texte n’est envoyé à un service d’analyse.",
     },
     {
       question: "Peut-on se fier à la réponse pour une décision importante ?",
